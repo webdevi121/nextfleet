@@ -1,0 +1,12 @@
+{
+    "devDependencies": {
+        "concurrently": "^9.1.2",
+        "http-server": "^14.1.1",
+        "sass": "^1.85.0"
+    },
+    "scripts": {
+        "scss": "yarn sass --watch scss/style.scss:css/style.css", 
+        "start": "yarn http-server -o",
+        "dev": "yarn concurrently \"yarn scss\" \"yarn start\""
+    }
+}
