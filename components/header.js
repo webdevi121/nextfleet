@@ -1,5 +1,5 @@
 export function loadHeader() {
-    document.getElementById("header").innerHTML = `
+  document.getElementById('header').innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">MyWebsite</a>
