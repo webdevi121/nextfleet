@@ -4,31 +4,37 @@ export function loadServices() {
       title: 'Corporate Fleet Management Solutions',
       description:
         'We provide end-to-end fleet management solutions tailored to your business needs, ensuring efficiency and cost-effectiveness.',
+      accentColor: `accent-color-1`,
     },
     {
       title: 'Vehicle Fleet Leasing',
       description:
         'Our flexible leasing options help you expand your fleet without heavy upfront costs, keeping your business moving forward.',
+      accentColor: `accent-color-2`,
     },
     {
       title: 'Fleet Management Consulting Services',
       description:
         'Our expert consultants provide data-driven insights and strategies to optimize your fleet operations and reduce costs.',
+      accentColor: `accent-color-3`,
     },
     {
       title: 'Fleet Tracking and Telematics',
       description:
         'Utilize cutting-edge GPS tracking and telematics solutions to monitor vehicle usage, improve safety, and enhance productivity.',
+      accentColor: `accent-color-4`,
     },
     {
       title: 'Maintenance and Repair Management',
       description:
         'We handle scheduled maintenance and repair services to minimize downtime and extend the lifespan of your fleet.',
+      accentColor: `accent-color-5`,
     },
     {
       title: 'Fuel Management Solutions',
       description:
         'Reduce fuel expenses with our advanced monitoring systems that track fuel usage, prevent fraud, and improve efficiency.',
+      accentColor: `accent-color-6`,
     },
   ];
 
@@ -42,11 +48,14 @@ export function loadServices() {
                     ${services
                       .map(
                         (service) => `
-                        <div class="col">
-                            <h3>${service.title}</h3>
-                            <p class="line-clamp-3">
-                                ${service.description}
-                            </p>
+                        <div class="cards">
+                          <div class="services-accent-color ${service.accentColor}"></div>
+                            <div class="p-3">
+                              <h3>${service.title}</h3>
+                              <p class="line-clamp-3 subtext">
+                                  ${service.description}
+                              </p>
+                            </div>
                         </div>
                     `
                       )
