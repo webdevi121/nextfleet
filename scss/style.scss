@@ -1,7 +1,10 @@
+// style.scss
+
 @use 'components/colors' as *; // New method with `@use`
 @use 'components/heading' as *; // New method with `@use`
 @use 'components/testimonials' as *; // New method with `@use`
 @use 'components/services' as *; // New method with `@use`
+@use 'components/btn' as *; // New method with `@use`
 
 // Custom SCSS styles
 

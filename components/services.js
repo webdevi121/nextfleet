@@ -49,12 +49,13 @@ export function loadServices() {
                       .map(
                         (service) => `
                         <div class="cards">
-                          <div class="services-accent-color ${service.accentColor}"></div>
+                          <div class="services-accent-color" style="background-color: var(--${service.accentColor});"></div>
                             <div class="p-3">
                               <h3>${service.title}</h3>
                               <p class="line-clamp-3 subtext">
                                   ${service.description}
                               </p>
+                              <a href="" class="text-uppercase secondary-btn" style="color: var(--${service.accentColor})">Explore Solutions</a>
                             </div>
                         </div>
                     `

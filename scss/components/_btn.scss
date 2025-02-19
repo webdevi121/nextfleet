@@ -1,0 +1,23 @@
+.primary-btn {
+  background-color: var(--accent-color-1);
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.secondary-btn {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  background: linear-gradient(
+    180deg,
+    #373536 0%,
+    #010101 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
