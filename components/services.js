@@ -39,6 +39,7 @@ export function loadServices() {
   ];
 
   document.getElementById('services').innerHTML = `
+      <div class="bg-black">
         <div class="text-white py-5 position-relative z-2">
             <div class="container">
                 <div class="text-center">
@@ -63,6 +64,7 @@ export function loadServices() {
                       .join('')}
                 </div>
             </div>
+        </div>
         </div>
     `;
 }

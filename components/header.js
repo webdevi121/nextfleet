@@ -19,7 +19,7 @@ export function loadHeader() {
     .join(''); // Join the array of strings into a single string
 
   document.getElementById('header').innerHTML = `
-    <div class="bg-black py-5">
+    <div class="bg-black pt-5">
       <div class="container">
         <div class="text-white d-flex justify-content-center mb-5"><img src="images/nextfleet-logo.png" width="253"></div>
         <nav class="navbar navbar-expand-lg">

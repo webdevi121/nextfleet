@@ -162,9 +162,34 @@ footer {
 }
 
 .banner-section {
-  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.banner-section .banner-item {
+  height: 610px;
+  padding: 70px;
+  position: relative;
+}
+.banner-section .background-overlay img {
+  width: 1600px;
+}
+.banner-section .partner-logos {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.banner-section .partner-logos ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.banner-section .partner-logos ul li:not(:first-child) {
+  margin-left: 20px;
+}
+.banner-section .partner-logos img {
+  height: 59px;
 }
 
 /*# sourceMappingURL=style.css.map */

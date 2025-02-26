@@ -42,9 +42,36 @@ footer {
   overflow: hidden;
 }
 .banner-section {
-  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   .banner-item {
+    height: 610px;
+    padding: 70px;
+    position: relative;
+  }
+  .background-overlay {
+    img {
+      width: 1600px;
+    }
+  }
+  .partner-logos {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    ul {
+      display: flex;
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        &:not(:first-child) {
+          margin-left: 20px;
+        }
+      }
+    }
+    img {
+      height: 59px;
+    }
   }
 }
