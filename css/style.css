@@ -228,5 +228,26 @@ footer {
   height: 218px;
   width: auto;
 }
+.services .services-container {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.contact-us {
+  background-color: #f7f5f3;
+}
+.contact-us .img-placeholder {
+  position: relative;
+  top: -80px;
+}
+.contact-us .contact-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.testimonials-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 
 /*# sourceMappingURL=style.css.map */

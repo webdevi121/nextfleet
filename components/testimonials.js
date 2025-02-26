@@ -31,7 +31,10 @@ export function loadTestimonials() {
   ];
 
   document.getElementById('testimonials').innerHTML = `
-    <div class="container overflow-hidden">
+    <div class="testimonials-section container overflow-hidden">
+      <div class="text-center">
+        <h2 class="text-uppercase">What Our <span class="text-primary">Customers</span> Say</h2>
+      </div>
       <div class="swiper-container">
         <div class="swiper-wrapper">
           ${testimonials
