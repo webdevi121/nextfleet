@@ -164,14 +164,28 @@ footer {
 .banner-section {
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  width: 100%;
+  background-color: #000;
 }
 .banner-section .banner-item {
   height: 610px;
   padding: 70px;
   position: relative;
+  color: #fff;
+  border: 5px solid var(--primary-color);
+}
+.banner-section .background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 .banner-section .background-overlay img {
   width: 1600px;
+  margin: auto;
+  display: flex;
 }
 .banner-section .partner-logos {
   position: absolute;
@@ -190,6 +204,29 @@ footer {
 }
 .banner-section .partner-logos img {
   height: 59px;
+}
+.banner-section .the-car {
+  position: absolute;
+  bottom: -180px;
+  right: -300px;
+}
+.banner-section .chevron {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: -500px;
+  top: 0;
+  bottom: 0;
+  width: 544px;
+}
+.banner-section .chevron img {
+  width: 100%;
+  height: auto;
+}
+
+.services .img-placeholder {
+  height: 218px;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,12 @@
 export function loadBanner() {
   document.getElementById('banner').innerHTML = `
-    <div class="banner-section position-relative w-100 bg-black">
-        <div class="background-overlay position-absolute top-0 left-0 w-100 z-1">
-            <img src="images/building-bg.jpg" alt="" class="m-auto d-flex">
+    <div class="banner-section">
+        <div class="background-overlay">
+            <img src="images/building-bg.jpg">
         </div>
         
-      <div class="container position-relative z-2">
-        <div class="banner-item border border-4 border-danger text-white">
+      <div class="container position-relative z-2 pb-5">
+        <div class="banner-item">
             <div class="position-relative h-100">
                 <div class="w-50">
                     <h1>FLEET MANAGEMENT SERVICES SIMPLIFIED</h1>
@@ -24,6 +24,12 @@ export function loadBanner() {
                         <li><img src="images/logos-2.png" alt="Logo"></li>
                         <li><img src="images/logos-3.png" alt="Logo"></li>
                     </ul>
+                </div>
+                <div class="chevron">
+                    <img src="images/chevron.png" alt="chevron">
+                </div>
+                <div class="the-car">
+                    <img src="images/red-car.png" alt="">
                 </div>
             </div>
         </div>

@@ -44,14 +44,26 @@ footer {
 .banner-section {
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  width: 100%;
+  background-color: #000;
   .banner-item {
     height: 610px;
     padding: 70px;
     position: relative;
+    color: #fff;
+    border: 5px solid var(--primary-color);
   }
   .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
     img {
       width: 1600px;
+      margin: auto;
+      display: flex;
     }
   }
   .partner-logos {
@@ -73,5 +85,30 @@ footer {
     img {
       height: 59px;
     }
+  }
+  .the-car {
+    position: absolute;
+    bottom: -180px;
+    right: -300px;
+  }
+  .chevron {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: -500px;
+    top: 0;
+    bottom: 0;
+    width: 544px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.services {
+  .img-placeholder {
+    height: 218px;
+    width: auto;
   }
 }
