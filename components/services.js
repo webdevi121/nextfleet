@@ -39,7 +39,7 @@ export function loadServices() {
   ];
 
   document.getElementById('services').innerHTML = `
-        <div class="bg-black text-white py-5">
+        <div class="text-white py-5 position-relative z-2">
             <div class="container">
                 <div class="text-center">
                     <h2>Our Services</h2>

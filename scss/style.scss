@@ -19,7 +19,13 @@ body {
 
 // Navbar styles
 .navbar {
-  background-color: #343a40 !important;
+  .navbar-nav {
+    .nav-link {
+      &:hover {
+        color: var(--bs-nav-link-hover-color);
+      }
+    }
+  }
 }
 
 // Footer styles
@@ -34,4 +40,11 @@ footer {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+.banner-section {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .banner-item {
+  }
 }

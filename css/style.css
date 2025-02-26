@@ -8,6 +8,8 @@
   --accent-color-5: #5e225e;
   --accent-color-6: #b9b5b2;
   --gray-color: #888888;
+  --bs-nav-link-hover-color: var(--primary-color);
+  --bg-color: "#010204";
 }
 
 .subtext {
@@ -40,6 +42,10 @@
 
 .primary-color {
   color: var(--accent-color-1);
+}
+
+.text-primary {
+  color: var(--primary-color);
 }
 
 h1,
@@ -137,8 +143,8 @@ body {
   background-color: #f8f9fa;
 }
 
-.navbar {
-  background-color: #343a40 !important;
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--bs-nav-link-hover-color);
 }
 
 footer {
@@ -153,6 +159,12 @@ footer {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.banner-section {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

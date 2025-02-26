@@ -22,6 +22,7 @@
   </head>
   <body>
     <div id="header"></div>
+    <div id="banner"></div>
     <div id="services"></div>
     <div id="contact"></div>
     <div id="testimonials"></div>
@@ -29,11 +30,13 @@
 
     <script type="module">
       import { loadHeader } from './components/header.js';
+      import { loadBanner } from './components/banner.js';
       import { loadServices } from './components/services.js';
       import { loadContact } from './components/contact.js';
       import { loadTestimonials } from './components/testimonials.js';
       import { loadFooter } from './components/footer.js';
       loadHeader();
+      loadBanner();
       loadServices();
       loadContact();
       loadTestimonials();
