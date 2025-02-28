@@ -42,7 +42,7 @@ export function loadPromotions() {
                                 <img src="${data.imgSrc}" alt="" class="d-block m-auto">
                             </div>
                             <div class="row gap-2">
-                                <h2 class="fw-bold text-primary mb-0">OFFER ${data.offerNumber}</h2>
+                                <h2 class="fw-bold text-primary mb-0 fs-4">OFFER ${data.offerNumber}</h2>
                                 <div class="fs-4 fw-bold text-uppercase">Novated Leasing <span class="block">Solutions</span></div>
                                 <div class="small">${data.subText}</div>
                             </div>
