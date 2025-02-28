@@ -35,27 +35,29 @@ export function loadTestimonials() {
       <div class="text-center">
         <h2 class="text-uppercase">What Our <span class="text-primary">Customers</span> Say</h2>
       </div>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          ${testimonials
-            .map(
-              (testimonial) => `
-                <div class="swiper-slide">
-                  <div class="testimonial-card">
-                    <div class="d-flex align-items-center mb-3">
-                      <div class="testimonials-initial">
-                        ${testimonial.initial}
+      <div class="">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            ${testimonials
+              .map(
+                (testimonial) => `
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="testimonials-initial">
+                          ${testimonial.initial}
+                        </div>
+                        <div class="ms-3">
+                          <div>${testimonial.name}</div>
+                          <div>${testimonial.rating}</div>
+                        </div>
                       </div>
-                      <div class="ms-3">
-                        <div>${testimonial.name}</div>
-                        <div>${testimonial.rating}</div>
-                      </div>
+                      <div>${testimonial.message}</div>
                     </div>
-                    <div>${testimonial.message}</div>
-                  </div>
-                </div>`
-            )
-            .join('')}
+                  </div>`
+              )
+              .join('')}
+          </div>
         </div>
       </div>
     </div>

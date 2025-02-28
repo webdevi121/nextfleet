@@ -1,0 +1,137 @@
+@use 'components/colors' as *; // New method with `@use`
+@use 'components/heading' as *; // New method with `@use`
+@use 'components/testimonials' as *; // New method with `@use`
+@use 'components/services' as *; // New method with `@use`
+@use 'components/btn' as *; // New method with `@use`
+
+// Import Bootstrap's default SCSS variables first (optional if using _variables.scss)
+@import 'variables'; // Uncomment if you use _variables.scss
+
+// Import Bootstrap's full SCSS source (correct path without the tilde)
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Now add your custom styles below
+body {
+  background-color: $light;
+}
+
+.custom-button {
+  background-color: $primary;
+  color: white;
+}
+
+// Navbar styles
+.navbar {
+  .navbar-nav {
+    .nav-link {
+      &:hover {
+        color: var(--bs-nav-link-hover-color);
+      }
+    }
+  }
+}
+
+// Footer styles
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.banner-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  .banner-item {
+    height: 610px;
+    padding: 70px;
+    position: relative;
+    color: #fff;
+    border: 5px solid var(--primary-color);
+  }
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    img {
+      width: 1600px;
+      margin: auto;
+      display: flex;
+    }
+  }
+  .partner-logos {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    ul {
+      display: flex;
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        &:not(:first-child) {
+          margin-left: 20px;
+        }
+      }
+    }
+    img {
+      height: 59px;
+    }
+  }
+  .the-car {
+    position: absolute;
+    bottom: -180px;
+    right: -300px;
+  }
+  .chevron {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: -500px;
+    top: 0;
+    bottom: 0;
+    width: 544px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.services {
+  .img-placeholder {
+    height: 218px;
+    width: auto;
+  }
+  .services-container {
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+}
+
+.contact-us {
+  background-color: #f7f5f3;
+  .img-placeholder {
+    position: relative;
+    top: -80px;
+  }
+  .contact-content {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+.testimonials-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}

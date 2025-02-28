@@ -3,14 +3,15 @@
     "concurrently": "^9.1.2",
     "http-server": "^14.1.1",
     "prettier": "^3.5.1",
-    "sass": "^1.85.0"
+    "sass": "^1.85.1"
   },
   "scripts": {
-    "scss": "yarn sass --watch scss/style.scss:css/style.css",
-    "start": "yarn http-server -o",
-    "dev": "yarn concurrently \"yarn scss\" \"yarn start\""
+    "scss": "sass scss/_custom.scss:css/style.css",
+    "start": "http-server -o",
+    "dev": "concurrently \"yarn scss\" \"yarn start\""
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "swiper": "^11.2.3"
   }
 }
