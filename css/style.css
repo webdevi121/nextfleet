@@ -12001,6 +12001,14 @@ body {
   color: var(--bs-nav-link-hover-color);
 }
 
+.pt-10 {
+  padding-top: 7rem;
+}
+
+.pb-10 {
+  padding-bottom: 7rem;
+}
+
 footer {
   background-color: #343a40;
   color: white;
