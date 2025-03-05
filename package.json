@@ -6,9 +6,9 @@
     "sass": "^1.85.1"
   },
   "scripts": {
-    "scss": "sass scss/_custom.scss:css/style.css",
+    "scss": "sass --watch scss/_custom.scss:css/style.css",
     "start": "http-server -o",
-    "dev": "concurrently \"yarn scss\" \"yarn start\""
+    "dev": "concurrently \"yarn run scss\" \"yarn start\""
   },
   "dependencies": {
     "bootstrap": "^5.3.3",

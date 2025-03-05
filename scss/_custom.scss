@@ -18,7 +18,9 @@ body {
 .mydrive-container {
   height: 900px;
   .car-overlay {
-    width: 900px;
+    width: 1040px;
+    left: -550px;
+    bottom: -150px;
   }
 }
 .partners-container {
@@ -150,4 +152,13 @@ footer {
 .testimonials-section {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+.max-w-80 {
+  max-width: 80%;
+}
+.start--20 {
+  left: -0px;
+}
+.w-30 {
+  width: 30%;
 }
