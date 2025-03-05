@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'ITC Avant Garde Pro Md';
+  font-family: 'ITC Avant Garde Pro';
   src:
     url('../fonts/ITCAvantGardePro-Bold.woff2') format('woff2'),
     url('../fonts/ITCAvantGardePro-Bold.woff') format('woff');
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ITC Avant Garde Pro XLt';
+  font-family: 'ITC Avant Garde Pro';
   src:
     url('../fonts/ITCAvantGardePro-XLt.woff2') format('woff2'),
     url('../fonts/ITCAvantGardePro-XLt.woff') format('woff');
@@ -19,11 +19,11 @@
 }
 
 @font-face {
-  font-family: 'ITC Avant Garde Pro Bk';
+  font-family: 'ITC Avant Garde Pro';
   src:
     url('../fonts/ITCAvantGardePro-Bk.woff2') format('woff2'),
     url('../fonts/ITCAvantGardePro-Bk.woff') format('woff');
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }

@@ -1,22 +1,22 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "ITC Avant Garde Pro Md";
+  font-family: "ITC Avant Garde Pro";
   src: url("../fonts/ITCAvantGardePro-Bold.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-Bold.woff") format("woff");
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "ITC Avant Garde Pro XLt";
+  font-family: "ITC Avant Garde Pro";
   src: url("../fonts/ITCAvantGardePro-XLt.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-XLt.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "ITC Avant Garde Pro Bk";
+  font-family: "ITC Avant Garde Pro";
   src: url("../fonts/ITCAvantGardePro-Bk.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-Bk.woff") format("woff");
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -393,7 +393,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "ITC Avant Garde Pro Md", sans-serif;
+  font-family: "ITC Avant Garde Pro", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color);
@@ -12022,8 +12022,9 @@ textarea.form-control-lg {
   }
 }
 body {
-  font-family: "ITC Avant Garde Pro Md", sans-serif;
+  font-family: "ITC Avant Garde Pro", sans-serif;
   background-color: #f7f5f3;
+  font-weight: 400;
 }
 
 .mydrive-container {
