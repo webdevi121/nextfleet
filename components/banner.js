@@ -1,6 +1,6 @@
 export function loadBanner() {
   document.getElementById('banner').innerHTML = `
-    <div class="banner-section">
+    <div class="banner-section overflow-hidden">
         <div class="background-overlay">
             <img src="images/building-bg.jpg">
         </div>

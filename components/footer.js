@@ -20,7 +20,7 @@ export function loadFooter() {
             </div>
           </div>
           <div class="col-md-2 text-start text-uppercase">
-            <h5>About</h5>
+            <h5 class="fw-normal">About</h5>
               <ul class="list-unstyled text-gray">
                 <li>Who We Are</li>
                 <li>Our Team</li>
@@ -28,7 +28,7 @@ export function loadFooter() {
               </ul>
           </div>
           <div class="col-md-2 text-start text-uppercase">
-            <h5>OUR SERVICES</h5>
+            <h5 class="fw-normal">OUR SERVICES</h5>
             <ul class="list-unstyled text-gray">
               <li>Sales</li>
               <li>Leasing</li>
@@ -38,7 +38,7 @@ export function loadFooter() {
             </ul>
           </div>
           <div class="col-md-2 text-start text-uppercase">
-            <h5>Tools</h5>
+            <h5 class="fw-normal">Tools</h5>
             <ul class="list-unstyled text-gray">
               <li>For Sale</li>
               <li>For Lease</li>
@@ -46,12 +46,19 @@ export function loadFooter() {
             </ul>
           </div>
           <div class="col-md-2 text-start text-uppercase">
-            <h5>My Drive</h5>
+            <h5 class="fw-normal">My Drive</h5>
             <ul class="list-unstyled text-gray">
               <li>Sales</li>
               <li>Leasing</li>
               <li>Management</li>
             </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-flex justify-content-end mt-5">
+            <a href="https://infusion121.com.au" target="_blank" class="d-block">
+              <img src="images/i121-logo.png" alt="Digital Agency" width="237" class="d-block">
+            </a>
           </div>
         </div>
       </div>

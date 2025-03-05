@@ -1,7 +1,7 @@
 export function loadContact() {
   document.getElementById('contact').innerHTML = `
         <div class="contact-us">
-            <div class="text-center img-placeholder">
+            <div class="text-center img-placeholder overflow-hidden">
                 <img src="images/cars-list.png" alt="">
             </div>
             <div class="text-center py-5 d-flex flex-column gap-5 contact-content">
