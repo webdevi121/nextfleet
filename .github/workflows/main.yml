@@ -1,0 +1,20 @@
+name: Publish updates to PRODUCTION
+on:
+    push:
+        branches:
+            - main
+jobs:
+    FTP-Deploy-Action:
+        name: FTP-Deploy-Action
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2.1.0
+              with:
+                  fetch-depth: 2
+            - name: FTP-Deploy-Action
+              uses: SamKirkland/FTP-Deploy-Action@4.3.2
+              with:
+                  server: ${{ secrets.FTP_STAGING_SERVER }}
+                  username: ${{ secrets.FTP_STAGING_USERNAME }}
+                  password: ${{ secrets.FTP_STAGING_PASSWORD }}
+                  server-dir: nextfleet.infusion121.com/
