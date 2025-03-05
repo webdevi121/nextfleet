@@ -91,7 +91,6 @@ h6, .h6 {
 }
 
 .testimonial-card {
-  background-color: #f6f6f4;
   border-radius: 20px;
   padding: 50px;
 }
@@ -12119,6 +12118,11 @@ footer {
 .testimonials-section {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+.testimonials-section .person-overlay {
+  width: 1040px;
+  left: -550px;
+  bottom: -150px;
 }
 
 .max-w-70 {

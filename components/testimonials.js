@@ -31,18 +31,24 @@ export function loadTestimonials() {
   ];
 
   document.getElementById('testimonials').innerHTML = `
-    <div class="testimonials-section container overflow-hidden">
+  <div class="testimonials-section bg-white">
+    <div class="container overflow-hidden">
       <div class="text-center">
-        <h2 class="text-uppercase">What Our <span class="text-primary">Customers</span> Say</h2>
+        <h2 class="text-uppercase fw-bold mb-5">What Our <span class="text-primary">Customers</span> Say</h2>
       </div>
-      <div class="">
+      <div class="container h-100 relative">
+      <div class="d-flex gap-3 justify-content-center align-items-center h-100">
+        <div class="w-30 position-relative h-100">
+          <div class="person-overlay position-absolute z-2"><img src="images/person.png" alt="" width="600"></div>
+        </div>
+        <div class="overflow-hidden">
         <div class="swiper-container">
           <div class="swiper-wrapper">
             ${testimonials
               .map(
                 (testimonial) => `
                   <div class="swiper-slide">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card bg-light">
                       <div class="d-flex align-items-center mb-3">
                         <div class="testimonials-initial">
                           ${testimonial.initial}
@@ -59,6 +65,9 @@ export function loadTestimonials() {
               .join('')}
           </div>
         </div>
+        </div>
+        </div>
+      </div>
       </div>
     </div>
   `;

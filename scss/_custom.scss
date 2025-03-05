@@ -151,6 +151,11 @@ footer {
 .testimonials-section {
   padding-top: 70px;
   padding-bottom: 70px;
+  .person-overlay {
+    width: 1040px;
+    left: -550px;
+    bottom: -150px;
+  }
 }
 .max-w-70 {
   max-width: 70%;
