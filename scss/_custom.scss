@@ -11,6 +11,10 @@
 // Import Bootstrap's full SCSS source (correct path without the tilde)
 @import '../node_modules/bootstrap/scss/bootstrap';
 
+html {
+  font-size: 14px; // This will set the base font size to 14px
+}
+
 // Now add your custom styles below
 body {
   font-family: $headings-font-family;

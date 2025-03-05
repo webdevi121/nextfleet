@@ -12021,6 +12021,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html {
+  font-size: 14px;
+}
+
 body {
   font-family: "ITC Avant Garde Pro", sans-serif;
   background-color: #f7f5f3;
