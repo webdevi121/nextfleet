@@ -1,3 +1,14 @@
+.testimonials-section {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  .person-overlay {
+    width: 480px;
+    left: -50px;
+    bottom: -110px;
+    position: absolute;
+    z-index: 2;
+  }
+}
 .testimonial-card {
   border-radius: 20px;
   padding: 50px;

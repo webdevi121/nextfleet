@@ -32,15 +32,16 @@ export function loadTestimonials() {
 
   document.getElementById('testimonials').innerHTML = `
   <div class="testimonials-section bg-white">
-    <div class="container overflow-hidden">
+    <div class="container">
       <div class="text-center">
         <h2 class="text-uppercase fw-bold mb-5">What Our <span class="text-primary">Customers</span> Say</h2>
       </div>
-      <div class="container h-100 relative">
-      <div class="d-flex gap-3 justify-content-center align-items-center h-100">
-        <div class="w-30 position-relative h-100">
-          <div class="person-overlay position-absolute z-2"><img src="images/person.png" alt="" width="600"></div>
+      <div class="h-100 position-relative">
+      <div class="d-flex gap-3 h-100">
+        <div class="w-60 position-relative">
+          <img src="images/person.png" alt="" class="person-overlay">
         </div>
+        
         <div class="overflow-hidden">
         <div class="swiper-container">
           <div class="swiper-wrapper">
@@ -65,6 +66,7 @@ export function loadTestimonials() {
               .join('')}
           </div>
         </div>
+        
         </div>
         </div>
       </div>
