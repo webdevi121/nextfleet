@@ -4,43 +4,54 @@ export function loadServices() {
       img: 'images/placeholder-1.png',
       title: 'Corporate Fleet Management Solutions',
       description:
-        'We provide end-to-end fleet management solutions tailored to your business needs, ensuring efficiency and cost-effectiveness.',
+        'Reduce costs, boost efficiency, ensure compliance, and streamline operations with our commercial fleet management services.',
       accentColor: `accent-color-1`,
+      buttonLabel: `Explore Corporate Solutions`,
+      buttonLink: ``,
     },
     {
       img: 'images/placeholder-2.png',
       title: 'Vehicle Fleet Leasing',
       description:
-        'Our flexible leasing options help you expand your fleet without heavy upfront costs, keeping your business moving forward.',
+        "Enjoy flexibility, cost savings, and control without the burden of ownership with NextFleet's  tailored vehicle fleet leasing service.",
       accentColor: `accent-color-2`,
+      buttonLabel: `Explore Leasing Options`,
+      buttonLink: ``,
     },
     {
       img: 'images/placeholder-3.png',
       title: 'Fleet Management Consulting Services',
       description:
-        'Our expert consultants provide data-driven insights and strategies to optimize your fleet operations and reduce costs.',
+        "Gain valuable insights and expert guidance with our corporate fleet management consulting services, designed to optimise your fleet's performance, reduce costs, and align operations with your business goals.",
       accentColor: `accent-color-3`,
+      buttonLabel: `Explore Consulting Solutions`,
+      buttonLink: ``,
     },
     {
       img: 'images/placeholder-4.png',
-      title: 'Fleet Tracking and Telematics',
+      title: 'Transition to Zero-Emission Fleets',
       description:
-        'Utilize cutting-edge GPS tracking and telematics solutions to monitor vehicle usage, improve safety, and enhance productivity.',
+        "Transition to a zero-emission fleet with hybrid, electric, and hydrogen-powered vehicles, supported by carbon offset initiatives like our 'greenDrive' program.",
       accentColor: `accent-color-4`,
+      buttonLabel: `Explore Sustainability Solutions`,
+      buttonLink: ``,
     },
     {
       img: 'images/placeholder-5.png',
-      title: 'Maintenance and Repair Management',
+      title: 'Truck Leasing & Fleet Expertise',
       description:
-        'We handle scheduled maintenance and repair services to minimize downtime and extend the lifespan of your fleet.',
+        'Reduce downtime, save costs, and keep your business moving with our expert truck fleet management solutions, made to simplify your operations.',
       accentColor: `accent-color-5`,
+      buttonLabel: `Explore Truck Leasing Solutions`,
+      buttonLink: ``,
     },
     {
       img: 'images/placeholder-5.png',
-      title: 'Fuel Management Solutions',
-      description:
-        'Reduce fuel expenses with our advanced monitoring systems that track fuel usage, prevent fraud, and improve efficiency.',
+      title: 'Novated Leasing Solutions',
+      description: 'TBC',
       accentColor: `accent-color-6`,
+      buttonLabel: `TBC`,
+      buttonLink: ``,
     },
   ];
 
@@ -64,7 +75,7 @@ export function loadServices() {
                               <p class="line-clamp-3 subtext">
                                   ${service.description}
                               </p>
-                              <a href="" class="text-uppercase secondary-btn" style="color: var(--${service.accentColor})">Explore Solutions 
+                              <a href="" class="text-uppercase secondary-btn" style="color: var(--${service.accentColor})">${service.buttonLabel} 
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
                                   <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
