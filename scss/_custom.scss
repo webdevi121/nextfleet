@@ -1,3 +1,4 @@
+@use 'components/fontface' as *; // New method with `@use`
 @use 'components/colors' as *; // New method with `@use`
 @use 'components/heading' as *; // New method with `@use`
 @use 'components/testimonials' as *; // New method with `@use`
@@ -12,6 +13,7 @@
 
 // Now add your custom styles below
 body {
+  font-family: $headings-font-family;
   background-color: $light;
 }
 
@@ -193,4 +195,9 @@ footer {
 //////////////////////////////////////// Text Color ////////////////////////////////////////
 .text-gray {
   color: var(--gray-color);
+}
+
+//////////////////////////////////////// Font Weight ////////////////////////////////////////
+.fw-extra-light {
+  font-weight: 200;
 }
