@@ -11995,6 +11995,13 @@ body {
 .mydrive-container {
   height: 900px;
 }
+.mydrive-container .car-overlay {
+  width: 900px;
+}
+
+.partners-container {
+  height: 900px;
+}
 
 .custom-button {
   background-color: #ef1c23;

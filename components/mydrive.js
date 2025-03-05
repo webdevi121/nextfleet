@@ -2,8 +2,9 @@ export function loadMyDrive() {
   document.getElementById('mydrive').innerHTML = `
     <div class="mydrive-container bg-black pt-5 position-relative overflow-hidden">
         <img src="images/building-bg.jpg" class="position-absolute start-0 end-0 m-auto">
-        <div class="container">
-            <div class="d-flex gap-3 justify-content-center items-center">
+        <div class="container h-100 relative">
+            <div class="car-overlay position-absolute bottom-0 start-0 z-2"><img src="images/hilux.png" alt="Illustration" class="w-100"></div>
+            <div class="d-flex gap-3 justify-content-center align-items-center h-100">
                 <div class="cards text-white text-center p-5 rounded-3 d-flex flex-column gap-4">
                     <div>
                         <img src="images/mobile-icon.png" alt="" width="80">
