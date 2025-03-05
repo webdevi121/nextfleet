@@ -152,6 +152,9 @@ footer {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.max-w-70 {
+  max-width: 70%;
+}
 .max-w-80 {
   max-width: 80%;
 }
@@ -183,4 +186,9 @@ footer {
 .partner-logo {
   height: 118px; /* Adjust the size of logos */
   display: inline-block;
+}
+
+//////////////////////////////////////// Text Color ////////////////////////////////////////
+.text-gray {
+  color: var(--gray-color);
 }

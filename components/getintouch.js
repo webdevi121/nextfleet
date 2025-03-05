@@ -6,7 +6,7 @@ export function loadGetInTouch() {
                     <h2 class="fw-bold">Get In Touch</h2>
                     <div>Our team is here to help with all your fleet management services and leasing needs. Fill out the form below, and our team will get back to you promptly.</div>
                 </div>
-                <form>
+                <form class="max-w-70 m-auto">
                 <div class="row">
                     <!-- Full Name -->
                     <div class="col-md-6 mb-3">

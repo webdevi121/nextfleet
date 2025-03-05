@@ -7,7 +7,7 @@
   --accent-color-4: #0e6c6e;
   --accent-color-5: #5e225e;
   --accent-color-6: #b9b5b2;
-  --gray-color: #888888;
+  --gray-color: #999999;
   --bs-nav-link-hover-color: var(--primary-color);
   --bg-color: "#010204";
 }
@@ -12121,6 +12121,10 @@ footer {
   padding-bottom: 70px;
 }
 
+.max-w-70 {
+  max-width: 70%;
+}
+
 .max-w-80 {
   max-width: 80%;
 }
@@ -12154,6 +12158,10 @@ footer {
 .partner-logo {
   height: 118px; /* Adjust the size of logos */
   display: inline-block;
+}
+
+.text-gray {
+  color: var(--gray-color);
 }
 
 /*# sourceMappingURL=style.css.map */
