@@ -146,6 +146,15 @@ h6, .h6 {
 .swiper-container .swiper-slide {
   opacity: 0.4;
 }
+.swiper-container .swiper-slide:nth-child(3n+1) .testimonials-initial {
+  background-color: #dc3545;
+}
+.swiper-container .swiper-slide:nth-child(3n+2) .testimonials-initial {
+  background-color: #0072ff;
+}
+.swiper-container .swiper-slide:nth-child(3n+3) .testimonials-initial {
+  background-color: #26b128;
+}
 
 .swiper-button-next,
 .swiper-button-prev {
