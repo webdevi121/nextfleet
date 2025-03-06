@@ -5,8 +5,20 @@
 @use 'components/services' as *; // New method with `@use`
 @use 'components/btn' as *; // New method with `@use`
 
-// Instead of @import, use @use
-@import 'variables'; // This imports all variables, mixins, etc. from 'variables'
+// Variables
+$primary: #ef1c23;
+$secondary: #6c757d;
+$success: #28a745;
+$danger: #dc3545;
+$info: #17a2b8;
+$light: #f7f5f3;
+$dark: #343a40;
+$gray: #999999;
+$headings-font-family: 'ITC Avant Garde Pro', sans-serif;
+
+$btn-border-radius: 0;
+$btn-padding-y: 0.75rem;
+$btn-padding-x: 1.25rem;
 
 // Import Bootstrap SCSS after the custom variables
 @import '../node_modules/bootstrap/scss/bootstrap';

@@ -34,7 +34,7 @@ export function loadTestimonials() {
   <div class="testimonials-section bg-white">
     <div class="container">
       <div class="text-center">
-        <h2 class="text-uppercase fw-bold mb-5">What Our <span class="text-primary">Customers</span> Say</h2>
+        <h2 class="text-uppercase fw-bold mb-5 fs-1">What Our <span class="text-primary">Customers</span> Say</h2>
       </div>
       <div class="h-100 position-relative">
       <div class="d-flex gap-3 h-100">
@@ -55,8 +55,8 @@ export function loadTestimonials() {
                           ${testimonial.initial}
                         </div>
                         <div class="ms-3">
-                          <div>${testimonial.name}</div>
-                          <div>${testimonial.rating}</div>
+                          <div class="fw-bold fs-5">${testimonial.name}</div>
+                          <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
                         </div>
                       </div>
                       <div>${testimonial.message}</div>

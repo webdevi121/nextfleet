@@ -6,7 +6,7 @@
     "sass": "^1.85.1"
   },
   "scripts": {
-    "scss": "sass --watch scss/_custom.scss:css/style.css",
+    "scss": "sass --watch scss/custom.scss:css/style.css",
     "start": "http-server -o",
     "dev": "concurrently \"yarn run scss\" \"yarn start\""
   },

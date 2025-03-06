@@ -154,18 +154,7 @@ h6, .h6 {
   width: 100%;
 }
 
-.primary-btn {
-  background-color: var(--accent-color-1);
-  color: #fff;
-  padding: 15px 20px;
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.secondary-btn {
-  color: #fff;
+.custom-btn {
   padding: 10px 20px;
   display: inline-block;
   text-decoration: none;

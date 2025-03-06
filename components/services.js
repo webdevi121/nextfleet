@@ -11,7 +11,7 @@ export function loadServices() {
     },
     {
       img: 'images/placeholder-2.png',
-      title: 'Vehicle Fleet Leasing',
+      title: 'Vehicle Fleet <span class="d-block">Leasing</span>',
       description:
         "Enjoy flexibility, cost savings, and control without the burden of ownership with NextFleet's  tailored vehicle fleet leasing service.",
       accentColor: `accent-color-2`,
@@ -20,7 +20,8 @@ export function loadServices() {
     },
     {
       img: 'images/placeholder-3.png',
-      title: 'Fleet Management Consulting Services',
+      title:
+        'Fleet Management <span class="d-block">Consulting Services</span>',
       description:
         "Gain valuable insights and expert guidance with our corporate fleet management consulting services, designed to optimise your fleet's performance, reduce costs, and align operations with your business goals.",
       accentColor: `accent-color-3`,
@@ -29,7 +30,7 @@ export function loadServices() {
     },
     {
       img: 'images/placeholder-4.png',
-      title: 'Transition to Zero-Emission Fleets',
+      title: 'Transition to <span class="d-block">Zero-Emission Fleets</span>',
       description:
         "Transition to a zero-emission fleet with hybrid, electric, and hydrogen-powered vehicles, supported by carbon offset initiatives like our 'greenDrive' program.",
       accentColor: `accent-color-4`,
@@ -38,7 +39,7 @@ export function loadServices() {
     },
     {
       img: 'images/placeholder-5.png',
-      title: 'Truck Leasing & Fleet Expertise',
+      title: 'Truck Leasing & <span class="d-block">Fleet Expertise</span>',
       description:
         'Reduce downtime, save costs, and keep your business moving with our expert truck fleet management solutions, made to simplify your operations.',
       accentColor: `accent-color-5`,
@@ -47,7 +48,7 @@ export function loadServices() {
     },
     {
       img: 'images/placeholder-5.png',
-      title: 'Novated Leasing Solutions',
+      title: 'Novated Leasing <span class="d-block">Solutions</span>',
       description: 'TBC',
       accentColor: `accent-color-6`,
       buttonLabel: `TBC`,
@@ -71,12 +72,12 @@ export function loadServices() {
                           <div class="services-accent-color" style="background-color: var(--${service.accentColor});"></div>
                           <img src="${service.img}" alt="placeholder" class="img-placeholder">
                             <div class="row g-2 pt-0 p-4">
-                              <h3>${service.title}</h3>
+                              <h3 class="text-uppercase">${service.title}</h3>
                               <p class="line-clamp-3 subtext">
                                   ${service.description}
                               </p>
                               <div>
-                                <a href="" class="text-uppercase secondary-btn text-pre" style="color: var(--${service.accentColor})">
+                                <a href="" class="text-uppercase custom-btn text-pre" style="color: var(--${service.accentColor})">
                                   <div class="d-flex align-items-center gap-2">
                                     <div>${service.buttonLabel} </div>
                                     <div class="flex-grow-1">
