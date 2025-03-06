@@ -70,17 +70,24 @@ export function loadServices() {
                         <div class="cards">
                           <div class="services-accent-color" style="background-color: var(--${service.accentColor});"></div>
                           <img src="${service.img}" alt="placeholder" class="img-placeholder">
-                            <div class="pt-0 p-4">
+                            <div class="row g-2 pt-0 p-4">
                               <h3>${service.title}</h3>
                               <p class="line-clamp-3 subtext">
                                   ${service.description}
                               </p>
-                              <a href="" class="text-uppercase secondary-btn" style="color: var(--${service.accentColor})">${service.buttonLabel} 
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
-                                  <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
-                                </svg>
-                              </a>
+                              <div>
+                                <a href="" class="text-uppercase secondary-btn text-pre" style="color: var(--${service.accentColor})">
+                                  <div class="d-flex align-items-center gap-2">
+                                    <div>${service.buttonLabel} </div>
+                                    <div class="flex-grow-1">
+                                      <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
+                                        <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
+                                      </svg>
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
                             </div>
                         </div>
                         </div>
