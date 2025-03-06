@@ -12161,7 +12161,7 @@ footer {
 .contact-us {
   background-color: #f7f5f3;
 }
-.contact-us .img-placeholder {
+.contact-us .contact-container {
   position: relative;
   top: -80px;
 }
