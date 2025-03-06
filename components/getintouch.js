@@ -10,13 +10,13 @@ export function loadGetInTouch() {
                 <div class="row">
                     <!-- Full Name -->
                     <div class="col-md-6 mb-3">
-                    <label for="fullName" class="form-label">Full Name</label>
+                    <label for="fullName" class="form-label opacity-50">Full Name</label>
                     <input type="text" class="form-control form-control-lg border-0 rounded-0" id="fullName" required>
                     </div>
 
                     <!-- Email Address -->
                     <div class="col-md-6 mb-3">
-                    <label for="email" class="form-label">Email Address</label>
+                    <label for="email" class="form-label opacity-50">Email Address</label>
                     <input type="email" class="form-control form-control-lg border-0 rounded-0" id="email" required>
                     </div>
                 </div>
@@ -24,13 +24,13 @@ export function loadGetInTouch() {
                 <div class="row">
                     <!-- Phone Number -->
                     <div class="col-md-6 mb-3">
-                        <label for="phone" class="form-label">Phone Number</label>
+                        <label for="phone" class="form-label opacity-50">Phone Number</label>
                         <input type="tel" class="form-control form-control-lg border-0 rounded-0" id="phone" required>
                     </div>
 
                     <!-- Date for Callback -->
                     <div class="col-md-6 mb-3">
-                        <label for="callbackDate" class="form-label">Preferred Date for Callback</label>
+                        <label for="callbackDate" class="form-label opacity-50">Preferred Date for Callback</label>
                         <div class="position-relative">
                             <input type="date" class="form-control form-control-lg border-0 rounded-0" id="callbackDate" required>
                             <div class="bg-gray p-2 position-absolute top-0 end-0 pointer-events-none">
