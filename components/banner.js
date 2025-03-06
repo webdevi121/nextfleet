@@ -14,7 +14,7 @@ export function loadBanner() {
                     <div>
                         <form class="d-flex">
                             <input type="email" class="form-control me-2" placeholder="Enter your email" required>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary text-white text-uppercase rounded text-pre flex-none">Start Discussion</button>
                         </form>
                     </div>
                 </div>

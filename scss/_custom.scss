@@ -5,10 +5,10 @@
 @use 'components/services' as *; // New method with `@use`
 @use 'components/btn' as *; // New method with `@use`
 
-// Import Bootstrap's default SCSS variables first (optional if using _variables.scss)
-@import 'variables'; // Uncomment if you use _variables.scss
+// Instead of @import, use @use
+@import 'variables'; // This imports all variables, mixins, etc. from 'variables'
 
-// Import Bootstrap's full SCSS source (correct path without the tilde)
+// Import Bootstrap SCSS after the custom variables
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 html {
@@ -151,7 +151,7 @@ footer {
     top: -80px;
   }
   .contact-content {
-    max-width: 600px;
+    max-width: 630px;
     margin: auto;
   }
 }
