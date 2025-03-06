@@ -140,6 +140,13 @@ h6, .h6 {
   font-size: 20px;
 }
 
+.swiper-container .swiper-slide-active {
+  opacity: 1 !important;
+}
+.swiper-container .swiper-slide {
+  opacity: 0.4;
+}
+
 .cards {
   position: relative;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#373536+0,010101+100 */
