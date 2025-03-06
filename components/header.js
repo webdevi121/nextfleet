@@ -30,7 +30,7 @@ export function loadHeader() {
             <ul class="navbar-nav">
               ${navLinks}
             </ul>
-            <a href="" class="ms-5 text-primary secondary-btn">1800 297 900</a>
+            <a href="tel:1800 297 900" class="ms-5 custom-btn"><img src="images/icon-phone.png" alt="icons" width="20"> 1800 297 900</a>
           </div>
         </nav>
       </div>

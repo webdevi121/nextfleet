@@ -25,3 +25,34 @@
     font-size: 20px;
   }
 }
+.swiper-container {
+  .swiper-slide-active {
+    opacity: 1 !important;
+  }
+  .swiper-slide {
+    opacity: 0.4;
+    &:nth-child(3n + 1) {
+      .testimonials-initial {
+        background-color: #dc3545;
+      }
+    }
+    &:nth-child(3n + 2) {
+      .testimonials-initial {
+        background-color: #0072ff;
+      }
+    }
+    &:nth-child(3n + 3) {
+      .testimonials-initial {
+        background-color: #26b128;
+      }
+    }
+  }
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary-color) !important;
+  &:before,
+  &:after {
+    font-size: 17px !important;
+  }
+}
