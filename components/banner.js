@@ -1,6 +1,6 @@
 export function loadBanner() {
   document.getElementById('banner').innerHTML = `
-    <div class="banner-section overflow-hidden">
+    <div class="banner-section">
         <div class="background-overlay">
             <img src="images/building-bg.jpg">
         </div>
@@ -8,13 +8,13 @@ export function loadBanner() {
       <div class="container position-relative z-2 pb-5">
         <div class="banner-item">
             <div class="position-relative h-100">
-                <div class="w-50">
+                <div class="w-40">
                     <h1>FLEET MANAGEMENT SERVICES SIMPLIFIED</h1>
                     <p>At NextFleet we seamlessly manage, support, and optimise your corporate fleet management</p>
                     <div>
                         <form class="d-flex">
-                            <input type="email" class="form-control me-2" placeholder="Enter your email" required>
-                            <button type="submit" class="btn btn-primary text-white text-uppercase rounded text-pre flex-none">Start Discussion</button>
+                            <input type="email" class="form-control me-2 rounded-5" placeholder="Enter your email" required>
+                            <button type="submit" class="text-nowrap btn btn-primary text-white text-uppercase rounded-5 text-pre flex-none">Start Discussion</button>
                         </form>
                     </div>
                 </div>

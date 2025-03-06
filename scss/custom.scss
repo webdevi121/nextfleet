@@ -53,6 +53,7 @@ body {
 // Navbar styles
 .navbar {
   .navbar-nav {
+    gap: 43px;
     .nav-link {
       &:hover {
         color: var(--bs-nav-link-hover-color);
@@ -88,10 +89,11 @@ footer {
   background-color: #000;
   .banner-item {
     height: 610px;
-    padding: 70px;
+    padding: 80px;
+    padding-top: 100px;
     position: relative;
     color: #fff;
-    border: 5px solid var(--primary-color);
+    border: 4px solid var(--primary-color);
   }
   .background-overlay {
     position: absolute;
@@ -218,4 +220,14 @@ footer {
 //////////////////////////////////////// Font Weight ////////////////////////////////////////
 .fw-extra-light {
   font-weight: 200;
+}
+
+//////////////////////////////////////// Vackground ////////////////////////////////////////
+.bg-gray {
+  background-color: #eeece8 !important; /* Custom gray */
+}
+
+//////////////////////////////////////// Utilities ////////////////////////////////////////
+.pointer-events-none {
+  pointer-events: none;
 }

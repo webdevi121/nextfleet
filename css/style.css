@@ -12060,6 +12060,9 @@ body {
   color: white;
 }
 
+.navbar .navbar-nav {
+  gap: 43px;
+}
 .navbar .navbar-nav .nav-link:hover {
   color: var(--bs-nav-link-hover-color);
 }
@@ -12095,10 +12098,11 @@ footer {
 }
 .banner-section .banner-item {
   height: 610px;
-  padding: 70px;
+  padding: 80px;
+  padding-top: 100px;
   position: relative;
   color: #fff;
-  border: 5px solid var(--primary-color);
+  border: 4px solid var(--primary-color);
 }
 .banner-section .background-overlay {
   position: absolute;
@@ -12223,6 +12227,14 @@ footer {
 
 .fw-extra-light {
   font-weight: 200;
+}
+
+.bg-gray {
+  background-color: #eeece8 !important; /* Custom gray */
+}
+
+.pointer-events-none {
+  pointer-events: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -24,14 +24,19 @@ export function loadGetInTouch() {
                 <div class="row">
                     <!-- Phone Number -->
                     <div class="col-md-6 mb-3">
-                    <label for="phone" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control form-control-lg border-0 rounded-0" id="phone" required>
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control form-control-lg border-0 rounded-0" id="phone" required>
                     </div>
 
                     <!-- Date for Callback -->
                     <div class="col-md-6 mb-3">
-                    <label for="callbackDate" class="form-label">Preferred Date for Callback</label>
-                    <input type="date" class="form-control form-control-lg border-0 rounded-0" id="callbackDate" required>
+                        <label for="callbackDate" class="form-label">Preferred Date for Callback</label>
+                        <div class="position-relative">
+                            <input type="date" class="form-control form-control-lg border-0 rounded-0" id="callbackDate" required>
+                            <div class="bg-gray p-2 position-absolute top-0 end-0 pointer-events-none">
+                                <img src="images/calendar-icon.png" alt="Calendar" width="29">
+                            </div>
+                        </div>
                     </div>
                 </div>
 
