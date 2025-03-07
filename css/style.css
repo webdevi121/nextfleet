@@ -12104,6 +12104,26 @@ footer {
   color: #fff;
   border: 4px solid var(--primary-color);
 }
+.banner-section .banner-item:before {
+  height: 4px;
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  content: "";
+  width: 60%;
+}
+.banner-section .banner-item:after {
+  height: 30%;
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: -4px;
+  content: "";
+  width: 4px;
+}
 .banner-section .background-overlay {
   position: absolute;
   top: 0;
