@@ -38,7 +38,7 @@ export function loadTestimonials() {
       </div>
       <div class="h-100 position-relative">
         <div class="d-flex gap-3 h-100">
-          <div class="w-60 position-relative">
+          <div class="d-none d-sm-block w-60 position-relative">
             <img src="images/person.png" alt="" class="person-overlay">
           </div>
 

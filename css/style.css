@@ -12054,6 +12054,11 @@ body {
   left: -550px;
   bottom: -150px;
 }
+@media (max-width: 768px) {
+  .mydrive-container .car-overlay {
+    display: none;
+  }
+}
 
 .custom-button {
   background-color: #ef1c23;
@@ -12104,6 +12109,11 @@ footer {
   color: #fff;
   border: 4px solid var(--primary-color);
 }
+@media (max-width: 768px) {
+  .banner-section .banner-item {
+    padding: 20px;
+  }
+}
 .banner-section .banner-item:before {
   height: 4px;
   background-color: #000;
@@ -12136,10 +12146,20 @@ footer {
   margin: auto;
   display: flex;
 }
+@media (max-width: 768px) {
+  .banner-section .background-overlay img {
+    width: 100%;
+  }
+}
 .banner-section .partner-logos {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+@media (max-width: 768px) {
+  .banner-section .partner-logos {
+    display: none;
+  }
 }
 .banner-section .partner-logos ul {
   display: flex;
@@ -12158,6 +12178,13 @@ footer {
   position: absolute;
   bottom: -180px;
   right: -300px;
+}
+@media (max-width: 768px) {
+  .banner-section .the-car {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
 }
 .banner-section .chevron {
   position: absolute;
@@ -12213,9 +12240,19 @@ footer {
 .w-30 {
   width: 30%;
 }
+@media (max-width: 768px) {
+  .w-30 {
+    width: 100%;
+  }
+}
 
 .w-40 {
   width: 40%;
+}
+@media (max-width: 768px) {
+  .w-40 {
+    width: 100%;
+  }
 }
 
 .w-60 {

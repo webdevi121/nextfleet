@@ -5,7 +5,7 @@ export function loadMyDrive() {
             <img src="images/building-bg.jpg" class="m-auto d-flex">
         </div>
         <div class="container h-100 relative">
-            <div class="d-flex gap-3 justify-content-center align-items-center h-100 ms-auto">
+            <div class="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center h-100 ms-auto">
                 <div class="w-30 position-relative h-100">
                     <div class="car-overlay position-absolute z-2"><img src="images/hilux.png" alt="Illustration" class="w-100"></div>
                 </div>

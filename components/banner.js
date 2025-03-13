@@ -12,7 +12,7 @@ export function loadBanner() {
                     <h1>FLEET MANAGEMENT SERVICES SIMPLIFIED</h1>
                     <p>At NextFleet we seamlessly manage, support, and optimise your corporate fleet management</p>
                     <div>
-                        <form class="d-flex">
+                        <form class="d-flex flex-column flex-sm-row gap-2">
                             <input type="email" class="form-control me-2 rounded-5" placeholder="Enter your email" required>
                             <button type="submit" class="text-nowrap btn btn-primary text-white text-uppercase rounded-5 text-pre flex-none">Start Discussion</button>
                         </form>
@@ -25,11 +25,11 @@ export function loadBanner() {
                         <li><img src="images/logos-3.png" alt="Logo"></li>
                     </ul>
                 </div>
-                <div class="chevron">
+                <div class="d-none d-sm-block chevron">
                     <img src="images/chevron.png" alt="chevron">
                 </div>
                 <div class="the-car">
-                    <img src="images/hilux-1-placeholder.png" alt="">
+                    <img src="images/hilux-1-placeholder.png" alt="" class="w-100 w-sm-auto">
                 </div>
             </div>
         </div>
