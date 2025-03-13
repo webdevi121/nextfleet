@@ -46,14 +46,6 @@ export function loadServices() {
       buttonLabel: `Explore Truck Leasing Solutions`,
       buttonLink: ``,
     },
-    {
-      img: 'images/placeholder-5.png',
-      title: 'Novated Leasing <span class="d-block">Solutions</span>',
-      description: 'TBC',
-      accentColor: `accent-color-6`,
-      buttonLabel: `TBC`,
-      buttonLink: ``,
-    },
   ];
 
   document.getElementById('services').innerHTML = `

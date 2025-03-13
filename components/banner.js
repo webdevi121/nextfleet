@@ -29,7 +29,7 @@ export function loadBanner() {
                     <img src="images/chevron.png" alt="chevron">
                 </div>
                 <div class="the-car">
-                    <img src="images/red-car.png" alt="">
+                    <img src="images/hilux-1-placeholder.png" alt="">
                 </div>
             </div>
         </div>
