@@ -1,6 +1,10 @@
 .testimonials-section {
   padding-top: 110px;
   padding-bottom: 110px;
+  @media (max-width: map-get($grid-breakpoints, 'md')) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .person-overlay {
     width: 690px;
     left: -250px;

@@ -32,9 +32,11 @@ export function loadPromotions() {
             </svg>
         </div>
         <div class="pt-10 pb-10 container z-2 position-relative">
-            <div class="text-center text-white mx-auto row g-3 mb-5" style="width: 60%">
-                <h2 class="text-uppercase fw-bold fs-1">Deal Promotions For The Fleet</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.</p>
+            <div class="text-center text-white mx-auto row g-3 mb-5">
+                <div class="col-12 col-sm-6 mx-auto"> <!-- Responsive width -->
+                    <h2 class="text-uppercase fw-bold fs-1">Deal Promotions For The Fleet</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.</p>
+                </div>
             </div>
             <div class="row align-items-start row-cols-1 row-cols-md-3 g-4">
                 ${

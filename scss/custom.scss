@@ -1,10 +1,3 @@
-@use 'components/fontface' as *; // New method with `@use`
-@use 'components/colors' as *; // New method with `@use`
-@use 'components/heading' as *; // New method with `@use`
-@use 'components/testimonials' as *; // New method with `@use`
-@use 'components/services' as *; // New method with `@use`
-@use 'components/btn' as *; // New method with `@use`
-
 // Variables
 $primary: #ef1c23;
 $secondary: #6c757d;
@@ -22,6 +15,12 @@ $btn-padding-x: 1.25rem;
 
 // Import Bootstrap SCSS after the custom variables
 @import '../node_modules/bootstrap/scss/bootstrap';
+@import 'components/fontface'; // New method with `@use`
+@import 'components/colors'; // New method with `@use`
+@import 'components/heading'; // New method with `@use`
+@import 'components/services'; // New method with `@use`
+@import 'components/btn'; // New method with `@use`
+@import 'components/testimonials'; // New method with `@use`
 
 html {
   font-size: 14px; // This will set the base font size to 14px
@@ -57,6 +56,9 @@ body {
 .navbar {
   .navbar-nav {
     gap: 43px;
+    @media (max-width: map-get($grid-breakpoints, 'md')) {
+      gap: 5px;
+    }
     .nav-link {
       &:hover {
         color: var(--bs-nav-link-hover-color);
@@ -66,9 +68,15 @@ body {
 }
 .pt-10 {
   padding-top: 7rem;
+  @media (max-width: map-get($grid-breakpoints, 'md')) {
+    padding-top: 3.5rem;
+  }
 }
 .pb-10 {
   padding-bottom: 7rem;
+  @media (max-width: map-get($grid-breakpoints, 'md')) {
+    padding-bottom: 3.5rem;
+  }
 }
 
 // Footer styles
@@ -192,6 +200,10 @@ footer {
   .services-container {
     padding-top: 100px;
     padding-bottom: 150px;
+    @media (max-width: map-get($grid-breakpoints, 'md')) {
+      padding-top: 60px;
+      padding-bottom: 100px;
+    }
   }
 }
 
@@ -273,4 +285,7 @@ footer {
 //////////////////////////////////////// Utilities ////////////////////////////////////////
 .pointer-events-none {
   pointer-events: none;
+}
+.navbar-toggler {
+  width: 70px;
 }

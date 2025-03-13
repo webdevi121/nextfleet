@@ -1,195 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/ITCAvantGardePro-Bold.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-Bold.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/ITCAvantGardePro-XLt.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-XLt.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/ITCAvantGardePro-Bk.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-Bk.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-:root {
-  --primary-color: #ef1c23;
-  --accent-color-1: var(--primary-color);
-  --accent-color-2: #06a3cc;
-  --accent-color-3: #f59e1d;
-  --accent-color-4: #0e6c6e;
-  --accent-color-5: #5e225e;
-  --accent-color-6: #b9b5b2;
-  --gray-color: #999999;
-  --bs-nav-link-hover-color: var(--primary-color);
-  --bg-color: "#010204";
-}
-
-.subtext {
-  color: var(--gray-color);
-}
-
-.accent-color-1 {
-  background-color: var(--accent-color-1);
-}
-
-.accent-color-2 {
-  background-color: var(--accent-color-2);
-}
-
-.accent-color-3 {
-  background-color: var(--accent-color-3);
-}
-
-.accent-color-4 {
-  background-color: var(--accent-color-4);
-}
-
-.accent-color-5 {
-  background-color: var(--accent-color-5);
-}
-
-.accent-color-6 {
-  background-color: var(--accent-color-6);
-}
-
-.primary-color {
-  color: var(--accent-color-1);
-}
-
-.text-primary {
-  color: var(--primary-color);
-}
-
-h1, .h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  font-family: "Arial", sans-serif;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-h1, .h1 {
-  font-size: 2.5rem;
-}
-
-h2, .h2 {
-  font-size: 2rem;
-}
-
-h3, .h3 {
-  font-size: 1.75rem;
-}
-
-h4, .h4 {
-  font-size: 1.5rem;
-}
-
-h5, .h5 {
-  font-size: 1.25rem;
-}
-
-h6, .h6 {
-  font-size: 1rem;
-}
-
-.testimonials-section {
-  padding-top: 110px;
-  padding-bottom: 110px;
-}
-.testimonials-section .person-overlay {
-  width: 690px;
-  left: -250px;
-  bottom: -110px;
-  position: absolute;
-  z-index: 2;
-}
-
-.testimonial-card {
-  border-radius: 20px;
-  padding: 50px;
-}
-.testimonial-card .testimonials-initial {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%; /* rounded-circle equivalent */
-  background-color: #dc3545; /* bg-danger equivalent (red) */
-  color: white; /* text-white equivalent */
-  width: 50px;
-  height: 50px;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-
-.swiper-container .swiper-slide-active {
-  opacity: 1 !important;
-}
-.swiper-container .swiper-slide {
-  opacity: 0.4;
-}
-.swiper-container .swiper-slide:nth-child(3n+1) .testimonials-initial {
-  background-color: #dc3545;
-}
-.swiper-container .swiper-slide:nth-child(3n+2) .testimonials-initial {
-  background-color: #0072ff;
-}
-.swiper-container .swiper-slide:nth-child(3n+3) .testimonials-initial {
-  background-color: #26b128;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  color: var(--primary-color) !important;
-}
-.swiper-button-next:before, .swiper-button-next:after,
-.swiper-button-prev:before,
-.swiper-button-prev:after {
-  font-size: 17px !important;
-}
-
-.cards {
-  position: relative;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#373536+0,010101+100 */
-  background: linear-gradient(135deg, #373536 0%, #010101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-
-.services-accent-color {
-  height: 1px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.custom-btn {
-  padding: 10px 20px;
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-  background: linear-gradient(180deg, #373536 0%, #010101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -12036,6 +11845,203 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "ITC Avant Garde Pro";
+  src: url("../fonts/ITCAvantGardePro-Bold.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC Avant Garde Pro";
+  src: url("../fonts/ITCAvantGardePro-XLt.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-XLt.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC Avant Garde Pro";
+  src: url("../fonts/ITCAvantGardePro-Bk.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-Bk.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --primary-color: #ef1c23;
+  --accent-color-1: var(--primary-color);
+  --accent-color-2: #06a3cc;
+  --accent-color-3: #f59e1d;
+  --accent-color-4: #0e6c6e;
+  --accent-color-5: #5e225e;
+  --accent-color-6: #b9b5b2;
+  --gray-color: #999999;
+  --bs-nav-link-hover-color: var(--primary-color);
+  --bg-color: "#010204";
+}
+
+.subtext {
+  color: var(--gray-color);
+}
+
+.accent-color-1 {
+  background-color: var(--accent-color-1);
+}
+
+.accent-color-2 {
+  background-color: var(--accent-color-2);
+}
+
+.accent-color-3 {
+  background-color: var(--accent-color-3);
+}
+
+.accent-color-4 {
+  background-color: var(--accent-color-4);
+}
+
+.accent-color-5 {
+  background-color: var(--accent-color-5);
+}
+
+.accent-color-6 {
+  background-color: var(--accent-color-6);
+}
+
+.primary-color {
+  color: var(--accent-color-1);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+.cards {
+  position: relative;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#373536+0,010101+100 */
+  background: linear-gradient(135deg, #373536 0%, #010101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.services-accent-color {
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.custom-btn {
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  background: linear-gradient(180deg, #373536 0%, #010101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.testimonials-section {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+@media (max-width: 768px) {
+  .testimonials-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.testimonials-section .person-overlay {
+  width: 690px;
+  left: -250px;
+  bottom: -110px;
+  position: absolute;
+  z-index: 2;
+}
+
+.testimonial-card {
+  border-radius: 20px;
+  padding: 50px;
+}
+.testimonial-card .testimonials-initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* rounded-circle equivalent */
+  background-color: #dc3545; /* bg-danger equivalent (red) */
+  color: white; /* text-white equivalent */
+  width: 50px;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.swiper-container .swiper-slide-active {
+  opacity: 1 !important;
+}
+.swiper-container .swiper-slide {
+  opacity: 0.4;
+}
+.swiper-container .swiper-slide:nth-child(3n+1) .testimonials-initial {
+  background-color: #dc3545;
+}
+.swiper-container .swiper-slide:nth-child(3n+2) .testimonials-initial {
+  background-color: #0072ff;
+}
+.swiper-container .swiper-slide:nth-child(3n+3) .testimonials-initial {
+  background-color: #26b128;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary-color) !important;
+}
+.swiper-button-next:before, .swiper-button-next:after,
+.swiper-button-prev:before,
+.swiper-button-prev:after {
+  font-size: 17px !important;
+}
+
 html {
   font-size: 14px;
 }
@@ -12068,6 +12074,11 @@ body {
 .navbar .navbar-nav {
   gap: 43px;
 }
+@media (max-width: 768px) {
+  .navbar .navbar-nav {
+    gap: 5px;
+  }
+}
 .navbar .navbar-nav .nav-link:hover {
   color: var(--bs-nav-link-hover-color);
 }
@@ -12075,9 +12086,19 @@ body {
 .pt-10 {
   padding-top: 7rem;
 }
+@media (max-width: 768px) {
+  .pt-10 {
+    padding-top: 3.5rem;
+  }
+}
 
 .pb-10 {
   padding-bottom: 7rem;
+}
+@media (max-width: 768px) {
+  .pb-10 {
+    padding-bottom: 3.5rem;
+  }
 }
 
 footer {
@@ -12208,6 +12229,12 @@ footer {
   padding-top: 100px;
   padding-bottom: 150px;
 }
+@media (max-width: 768px) {
+  .services .services-container {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+}
 
 .contact-us {
   background-color: #f7f5f3;
@@ -12292,6 +12319,10 @@ footer {
 
 .pointer-events-none {
   pointer-events: none;
+}
+
+.navbar-toggler {
+  width: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
