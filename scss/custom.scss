@@ -7,7 +7,8 @@ $info: #17a2b8;
 $light: #f7f5f3;
 $dark: #343a40;
 $gray: #999999;
-$headings-font-family: 'ITC Avant Garde Pro', sans-serif;
+$font-family-base: 'ITC Avant Garde Pro', sans-serif;
+$heading-font-family: null;
 
 $btn-border-radius: 0;
 $btn-padding-y: 0.75rem;
@@ -28,7 +29,7 @@ html {
 
 // Now add your custom styles below
 body {
-  font-family: $headings-font-family;
+  font-family: $font-family-base;
   background-color: $light;
   font-weight: 400;
 }
