@@ -7,7 +7,7 @@ export function loadMyDrive() {
         <div class="container h-100 relative">
             <div class="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center h-100 ms-auto">
                 <div class="w-30 position-relative h-100">
-                    <div class="car-overlay position-absolute z-2"><img src="images/hilux.png" alt="Illustration" class="w-100"></div>
+                    <div class="car-overlay position-absolute z-2"><img src="images/car-placeholder-2.png" alt="Illustration" class="w-100"></div>
                 </div>
                 <div class="cards text-white text-center p-5 rounded-3 d-flex flex-column gap-4">
                     <div>

@@ -12042,8 +12042,8 @@ body {
   height: 900px;
 }
 .mydrive-container .car-overlay {
-  width: 1040px;
-  left: -550px;
+  width: 1260px;
+  left: -740px;
   bottom: -150px;
 }
 @media (max-width: 768px) {

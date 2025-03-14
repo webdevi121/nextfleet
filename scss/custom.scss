@@ -37,8 +37,8 @@ body {
 .mydrive-container {
   height: 900px;
   .car-overlay {
-    width: 1040px;
-    left: -550px;
+    width: 1260px;
+    left: -740px;
     bottom: -150px;
     @media (max-width: map-get($grid-breakpoints, 'md')) {
       display: none;
