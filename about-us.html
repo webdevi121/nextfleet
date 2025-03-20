@@ -363,17 +363,85 @@
 
     <div id="team"></div>
 
+    <div
+      class="pt-5 pb-5 bg-black text-white position-relative overflow-hidden"
+    >
+      <div class="position-absolute top-0 start-0 w-100 z-1 opacity-25">
+        <img src="images/hands-group.jpg" alt="Thumbnail" class="w-100 h-100" />
+      </div>
+      <div class="container position-relative z-2">
+        <div class="row">
+          <div class="col-4">
+            <img
+              src="images/partnership-thumbnail.jpg"
+              alt="Thumbnail"
+              class="w-100 rounded-img-custom h-100 object-fit-cover"
+            />
+          </div>
+          <div class="col-8">
+            <div class="pt-5 pb-5 ps-7">
+              <div
+                class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
+              >
+                <img src="images/iconNf.png" alt="icon" width="14" />
+                <span>OUR PARTNERS</span>
+              </div>
+              <h2>Strong partnerships are the foundation of our success</h2>
+              <p>
+                At NextFleet, strong partnerships are the foundation of our
+                success. By collaborating with trusted industry leaders, we
+                deliver seamless, end-to-end fleet management solutions at the
+                highest standards.
+              </p>
+              <p>
+                Our network spans key sectors, including procurement, industry
+                associations, maintenance and repair, bodybuilding, insurance,
+                telematics, and finance. These partnerships enable us to
+                optimise efficiency, enhance safety, and provide innovative
+                mobility solutions for our clients.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <div
+            class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relative"
+          >
+            <img
+              src="images/cta-arrow.png"
+              alt="icon"
+              class="position-absolute top-0 start-0 col-2"
+            />
+            <div class="w-60 m-auto">
+              <div class="fs-4 fw-bold mb-3">
+                Interested in joining our trusted network? Complete the enquiry
+                form, and let’s explore how we can work together to drive
+                success.
+              </div>
+              <a href="" class="btn btn-primary bg-white"
+                >VISIT MITSUBISHI AUSTRALIA</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="testimonials"></div>
+
     <div id="footer"></div>
 
     <script type="module">
       import { loadHeader } from './components/header.js';
 
       import { loadTeam } from './components/team.js';
+      import { loadTestimonials } from './components/testimonials.js';
 
       import { loadFooter } from './components/footer.js';
       loadHeader();
 
       loadTeam();
+      loadTestimonials();
 
       loadFooter();
     </script>
