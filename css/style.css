@@ -12331,4 +12331,13 @@ footer {
   background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 1%, rgb(0, 0, 0) 36%, rgba(0, 0, 0, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+.rounded-img-custom {
+  border-top-right-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+}
+
+.gap-7 {
+  gap: 7rem !important;
+}
+
 /*# sourceMappingURL=style.css.map */

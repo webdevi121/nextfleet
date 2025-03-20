@@ -316,3 +316,12 @@ footer {
     ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   }
 }
+//////////////////////////////////////// Content Image ////////////////////////////////////////
+.rounded-img-custom {
+  border-top-right-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+}
+//////////////////////////////////////// Gap ////////////////////////////////////////
+.gap-7 {
+  gap: 7rem !important;
+}
