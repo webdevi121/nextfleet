@@ -1,6 +1,6 @@
 export function loadHeader() {
   const navItems = [
-    { name: 'About Us', href: '#' },
+    { name: 'About Us', href: '/about-us' },
     { name: 'Services', href: '#' },
     { name: 'Resources', href: '#' },
     { name: 'Tools', href: '#' },
@@ -22,7 +22,9 @@ export function loadHeader() {
     <div class="bg-black pt-5">
       <div class="container">
         <div class="row">
-          <div class="col-10 col-sm-12 text-white d-flex justify-content-center mb-5"><img src="images/nextfleet-logo.png" width="253"></div>
+          <div class="col-10 col-sm-12 text-white d-flex justify-content-center mb-5">
+            <a href="/"><img src="images/nextfleet-logo.png" width="253"></a>
+          </div>
           <div class="col-2 d-sm-none">
               <button class="w-100 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="w-100 h-100">

@@ -12311,4 +12311,24 @@ footer {
   width: 70px;
 }
 
+.static-banner {
+  height: 500px;
+}
+.static-banner .hero-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.static-banner .overlay-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+1&1+36,0+100 */
+  background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 1%, rgb(0, 0, 0) 36%, rgba(0, 0, 0, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
 /*# sourceMappingURL=style.css.map */
