@@ -12340,4 +12340,17 @@ footer {
   gap: 7rem !important;
 }
 
+ul.custom-bullets {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adjust gap size as needed */
+}
+ul.custom-bullets li {
+  background: url("../images/bullet-image.png") no-repeat left center;
+  background-size: 16px; /* Adjust the size of the bullet */
+  padding-left: 30px; /* Space between the bullet and text */
+}
+
 /*# sourceMappingURL=style.css.map */
