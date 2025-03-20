@@ -65,36 +65,36 @@ export function loadTeam() {
   ];
   document.getElementById('team').innerHTML = `
     <div class="container d-flex flex-column pt-5 pb-5">
-        <div class="row gap-5 mb-5">
-        <div class="col-7">
-            <div class="pt-5 pb-5">
-            <div
-                class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
-            >
-                <img src="images/iconNf.png" alt="icon" width="14" />
-                <span>Our Experties</span>
+        <div class="row mb-7 align-items-center">
+            <div class="col-8">
+                <div class="pt-5 pb-5 pe-7">
+                <div
+                    class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
+                >
+                    <img src="images/iconNf.png" alt="icon" width="14" />
+                    <span>Our Experties</span>
+                </div>
+                <h2>Committed to continuous learning </h2>
+                <p>
+                    At NextFleet, our expert fleet management team drives success through collaboration, innovation, and a deep understanding of fleet management. We optimise costs, streamline operations, and manage diverse assets, from passenger vehicles to heavy commercial fleet leasing..
+                </p>
+                <p>Committed to continuous learning, we excel in risk management, ethical negotiation, and workplace safety. Leveraging industry-leading technology, we deliver tailored solutions that enhance efficiency, safety, and sustainability for our clients.</p>
+                </div>
             </div>
-            <h2>Committed to continuous learning </h2>
-            <p>
-                At NextFleet, our expert fleet management team drives success through collaboration, innovation, and a deep understanding of fleet management. We optimise costs, streamline operations, and manage diverse assets, from passenger vehicles to heavy commercial fleet leasing..
-            </p>
-            <p>Committed to continuous learning, we excel in risk management, ethical negotiation, and workplace safety. Leveraging industry-leading technology, we deliver tailored solutions that enhance efficiency, safety, and sustainability for our clients.</p>
+            <div class="col-4">
+                <img
+                src="images/team-img-2.jpg"
+                alt="Thumbnail"
+                class="w-100 rounded-img-custom h-100 object-fit-cover"
+                />
             </div>
         </div>
-        <div class="col-3">
-            <img
-            src="images/team-img-2.jpg"
-            alt="Thumbnail"
-            class="w-100 rounded-img-custom h-100 object-fit-cover"
-            />
-        </div>
-        </div>
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-12 text-center">
                 <h2>Our Leaders</h2>
             </div>
         </div>
-        <div class="row align-items-start row-cols-1 row-cols-md-4 g-4 justify-content-center mb-5">
+        <div class="row align-items-start row-cols-1 row-cols-md-4 g-4 justify-content-center mb-7">
                 ${
                   teamData
                     .map(
@@ -104,7 +104,7 @@ export function loadTeam() {
                                 <div class="bg-white">
                                     <img src="${data.imgSrc}" alt="Team Image" class="w-100">
                                 </div>
-                                <div class="bg-primary text-white p-4">
+                                <div class="bg-dark text-white p-4">
                                     <h2 class="fs-4">${data.name}</h2>
                                     <div>${data.title}</div>
                                 </div>
@@ -115,7 +115,7 @@ export function loadTeam() {
                     .join('') // Join the array of cards into a single string
                 }
         </div>
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-12 text-center">
                 <h2>Sales Team</h2>
             </div>
@@ -130,7 +130,7 @@ export function loadTeam() {
                                 <div class="bg-white">
                                     <img src="${data.imgSrc}" alt="Team Image" class="w-100">
                                 </div>
-                                <div class="bg-primary text-white p-4">
+                                <div class="bg-dark text-white p-4">
                                     <h2 class="fs-4">${data.name}</h2>
                                     <div>${data.title}</div>
                                 </div>
