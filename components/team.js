@@ -2,7 +2,7 @@ export function loadTeam() {
   const teamData = [
     {
       name: 'Xiaohang Dong',
-      title: 'Managing Director and Board Member',
+      title: 'Managing Director and <span class="d-block">Board Member</span>',
       imgSrc: 'images/team/dong-1.jpg',
     },
     {
@@ -12,7 +12,7 @@ export function loadTeam() {
     },
     {
       name: 'Yuji Kaneko',
-      title: 'Strategic Planning & Sales Manager',
+      title: 'Strategic Planning & <span class="d-block">Sales Manager</span>',
       imgSrc: 'images/team/Yuji.jpg',
     },
     {
@@ -22,34 +22,36 @@ export function loadTeam() {
     },
     {
       name: 'Alan Webster',
-      title: 'General Manager - Digital & I.T.',
+      title: 'General Manager - <span class="d-block">Digital & I.T.</span>',
       imgSrc: 'images/team/alan-1.jpg',
     },
     {
       name: 'Louise Coles',
-      title: 'People and Culture Manager',
+      title: 'People and <span class="d-block">Culture Manager</span>',
       imgSrc: 'images/team/Louise.jpg',
     },
   ];
   const salesData = [
     {
       name: 'Sevil Perry',
-      title: 'Sales & Client Relationships Manager',
+      title:
+        'Sales & Client <span class="d-block">Relationships Manager</span>',
       imgSrc: 'images/team/sevil-perry.jpg',
     },
     {
       name: 'Neil Moodley',
-      title: 'Client Relationship Manager',
+      title: 'Client Relationship <span class="d-block">Manager</span>',
       imgSrc: 'images/team/Neilin.jpg',
     },
     {
       name: 'Chris Sandison',
-      title: 'Regional Sales & Client Relationship Manager',
+      title:
+        'Regional Sales & Client <span class="d-block">Relationship Manager</span>',
       imgSrc: 'images/team/Chris.jpg',
     },
     {
       name: 'Warren Brinley',
-      title: 'Sales & Client Relationship Manager',
+      title: 'Sales & Client <span class="d-block">Relationship Manager</span>',
       imgSrc: 'images/team/Warren.jpg',
     },
     {
