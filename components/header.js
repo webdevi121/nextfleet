@@ -1,6 +1,6 @@
 export function loadHeader() {
   const navItems = [
-    { name: 'About Us', href: '/about-us' },
+    { name: 'About Us', href: '/about-us.html' },
     { name: 'Services', href: '#' },
     { name: 'Resources', href: '#' },
     { name: 'Tools', href: '#' },
