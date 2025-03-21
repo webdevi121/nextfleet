@@ -66,7 +66,7 @@ export function loadTeam() {
   document.getElementById('team').innerHTML = `
     <div class="container d-flex flex-column pt-5 pb-5">
         <div class="row mb-7 align-items-center">
-            <div class="col-8">
+            <div class="col-sm-8">
                 <div class="pt-5 pb-5 pe-7 d-flex flex-column gap-3">
                 <div
                     class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
@@ -81,7 +81,7 @@ export function loadTeam() {
                 <p>Committed to continuous learning, we excel in risk management, ethical negotiation, and workplace safety. Leveraging industry-leading technology, we deliver tailored solutions that enhance efficiency, safety, and sustainability for our clients.</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <img
                 src="images/team-img-2.jpg"
                 alt="Thumbnail"
