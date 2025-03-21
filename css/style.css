@@ -11846,21 +11846,21 @@ textarea.form-control-lg {
 }
 @font-face {
   font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/ITCAvantGardePro-Bold.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-Bold.woff") format("woff");
+  src: url("../fonts/ITCAvantGardePro-Bold.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/ITCAvantGardePro-XLt.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-XLt.woff") format("woff");
+  src: url("../fonts/ITCAvantGardePro-XLt.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/ITCAvantGardePro-Bk.woff2") format("woff2"), url("../fonts/ITCAvantGardePro-Bk.woff") format("woff");
+  src: url("../fonts/ITCAvantGardePro-Bk.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
