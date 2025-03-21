@@ -100,11 +100,11 @@ export function loadTeam() {
                     .map(
                       (data) => `
                         <div>
-                            <div class="overflow-hidden rounded-4 shadow-lg">
+                            <div class="overflow-hidden rounded-4 shadow-lg team-items">
                                 <div class="bg-white">
                                     <img src="${data.imgSrc}" alt="Team Image" class="w-100">
                                 </div>
-                                <div class="bg-dark text-white p-4">
+                                <div class="bg-dark text-white p-4 team-hover">
                                     <h2 class="fs-4">${data.name}</h2>
                                     <div>${data.title}</div>
                                 </div>
@@ -126,11 +126,11 @@ export function loadTeam() {
                     .map(
                       (data) => `
                         <div>
-                            <div class="overflow-hidden rounded-4 shadow-lg">
+                            <div class="overflow-hidden rounded-4 shadow-lg team-items">
                                 <div class="bg-white">
                                     <img src="${data.imgSrc}" alt="Team Image" class="w-100">
                                 </div>
-                                <div class="bg-dark text-white p-4">
+                                <div class="bg-dark text-white p-4 team-hover">
                                     <h2 class="fs-4">${data.name}</h2>
                                     <div>${data.title}</div>
                                 </div>

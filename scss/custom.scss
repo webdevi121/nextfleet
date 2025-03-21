@@ -420,3 +420,11 @@ ul.custom-bullets {
     }
   }
 }
+//////////////////////////////////////// Breadcrumbs ////////////////////////////////////////
+.team-items {
+  &:hover {
+    .team-hover {
+      background-color: $primary !important;
+    }
+  }
+}

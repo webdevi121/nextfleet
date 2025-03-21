@@ -12419,4 +12419,8 @@ ul.custom-bullets li {
   padding-bottom: 10px;
 }
 
+.team-items:hover .team-hover {
+  background-color: #ef1c23 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
