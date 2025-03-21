@@ -346,8 +346,49 @@ ul.custom-bullets {
 .ps-7 {
   padding-left: 7rem;
 }
+.pb-6 {
+  padding-bottom: 5rem;
+}
+.pt-6 {
+  padding-top: 5rem;
+}
 
 //////////////////////////////////////// Margin ////////////////////////////////////////
 .mb-7 {
   margin-bottom: 7rem;
+}
+
+//////////////////////////////////////// dark section ////////////////////////////////////////
+.dark-img-thumbnail {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  &:after {
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    z-index: 2;
+    content: '';
+    background: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 1%,
+      rgba(0, 0, 0, 1) 36%,
+      rgba(0, 0, 0, 0) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+}
+//////////////////////////////////////// goals section ////////////////////////////////////////
+.goals-sections {
+  .-mt-custom {
+    margin-top: -170px;
+  }
+}
+//////////////////////////////////////// Content Section ////////////////////////////////////////
+.content {
+  &.mb-custom {
+    margin-bottom: 170px;
+  }
 }

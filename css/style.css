@@ -12361,8 +12361,40 @@ ul.custom-bullets li {
   padding-left: 7rem;
 }
 
+.pb-6 {
+  padding-bottom: 5rem;
+}
+
+.pt-6 {
+  padding-top: 5rem;
+}
+
 .mb-7 {
   margin-bottom: 7rem;
+}
+
+.dark-img-thumbnail {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.dark-img-thumbnail:after {
+  position: absolute;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 2;
+  content: "";
+  background: linear-gradient(to left, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 1%, rgb(0, 0, 0) 36%, rgba(0, 0, 0, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.goals-sections .-mt-custom {
+  margin-top: -170px;
+}
+
+.content.mb-custom {
+  margin-bottom: 170px;
 }
 
 /*# sourceMappingURL=style.css.map */
