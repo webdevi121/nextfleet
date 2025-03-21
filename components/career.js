@@ -23,7 +23,7 @@ export function loadCareer() {
     .join(''); // Join the array of HTML strings into one
 
   document.getElementById('career').innerHTML = `
-    <div class="bg-gray pt-5 pb-5">
+    <div class="bg-light pt-5 pb-5">
       <div class="container">
         <div class="row">
           <div class="col-12">

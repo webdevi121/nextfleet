@@ -30,7 +30,7 @@ html {
 // Now add your custom styles below
 body {
   font-family: $font-family-base;
-  background-color: $light;
+  background-color: #fff;
   font-weight: 400;
 }
 
@@ -391,4 +391,8 @@ ul.custom-bullets {
   &.mb-custom {
     margin-bottom: 170px;
   }
+}
+//////////////////////////////////////// Max Width ////////////////////////////////////////
+.mw-1600 {
+  max-width: 1600px;
 }

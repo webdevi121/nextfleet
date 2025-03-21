@@ -12034,7 +12034,7 @@ html {
 
 body {
   font-family: "ITC Avant Garde Pro", sans-serif;
-  background-color: #f7f5f3;
+  background-color: #fff;
   font-weight: 400;
 }
 
@@ -12395,6 +12395,10 @@ ul.custom-bullets li {
 
 .content.mb-custom {
   margin-bottom: 170px;
+}
+
+.mw-1600 {
+  max-width: 1600px;
 }
 
 /*# sourceMappingURL=style.css.map */
