@@ -15,7 +15,26 @@ export function loadCareer() {
         <div class="bg-white p-4 rounded-3 shadow-lg">
           <h2 class="fs-4">${job.title}</h2>
           <p>${job.description}</p>
-          <a href="${job.applyLink}" class="btn btn-primary">Apply Now!</a>
+              <a href="${job.applyLink}" class="btn btn-primary text-white fw-bold">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="text-uppercase">Apply Now</div>
+                  <div class="flex-grow-1">
+                    <svg
+                      width="15"
+                      height="15"
+                      viewBox="0 0 15 15"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                      />
+                      <path
+                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </a>
         </div>
       </div>
     `;
@@ -26,7 +45,7 @@ export function loadCareer() {
     <div class="bg-light pt-5 pb-5">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 d-flex flex-column gap-3">
             <div
               class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
             >

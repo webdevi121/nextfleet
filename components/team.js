@@ -67,7 +67,7 @@ export function loadTeam() {
     <div class="container d-flex flex-column pt-5 pb-5">
         <div class="row mb-7 align-items-center">
             <div class="col-8">
-                <div class="pt-5 pb-5 pe-7">
+                <div class="pt-5 pb-5 pe-7 d-flex flex-column gap-3">
                 <div
                     class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
                 >

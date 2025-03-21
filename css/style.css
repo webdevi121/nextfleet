@@ -4622,7 +4622,7 @@ textarea.form-control-lg {
   --bs-breadcrumb-bg: ;
   --bs-breadcrumb-border-radius: ;
   --bs-breadcrumb-divider-color: var(--bs-secondary-color);
-  --bs-breadcrumb-item-padding-x: 0.5rem;
+  --bs-breadcrumb-item-padding-x: 0.7rem;
   --bs-breadcrumb-item-active-color: var(--bs-secondary-color);
   display: flex;
   flex-wrap: wrap;
@@ -12399,6 +12399,24 @@ ul.custom-bullets li {
 
 .mw-1600 {
   max-width: 1600px;
+}
+
+.breadcrumb .breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+.breadcrumb .breadcrumb-item:not(:first-child):before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  padding: 0;
+  background-color: #ef1c23;
+  margin-right: 0.7rem;
+}
+.breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
