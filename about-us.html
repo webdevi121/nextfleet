@@ -22,7 +22,8 @@
   </head>
   <body>
     <div id="header"></div>
-    <div
+    <section
+      id="banner"
       class="static-banner d-flex align-items-center position-relative bg-black text-white overflow-hidden"
     >
       <div class="overlay-gradient"></div>
@@ -40,8 +41,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
+    </section>
+    <section id="breadcrumb" class="container">
       <div class="row">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
@@ -51,8 +52,8 @@
           </ol>
         </nav>
       </div>
-    </div>
-    <div class="bg-gray pt-5 pb-5">
+    </section>
+    <section id="overview" class="bg-gray pt-5 pb-5">
       <div class="container">
         <div class="row">
           <div class="col-7 m-auto text-center">
@@ -82,9 +83,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container d-flex flex-column gap-7 pt-5 pb-5">
+    <section id="content" class="container d-flex flex-column gap-7 pt-5 pb-5">
       <div class="row">
         <div class="col-8">
           <div class="pt-5 pb-5 pe-7">
@@ -186,9 +187,9 @@
           />
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="bg-black">
+    <section id="goals" class="bg-black">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12">
@@ -359,11 +360,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div id="team"></div>
+    <section id="team"></section>
 
-    <div
+    <section
+      id="partners"
       class="pt-5 pb-5 bg-black text-white position-relative overflow-hidden"
     >
       <div class="position-absolute top-0 start-0 w-100 z-1 opacity-25">
@@ -425,9 +427,41 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div id="testimonials"></div>
+    <section id="testimonials"></section>
+    <section id="career"></section>
+
+    <section id="work-with-us" class="bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 ms-auto pt-5 pb-5 text-white">
+            <h2>Why Work With Us?</h2>
+            <p>
+              At NextFleet, we believe in building strong partnerships,
+              delivering exceptional service, and fostering a dynamic,
+              future-focused workplace.
+            </p>
+            <p>
+              For our clients, we provide seamless, end-to-end fleet management
+              solutions, combining expertise, technology, and innovation to
+              drive efficiency and performance.
+            </p>
+            <p>
+              For our partners, we cultivate meaningful, mutually beneficial
+              collaborations to enhance industry standards and deliver
+              best-in-class solutions.
+            </p>
+            <p>
+              And for our employees, we offer an exciting opportunity to shape
+              the future of mobility, working within a diverse, forward-thinking
+              team backed by the global strength of Mitsubishi Corporation.
+            </p>
+            <p>Together, we’re redefining fleet and mobility.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div id="footer"></div>
 
@@ -436,12 +470,14 @@
 
       import { loadTeam } from './components/team.js';
       import { loadTestimonials } from './components/testimonials.js';
+      import { loadCareer } from './components/career.js';
 
       import { loadFooter } from './components/footer.js';
       loadHeader();
 
       loadTeam();
       loadTestimonials();
+      loadCareer();
 
       loadFooter();
     </script>
