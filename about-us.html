@@ -1,27 +1,68 @@
-<!doctype html>
+
+    <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap 5 Static Site</title>
-    <!-- Link to your compiled custom Bootstrap CSS (from your Sass compilation) -->
-    <link rel="stylesheet" href="/css/style.css" />
-
-    <!-- Swiper CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script src="https://cdn.rawgit.com/aamirafridi/jquery.marquee/master/jquery.marquee.min.js"></script>
-
-    <link rel="icon" type="image/png" href="/images/favico.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" type="image/png" href="images/favico.ico" />
   </head>
   <body>
-    <div id="header"></div>
+
+
+<div class="bg-black pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 col-sm-12 text-white d-flex justify-content-center mb-5">
+        <a href="/"><img src="images/nextfleet-logo.png" width="253"></a>
+      </div>
+      <div class="col-2 d-sm-none">
+          <button class="w-100 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="w-100 h-100">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-12">
+        <nav class="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="/about-us.html">About Us</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">Services</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">Resources</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">Tools</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">App</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">Contact Us</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">Mydrive</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">Login</a>
+                </li>
+                          </ul>
+            <a href="tel:1800 297 900" class="ms-auto custom-btn"><img src="images/icon-phone.png" alt="icons" width="20"> 1800 297 900</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
     <section
       id="banner"
       class="static-banner d-flex align-items-center position-relative bg-black text-white overflow-hidden"
@@ -435,7 +476,178 @@
       </div>
     </section>
 
-    <section id="team"></section>
+    
+<div class="container d-flex flex-column pt-5 pb-5">
+    <div class="row mb-7 align-items-center">
+        <div class="col-sm-8">
+            <div class="pt-5 pb-5 pe-7 d-flex flex-column gap-3">
+                <div class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2">
+                    <img src="images/iconNf.png" alt="icon" width="14" />
+                    <span>Our Experties</span>
+                </div>
+                <h2>Committed to continuous learning </h2>
+                <p>
+                    At NextFleet, our expert fleet management team drives success through collaboration, innovation, and a deep understanding of fleet management. We optimise costs, streamline operations, and manage diverse assets, from passenger vehicles to heavy commercial fleet leasing.
+                </p>
+                <p>Committed to continuous learning, we excel in risk management, ethical negotiation, and workplace safety. Leveraging industry-leading technology, we deliver tailored solutions that enhance efficiency, safety, and sustainability for our clients.</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <img src="images/team-img-2.jpg" alt="Thumbnail" class="w-100 rounded-img-custom h-100 object-fit-cover" />
+        </div>
+    </div>
+    
+    <div class="row mb-3">
+        <div class="col-12 text-center">
+            <h2>Our Leaders</h2>
+        </div>
+    </div>
+
+    <div class="row align-items-start row-cols-1 row-cols-md-4 g-4 justify-content-center mb-7">
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/dong-1.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Xiaohang Dong</h2>
+                        <div>Managing Director and <span class="d-block">Board Member</span></div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/giulio-1.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Giulio Persichilli</h2>
+                        <div>General Manager - Sales & Client Relationships</div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/Yuji.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Yuji Kaneko</h2>
+                        <div>Strategic Planning & <span class="d-block">Sales Manager</span></div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/Stel.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Stellios Falieros</h2>
+                        <div>General Manager - Finance/Company Secretary</div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/alan-1.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Alan Webster</h2>
+                        <div>General Manager - <span class="d-block">Digital & I.T.</span></div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/Louise.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Louise Coles</h2>
+                        <div>People and <span class="d-block">Culture Manager</span></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+    <div class="row mb-3">
+        <div class="col-12 text-center">
+            <h2>Sales Team</h2>
+        </div>
+    </div>
+
+    <div class="row align-items-start row-cols-1 row-cols-md-4 g-4 justify-content-center">
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/sevil-perry.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Sevil Perry</h2>
+                        <div>Sales & Client <span class="d-block">Relationships Manager</span></div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/Neilin.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Neil Moodley</h2>
+                        <div>Client Relationship <span class="d-block">Manager</span></div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/Chris.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Chris Sandison</h2>
+                        <div>Regional Sales & Client <span class="d-block">Relationship Manager</span></div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/Warren.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Warren Brinley</h2>
+                        <div>Sales & Client <span class="d-block">Relationship Manager</span></div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/Danny-Phung.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Danny Phung</h2>
+                        <div>Commercial Vehicles Operations Manager</div>
+                    </div>
+                </div>
+            </div>
+                    <div>
+                <div class="overflow-hidden rounded-4 shadow-lg team-items">
+                    <div class="bg-white">
+                        <img src="images/team/Con-V.jpg" alt="Team Image" class="w-100">
+                    </div>
+                    <div class="bg-dark text-white p-4 team-hover">
+                        <h2 class="fs-4">Con Veneziano</h2>
+                        <div>Commercial Vehicles Operations Manager</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
 
     <section
       id="partners"
@@ -521,9 +733,142 @@
       </div>
     </section>
 
-    <section id="testimonials"></section>
-    <section id="career"></section>
+    
+<div class="testimonials-section bg-white">
+  <div class="container">
+    <div class="h-100 position-relative">
+      <div class="d-flex gap-3 h-100">
+        <div class="d-none d-sm-block w-60 position-relative">
+          <img src="images/person.png" alt="" class="person-overlay">
+        </div>
 
+        <div class="overflow-hidden position-relative">
+          <div>
+            <div class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2">
+              <img src="images/iconNf.png" alt="icon" width="14" />
+              <span>Testimonials</span>
+            </div>
+            <h2 class="text-uppercase fw-bold mb-5 fs-1">What Our <span class="text-primary">Customers</span> Say</h2>
+          </div>
+          
+          <div>
+            <!-- Left Arrow -->
+            <div class="swiper-button-prev"></div>
+            <!-- Right Arrow -->
+            <div class="swiper-button-next"></div>
+
+            <div id="testimonials-swiper" class="swiper-container">
+              <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                    <div class="testimonial-card bg-light">
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="testimonials-initial">
+                          E                        </div>
+                        <div class="ms-3">
+                          <div class="fw-bold fs-5">Elizabeth</div>
+                          <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
+                        </div>
+                      </div>
+                      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
+                    </div>
+                  </div>
+                                  <div class="swiper-slide">
+                    <div class="testimonial-card bg-light">
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="testimonials-initial">
+                          M                        </div>
+                        <div class="ms-3">
+                          <div class="fw-bold fs-5">Maria S</div>
+                          <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
+                        </div>
+                      </div>
+                      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
+                    </div>
+                  </div>
+                                  <div class="swiper-slide">
+                    <div class="testimonial-card bg-light">
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="testimonials-initial">
+                          J                        </div>
+                        <div class="ms-3">
+                          <div class="fw-bold fs-5">John D</div>
+                          <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
+                        </div>
+                      </div>
+                      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
+                    </div>
+                  </div>
+                                  <div class="swiper-slide">
+                    <div class="testimonial-card bg-light">
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="testimonials-initial">
+                          J                        </div>
+                        <div class="ms-3">
+                          <div class="fw-bold fs-5">Jane D</div>
+                          <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
+                        </div>
+                      </div>
+                      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
+                    </div>
+                  </div>
+                              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<div class="bg-light pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-column gap-3">
+                <div class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2">
+                    <img src="images/iconNf.png" alt="icon" width="14" />
+                    <span>Career</span>
+                </div>
+                <h2>Build Your Career at NextFleet</h2>
+                <p>
+                    No two days are the same in fleet management, making it an exciting and dynamic industry to be a part of. As part of Mitsubishi Corporation’s Automotive & Mobility Group, NextFleet is helping redefine transport and mobility for businesses and society.
+                </p>
+                <p>
+                    Technology is driving a shift towards Connected, Autonomous, Shared, and Electric (CASE) solutions, improving efficiency and sustainability. At NextFleet, we’re committed to leading this transformation, creating better mobility solutions for all.
+                </p>
+                <p>
+                    <strong>If you'd like to stay updated on opportunities as they arise, email <a href="mailto:careers@nextfleet.net.au">careers@nextfleet.net.au</a></strong>
+                </p>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="d-flex align-items-center">
+                    <h2 class="mb-3">Career Opportunities</h2>
+                    <div class="ms-auto">
+                        <a href="" class="text-decoration-none">view more</a>
+                    </div>
+                </div>
+                <div class="row g-4">
+                                        <div class="col-12 col-md-4">
+                        <div class="bg-white p-4 rounded-3 shadow-lg">
+                            <h2 class="fs-4">Operations Officer – Fleet Administration</h2>
+                            <p>We are looking for individuals who share our vision and are eager to contribute to our mission of expanding our market presence, enhancing brand recognition, and penetrating new markets. Click on the button below to know more:</p>
+                            <a href="#" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="text-uppercase">Apply Now</div>
+                                    <div class="flex-grow-1">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor">
+                                            <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z" />
+                                            <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
     <section id="work-with-us" class="bg-black">
       <div class="container">
         <div class="row">
@@ -563,27 +908,92 @@
         </div>
       </div>
     </section>
+      <footer class="bg-black text-white pt-10 pb-10">
+    <div class="container">
+      <div class="row g-2 g-sm-5">
+        <div class="col-md-2">
+          <a href="/"><img src="images/nextfleet-logo-footer.png" alt="" width="200"></a>
+        </div>
+        <div class="col-md-2 text-gray">
+          <ul class="list-unstyled text-start">
+            <li class="mb-2 d-flex gap-3"><span><img src="images/icon-location.png" alt="" width="15"></span><span>Address Goes Here 123 Smith Street</span></li>
+            <li class="mb-2 d-flex gap-3"><span><img src="images/icon-phone.png" alt="" width="20"></span>03 9361 6333</li>
+            <li class="mb-2 d-flex gap-3"><span><img src="images/icon-mail.png" alt="" width="22"></span>info@nextfleet.com.au</li>
+          </ul>
+          <div class="col d-flex gap-3">
+            <a href="https://facebook.com" target="_blank"><img src="images/icon-facebook.png" alt="" width="34"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/icon-instagram.png" alt="" width="34"></a>
+            <a href="https://youtube.com" target="_blank"><img src="images/icon-youtube.png" alt="" width="34"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/icon-linkedin.png" alt="" width="34"></a>
+          </div>
+        </div>
+        <div class="col-md-2 text-start text-uppercase">
+          <h5 class="fw-normal">About</h5>
+            <ul class="list-unstyled text-gray">
+              <li>Who We Are</li>
+              <li>Our Team</li>
+              <li>Our Partners</li>
+            </ul>
+        </div>
+        <div class="col-md-2 text-start text-uppercase">
+          <h5 class="fw-normal">OUR SERVICES</h5>
+          <ul class="list-unstyled text-gray">
+            <li>Sales</li>
+            <li>Leasing</li>
+            <li>Management</li>
+            <li>Project Marketing</li>
+            <li>Advisory</li>
+          </ul>
+        </div>
+        <div class="col-md-2 text-start text-uppercase">
+          <h5 class="fw-normal">Tools</h5>
+          <ul class="list-unstyled text-gray">
+            <li>For Sale</li>
+            <li>For Lease</li>
+            <li>Recent Results</li>
+          </ul>
+        </div>
+        <div class="col-md-2 text-start text-uppercase">
+          <h5 class="fw-normal">My Drive</h5>
+          <ul class="list-unstyled text-gray">
+            <li>Sales</li>
+            <li>Leasing</li>
+            <li>Management</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-flex justify-content-end mt-5">
+          <a href="https://infusion121.com.au" target="_blank" class="d-block">
+            <img src="images/i121-logo.png" alt="Digital Agency" width="237" class="d-block">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <div id="footer"></div>
-
-    <script type="module">
-      import { loadHeader } from './components/header.js';
-
-      import { loadTeam } from './components/team.js';
-      import { loadTestimonials } from './components/testimonials.js';
-      import { loadCareer } from './components/career.js';
-
-      import { loadFooter } from './components/footer.js';
-      loadHeader();
-
-      loadTeam();
-      loadTestimonials();
-      loadCareer();
-
-      loadFooter();
-    </script>
-
-    <!-- Bootstrap JS (can remain from CDN or use locally if desired) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Initialize Swiper with navigation
+      const swiper = new Swiper('#testimonials-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: '.swiper-button-next', // Right arrow
+          prevEl: '.swiper-button-prev', // Left arrow
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+
+    
