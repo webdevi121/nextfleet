@@ -66,8 +66,6 @@ $salesData = [
     ],
 ];
 
-// Include the header
-include('header.php');
 ?>
 
 <div class="container d-flex flex-column pt-5 pb-5">
