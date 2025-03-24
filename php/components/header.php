@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap 5 Static Site</title>
+    <title>Fleet Management Services Simplified</title>
+    <meta name="description" content="At NextFleet we seamlessly manage, support, and optimise your corporate fleet management">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="icon" type="image/png" href="images/favico.ico" />
