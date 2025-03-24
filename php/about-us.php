@@ -7,7 +7,7 @@
   ob_start();
 ?>
 
-    <?php loadComponent("header");?>
+<?php loadComponent("header");?>
     <section
       id="banner"
       class="static-banner d-flex align-items-center position-relative bg-black text-white overflow-hidden"
@@ -552,7 +552,7 @@
     <?php loadComponent("footer"); ?>
 
 
-    
+
 <?php
   // Get the buffered content
   $output = ob_get_contents();
