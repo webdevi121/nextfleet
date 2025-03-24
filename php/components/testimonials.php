@@ -51,7 +51,7 @@
             <!-- Right Arrow -->
             <div class="swiper-button-next"></div>
 
-            <div class="swiper-container">
+            <div id="testimonials-swiper" class="swiper-container">
               <div class="swiper-wrapper">
                 <?php foreach ($testimonials as $testimonial): ?>
                   <div class="swiper-slide">
@@ -77,21 +77,3 @@
     </div>
   </div>
 </div>
-
-<script>
-  // Initialize Swiper with navigation
-  const swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    navigation: {
-      nextEl: '.swiper-button-next', // Right arrow
-      prevEl: '.swiper-button-prev', // Left arrow
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
-      },
-    },
-  });
-</script>
