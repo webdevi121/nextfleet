@@ -18,14 +18,14 @@
       </div>
       <div class="container position-relative z-3">
         <div class="row">
-          <div class="col-sm-5 d-flex flex-column gap-5">
+          <div class="col-sm-6 d-flex flex-column gap-5">
             <div
               class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
             >
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>About Us</span>
             </div>
-            <h1>Your trusted fleet management organisation</h1>
+            <h1 class="text-uppercase">Your trusted fleet management organisation</h1>
             <div>
               <a href="/" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
@@ -107,7 +107,7 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>Our Experties</span>
             </div>
-            <h2>From corporate fleet management to vehicle acquisition</h2>
+            <h2>From Corporate Fleet Management to Vehicle Acquisition</h2>
             <p>
               From corporate fleet management to vehicle acquisition and
               financing to maintenance and disposal, we support the entire fleet
@@ -143,7 +143,7 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>WHY CHOOSE NextFleet?</span>
             </div>
-            <h2>Strategic partner committed to Optimising efficiency</h2>
+            <h2>Strategic Partner Committed to Optimising Efficiency</h2>
             <p>
               Vehicle fleet leasing is complex - but with NextFleet, you gain a
               strategic partner committed to optimising efficiency and reducing
@@ -180,7 +180,7 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>FUTURE OF FLEETS</span>
             </div>
-            <h2>Driving the Future of Fleets</h2>
+            <h2>Driving The Future of Fleets</h2>
             <p>
               NextFleet is at the forefront of fleet innovation, embracing CASE
               (Connected, Autonomous, Shared, Electric) technology for a
@@ -447,7 +447,7 @@
                 <img src="images/iconNf.png" alt="icon" width="14" />
                 <span>OUR PARTNERS</span>
               </div>
-              <h2>Strong partnerships are the foundation of our success</h2>
+              <h2>Strong Partnerships Are The Foundation of Our Success</h2>
               <p>
                 At NextFleet, strong partnerships are the foundation of our
                 success. By collaborating with trusted industry leaders, we

@@ -76,7 +76,7 @@ $salesData = [
                     <img src="images/iconNf.png" alt="icon" width="14" />
                     <span>Our Experties</span>
                 </div>
-                <h2>Committed to continuous learning </h2>
+                <h2>Committed to Continuous Learning </h2>
                 <p>
                     At NextFleet, our expert fleet management team drives success through collaboration, innovation, and a deep understanding of fleet management. We optimise costs, streamline operations, and manage diverse assets, from passenger vehicles to heavy commercial fleet leasing.
                 </p>
