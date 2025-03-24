@@ -20,6 +20,7 @@
     <link rel="icon" type="image/png" href="images/favico.ico" />
   </head>
   <body>
+    <?php loadComponent("header");?>
     <section
       id="banner"
       class="static-banner d-flex align-items-center position-relative bg-black text-white overflow-hidden"
@@ -433,7 +434,7 @@
       </div>
     </section>
 
-    <section id="team"></section>
+    <?php loadComponent("team");?>
 
     <section
       id="partners"
@@ -519,8 +520,8 @@
       </div>
     </section>
 
-    <section id="testimonials"></section>
-    <section id="career"></section>
+    <?php loadComponent("testimonials");?>
+    <?php loadComponent("career");?>
 
     <section id="work-with-us" class="bg-black">
       <div class="container">
@@ -561,14 +562,7 @@
         </div>
       </div>
     </section>
-    <?php
-      // Load the components for the page
-      loadComponent("header");  // Assuming header.php is in the components folder
-      loadComponent("team");    // Assuming team.php is in the components folder
-      loadComponent("testimonials");  // Assuming testimonials.php is in the components folder
-      loadComponent("career");   // Assuming career.php is in the components folder
-      loadComponent("footer");  // Assuming footer.php is in the components folder
-    ?>
+    <?php loadComponent("footer"); ?>
 
     <!-- Bootstrap JS (can remain from CDN or use locally if desired) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
