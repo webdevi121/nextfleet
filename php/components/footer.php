@@ -44,7 +44,7 @@ $drive_links = [
   <div class="container">
     <div class="row g-2 g-sm-5">
       <div class="col-md-2">
-        <a href="/"><img src="images/nextfleet-logo-footer.png" alt="" width="200"></a>
+        <a href="/"><img src="images/nextfleet-logo-footer.jpg" alt="" width="200"></a>
       </div>
       <div class="col-md-2 text-gray">
         <ul class="list-unstyled text-start">
