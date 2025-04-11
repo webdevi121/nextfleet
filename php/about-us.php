@@ -25,7 +25,7 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>About Us</span>
             </div>
-            <h1 class="text-uppercase">Your trusted fleet management organisation</h1>
+            <h1 class="text-uppercase">Your Trusted Fleet Management Partner</h1>
             <div>
               <a href="/" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
@@ -67,12 +67,7 @@
         <div class="row">
           <div class="col-sm-7 m-auto text-center">
             <p>
-              <strong class="text-primary">NextFleet</strong> is a trusted fleet
-              management organisation backed by Mitsubishi Corporation, Japan’s
-              largest trading and investment company. With offices in Brisbane,
-              Sydney, and Melbourne, we provide end-to-end fleet solutions that
-              reduce costs, improve efficiency, and simplify operations for
-              businesses across Australia.
+              <strong class="text-primary">NextFleet</strong> is a trusted fleet management organisation backed by Mitsubishi Corporation, Japan’s largest trading and investment company. With offices in Brisbane, Sydney, Perth and Melbourne, we provide end-to-end fleet solutions that reduce costs, improve efficiency, and simplify operations for businesses across Australia.
             </p>
             <ul class="d-flex list-unstyled gap-3 justify-content-center">
               <li><strong>Our Office:</strong></li>
@@ -86,8 +81,13 @@
               </li>
               <li>
                 <img src="images/iconLocation.png" alt="icon" width="12" />
+                Perth
+              </li>
+              <li>
+                <img src="images/iconLocation.png" alt="icon" width="12" />
                 Melbourne
               </li>
+
             </ul>
           </div>
         </div>
@@ -107,14 +107,9 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>Our Experties</span>
             </div>
-            <h2>From Corporate Fleet Management to Vehicle Acquisition</h2>
+            <h2>From Strategic Consulting and Flexible Leasing to Tailored Fleet Management Solutions</h2>
             <p>
-              From corporate fleet management to vehicle acquisition and
-              financing to maintenance and disposal, we support the entire fleet
-              lifecycle. With 24/7 driver support and a national dealership
-              network, we ensure seamless fleet operations. Our advanced
-              telematics and compliance solutions help businesses enhance
-              safety, efficiency, and cost control.
+            From strategic consulting and flexible leasing to tailored fleet management solutions, we support the entire fleet lifecycle. Our services ensure seamless operations. With 24/7 driver assistance, a nationwide dealership network, and advanced telematics, we help enhance safety, efficiency, and cost control for fleets of any size and industry.
             </p>
           </div>
         </div>
@@ -145,26 +140,23 @@
             </div>
             <h2>Strategic Partner Committed to Optimising Efficiency</h2>
             <p>
-              Vehicle fleet leasing is complex - but with NextFleet, you gain a
-              strategic partner committed to optimising efficiency and reducing
-              costs. Our expertise ensures you stay in control while we handle
-              the complexities.
+            Vehicle fleet leasing is complex - but with NextFleet, you gain a strategic partner committed to optimising efficiency and reducing costs. Our expertise ensures you stay in control while we handle the complexities.
+
             </p>
             <ul class="custom-bullets">
-              <li>Tailored vehicle fleet leasing and finance solutions</li>
-              <li>
-                Flexible options for SME fleet management services, corporate
-                fleet management, and government fleet management
+              <li>Leasing solutions tailored for fleets of all sizes
               </li>
               <li>
-                Cutting-edge telematics for improved utilisation and safety
+              Flexible fleet management options designed for businesses of all sizes across industries, including Government, SMEs and corporate fleets
               </li>
               <li>
-                Commercial fleet leasing specialists, including trucks, heavy
-                vehicles, and plant & equipment
+              Cutting-edge telematics for improved utilisation and safety
               </li>
               <li>
-                A client-focused approach to risk management and optimisation
+              Commercial fleet leasing specialists, including trucks, heavy vehicles, and plant & equipment
+              </li>
+              <li>
+              A client-focused approach to risk management and optimisation
               </li>
             </ul>
           </div>
@@ -218,7 +210,7 @@
               <div class="row">
                 <div class="col-10 col-sm-7 m-auto text-center">
                   <h2>
-                    Our Mitsubishi <span class="text-primary">Connection</span>
+                  Our Connection to Mitsubishi <span class="text-primary">Corporation</span>
                   </h2>
                   <p>
                     As a wholly owned subsidiary of Mitsubishi Corporation,
@@ -239,7 +231,7 @@
                   <a href="/" class="btn btn-primary text-white fw-bold">
                     <div class="d-flex align-items-center gap-2">
                       <div class="text-uppercase">
-                        VISIT MITSUBISHI AUSTRALIA
+                        VISIT MITSUBISHI CORPORATION
                       </div>
                       <div class="flex-grow-1">
                         <svg
@@ -339,11 +331,7 @@
                   </span>
                 </div>
                 <div class="small">
-                  With 40+ years of experience across the Group, our in-house
-                  experts optimise every stage of the fleet
-                  lifecycle—procurement, funding, maintenance, and supplier
-                  management—while minimising end-of-lease costs for vehicle
-                  fleet management.
+                With 40+ years of experience across the Group, our in-house experts optimise every stage of the fleet lifecycle—procurement, funding, maintenance, and supplier management while minimising life cycle costs for your fleet.
                 </div>
               </div>
             </div>
@@ -482,7 +470,7 @@
               <a href="/" class="btn btn-primary text-white fw-bold bg-white">
                 <div class="d-flex align-items-center gap-2">
                   <div class="text-uppercase text-black">
-                    VISIT MITSUBISHI AUSTRALIA
+                    VISIT NEXTFLEET AUSTRALIA
                   </div>
                   <div class="flex-grow-1">
                     <svg

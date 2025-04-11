@@ -2,10 +2,10 @@
 $services = [
     [
         "img" => "images/placeholder-1.png",
-        "title" => "Corporate Fleet Management Solutions",
-        "description" => "Reduce costs, boost efficiency, ensure compliance, and streamline operations with our commercial fleet management services.",
+        "title" => "Fleet Management Solutions",
+        "description" => "Reduce costs, boost efficiency, ensure compliance, and streamline operations with our fleet management services.",
         "accentColor" => "accent-color-1",
-        "buttonLabel" => "Explore Corporate Solutions",
+        "buttonLabel" => "Explore Fleet Solutions",
         "buttonLink" => ""
     ],
     [
@@ -19,7 +19,7 @@ $services = [
     [
         "img" => "images/placeholder-3.png",
         "title" => "Fleet Management <span class=\"d-block\">Consulting Services</span>",
-        "description" => "Gain valuable insights and expert guidance with our corporate fleet management consulting services, designed to optimise your fleet's performance, reduce costs, and align operations with your business goals.",
+        "description" => "Gain valuable insights and expert guidance with our fleet management consulting services, designed to optimise your fleet's performance, reduce costs, and align operations with your business goals.",
         "accentColor" => "accent-color-3",
         "buttonLabel" => "Explore Consulting Solutions",
         "buttonLink" => ""
@@ -57,7 +57,7 @@ $services = [
               <img src="<?= $service['img']; ?>" alt="Service Image" class="img-placeholder">
               <div class="row g-2 pt-0 p-4">
                 <h3 class="text-uppercase"><?= $service['title']; ?></h3>
-                <p class="line-clamp-3 subtext"><?= $service['description']; ?></p>
+                <p class="line-clamp-4 subtext"><?= $service['description']; ?></p>
                 <div>
                   <a href="<?= $service['buttonLink']; ?>" class="text-uppercase custom-btn text-pre" style="color: var(--<?= $service['accentColor']; ?>)">
                     <div class="d-flex align-items-center gap-2">

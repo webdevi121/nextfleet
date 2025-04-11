@@ -8,7 +8,7 @@
         <div class="position-relative h-100">
             <div class="w-40">
                 <h1>FLEET MANAGEMENT SERVICES SIMPLIFIED</h1>
-                <p>At NextFleet we seamlessly manage, support, and optimise your corporate fleet management</p>
+                <p>NextFleet simplifies leasing and fleet management, delivering tailored solutions to optimise and support your fleet effortlessly.</p>
                 <div>
                     <form class="d-flex flex-column flex-sm-row gap-2">
                         <input type="email" class="form-control me-2 rounded-5" placeholder="Enter your email" required>
