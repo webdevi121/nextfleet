@@ -78,7 +78,7 @@ $salesData = [
                 </div>
                 <h2>Committed to Continuous Learning </h2>
                 <p>
-                    At NextFleet, our expert fleet management team drives success through collaboration, innovation, and a deep understanding of fleet management. We optimise costs, streamline operations, and manage diverse assets, from passenger vehicles to heavy commercial fleet leasing.
+                    At NextFleet, our expert fleet management team drives success through collaboration, innovation, and a deep understanding of fleet management. We optimise costs, streamline operations, and manage diverse assets, from passenger vehicles to heavy commercial vehicles.
                 </p>
                 <p>Committed to continuous learning, we excel in risk management, ethical negotiation, and workplace safety. Leveraging industry-leading technology, we deliver tailored solutions that enhance efficiency, safety, and sustainability for our clients.</p>
             </div>
@@ -131,5 +131,31 @@ $salesData = [
             </div>
         <?php endforeach; ?>
     </div>
+    <div class="row pt-5 pb-5">
+          <div class="col-12">
+            <div class="text-center">
+              <a href="/" class="btn btn-primary text-white fw-bold">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="text-uppercase">Speak to an Expert</div>
+                  <div class="flex-grow-1">
+                    <svg
+                      width="15"
+                      height="15"
+                      viewBox="0 0 15 15"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                      />
+                      <path
+                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
 </div>
 
