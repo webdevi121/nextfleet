@@ -177,30 +177,8 @@
                     <li>Driver Safety & Training – Minimise risk and enhance driver performance with safety programs, coaching, and telematics-based feedback.</li>
                 </ul>
                 <p>Whether you operate a compact fleet or a nationwide network of vehicles, our customised solutions ensure your business stays mobile, efficient, and future-ready.</p>
-                <img src="images/services-img-placeholder.jpg" alt="">
-                <div class="rounded-lg bg-primary text-center text-white rounded-4 p-5">
-                    <div class="fs-3 pb-2 fw-bold">Ready to optimise your fleet?</div>
-                    <a href="/" class="btn btn-primary text-white fw-bold bg-white">
-                        <div class="d-flex align-items-center gap-2">
-                            <div class="text-uppercase text-black">Enquire Now</div>
-                            <div class="flex-grow-1">
-                                <svg
-                                width="15"
-                                height="15"
-                                viewBox="0 0 15 15"
-                                fill="text-black"
-                                >
-                                <path
-                                    d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
-                                />
-                                <path
-                                    d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
-                                />
-                                </svg>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                <img src="images/services-img-placeholder.jpg" alt="" class="w-100 rounded-4 overflow-hidden">
+                <div class="mt-5"><?php loadComponent("cta-services"); ?></div>
             `
         },
         {
