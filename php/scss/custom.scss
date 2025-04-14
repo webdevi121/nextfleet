@@ -444,6 +444,23 @@ ul.custom-bullets {
     .nav-link {
       padding: 10px 15px;
       border-radius: 10px;
+      position: relative;
+      &.active {
+        &:after {
+          content: '';
+          display: block;
+          width: 0;
+          height: 0;
+          border-top: 9px solid transparent; /* Top edge is invisible */
+          border-bottom: 9px solid transparent; /* Bottom edge is invisible */
+          border-left: 9px solid $primary; /* Right-pointing triangle */
+          position: absolute;
+          right: -8px;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+      }
       &:not(.active) {
         background-color: #e5e5e5;
         color: black;
