@@ -12009,6 +12009,7 @@ h6, .h6 {
 }
 .swiper-container .swiper-slide {
   opacity: 0.4;
+  height: auto;
 }
 .swiper-container .swiper-slide:nth-child(3n+1) .testimonials-initial {
   background-color: #dc3545;
