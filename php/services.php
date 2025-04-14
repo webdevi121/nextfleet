@@ -75,6 +75,30 @@
       </div>
     </section>
 
+    <section id="services-container">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Navigation -->
+                <div class="col-sm-4">
+                    <div class="position-sticky top-0 pt-10 pb-10">
+                        <h2>Our Services</h2>
+                        <ul class="nav flex-column nav-pills gap-3" id="service-tabs" role="tablist">
+                            <!-- Tabs will be injected here -->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="col-sm-8 pt-10 pb-10">
+                    <div class="tab-content" id="service-tabContent">
+                        <!-- Tab panes will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <section id="work-with-us" class="bg-black">
       <div class="container">
@@ -155,3 +179,144 @@
   echo "Export completed! Check the root directory.";
   echo $output;
 ?>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const tabLinks = document.querySelectorAll('#service-tabs .nav-link');
+
+        tabLinks.forEach(link => {
+            link.addEventListener('shown.bs.tab', function () {
+                const container = document.getElementById('services-container');
+                if (container) {
+                    container.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+    const tabData = [
+        {
+            id: 'tab-1',
+            title: 'Fleet Management Solutions',
+            content: `
+                <h2>Fleet Management Solutions Built for Your Needs</h2>
+                <p>Managing a fleet is more than just keeping vehicles on the road—it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes.</p>
+                <ul class="custom-bullets">
+                    <li>Fleet Optimisation & Cost Control – Reduce unnecessary expenses with strategic vehicle selection, fuel management, and lifecycle planning.</li>
+                    <li>Real-Time Fleet Tracking & Reporting – Gain complete visibility over your fleet with advanced telematics, GPS tracking, and usage analytics.</li>
+                    <li>Compliance & Risk Management – Stay ahead of evolving regulations with automated compliance monitoring, safety protocols, and driver risk assessments.</li>
+                    <li>Vehicle Acquisition & Disposal – Ensure cost-effective fleet turnover with smart procurement strategies and optimised resale timing.</li>
+                    <li>Sustainability & Emission Reduction – Transition to a greener fleet with fuel-efficient solutions, hybrid and EV integration, and carbon reduction strategies.</li>
+                    <li>Driver Safety & Training – Minimise risk and enhance driver performance with safety programs, coaching, and telematics-based feedback.</li>
+                </ul>
+                <p>Whether you operate a compact fleet or a nationwide network of vehicles, our customised solutions ensure your business stays mobile, efficient, and future-ready.</p>
+                <img src="images/services-img-placeholder.jpg" alt="">
+            `
+        },
+        {
+            id: 'tab-2',
+            title: 'Explore Fleet Management',
+            content: `
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+            `
+        },
+        {
+            id: 'tab-3',
+            title: 'Comprehensive Fleet Management Services',
+            content: `
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+            `
+        },
+        {
+            id: 'tab-4',
+            title: 'Is an Outsourced Fleet Model Right for You?',
+            content: `
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+            `
+        },
+        {
+            id: 'tab-5',
+            title: 'Flexible Financing for Your Fleet',
+            content: `
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+            `
+        },
+        {
+            id: 'tab-6',
+            title: 'Leasing Solutions',
+            content: `
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+            `
+        },
+        {
+            id: 'tab-7',
+            title: 'Driving Towards a Greener Fleet',
+            content: `
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+            `
+        },
+        {
+            id: 'tab-8',
+            title: 'Zero-Emission Fleet Solutions',
+            content: `
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+            `
+        },
+        {
+            id: 'tab-9',
+            title: 'Specialised Truck Leasing & Management',
+            content: `
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+            `
+        }
+    ];
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const tabList = document.getElementById('service-tabs');
+        const tabContent = document.getElementById('service-tabContent');
+
+        tabData.forEach((tab, index) => {
+            const isActive = index === 0 ? 'active' : '';
+            const isShow = index === 0 ? 'show active' : '';
+
+            // Create tab nav
+            const li = document.createElement('li');
+            li.className = 'nav-item';
+            li.role = 'presentation';
+            li.innerHTML = `
+                <a class="nav-link ${isActive}" id="${tab.id}-tab" data-bs-toggle="tab" href="#${tab.id}" role="tab" aria-controls="${tab.id}" aria-selected="${index === 0}">
+                    ${tab.title}
+                </a>
+            `;
+            tabList.appendChild(li);
+
+            // Create tab pane
+            const div = document.createElement('div');
+            div.className = `tab-pane fade ${isShow}`;
+            div.id = tab.id;
+            div.role = 'tabpanel';
+            div.setAttribute('aria-labelledby', `${tab.id}-tab`);
+            div.innerHTML = tab.content;
+            tabContent.appendChild(div);
+        });
+
+        // Smooth scroll to #services-container when tab is shown
+        const tabLinks = document.querySelectorAll('#service-tabs .nav-link');
+        tabLinks.forEach(link => {
+            link.addEventListener('shown.bs.tab', function () {
+                const container = document.getElementById('services-container');
+                if (container) {
+                    container.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    });
+</script>

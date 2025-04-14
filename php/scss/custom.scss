@@ -438,3 +438,24 @@ ul.custom-bullets {
     }
   }
 }
+//////////////////////////////////////// Nav Pills ////////////////////////////////////////
+.nav-pills {
+  .nav-item {
+    .nav-link {
+      padding: 10px 15px;
+      border-radius: 10px;
+      &:not(.active) {
+        background-color: #e5e5e5;
+        color: black;
+      }
+    }
+  }
+}
+//////////////////////////////////////// TABS ////////////////////////////////////////
+.tab-content {
+  img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
