@@ -12043,6 +12043,10 @@ h6, .h6 {
   left: -20px !important;
 }
 
+.swiper-slide {
+  height: auto !important;
+}
+
 html {
   font-size: 14px;
 }
