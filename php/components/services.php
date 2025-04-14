@@ -49,9 +49,9 @@ $services = [
       <div class="text-center mb-4">
         <h2 class="text-uppercase">Our Services</h2>
       </div>
-      <div class="row align-items-start row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
         <?php foreach ($services as $service): ?>
-          <div>
+          <div class="d-flex">
             <div class="cards">
               <div class="services-accent-color" style="background-color: var(--<?= $service['accentColor']; ?>);"></div>
               <img src="<?= $service['img']; ?>" alt="Service Image" class="img-placeholder">

@@ -11876,6 +11876,8 @@ textarea.form-control-lg {
   --gray-color: #999999;
   --bs-nav-link-hover-color: var(--primary-color);
   --bg-color: "#010204";
+  --swiper-pagination-color: #ef1c23;
+  --swiper-pagination-bullet-inactive-color: #fff;
 }
 
 .subtext {
@@ -11980,7 +11982,7 @@ h6, .h6 {
 .testimonials-section .person-overlay {
   width: 690px;
   left: -250px;
-  bottom: -110px;
+  bottom: -505px;
   position: absolute;
   z-index: 2;
 }
@@ -12020,12 +12022,24 @@ h6, .h6 {
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: var(--primary-color) !important;
+  color: #fff !important;
+  background-color: #ef1c23;
+  border-radius: 100%;
+  width: 44px !important;
+  height: 44px Im !important;
 }
 .swiper-button-next:before, .swiper-button-next:after,
 .swiper-button-prev:before,
 .swiper-button-prev:after {
   font-size: 17px !important;
+}
+
+.swiper-button-next {
+  right: -20px !important;
+}
+
+.swiper-button-prev {
+  left: -20px !important;
 }
 
 html {

@@ -24,6 +24,7 @@ $breadcrumb-item-padding-x: 0.7rem;
 @import 'components/services'; // New method with `@use`
 @import 'components/btn'; // New method with `@use`
 @import 'components/testimonials'; // New method with `@use`
+@import 'components/swiper'; // New method with `@use`
 
 html {
   font-size: 14px; // This will set the base font size to 14px
@@ -468,3 +469,5 @@ ul.custom-bullets {
     }
   }
 }
+
+//////////////////////////////////////// Swiper ////////////////////////////////////////

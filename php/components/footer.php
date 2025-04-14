@@ -119,13 +119,39 @@ $drive_links = [
     spaceBetween: 30,
     loop: true,
     navigation: {
-      nextEl: '.swiper-button-next', // Right arrow
-      prevEl: '.swiper-button-prev', // Left arrow
+      prevEl: '.testimonials-swiper-button-prev', // Right arrow
+      nextEl: '.testimonials-swiper-button-next', // Left arrow
     },
     breakpoints: {
       768: {
         slidesPerView: 2,
       },
     },
+  });
+</script>
+
+
+<!-- Swiper Config -->
+<script>
+  const swiper2 = new Swiper("#promotionSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".promotion-swiper-button-next",
+      prevEl: ".promotion-swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      }
+    }
   });
 </script>

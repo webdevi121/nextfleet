@@ -105,8 +105,8 @@
       <div class="text-center mb-4">
         <h2 class="text-uppercase">Our Services</h2>
       </div>
-      <div class="row align-items-start row-cols-1 row-cols-md-3 g-4">
-                  <div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="d-flex">
             <div class="cards">
               <div class="services-accent-color" style="background-color: var(--accent-color-1);"></div>
               <img src="images/placeholder-1.png" alt="Service Image" class="img-placeholder">
@@ -129,7 +129,7 @@
               </div>
             </div>
           </div>
-                  <div>
+                  <div class="d-flex">
             <div class="cards">
               <div class="services-accent-color" style="background-color: var(--accent-color-2);"></div>
               <img src="images/placeholder-2.png" alt="Service Image" class="img-placeholder">
@@ -152,7 +152,7 @@
               </div>
             </div>
           </div>
-                  <div>
+                  <div class="d-flex">
             <div class="cards">
               <div class="services-accent-color" style="background-color: var(--accent-color-3);"></div>
               <img src="images/placeholder-3.png" alt="Service Image" class="img-placeholder">
@@ -175,7 +175,7 @@
               </div>
             </div>
           </div>
-                  <div>
+                  <div class="d-flex">
             <div class="cards">
               <div class="services-accent-color" style="background-color: var(--accent-color-4);"></div>
               <img src="images/placeholder-4.png" alt="Service Image" class="img-placeholder">
@@ -198,7 +198,7 @@
               </div>
             </div>
           </div>
-                  <div>
+                  <div class="d-flex">
             <div class="cards">
               <div class="services-accent-color" style="background-color: var(--accent-color-5);"></div>
               <img src="images/placeholder-5.png" alt="Service Image" class="img-placeholder">
@@ -263,85 +263,90 @@
 </div>
 <div class="testimonials-section bg-white">
   <div class="container">
-    <div class="h-100 position-relative">
-      <div class="d-flex gap-3 h-100">
-        <div class="d-none d-sm-block w-60 position-relative">
-          <img src="images/person.png" alt="" class="person-overlay">
-        </div>
 
-        <div class="overflow-hidden position-relative">
-          <div>
-            <div class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2">
-              <img src="images/iconNf.png" alt="icon" width="14" />
-              <span>Testimonials</span>
-            </div>
-            <h2 class="text-uppercase fw-bold mb-5 fs-1">What Our <span class="text-primary">Customers</span> Say</h2>
+
+        <div class="row position-relative">
+          <div class="col-4">
+          <div class="d-none d-sm-block w-60 position-relative">
+            <img src="images/person.png" alt="" class="person-overlay">
           </div>
-          
-          <div>
-            <!-- Left Arrow -->
-            <div class="swiper-button-prev"></div>
-            <!-- Right Arrow -->
-            <div class="swiper-button-next"></div>
-
-            <div id="testimonials-swiper" class="swiper-container">
-              <div class="swiper-wrapper">
-                                  <div class="swiper-slide">
-                    <div class="testimonial-card bg-light">
-                      <div class="d-flex align-items-center mb-3">
-                        <div class="testimonials-initial">
-                          E                        </div>
-                        <div class="ms-3">
-                          <div class="fw-bold fs-5">Elizabeth</div>
-                          <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
-                        </div>
-                      </div>
-                      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
-                    </div>
-                  </div>
-                                  <div class="swiper-slide">
-                    <div class="testimonial-card bg-light">
-                      <div class="d-flex align-items-center mb-3">
-                        <div class="testimonials-initial">
-                          M                        </div>
-                        <div class="ms-3">
-                          <div class="fw-bold fs-5">Maria S</div>
-                          <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
-                        </div>
-                      </div>
-                      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
-                    </div>
-                  </div>
-                                  <div class="swiper-slide">
-                    <div class="testimonial-card bg-light">
-                      <div class="d-flex align-items-center mb-3">
-                        <div class="testimonials-initial">
-                          J                        </div>
-                        <div class="ms-3">
-                          <div class="fw-bold fs-5">John D</div>
-                          <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
-                        </div>
-                      </div>
-                      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
-                    </div>
-                  </div>
-                                  <div class="swiper-slide">
-                    <div class="testimonial-card bg-light">
-                      <div class="d-flex align-items-center mb-3">
-                        <div class="testimonials-initial">
-                          J                        </div>
-                        <div class="ms-3">
-                          <div class="fw-bold fs-5">Jane D</div>
-                          <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
-                        </div>
-                      </div>
-                      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
-                    </div>
-                  </div>
-                              </div>
+          </div>
+          <div class="col-8 ms-auto">
+            <div>
+              <div class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2">
+                <img src="images/iconNf.png" alt="icon" width="14" />
+                <span>Testimonials</span>
+              </div>
+              <h2 class="text-uppercase fw-bold mb-5 fs-1">What Our <span class="text-primary">Customers</span> Say</h2>
             </div>
           </div>
+          <div class="col-8 ms-auto">
+            <div class="position-relative">
+              <div id="testimonials-swiper" class="swiper-container overflow-hidden">
+                <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
+                      <div class="testimonial-card bg-light">
+                        <div class="d-flex align-items-center mb-3">
+                          <div class="testimonials-initial">
+                            E                          </div>
+                          <div class="ms-3">
+                            <div class="fw-bold fs-5">Elizabeth</div>
+                            <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
+                          </div>
+                        </div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
+                      </div>
+                    </div>
+                                      <div class="swiper-slide">
+                      <div class="testimonial-card bg-light">
+                        <div class="d-flex align-items-center mb-3">
+                          <div class="testimonials-initial">
+                            M                          </div>
+                          <div class="ms-3">
+                            <div class="fw-bold fs-5">Maria S</div>
+                            <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
+                          </div>
+                        </div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
+                      </div>
+                    </div>
+                                      <div class="swiper-slide">
+                      <div class="testimonial-card bg-light">
+                        <div class="d-flex align-items-center mb-3">
+                          <div class="testimonials-initial">
+                            J                          </div>
+                          <div class="ms-3">
+                            <div class="fw-bold fs-5">John D</div>
+                            <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
+                          </div>
+                        </div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
+                      </div>
+                    </div>
+                                      <div class="swiper-slide">
+                      <div class="testimonial-card bg-light">
+                        <div class="d-flex align-items-center mb-3">
+                          <div class="testimonials-initial">
+                            J                          </div>
+                          <div class="ms-3">
+                            <div class="fw-bold fs-5">Jane D</div>
+                            <div><img src="images/star-icons.png" alt="Ratings" width="135"></div>
+                          </div>
+                        </div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?</div>
+                      </div>
+                    </div>
+                                  </div>
+                  
+                <!-- Left Arrow -->
+                <div class="swiper-button-prev testimonials-swiper-button-prev"></div>
+                <!-- Right Arrow -->
+                <div class="swiper-button-next testimonials-swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
         </div>
+        
       </div>
     </div>
   </div>
@@ -354,172 +359,111 @@
       <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
     </svg>
   </div>
+
   <div class="pt-10 pb-10 container z-2 position-relative">
-    <div class="text-center text-white mx-auto row g-3 mb-5">
-      <div class="col-12 col-sm-6 mx-auto"> <!-- Responsive width -->
-        <h2 class="text-uppercase fw-bold fs-1">Discover Exceptional Vehicle Lease Deals Today!</h2>
-        <p>Empower your business fleet with our competitive leasing options. Affordable, flexible, and built for your needs.</p>
-      </div>
+    <div class="row">
+        <div class="col-12">
+          <div class="text-center text-white mx-auto row g-3 mb-5">
+            <div class="col-12 col-sm-6 mx-auto">
+              <h2 class="text-uppercase fw-bold fs-1">Discover Exceptional Vehicle Lease Deals Today!</h2>
+              <p>Empower your business fleet with our competitive leasing options. Affordable, flexible, and built for your needs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="position-relative">
+            <!-- Swiper Container -->
+            <div id="promotionSwiper" class="overflow-hidden">
+              <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                    <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative h-100">
+                      <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal One!</div>
+                      <div><img src="images/placeholder-1.png" alt="" class="d-block m-auto"></div>
+                      <div class="row gap-2">
+                        <h2 class="fw-bold text-primary mb-0 fs-4">Toyota Hybrid</h2>
+                        <div class="fs-6">RAV4 GX Wagon 5dr CVT 6sp 2WD 2.5i/88kW Hybrid</div>
+                        <div class="fs-5 fw-bold">From $180/wk* <br/>Incl. budgeted running costs</div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="swiper-slide">
+                    <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative h-100">
+                      <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Two!</div>
+                      <div><img src="images/placeholder-2.png" alt="" class="d-block m-auto"></div>
+                      <div class="row gap-2">
+                        <h2 class="fw-bold text-primary mb-0 fs-4">Kia Hybrid</h2>
+                        <div class="fs-6">Sportage HEV  Wagon 5dr Spts Auto 6sp FWD 1.6T/44kW Hybrid</div>
+                        <div class="fs-5 fw-bold">From $195/wk* <br/>Incl. budgeted running costs</div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="swiper-slide">
+                    <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative h-100">
+                      <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Three!</div>
+                      <div><img src="images/placeholder-4.png" alt="" class="d-block m-auto"></div>
+                      <div class="row gap-2">
+                        <h2 class="fw-bold text-primary mb-0 fs-4">Isuzu Diesel</h2>
+                        <div class="fs-6">ISUZU RG D-MAX SX UTILITY Crew Cab 4dr Spts Auto 6sp 4x4 1065kg 3.0DT</div>
+                        <div class="fs-5 fw-bold">From $183/wk* <br/> Incl. budgeted running costs</div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="swiper-slide">
+                    <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative h-100">
+                      <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Four!</div>
+                      <div><img src="images/placeholder-4.png" alt="" class="d-block m-auto"></div>
+                      <div class="row gap-2">
+                        <h2 class="fw-bold text-primary mb-0 fs-4">Toyota</h2>
+                        <div class="fs-6">Corolla Ascent Sport Hatchback Hybrid 5dr E-CVT 1sp 1.8i/70kW Hybrid</div>
+                        <div class="fs-5 fw-bold">From $155/ wk* Incl. budgeted running costs</div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="swiper-slide">
+                    <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative h-100">
+                      <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Five!</div>
+                      <div><img src="images/placeholder-4.png" alt="" class="d-block m-auto"></div>
+                      <div class="row gap-2">
+                        <h2 class="fw-bold text-primary mb-0 fs-4">Hyundai</h2>
+                        <div class="fs-6">Kona SX2.V2 Electric Wagon 5dr Reduction Gear 1sp 2WD DC99kW</div>
+                        <div class="fs-5 fw-bold">From $189/ wk* Incl. budgeted running costs</div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="swiper-slide">
+                    <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative h-100">
+                      <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Six!</div>
+                      <div><img src="images/placeholder-4.png" alt="" class="d-block m-auto"></div>
+                      <div class="row gap-2">
+                        <h2 class="fw-bold text-primary mb-0 fs-4">Haval</h2>
+                        <div class="fs-6">Jolion Premium Hybrid Wagon 5dr DHT 2sp 1.5i/115kW</div>
+                        <div class="fs-5 fw-bold">From $158/ wk* Incl. budgeted running costs</div>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="swiper-slide">
+                    <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative h-100">
+                      <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Seven!</div>
+                      <div><img src="images/placeholder-4.png" alt="" class="d-block m-auto"></div>
+                      <div class="row gap-2">
+                        <h2 class="fw-bold text-primary mb-0 fs-4">Ford</h2>
+                        <div class="fs-6">Ranger XL Utility Hi-Rider Pick-up Double Cab Auto 6sp 4x2 1135kg 2.0DT</div>
+                        <div class="fs-5 fw-bold">From $186/ wk* Incl. budgeted running costs</div>
+                      </div>
+                    </div>
+                  </div>
+                              </div>
+
+              <!-- Swiper Pagination + Navigation -->
+              <div class="swiper-pagination mt-4"></div>
+              <div class="swiper-button-prev promotion-swiper-button-prev"></div>
+              <div class="swiper-button-next promotion-swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
     </div>
-    <div class="row align-items-start row-cols-1 row-cols-md-3 g-4">
-              <div>
-          <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative">
-            <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal One!</div>
-            <div>
-              <img src="images/placeholder-1.png" alt="" class="d-block m-auto">
-            </div>
-            <div class="row gap-2">
-              <h2 class="fw-bold text-primary mb-0 fs-4">
-                 Toyota Hybrid              </h2>
-              <div class="fs-6"> RAV4 GX Wagon 5dr CVT 6sp 2WD 2.5i/88kW Hybrid                <!-- <span class="d-flex gap-2">
-                  <div class="flex-grow-1">
-                    <svg width="20" height="20" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
-                      <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
-                    </svg>
-                  </div>
-                </span> -->
-              </div>
-              <div class="fs-5 fw-bold">From $180/wk* <br/>Incl. budgeted running costs</div>
-            </div>
-          </div>
-        </div>
-              <div>
-          <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative">
-            <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Two!</div>
-            <div>
-              <img src="images/placeholder-2.png" alt="" class="d-block m-auto">
-            </div>
-            <div class="row gap-2">
-              <h2 class="fw-bold text-primary mb-0 fs-4">
-                 Kia Hybrid              </h2>
-              <div class="fs-6"> Sportage HEV  Wagon 5dr Spts Auto 6sp FWD 1.6T/44kW Hybrid                <!-- <span class="d-flex gap-2">
-                  <div class="flex-grow-1">
-                    <svg width="20" height="20" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
-                      <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
-                    </svg>
-                  </div>
-                </span> -->
-              </div>
-              <div class="fs-5 fw-bold">From $195/wk* <br/>Incl. budgeted running costs</div>
-            </div>
-          </div>
-        </div>
-              <div>
-          <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative">
-            <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Three!</div>
-            <div>
-              <img src="images/placeholder-4.png" alt="" class="d-block m-auto">
-            </div>
-            <div class="row gap-2">
-              <h2 class="fw-bold text-primary mb-0 fs-4">
-                 Isuzu Diesel              </h2>
-              <div class="fs-6"> ISUZU RG D-MAX SX UTILITY Crew Cab 4dr Spts Auto 6sp 4x4 1065kg 3.0DT                <!-- <span class="d-flex gap-2">
-                  <div class="flex-grow-1">
-                    <svg width="20" height="20" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
-                      <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
-                    </svg>
-                  </div>
-                </span> -->
-              </div>
-              <div class="fs-5 fw-bold">From $183/wk* <br/> Incl. budgeted running costs</div>
-            </div>
-          </div>
-        </div>
-              <div>
-          <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative">
-            <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Four!</div>
-            <div>
-              <img src="images/placeholder-4.png" alt="" class="d-block m-auto">
-            </div>
-            <div class="row gap-2">
-              <h2 class="fw-bold text-primary mb-0 fs-4">
-                 Toyota              </h2>
-              <div class="fs-6"> Corolla Ascent Sport Hatchback Hybrid 5dr E-CVT 1sp 1.8i/70kW Hybrid                <!-- <span class="d-flex gap-2">
-                  <div class="flex-grow-1">
-                    <svg width="20" height="20" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
-                      <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
-                    </svg>
-                  </div>
-                </span> -->
-              </div>
-              <div class="fs-5 fw-bold">From $155/ wk* Incl. budgeted running costs</div>
-            </div>
-          </div>
-        </div>
-              <div>
-          <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative">
-            <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Five!</div>
-            <div>
-              <img src="images/placeholder-4.png" alt="" class="d-block m-auto">
-            </div>
-            <div class="row gap-2">
-              <h2 class="fw-bold text-primary mb-0 fs-4">
-                 Hyundai              </h2>
-              <div class="fs-6"> Kona SX2.V2 Electric Wagon 5dr Reduction Gear 1sp 2WD DC99kW                <!-- <span class="d-flex gap-2">
-                  <div class="flex-grow-1">
-                    <svg width="20" height="20" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
-                      <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
-                    </svg>
-                  </div>
-                </span> -->
-              </div>
-              <div class="fs-5 fw-bold">From $189/ wk* Incl. budgeted running costs</div>
-            </div>
-          </div>
-        </div>
-              <div>
-          <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative">
-            <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Six!</div>
-            <div>
-              <img src="images/placeholder-4.png" alt="" class="d-block m-auto">
-            </div>
-            <div class="row gap-2">
-              <h2 class="fw-bold text-primary mb-0 fs-4">
-                 Haval              </h2>
-              <div class="fs-6"> Jolion Premium Hybrid Wagon 5dr DHT 2sp 1.5i/115kW                <!-- <span class="d-flex gap-2">
-                  <div class="flex-grow-1">
-                    <svg width="20" height="20" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
-                      <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
-                    </svg>
-                  </div>
-                </span> -->
-              </div>
-              <div class="fs-5 fw-bold">From $158/ wk* Incl. budgeted running costs</div>
-            </div>
-          </div>
-        </div>
-              <div>
-          <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative">
-            <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem">Deal Seven!</div>
-            <div>
-              <img src="images/placeholder-4.png" alt="" class="d-block m-auto">
-            </div>
-            <div class="row gap-2">
-              <h2 class="fw-bold text-primary mb-0 fs-4">
-                 Ford              </h2>
-              <div class="fs-6"> Ranger XL Utility Hi-Rider Pick-up Double Cab Auto 6sp 4x2 1135kg 2.0DT                <!-- <span class="d-flex gap-2">
-                  <div class="flex-grow-1">
-                    <svg width="20" height="20" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
-                      <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z" />
-                    </svg>
-                  </div>
-                </span> -->
-              </div>
-              <div class="fs-5 fw-bold">From $186/ wk* Incl. budgeted running costs</div>
-            </div>
-          </div>
-        </div>
-          </div>
   </div>
 </div>
-
 <div class="mydrive-container bg-black pt-5 position-relative">
     <div class="overflow-hidden h-100 position-absolute start-0 end-0 m-auto top-0">
         <img src="images/building-bg.jpg" class="m-auto d-flex">
@@ -743,8 +687,8 @@
     spaceBetween: 30,
     loop: true,
     navigation: {
-      nextEl: '.swiper-button-next', // Right arrow
-      prevEl: '.swiper-button-prev', // Left arrow
+      prevEl: '.testimonials-swiper-button-prev', // Right arrow
+      nextEl: '.testimonials-swiper-button-next', // Left arrow
     },
     breakpoints: {
       768: {
@@ -754,3 +698,28 @@
   });
 </script>
 
+
+<!-- Swiper Config -->
+<script>
+  const swiper2 = new Swiper("#promotionSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".promotion-swiper-button-next",
+      prevEl: ".promotion-swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      }
+    }
+  });
+</script>
