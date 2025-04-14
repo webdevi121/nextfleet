@@ -12433,4 +12433,19 @@ ul.custom-bullets li {
   background-color: #ef1c23 !important;
 }
 
+.nav-pills .nav-item .nav-link {
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.nav-pills .nav-item .nav-link:not(.active) {
+  background-color: #e5e5e5;
+  color: black;
+}
+
+.tab-content img {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=style.css.map */
