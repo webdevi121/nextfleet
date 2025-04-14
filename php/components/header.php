@@ -14,7 +14,7 @@
 <?php
 $navItems = [
     ["name" => "About Us", "href" => "/about-us.html"],
-    ["name" => "Services", "href" => "#"],
+    ["name" => "Services", "href" => "/services.html"],
     ["name" => "Resources", "href" => "#"],
     ["name" => "Tools", "href" => "#"],
     ["name" => "App", "href" => "#"],

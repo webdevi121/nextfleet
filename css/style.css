@@ -12319,6 +12319,10 @@ footer {
   top: 0;
   right: 0;
   z-index: 1;
+  height: 500px;
+}
+.static-banner .hero-img img {
+  height: 100%;
 }
 .static-banner .overlay-gradient {
   position: absolute;
