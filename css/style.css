@@ -12373,7 +12373,7 @@ ul.custom-bullets {
   gap: 15px; /* Adjust gap size as needed */
 }
 ul.custom-bullets li {
-  background: url("../images/bullet-image.png") no-repeat left center;
+  background: url("../images/bullet-image.png") no-repeat left 3px;
   background-size: 16px; /* Adjust the size of the bullet */
   padding-left: 30px; /* Space between the bullet and text */
 }

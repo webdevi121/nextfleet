@@ -147,7 +147,6 @@
                 <!-- Tab Content -->
                 <div class="col-sm-8 pt-10 pb-10">
                     <div class="tab-content" id="service-tabContent">
-                        <!-- Tab panes will be injected here -->
                     </div>
                 </div>
             </div>
@@ -290,8 +289,8 @@
     spaceBetween: 30,
     loop: true,
     navigation: {
-      nextEl: '.swiper-button-next', // Right arrow
-      prevEl: '.swiper-button-prev', // Left arrow
+      prevEl: '.testimonials-swiper-button-prev', // Right arrow
+      nextEl: '.testimonials-swiper-button-next', // Left arrow
     },
     breakpoints: {
       768: {
@@ -301,6 +300,31 @@
   });
 </script>
 
+
+<!-- Swiper Config -->
+<script>
+  const swiper2 = new Swiper("#promotionSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".promotion-swiper-button-next",
+      prevEl: ".promotion-swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      }
+    }
+  });
+</script>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -338,7 +362,7 @@
                 </ul>
                 <p>Whether you operate a compact fleet or a nationwide network of vehicles, our customised solutions ensure your business stays mobile, efficient, and future-ready.</p>
                 <img src="images/services-img-placeholder.jpg" alt="" class="w-100 rounded-4 overflow-hidden">
-                <div class="mt-5"><div
+                  <div
 class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relative"
 >
 <img
@@ -348,13 +372,12 @@ class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relat
 />
 <div class="col-10 col-sm-7 m-auto">
     <div class="fs-4 fw-bold mb-3 text-white">
-    Ready to optimise your fleet?
+    <p>Ready to optimise your fleet?</p>
     </div>
     <a href="/" class="btn btn-primary text-white fw-bold bg-white">
     <div class="d-flex align-items-center gap-2">
         <div class="text-uppercase text-black">
-        ENQUIRE NOW
-        </div>
+        ENQUIRE NOW        </div>
         <div class="flex-grow-1">
         <svg
             width="15"
@@ -373,29 +396,157 @@ class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relat
     </div>
     </a>
 </div>
-</div></div>
-            `
+</div>            `
         },
         {
             id: 'tab-2',
             title: 'Explore Fleet Management',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
-            `
+                <h2>Fleet Management Solutions Built for Your Needs</h2>
+                <p>Managing a fleet is more than just keeping vehicles on the road—it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes, from small enterprises to large corporate fleets.</p>
+                <p>Our data-driven approach provides real-time insights, helping you optimise fleet performance, enhance productivity, and minimise operational costs. With cutting-edge fleet tracking, compliance support, and proactive maintenance, we ensure your vehicles are always road-ready and aligned with industry best practices.</p>
+                <h2>Our Fleet Solutions Include:</h2>
+                <ul class="custom-bullets">
+                  <li>Fleet Optimisation & Cost Control – Reduce unnecessary expenses with strategic vehicle selection, fuel management, and lifecycle planning.</li>
+                  <li>Real-Time Fleet Tracking & Reporting – Gain complete visibility over your fleet with advanced telematics, GPS tracking, and usage analytics.</li>
+                  <li>Compliance & Risk Management – Stay ahead of evolving regulations with automated compliance monitoring, safety protocols, and driver risk assessments.</li>
+                  <li>Vehicle Acquisition & Disposal – Ensure cost-effective fleet turnover with smart procurement strategies and optimised resale timing.</li>
+                  <li>Sustainability & Emission Reduction – Transition to a greener fleet with fuel-efficient solutions, hybrid and EV integration, and carbon reduction strategies.</li>
+                  <li>Driver Safety & Training – Minimise risk and enhance driver performance with safety programs, coaching, and telematics-based feedback.</li>
+                </ul>
+                <p>Whether you operate a compact fleet or a nationwide network of vehicles, our customised solutions ensure your business stays mobile, efficient, and future-ready.</p>
+                  <div
+class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relative"
+>
+<img
+    src="images/cta-arrow.png"
+    alt="icon"
+    class="position-absolute top-0 start-0 col-2 d-none d-sm-block h-100"
+/>
+<div class="col-10 col-sm-7 m-auto">
+    <div class="fs-4 fw-bold mb-3 text-white">
+    <p>Ready to optimise your fleet?</p>
+    </div>
+    <a href="/" class="btn btn-primary text-white fw-bold bg-white">
+    <div class="d-flex align-items-center gap-2">
+        <div class="text-uppercase text-black">
+        Contact Us        </div>
+        <div class="flex-grow-1">
+        <svg
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="text-black"
+        >
+            <path
+            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+            />
+            <path
+            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+            />
+        </svg>
+        </div>
+    </div>
+    </a>
+</div>
+</div>            `
         },
         {
             id: 'tab-3',
             title: 'Comprehensive Fleet Management Services',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
-            `
+                <h2>Comprehensive Fleet Management Services</h2>
+                <p>Our full-service fleet management covers everything from vehicle acquisition and maintenance to compliance, reporting, and cost control. We provide:</p>
+                <ul class="custom-bullets">
+                  <li>Dedicated Account Management – Personalised support tailored to your business needs.</li>
+                  <li>Ongoing Reporting & Analytics – Data-driven insights to improve efficiency and reduce costs.</li>
+                  <li>Elematics Integration – Real-time tracking and monitoring for enhanced fleet visibility.</li>
+                  <li>Proactive Maintenance & Repairs – Ensuring your vehicles remain safe, compliant, and operational.</li>
+                </ul>
+                  <div
+class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relative"
+>
+<img
+    src="images/cta-arrow.png"
+    alt="icon"
+    class="position-absolute top-0 start-0 col-2 d-none d-sm-block h-100"
+/>
+<div class="col-10 col-sm-7 m-auto">
+    <div class="fs-4 fw-bold mb-3 text-white">
+    <p>Let us handle your fleet while you focus on business growth</p>
+    </div>
+    <a href="/" class="btn btn-primary text-white fw-bold bg-white">
+    <div class="d-flex align-items-center gap-2">
+        <div class="text-uppercase text-black">
+        Enquire Now        </div>
+        <div class="flex-grow-1">
+        <svg
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="text-black"
+        >
+            <path
+            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+            />
+            <path
+            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+            />
+        </svg>
+        </div>
+    </div>
+    </a>
+</div>
+</div>            `
         },
         {
             id: 'tab-4',
             title: 'Is an Outsourced Fleet Model Right for You?',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
-            `
+                <h2>Is an Outsourced Fleet Model Right for You?</h2>
+                <p>Managing a fleet internally can be complex and costly. Our Fleet Management Organisation (FMO) model simplifies fleet operations by providing expert support, reducing administration, and delivering cost efficiencies. We integrate:</p>
+                <ul class="custom-bullets">
+                  <li>Procurement & Disposal – Sourcing and retiring vehicles cost-effectively.</li>
+                  <li>Maintenance & Repairs – Ensuring optimal vehicle performance and safety.</li>
+                  <li>Fuel & Toll Management – Streamlining expense tracking and optimisation.</li>
+                  <li>Telematics & Compliance – Providing real-time insights and regulatory adherence.</li>
+                </ul>
+                <p>By outsourcing fleet management to NextFleet, businesses can reduce overheads, improve efficiency, and maintain compliance effortlessly.</p>
+                  <div
+class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relative"
+>
+<img
+    src="images/cta-arrow.png"
+    alt="icon"
+    class="position-absolute top-0 start-0 col-2 d-none d-sm-block h-100"
+/>
+<div class="col-10 col-sm-7 m-auto">
+    <div class="fs-4 fw-bold mb-3 text-white">
+    <p>Let's discuss if outsourcing your fleet is the right move.</p>
+    </div>
+    <a href="/" class="btn btn-primary text-white fw-bold bg-white">
+    <div class="d-flex align-items-center gap-2">
+        <div class="text-uppercase text-black">
+        Contact Us        </div>
+        <div class="flex-grow-1">
+        <svg
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="text-black"
+        >
+            <path
+            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+            />
+            <path
+            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+            />
+        </svg>
+        </div>
+    </div>
+    </a>
+</div>
+</div>            `
         },
         {
             id: 'tab-5',

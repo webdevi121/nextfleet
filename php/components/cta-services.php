@@ -8,12 +8,12 @@ class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relat
 />
 <div class="col-10 col-sm-7 m-auto">
     <div class="fs-4 fw-bold mb-3 text-white">
-    Ready to optimise your fleet?
+    <p><?php echo $text ?? 'Default CTA text'; ?></p>
     </div>
     <a href="/" class="btn btn-primary text-white fw-bold bg-white">
     <div class="d-flex align-items-center gap-2">
         <div class="text-uppercase text-black">
-        ENQUIRE NOW
+        <?php echo $buttonText ?? 'Default CTA text'; ?>
         </div>
         <div class="flex-grow-1">
         <svg

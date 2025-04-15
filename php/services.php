@@ -1,5 +1,6 @@
 <?php
-  function loadComponent($component) {
+  function loadComponent($component, $props = []) {
+      extract($props); // Now you can use $text, $title, etc. inside the component
       include __DIR__ . "/components/$component.php";
   }
 
@@ -91,7 +92,6 @@
                 <!-- Tab Content -->
                 <div class="col-sm-8 pt-10 pb-10">
                     <div class="tab-content" id="service-tabContent">
-                        <!-- Tab panes will be injected here -->
                     </div>
                 </div>
             </div>
@@ -178,28 +178,70 @@
                 </ul>
                 <p>Whether you operate a compact fleet or a nationwide network of vehicles, our customised solutions ensure your business stays mobile, efficient, and future-ready.</p>
                 <img src="images/services-img-placeholder.jpg" alt="" class="w-100 rounded-4 overflow-hidden">
-                <div class="mt-5"><?php loadComponent("cta-services"); ?></div>
+                  <?php loadComponent("cta-services", [
+                      'text' => 'Ready to optimise your fleet?',
+                      'buttonText' => 'ENQUIRE NOW'
+                  ]); ?>
             `
         },
         {
             id: 'tab-2',
             title: 'Explore Fleet Management',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+                <h2>Fleet Management Solutions Built for Your Needs</h2>
+                <p>Managing a fleet is more than just keeping vehicles on the road—it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes, from small enterprises to large corporate fleets.</p>
+                <p>Our data-driven approach provides real-time insights, helping you optimise fleet performance, enhance productivity, and minimise operational costs. With cutting-edge fleet tracking, compliance support, and proactive maintenance, we ensure your vehicles are always road-ready and aligned with industry best practices.</p>
+                <h2>Our Fleet Solutions Include:</h2>
+                <ul class="custom-bullets">
+                  <li>Fleet Optimisation & Cost Control – Reduce unnecessary expenses with strategic vehicle selection, fuel management, and lifecycle planning.</li>
+                  <li>Real-Time Fleet Tracking & Reporting – Gain complete visibility over your fleet with advanced telematics, GPS tracking, and usage analytics.</li>
+                  <li>Compliance & Risk Management – Stay ahead of evolving regulations with automated compliance monitoring, safety protocols, and driver risk assessments.</li>
+                  <li>Vehicle Acquisition & Disposal – Ensure cost-effective fleet turnover with smart procurement strategies and optimised resale timing.</li>
+                  <li>Sustainability & Emission Reduction – Transition to a greener fleet with fuel-efficient solutions, hybrid and EV integration, and carbon reduction strategies.</li>
+                  <li>Driver Safety & Training – Minimise risk and enhance driver performance with safety programs, coaching, and telematics-based feedback.</li>
+                </ul>
+                <p>Whether you operate a compact fleet or a nationwide network of vehicles, our customised solutions ensure your business stays mobile, efficient, and future-ready.</p>
+                  <?php loadComponent("cta-services", [
+                      'text' => 'Ready to optimise your fleet?',
+                      'buttonText' => 'Contact Us'
+                  ]); ?>
             `
         },
         {
             id: 'tab-3',
             title: 'Comprehensive Fleet Management Services',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+                <h2>Comprehensive Fleet Management Services</h2>
+                <p>Our full-service fleet management covers everything from vehicle acquisition and maintenance to compliance, reporting, and cost control. We provide:</p>
+                <ul class="custom-bullets">
+                  <li>Dedicated Account Management – Personalised support tailored to your business needs.</li>
+                  <li>Ongoing Reporting & Analytics – Data-driven insights to improve efficiency and reduce costs.</li>
+                  <li>Elematics Integration – Real-time tracking and monitoring for enhanced fleet visibility.</li>
+                  <li>Proactive Maintenance & Repairs – Ensuring your vehicles remain safe, compliant, and operational.</li>
+                </ul>
+                  <?php loadComponent("cta-services", [
+                      'text' => 'Let us handle your fleet while you focus on business growth',
+                      'buttonText' => 'Enquire Now'
+                  ]); ?>
             `
         },
         {
             id: 'tab-4',
             title: 'Is an Outsourced Fleet Model Right for You?',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+                <h2>Is an Outsourced Fleet Model Right for You?</h2>
+                <p>Managing a fleet internally can be complex and costly. Our Fleet Management Organisation (FMO) model simplifies fleet operations by providing expert support, reducing administration, and delivering cost efficiencies. We integrate:</p>
+                <ul class="custom-bullets">
+                  <li>Procurement & Disposal – Sourcing and retiring vehicles cost-effectively.</li>
+                  <li>Maintenance & Repairs – Ensuring optimal vehicle performance and safety.</li>
+                  <li>Fuel & Toll Management – Streamlining expense tracking and optimisation.</li>
+                  <li>Telematics & Compliance – Providing real-time insights and regulatory adherence.</li>
+                </ul>
+                <p>By outsourcing fleet management to NextFleet, businesses can reduce overheads, improve efficiency, and maintain compliance effortlessly.</p>
+                  <?php loadComponent("cta-services", [
+                      'text' => "Let's discuss if outsourcing your fleet is the right move.",
+                      'buttonText' => 'Contact Us'
+                  ]); ?>
             `
         },
         {
