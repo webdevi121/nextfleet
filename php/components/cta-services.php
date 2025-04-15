@@ -1,5 +1,5 @@
 <div
-class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relative"
+class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relative mt-4"
 >
 <img
     src="images/cta-arrow.png"
