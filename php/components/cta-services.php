@@ -6,7 +6,7 @@ class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relat
     alt="icon"
     class="position-absolute top-0 start-0 col-2 d-none d-sm-block h-100"
 />
-<div class="col-10 col-sm-7 m-auto">
+<div class="col-10 col-sm-8 m-auto">
     <div class="fs-4 fw-bold mb-3 text-white">
     <p><?php echo $text ?? 'Default CTA text'; ?></p>
     </div>

@@ -248,35 +248,89 @@
             id: 'tab-5',
             title: 'Flexible Financing for Your Fleet',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+                <h2>Flexible Financing for Your Fleet</h2>
+                <p>Our fleet funding solutions help businesses access vehicles without large upfront costs. We offer tailored financing options, including:</p>
+                <ul class="custom-bullets">
+                  <li>Operating Lease – No ownership responsibilities, predictable costs, and no depreciation risks.</li>
+                  <li>Finance Lease – Control over your fleet with an option to purchase vehicles at lease-end.</li>
+                  <li>Novated Lease – A tax-effective salary packaging option that allows employees to lease a vehicle using pre-tax income, reducing their taxable salary while providing businesses with a cost-efficient fleet solution.</li>
+                </ul>
+                <p>With flexible terms and cost-effective structures, our financing solutions enable businesses to maintain a modern and efficient fleet while preserving capital.</p>
+                  <?php loadComponent("cta-services", [
+                      'text' => "Find the best financing option for your fleet",
+                      'buttonText' => 'Get Started'
+                  ]); ?>
+
             `
         },
         {
             id: 'tab-6',
             title: 'Leasing Solutions',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+                <h2>Tailored Leasing Solutions for Every Business</h2>
+                <p>Fleet leasing provides flexibility, cost savings, and risk management benefits. Whether you need a single vehicle or a full fleet, our leasing options help businesses maintain modern, efficient fleets without the burden of ownership. Our lease offerings include:</p>
+                <ul class="custom-bullets">
+                  <li>Short & Long-Term Leases – Commercial fleet leasing structures based on your business needs.</li>
+                  <li>Fully Maintained Leasing – Comprehensive packages covering servicing, repairs, and roadside assistance.</li>
+                  <li>Custom Fleet Solutions – Vehicles tailored to specific industry requirements.</li>
+                </ul>
+                  <?php loadComponent("cta-services", [
+                      'text' => "Flexible fleet leasing solutions to suit your needs",
+                      'buttonText' => 'Enquire Now'
+                  ]); ?>
             `
         },
         {
             id: 'tab-7',
             title: 'Driving Towards a Greener Fleet',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+                <h2>Driving Towards a Greener Fleet</h2>
+                <p>Reducing fleet emissions is key to achieving sustainability goals. We help businesses lower their carbon footprint through:</p>
+                <ul class="custom-bullets">
+                  <li>Fleet Optimisation – Enhancing efficiency with route planning and fuel management.</li>
+                  <li>Transition Planning – Strategic guidance for integrating hybrid and electric vehicles.</li>
+                  <li>Emission Reduction Strategies – Data-driven insights to reduce fuel consumption and environmental impact..</li>
+                </ul>
+                  <?php loadComponent("cta-services", [
+                      'text' => "Sustainable fleets are the future—let NextFleet help you lead the way",
+                      'buttonText' => 'Speak to an Expert'
+                  ]); ?>
+
             `
         },
         {
             id: 'tab-8',
             title: 'Zero-Emission Fleet Solutions',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+                <h2>Your Roadmap to a Zero-Emission Fleet</h2>
+                <p>The future of fleet management solutions is electric and hydrogen-powered. Our transition-to-zero services guide businesses in adopting sustainable vehicles, optimising charging infrastructure, and managing the shift to a low-emission fleet. Our services include:</p>
+                <ul class="custom-bullets">
+                  <li>EV & Hydrogen Vehicle Procurement – Helping businesses select the right zero-emission vehicles.</li>
+                  <li>Infrastructure Planning – Charging and refueling solutions for seamless adoption.</li>
+                  <li>Total Cost of Ownership Analysis – Helping businesses make informed financial decisions.</li>
+                </ul>
+                  <?php loadComponent("cta-services", [
+                      'text' => "Drive sustainability forward with NextFleet’s zero-emission solutions.",
+                      'buttonText' => 'Speak to an Expert'
+                  ]); ?>
             `
         },
         {
             id: 'tab-9',
             title: 'Specialised Truck Leasing & Management',
             content: `
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic incidunt non ducimus ipsum voluptates repellendus aperiam necessitatibus sunt quisquam, et veniam neque dicta commodi, magnam, totam quod eaque sint quos?</p>
+                <h2>Specialised Truck Leasing & Management</h2>
+                <p>Our truck leasing solutions help businesses optimise heavy vehicle operations with flexible lease options, maintenance support, and compliance management. We ensure your fleet stays road-ready while reducing downtime and costs. Our services include:</p>
+                <ul class="custom-bullets">
+                  <li>Tailored Truck Leasing – Short and long-term lease options for all business sizes.</li>
+                  <li>Proactive Maintenance Programs – Keeping your trucks operational with minimal downtime.</li>
+                  <li>Regulatory Compliance Support – Ensuring all heavy vehicles meet legal and safety requirements.</li>
+                  <li>Keep your operations running smoothly with NextFleet’s expert truck leasing and management solutions.</li>
+                </ul>
+                  <?php loadComponent("cta-services", [
+                      'text' => "Keep your operations running smoothly with NextFleet",
+                      'buttonText' => 'Enquire Now'
+                  ]); ?>
             `
         }
     ];
