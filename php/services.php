@@ -76,7 +76,8 @@
       </div>
     </section>
 
-    <section id="services-container">
+    <!-- Tab layout for Desktop view only -->
+    <section id="services-container" class="d-none d-md-block">
         <div class="container">
             <div class="row g-5">
                 <!-- Navigation -->
@@ -97,6 +98,20 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Tab layout for Desktop view only -->
+    <section class="d-md-none" id="mobile-accordion">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-12 py-5">
+                  <h2 class="mb-3">Our Services</h2>
+                  <div class="accordion" id="mobileServicesAccordion"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -336,9 +351,10 @@
     ];
 
     document.addEventListener('DOMContentLoaded', function () {
+
+      // Desktop Tab script
         const tabList = document.getElementById('service-tabs');
         const tabContent = document.getElementById('service-tabContent');
-
         tabData.forEach((tab, index) => {
             const isActive = index === 0 ? 'active' : '';
             const isShow = index === 0 ? 'show active' : '';
@@ -363,6 +379,32 @@
             div.innerHTML = tab.content;
             tabContent.appendChild(div);
         });
+
+
+        // Mobile Accordion Script
+        const mobileAccordion = document.getElementById('mobileServicesAccordion');
+        tabData.forEach((tab, index) => {
+            const headingId = `${tab.id}-heading`;
+            const collapseId = `${tab.id}-collapse`;
+
+            const accordionItem = document.createElement('div');
+            accordionItem.className = 'accordion-item';
+            accordionItem.innerHTML = `
+                <h2 class="accordion-header" id="${headingId}">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
+                        ${tab.title}
+                    </button>
+                </h2>
+                <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="${headingId}" data-bs-parent="#mobileServicesAccordion">
+                    <div class="accordion-body">
+                        ${tab.content}
+                    </div>
+                </div>
+            `;
+            mobileAccordion.appendChild(accordionItem);
+        });
+
+
 
         // Smooth scroll to #services-container when tab is shown
         const tabLinks = document.querySelectorAll('#service-tabs .nav-link');
