@@ -39,7 +39,15 @@ $services = [
         "accentColor" => "accent-color-5",
         "buttonLabel" => "Explore Truck Leasing Solutions",
         "buttonLink" => ""
-    ]
+    ],
+    [
+      "img" => "images/placeholder-5.png",
+      "title" => "Sales & <span class=\"d-block\">Leaseback</span>",
+      "description" => "Financing your fleet? That's a lot of valuable capital tied up in depreciating assets. We can free up capital by giving you an instant cash injection by purchasing your existing vehicles.",
+      "accentColor" => "accent-color-6",
+      "buttonLabel" => "Explore Solutions",
+      "buttonLink" => ""
+  ]
 ];
 ?>
 
