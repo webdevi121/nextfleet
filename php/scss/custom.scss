@@ -392,6 +392,12 @@ ul.custom-bullets {
       rgba(0, 0, 0, 0) 100%
     ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   }
+  @media (max-width: map-get($grid-breakpoints, 'md')) {
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
 }
 //////////////////////////////////////// goals section ////////////////////////////////////////
 .goals-sections {

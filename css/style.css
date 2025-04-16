@@ -12417,6 +12417,14 @@ ul.custom-bullets li {
   content: "";
   background: linear-gradient(to left, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 1%, rgb(0, 0, 0) 36%, rgba(0, 0, 0, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+@media (max-width: 768px) {
+  .dark-img-thumbnail {
+    position: relative;
+  }
+  .dark-img-thumbnail img {
+    width: 100%;
+  }
+}
 
 .goals-sections .-mt-custom {
   margin-top: -170px;
