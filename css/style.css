@@ -12057,6 +12057,10 @@ body {
   font-weight: 400;
 }
 
+p {
+  margin-bottom: 1.8rem;
+}
+
 .mydrive-container {
   height: 900px;
 }
@@ -12370,6 +12374,7 @@ ul.custom-bullets {
   padding-left: 0;
   display: flex;
   flex-direction: column;
+  margin-bottom: 1.8rem;
   gap: 15px; /* Adjust gap size as needed */
 }
 ul.custom-bullets li {

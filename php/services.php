@@ -148,7 +148,7 @@
             id: 'tab-1',
             title: 'Fleet Management Solutions',
             content: `
-                <h2>Fleet Management Solutions Built for Your Needs</h2>
+                <h2 class="mb-2">Fleet Management Solutions Built for Your Needs</h2>
                 <p>Managing a fleet is more than just keeping vehicles on the road—it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes.</p>
                 <ul class="custom-bullets">
                     <li>Fleet Optimisation & Cost Control – Reduce unnecessary expenses with strategic vehicle selection, fuel management, and lifecycle planning.</li>
