@@ -42,7 +42,7 @@ $drive_links = [
 
 <footer class="bg-black text-white pt-10 pb-10">
   <div class="container">
-    <div class="row g-2 g-sm-5">
+    <div class="row g-5">
       <div class="col-md-2">
         <a href="/"><img src="images/nextfleet-logo-footer.jpg" alt="" width="200"></a>
       </div>
