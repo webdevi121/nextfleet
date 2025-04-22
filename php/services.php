@@ -159,7 +159,6 @@
                     <li>Driver Safety & Training – Minimise risk and enhance driver performance with safety programs, coaching, and telematics-based feedback.</li>
                 </ul>
                 <p>Whether you operate a compact fleet or a nationwide network of vehicles, our customised solutions ensure your business stays mobile, efficient, and future-ready.</p>
-                <img src="images/services-img-placeholder.jpg" alt="" class="w-100 rounded-4 overflow-hidden">
                   <?php loadComponent("cta-services", [
                       'text' => 'Ready to optimise your fleet?',
                       'buttonText' => 'ENQUIRE NOW'

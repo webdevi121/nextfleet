@@ -115,7 +115,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/placeholder-img.jpg"
+            src="images/tranquil-multiracial-colleagues-with-papers-intera-CL786KA.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -125,7 +125,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/placeholder-img.jpg"
+            src="images/two-consultants-or-managers-in-elegant-suit-with-l-WTDARW2.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -185,7 +185,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/placeholder-img.jpg"
+            src="images/red-delivery-van-in-a-row-of-white-vans-best-expre-CCAKUW9.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
