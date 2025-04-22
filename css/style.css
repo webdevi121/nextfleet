@@ -12337,14 +12337,17 @@ footer {
 .static-banner {
   height: 500px;
 }
-.static-banner .hero-img {
+.static-banner .hero-img,
+.static-banner .hero-video {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 1;
   height: 500px;
+  width: 60%;
 }
-.static-banner .hero-img img {
+.static-banner .hero-img img,
+.static-banner .hero-video img {
   height: 100%;
 }
 .static-banner .overlay-gradient {

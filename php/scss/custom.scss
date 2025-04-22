@@ -299,12 +299,14 @@ footer {
 //////////////////////////////////////// Static Banner ////////////////////////////////////////
 .static-banner {
   height: 500px;
-  .hero-img {
+  .hero-img,
+  .hero-video {
     position: absolute;
     top: 0;
     right: 0;
     z-index: 1;
     height: 500px;
+    width: 60%;
     img {
       height: 100%;
     }
