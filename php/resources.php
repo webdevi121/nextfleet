@@ -60,7 +60,7 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item">About Us</li>
+            <li class="breadcrumb-item">Resources</li>
           </ol>
         </nav>
       </div>
@@ -122,7 +122,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/placeholder-img.jpg"
+            src="images/dealership-manager-checking-cars-9N5GGV9.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -132,7 +132,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/placeholder-img.jpg"
+            src="images/car-mechanic-using-digital-tablet-in-repair-garage-5T7VGDC.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -249,7 +249,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/placeholder-img.jpg"
+            src="images/controlling-car-with-a-digital-tablet-YWZG4KW.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -259,7 +259,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/placeholder-img.jpg"
+            src="images/process-of-buying-new-car-woman-is-signing-documen-CMD5SXH.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
