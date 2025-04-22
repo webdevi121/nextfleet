@@ -11,7 +11,7 @@ $jobOpportunities = [
 
 ?>
 
-<div class="bg-light pt-5 pb-5">
+<section id="career-section" class="bg-light pt-5 pb-5">
     <div class="container">
         <div class="row">
             <div class="col-12 d-flex flex-column gap-3">
@@ -61,4 +61,4 @@ $jobOpportunities = [
             </div>
         </div>
     </div>
-</div>
+</section>

@@ -14,29 +14,31 @@ $social_links = [
 ];
 
 $about_links = [
-    ['text' => 'Who We Are', 'url' => 'about-us.html#team'],
-    ['text' => 'Our Team', 'url' => 'about-us.html#team'],
-    ['text' => 'Our Partners', 'url' => 'about-us.html#partners']
+    ['text' => 'Who We Are', 'url' => 'about-us.html#overview'],
+    ['text' => 'Our Expertise', 'url' => 'about-us.html#content'],
+    ['text' => 'Why Choose Us', 'url' => 'about-us.html#content'],
+    ['text' => 'Career Opportunities', 'url' => 'about-us.html#career-section'],
 ];
 
 $services_links = [
-    ['text' => 'Sales', 'url' => '#'],
-    ['text' => 'Leasing', 'url' => '#'],
-    ['text' => 'Management', 'url' => '#'],
-    ['text' => 'Project Marketing', 'url' => '#'],
-    ['text' => 'Advisory', 'url' => '#']
+    ['text' => 'Fleet Management Solutions', 'url' => '#'],
+    ['text' => 'Vehicle Fleet Leasing', 'url' => '#'],
+    ['text' => 'Fleet Management Consulting Services', 'url' => '#'],
+    ['text' => 'Transition To Zero-Emission Fleets', 'url' => '#'],
+    ['text' => 'Truck Leasing & Fleet Expertise', 'url' => '#'],
+    ['text' => 'Sales & Leaseback', 'url' => '#']
 ];
 
 $tools_links = [
-    ['text' => 'For Sale', 'url' => '#'],
-    ['text' => 'For Lease', 'url' => '#'],
-    ['text' => 'Recent Results', 'url' => '#']
+    ['text' => 'Resources for Drivers', 'url' => '#'],
+    ['text' => 'Resources for Fleet Managers', 'url' => '#'],
+    ['text' => 'NextLevel Insights', 'url' => '#'],
+    ['text' => 'Services Locator', 'url' => '#']
 ];
 
 $drive_links = [
-    ['text' => 'Sales', 'url' => '#'],
-    ['text' => 'Leasing', 'url' => '#'],
-    ['text' => 'Management', 'url' => '#']
+    ['text' => 'Login', 'url' => '#'],
+    ['text' => 'My Drive App', 'url' => '#']
 ];
 ?>
 
@@ -67,7 +69,7 @@ $drive_links = [
         <h5 class="fw-normal">About</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($about_links as $about): ?>
-            <li><a href="<?= $about['url']; ?>" class="text-decoration-none text-gray"><?= $about['text']; ?></a></li>
+            <li class="mb-2"><a href="<?= $about['url']; ?>" class="text-decoration-none text-gray"><?= $about['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -75,7 +77,7 @@ $drive_links = [
         <h5 class="fw-normal">OUR SERVICES</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($services_links as $service): ?>
-            <li><a href="<?= $service['url']; ?>" class="text-decoration-none text-gray"><?= $service['text']; ?></a></li>
+            <li class="mb-2"><a href="<?= $service['url']; ?>" class="text-decoration-none text-gray"><?= $service['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -83,7 +85,7 @@ $drive_links = [
         <h5 class="fw-normal">Tools</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($tools_links as $tool): ?>
-            <li><a href="<?= $tool['url']; ?>" class="text-decoration-none text-gray"><?= $tool['text']; ?></a></li>
+            <li class="mb-2"><a href="<?= $tool['url']; ?>" class="text-decoration-none text-gray"><?= $tool['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -91,7 +93,7 @@ $drive_links = [
         <h5 class="fw-normal">My Drive</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($drive_links as $drive): ?>
-            <li><a href="<?= $drive['url']; ?>" class="text-decoration-none text-gray"><?= $drive['text']; ?></a></li>
+            <li class="mb-2"><a href="<?= $drive['url']; ?>" class="text-decoration-none text-gray"><?= $drive['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
