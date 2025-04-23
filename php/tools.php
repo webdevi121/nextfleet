@@ -78,7 +78,6 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>Resources</span>
             </div>
-            <h2>Your Hub for Fleet and Driver Support</h2>
             <p>
                 Whether you're managing a fleet or driving a company vehicle, we provide expert insights, practical tools, and essential services to keep your vehicles moving efficiently.
             </p>
@@ -323,7 +322,7 @@
   ob_end_clean();
 
   // Save the output to the root directory as index.html
-  file_put_contents(__DIR__ . '/../resources.html', $output);
+  file_put_contents(__DIR__ . '/../tools.html', $output);
 
   // Function to copy directories (CSS, fonts, images, etc.)
   function copyFolder($source, $destination) {

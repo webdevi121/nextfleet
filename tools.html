@@ -1,13 +1,69 @@
-<?php
-  function loadComponent($component) {
-      include __DIR__ . "/components/$component.php";
-  }
 
-  // Start output buffering
-  ob_start();
-?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fleet Management Services Simplified</title>
+    <meta name="description" content="At NextFleet we seamlessly manage, support, and optimise your corporate fleet management">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" type="image/png" href="images/favico.ico" />
+  </head>
+  <body>
 
-<?php loadComponent("header");?>
+
+<div class="bg-black pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 col-sm-12 text-white d-flex justify-content-center mb-5">
+        <a href="/"><img src="images/nextfleet-logo.png" width="253"></a>
+      </div>
+      <div class="col-2 d-sm-none">
+          <button class="w-100 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="w-100 h-100">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-12">
+        <nav class="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="/about-us.html">About Us</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="/services.html">Services</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="/resources.html">Resources</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="/tools.html">Tools</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">App</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">Contact Us</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">Mydrive</a>
+                </li>
+                              <li class="nav-item">
+                  <a class="nav-link text-uppercase text-white" href="#">Login</a>
+                </li>
+                          </ul>
+            <a href="tel:1800 297 900" class="ms-auto custom-btn"><img src="images/icon-phone.png" alt="icons" width="20"> 1800 297 900</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
     <section
       id="banner"
       class="static-banner d-flex align-items-center position-relative bg-black text-white overflow-hidden"
@@ -78,7 +134,6 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>Resources</span>
             </div>
-            <h2>Your Hub for Fleet and Driver Support</h2>
             <p>
                 Whether you're managing a fleet or driving a company vehicle, we provide expert insights, practical tools, and essential services to keep your vehicles moving efficiently.
             </p>
@@ -315,41 +370,141 @@
       </div>
     </section>
 
-    <?php loadComponent("footer"); ?>
+    
+<footer class="bg-black text-white pt-10 pb-10">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-md-2">
+        <a href="/"><img src="images/nextfleet-logo-footer.jpg" alt="" width="200"></a>
+      </div>
+      <div class="col-md-2 text-gray">
+        <ul class="list-unstyled text-start">
+                      <li class="mb-2 d-flex gap-3">
+              <span><img src="images/icon-location.png" alt="" width="15"></span>
+              <span>Level 1, Building 5/747 Lytton Rd, Murarrie QLD 4172</span>
+            </li>
+                      <li class="mb-2 d-flex gap-3">
+              <span><img src="images/icon-phone.png" alt="" width="15"></span>
+              <span><a href="tel:03 9361 6333" class="text-gray hover-text-primary">03 9361 6333</a></span>
+            </li>
+                      <li class="mb-2 d-flex gap-3">
+              <span><img src="images/icon-mail.png" alt="" width="15"></span>
+              <span><a href="mailto:info@nextfleet.com.au" class="text-gray hover-text-primary">info@nextfleet.com.au</a></span>
+            </li>
+                  </ul>
+        <div class="col d-flex gap-3">
+                      <a href="https://facebook.com" target="_blank">
+              <img src="images/icon-facebook.png" alt="" width="34">
+            </a>
+                      <a href="https://instagram.com" target="_blank">
+              <img src="images/icon-instagram.png" alt="" width="34">
+            </a>
+                      <a href="https://youtube.com" target="_blank">
+              <img src="images/icon-youtube.png" alt="" width="34">
+            </a>
+                      <a href="https://linkedin.com" target="_blank">
+              <img src="images/icon-linkedin.png" alt="" width="34">
+            </a>
+                  </div>
+      </div>
+      <div class="col-md-2 text-start text-uppercase">
+        <h5 class="fw-normal">About</h5>
+        <ul class="list-unstyled text-gray">
+                      <li class="mb-2"><a href="about-us.html#overview" class="text-decoration-none text-gray hover-text-primary">Who We Are</a></li>
+                      <li class="mb-2"><a href="about-us.html#content" class="text-decoration-none text-gray hover-text-primary">Our Expertise</a></li>
+                      <li class="mb-2"><a href="about-us.html#content" class="text-decoration-none text-gray hover-text-primary">Why Choose Us</a></li>
+                      <li class="mb-2"><a href="about-us.html#career-section" class="text-decoration-none text-gray hover-text-primary">Career Opportunities</a></li>
+                  </ul>
+      </div>
+      <div class="col-md-2 text-start text-uppercase">
+        <h5 class="fw-normal">OUR SERVICES</h5>
+        <ul class="list-unstyled text-gray">
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Fleet Management Solutions</a></li>
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Vehicle Fleet Leasing</a></li>
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Fleet Management Consulting Services</a></li>
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Transition To Zero-Emission Fleets</a></li>
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Truck Leasing & Fleet Expertise</a></li>
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Sales & Leaseback</a></li>
+                  </ul>
+      </div>
+      <div class="col-md-2 text-start text-uppercase">
+        <h5 class="fw-normal">Tools</h5>
+        <ul class="list-unstyled text-gray">
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Resources for Drivers</a></li>
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Resources for Fleet Managers</a></li>
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">NextLevel Insights</a></li>
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Services Locator</a></li>
+                  </ul>
+      </div>
+      <div class="col-md-2 text-start text-uppercase">
+        <h5 class="fw-normal">My Drive</h5>
+        <ul class="list-unstyled text-gray">
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Login</a></li>
+                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">My Drive App</a></li>
+                  </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="d-flex justify-content-end mt-5">
+        <a href="https://infusion121.com.au" target="_blank" class="d-block">
+          <img src="images/i121-logo.png" alt="Digital Agency" width="237" class="d-block">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
 
-<?php
-  // Get the buffered content
-  $output = ob_get_contents();
-  ob_end_clean();
+</body>
+</html>
 
-  // Save the output to the root directory as index.html
-  file_put_contents(__DIR__ . '/../resources.html', $output);
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  // Function to copy directories (CSS, fonts, images, etc.)
-  function copyFolder($source, $destination) {
-      if (!is_dir($source)) return; // Exit if the source folder doesn't exist
-      if (!is_dir($destination)) mkdir($destination, 0777, true);
+<script>
+  // Initialize Swiper with navigation
+  const swiper = new Swiper('#testimonials-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      prevEl: '.testimonials-swiper-button-prev', // Right arrow
+      nextEl: '.testimonials-swiper-button-next', // Left arrow
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+    },
+  });
+</script>
 
-      $files = scandir($source);
-      foreach ($files as $file) {
-          if ($file === '.' || $file === '..') continue;
-          $srcFile = $source . DIRECTORY_SEPARATOR . $file;
-          $destFile = $destination . DIRECTORY_SEPARATOR . $file;
 
-          if (is_dir($srcFile)) {
-              copyFolder($srcFile, $destFile);
-          } else {
-              copy($srcFile, $destFile);
-          }
+<!-- Swiper Config -->
+<script>
+  const swiper2 = new Swiper("#promotionSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".promotion-swiper-button-next",
+      prevEl: ".promotion-swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
       }
-  }
-
-  // Copy 'css', 'fonts', and 'images' folders directly into the root directory
-  copyFolder(__DIR__ . '/css', __DIR__ . '/../css');
-  copyFolder(__DIR__ . '/fonts', __DIR__ . '/../fonts');
-  copyFolder(__DIR__ . '/images', __DIR__ . '/../images'); // Copy images folder
-
-  // Output the generated page
-  echo "Export completed! Check the root directory.";
-  echo $output;
-?>
+    }
+  });
+</script>
