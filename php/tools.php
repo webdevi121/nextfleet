@@ -15,7 +15,7 @@
       <div class="overlay-gradient"></div>
         <div class="hero-video">
             <video autoplay muted loop playsinline class="w-100 h-100 object-fit-cover">
-                <source src="https://www.nextfleet.net.au/homepage-video.mp4" type="video/mp4">
+                <source src="images/video_preview_h264.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -99,7 +99,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/dealership-manager-checking-cars-9N5GGV9.jpg"
+            src="images/leasevsbuy.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -109,7 +109,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/car-mechanic-using-digital-tablet-in-repair-garage-5T7VGDC.jpg"
+            src="images/two-young-workers-in-formal-wear-sitting-on-the-ba-DZMMG4G.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -315,7 +315,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/controlling-car-with-a-digital-tablet-YWZG4KW.jpg"
+            src="images/truck-driver-using-laptop-copy-space-7GYYBAK.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
