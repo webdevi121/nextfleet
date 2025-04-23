@@ -408,8 +408,8 @@
       id="partners"
       class="pt-5 pb-5 bg-black text-white position-relative overflow-hidden"
     >
-      <div class="position-absolute top-0 start-0 w-100 z-1 opacity-25">
-        <img src="images/hands-group.jpg" alt="Thumbnail" class="w-100 h-100" />
+      <div class="position-absolute top-0 start-0 w-100 z-1 opacity-25 h-100">
+        <img src="images/hands-group.jpg" alt="Thumbnail" class="w-100 h-100 object-fit-cover" />
       </div>
       <div class="container position-relative z-2">
         <div class="row">
