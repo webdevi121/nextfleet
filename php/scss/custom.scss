@@ -16,6 +16,13 @@ $btn-padding-x: 1.25rem;
 
 $breadcrumb-item-padding-x: 0.7rem;
 
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
 // Import Bootstrap SCSS after the custom variables
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import 'components/fontface'; // New method with `@use`
@@ -38,6 +45,10 @@ body {
 }
 p {
   margin-bottom: 1.8rem;
+}
+
+.hover-text-primary:hover {
+  color: $primary;
 }
 
 .mydrive-container {
@@ -306,9 +317,11 @@ footer {
     right: 0;
     z-index: 1;
     height: 500px;
-    width: 60%;
     img {
       height: 100%;
+    }
+    @media (min-width: map-get($grid-breakpoints, 'md')) {
+      width: 60%;
     }
   }
   .overlay-gradient {

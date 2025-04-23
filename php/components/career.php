@@ -33,9 +33,6 @@ $jobOpportunities = [
             <div class="col-12 mt-4">
                 <div class="d-flex align-items-center">
                     <h2 class="mb-3">Career Opportunities</h2>
-                    <div class="ms-auto">
-                        <a href="" class="text-decoration-none">view more</a>
-                    </div>
                 </div>
                 <div class="row g-4">
                     <?php foreach ($jobOpportunities as $job): ?>

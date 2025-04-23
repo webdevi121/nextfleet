@@ -2,8 +2,8 @@
 // Define footer data as arrays
 $contact_info = [
     ['icon' => 'images/icon-location.png', 'text' => 'Level 1, Building 5/747 Lytton Rd, Murarrie QLD 4172'],
-    ['icon' => 'images/icon-phone.png', 'text' => '<a href="tel:03 9361 6333" class="text-gray">03 9361 6333</a>'],
-    ['icon' => 'images/icon-mail.png', 'text' => '<a href="mailto:info@nextfleet.com.au" class="text-gray">info@nextfleet.com.au</a>']
+    ['icon' => 'images/icon-phone.png', 'text' => '<a href="tel:03 9361 6333" class="text-gray hover-text-primary">03 9361 6333</a>'],
+    ['icon' => 'images/icon-mail.png', 'text' => '<a href="mailto:info@nextfleet.com.au" class="text-gray hover-text-primary">info@nextfleet.com.au</a>']
 ];
 
 $social_links = [
@@ -69,7 +69,7 @@ $drive_links = [
         <h5 class="fw-normal">About</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($about_links as $about): ?>
-            <li class="mb-2"><a href="<?= $about['url']; ?>" class="text-decoration-none text-gray"><?= $about['text']; ?></a></li>
+            <li class="mb-2"><a href="<?= $about['url']; ?>" class="text-decoration-none text-gray hover-text-primary"><?= $about['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -77,7 +77,7 @@ $drive_links = [
         <h5 class="fw-normal">OUR SERVICES</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($services_links as $service): ?>
-            <li class="mb-2"><a href="<?= $service['url']; ?>" class="text-decoration-none text-gray"><?= $service['text']; ?></a></li>
+            <li class="mb-2"><a href="<?= $service['url']; ?>" class="text-decoration-none text-gray hover-text-primary"><?= $service['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -85,7 +85,7 @@ $drive_links = [
         <h5 class="fw-normal">Tools</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($tools_links as $tool): ?>
-            <li class="mb-2"><a href="<?= $tool['url']; ?>" class="text-decoration-none text-gray"><?= $tool['text']; ?></a></li>
+            <li class="mb-2"><a href="<?= $tool['url']; ?>" class="text-decoration-none text-gray hover-text-primary"><?= $tool['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -93,7 +93,7 @@ $drive_links = [
         <h5 class="fw-normal">My Drive</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($drive_links as $drive): ?>
-            <li class="mb-2"><a href="<?= $drive['url']; ?>" class="text-decoration-none text-gray"><?= $drive['text']; ?></a></li>
+            <li class="mb-2"><a href="<?= $drive['url']; ?>" class="text-decoration-none text-gray hover-text-primary"><?= $drive['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -114,12 +114,17 @@ $drive_links = [
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <script>
   // Initialize Swiper with navigation
   const swiper = new Swiper('#testimonials-swiper', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
     navigation: {
       prevEl: '.testimonials-swiper-button-prev', // Right arrow
       nextEl: '.testimonials-swiper-button-next', // Left arrow

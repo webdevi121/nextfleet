@@ -213,25 +213,18 @@
                   Our Connection to Mitsubishi <span class="text-primary">Corporation</span>
                   </h2>
                   <p>
-                    As a wholly owned subsidiary of Mitsubishi Corporation,
-                    NextFleet benefits from the global expertise and resources
-                    of a company operating across virtually every industry.
+                    As a wholly owned subsidiary of Mitsubishi Corporation, NextFleet benefits from the global expertise and resources of a company operating across virtually every industry. 
                   </p>
                   <p>
-                    Mitsubishi Corporation’s Automotive & Mobility Group is
-                    driving advancements in mobility services, leveraging
-                    digital transformation and sustainable practices to support
-                    fleet management solutions worldwide.
+                    Mitsubishi Corporation’s Automotive & Mobility Group is driving advancements in mobility services, leveraging digital transformation and sustainable practices to support fleet management solutions worldwide. 
                   </p>
                   <p>
-                    This strategic backing strengthens NextFleet’s ability to
-                    provide industry-leading innovation and long-term value for
-                    our clients.
+                    This strategic backing strengthens NextFleet’s ability to provide industry-leading innovation and long-term value for our clients.
                   </p>
                   <a href="/" class="btn btn-primary text-white fw-bold">
                     <div class="d-flex align-items-center gap-2">
                       <div class="text-uppercase">
-                        VISIT MITSUBISHI CORPORATION
+                        Visit Next Fleet Australia
                       </div>
                       <div class="flex-grow-1">
                         <svg
@@ -256,7 +249,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 d-flex">
             <div
               class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative"
             >
@@ -269,7 +262,7 @@
               </div>
               <div class="row gap-2">
                 <div class="fs-4 fw-bold text-uppercase">
-                  <span class="d-flex gap-2">
+                  <span class="d-flex gap-2 align-items-center">
                     OUR VISION
                     <div class="flex-grow-1">
                       <svg
@@ -297,7 +290,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 d-flex">
             <div
               class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative"
             >
@@ -310,7 +303,7 @@
               </div>
               <div class="row gap-2">
                 <div class="fs-4 fw-bold text-uppercase">
-                  <span class="d-flex gap-2">
+                  <span class="d-flex gap-2 align-items-center">
                     OUR APPROACH
                     <div class="flex-grow-1">
                       <svg
@@ -336,7 +329,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 d-flex">
             <div
               class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative"
             >
@@ -349,7 +342,7 @@
               </div>
               <div class="row gap-2">
                 <div class="fs-4 fw-bold text-uppercase">
-                  <span class="d-flex gap-2">
+                  <span class="d-flex gap-2 align-items-center">
                     OUR PROMISE
                     <div class="flex-grow-1">
                       <svg

@@ -94,7 +94,7 @@ $salesData = [
         </div>
     </div>
 
-    <div class="row align-items-start row-cols-1 row-cols-md-4 g-4 justify-content-center mb-7">
+    <div class="row align-items-start row-cols-2 row-cols-md-4 g-4 justify-content-center mb-7">
         <?php foreach ($teamData as $data): ?>
             <div>
                 <div class="overflow-hidden rounded-4 shadow-lg team-items">
@@ -103,7 +103,7 @@ $salesData = [
                     </div>
                     <div class="bg-dark text-white p-4 team-hover">
                         <h2 class="fs-4"><?php echo $data['name']; ?></h2>
-                        <div><?php echo $data['title']; ?></div>
+                        <div class="fs-6"><?php echo $data['title']; ?></div>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@ $salesData = [
         </div>
     </div>
 
-    <div class="row align-items-start row-cols-1 row-cols-md-4 g-4 justify-content-center">
+    <div class="row align-items-start row-cols-2 row-cols-md-4 g-4 justify-content-center">
         <?php foreach ($salesData as $data): ?>
             <div>
                 <div class="overflow-hidden rounded-4 shadow-lg team-items">
@@ -125,7 +125,7 @@ $salesData = [
                     </div>
                     <div class="bg-dark text-white p-4 team-hover">
                         <h2 class="fs-4"><?php echo $data['name']; ?></h2>
-                        <div><?php echo $data['title']; ?></div>
+                        <div class="fs-6"><?php echo $data['title']; ?></div>
                     </div>
                 </div>
             </div>

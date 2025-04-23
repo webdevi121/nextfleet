@@ -9,8 +9,8 @@
   --gray-color: #999999;
   --bs-nav-link-hover-color: var(--primary-color);
   --bg-color: '#010204';
-  --swiper-pagination-color: #ef1c23;
-  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-color: var(--primary-color);
+  --swiper-pagination-bullet-inactive-color: var(--primary-color);
 }
 .subtext {
   color: var(--gray-color);

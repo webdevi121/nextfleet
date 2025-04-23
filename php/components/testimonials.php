@@ -38,7 +38,7 @@
             <img src="images/person.png" alt="" class="person-overlay">
           </div>
           </div>
-          <div class="col-8 ms-auto">
+          <div class="col-sm-8 ms-auto">
             <div>
               <div class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2">
                 <img src="images/iconNf.png" alt="icon" width="14" />
@@ -47,7 +47,7 @@
               <h2 class="text-uppercase fw-bold mb-5 fs-1">What Our <span class="text-primary">Customers</span> Say</h2>
             </div>
           </div>
-          <div class="col-8 ms-auto">
+          <div class="col-sm-8 ms-auto">
             <div class="position-relative">
               <div id="testimonials-swiper" class="swiper-container overflow-hidden">
                 <div class="swiper-wrapper">
@@ -69,10 +69,13 @@
                   <?php endforeach; ?>
                 </div>
                   
-                <!-- Left Arrow -->
-                <div class="swiper-button-prev testimonials-swiper-button-prev"></div>
-                <!-- Right Arrow -->
-                <div class="swiper-button-next testimonials-swiper-button-next"></div>
+                <div class="swiper-pagination mt-4 d-sm-none"></div>
+                <div class="d-none d-sm-block">
+                  <!-- Left Arrow -->
+                  <div class="swiper-button-prev testimonials-swiper-button-prev"></div>
+                  <!-- Right Arrow -->
+                  <div class="swiper-button-next testimonials-swiper-button-next"></div>
+                </div>
               </div>
             </div>
           </div>
