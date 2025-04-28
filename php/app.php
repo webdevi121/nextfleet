@@ -156,7 +156,7 @@
   ob_end_clean();
 
   // Save the output to the root directory as index.html
-  file_put_contents(__DIR__ . '/../tools.html', $output);
+  file_put_contents(__DIR__ . '/../app.html', $output);
 
   // Function to copy directories (CSS, fonts, images, etc.)
   function copyFolder($source, $destination) {
