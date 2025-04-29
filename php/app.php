@@ -67,7 +67,7 @@
     </section>
     <section
       id="content"
-      class="container d-flex flex-column gap-7 pt-5 content"
+      class="container d-flex flex-column gap-7 pt-sm-5 content"
     >
       <div class="row">
         <div class="col-sm-7">
@@ -111,42 +111,86 @@
       class="bg-gray pt-6 pb-6"
     >
       <div class="container">
-      <div class="row">
-        <div class="col-12 text-center mb-5 text-primary">
-          <h2>Install myDriver App on iOS</h2>
-        </div>
-      </div>
-      <div class="my-app-container">
-        <div class="row g-5 custom-width-my-app">
-          <div class="col-4">
-            <div>
-              <img src="images/ios-step-1.png" alt="" class="w-100">
-            </div>
-            <div class="mt-4 text-center">
-              <div class="fs-2 fw-bold pe-2" style="line-height:32px;">1</div>
-              <div class="fs-5">Select the Share button </br> in the bottom menu.</div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div>
-              <img src="images/ios-step-2.png" alt="" class="w-100">
-            </div>
-            <div class="mt-4 text-center">
-              <div class="fs-2 fw-bold pe-2" style="line-height:32px;">2</div>
-              <div class="fs-5">Select “Add to Home Screen” </br> from the menu.</div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div>
-              <img src="images/ios-step-2.png" alt="" class="w-100">
-            </div>
-            <div class="mt-4 text-center">
-              <div class="fs-2 fw-bold pe-2" style="line-height:32px;">3</div>
-              <div class="fs-5">Select “Add” </br> to confirm.</div>
-            </div>
+        <div class="row">
+          <div class="col-12 text-center mb-5 text-primary">
+            <h2>Install myDriver App on Android</h2>
           </div>
         </div>
+        <div class="my-app-container">
+          <div class="row g-8 custom-width-my-app">
+            <div class="col-4">
+              <div>
+                <img src="images/android-1.png" alt="" class="w-100">
+              </div>
+              <div class="mt-4 text-center">
+                <div class="fs-2 fw-bold pe-2" style="line-height:32px;">1</div>
+                <div class="fs-5">Open the menu </br>(three dots in the top-right corner).</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div>
+                <img src="images/android-2.png" alt="" class="w-100">
+              </div>
+              <div class="mt-4 text-center">
+                <div class="fs-2 fw-bold pe-2" style="line-height:32px;">2</div>
+                <div class="fs-5">Select "Install app" </br>from the menu.</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div>
+                <img src="images/android-3.png" alt="" class="w-100">
+              </div>
+              <div class="mt-4 text-center">
+                <div class="fs-2 fw-bold pe-2" style="line-height:32px;">3</div>
+                <div class="fs-5">Choose "Install" </br>to confirm.</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+
+    <section
+      id="content"
+      class="bg-white pt-6 pb-6"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5 text-primary">
+            <h2>Install myDriver App on iOS</h2>
+          </div>
+        </div>
+        <div class="my-app-container">
+          <div class="row g-8 custom-width-my-app">
+            <div class="col-4">
+              <div>
+                <img src="images/ios-step-1.png" alt="" class="w-100">
+              </div>
+              <div class="mt-4 text-center">
+                <div class="fs-2 fw-bold pe-2" style="line-height:32px;">1</div>
+                <div class="fs-5">Select the Share button </br> in the bottom menu.</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div>
+                <img src="images/ios-step-2.png" alt="" class="w-100">
+              </div>
+              <div class="mt-4 text-center">
+                <div class="fs-2 fw-bold pe-2" style="line-height:32px;">2</div>
+                <div class="fs-5">Select “Add to Home Screen” </br> from the menu.</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div>
+                <img src="images/ios-step-2.png" alt="" class="w-100">
+              </div>
+              <div class="mt-4 text-center">
+                <div class="fs-2 fw-bold pe-2" style="line-height:32px;">3</div>
+                <div class="fs-5">Select “Add” </br> to confirm.</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

@@ -12494,4 +12494,13 @@ ul.custom-bullets li {
   }
 }
 
+.g-8 {
+  --bs-gutter-x: 8rem;
+}
+@media (max-width: 768px) {
+  .g-8 {
+    --bs-gutter-x: 3rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -517,3 +517,11 @@ ul.custom-bullets {
     padding-bottom: 30px;
   }
 }
+
+//////////////////////////////////////// Gutter ////////////////////////////////////////
+.g-8 {
+  --bs-gutter-x: 8rem;
+  @media (max-width: map-get($grid-breakpoints, 'md')) {
+    --bs-gutter-x: 3rem;
+  }
+}
