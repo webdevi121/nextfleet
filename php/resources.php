@@ -28,7 +28,10 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>Resources</span>
             </div>
-            <h1 class="text-uppercase">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            <div>
+              <h1 class="text-uppercase">Fleet Tools & Insights</h1>
+              <p>Access essential fleet tools, driver resources and insights to cut costs and run your fleet more efficiently.</p>
+            </div>
             <div>
               <a href="/" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
