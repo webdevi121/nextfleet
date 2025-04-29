@@ -12478,5 +12478,20 @@ ul.custom-bullets li {
     padding: 1rem;
   }
 }
+.my-app-container {
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .my-app-container {
+    overflow: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-width-my-app {
+    width: 230vw;
+    padding-bottom: 30px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

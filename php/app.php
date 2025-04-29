@@ -116,8 +116,9 @@
           <h2>Install myDriver App on iOS</h2>
         </div>
       </div>
-        <div class="row g-5">
-          <div class="col-sm-4">
+      <div class="my-app-container">
+        <div class="row g-5 custom-width-my-app">
+          <div class="col-4">
             <div>
               <img src="images/ios-step-1.png" alt="" class="w-100">
             </div>
@@ -126,7 +127,7 @@
               <div class="fs-5">Select the Share button </br> in the bottom menu.</div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-4">
             <div>
               <img src="images/ios-step-2.png" alt="" class="w-100">
             </div>
@@ -135,7 +136,7 @@
               <div class="fs-5">Select “Add to Home Screen” </br> from the menu.</div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-4">
             <div>
               <img src="images/ios-step-2.png" alt="" class="w-100">
             </div>
@@ -145,6 +146,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
 

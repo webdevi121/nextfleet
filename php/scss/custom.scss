@@ -503,3 +503,17 @@ ul.custom-bullets {
     padding: 1rem;
   }
 }
+
+//////////////////////////////////////// My App ////////////////////////////////////////
+.my-app-container {
+  overflow: hidden;
+  @media (max-width: map-get($grid-breakpoints, 'md')) {
+    overflow: auto;
+  }
+}
+.custom-width-my-app {
+  @media (max-width: map-get($grid-breakpoints, 'md')) {
+    width: calc(230vw);
+    padding-bottom: 30px;
+  }
+}
