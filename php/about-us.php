@@ -115,7 +115,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/tranquil-multiracial-colleagues-with-papers-intera-CL786KA.jpg"
+            src="images/about-us-img-1.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -125,7 +125,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/two-consultants-or-managers-in-elegant-suit-with-l-WTDARW2.jpg"
+            src="images/nf-img-1.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
