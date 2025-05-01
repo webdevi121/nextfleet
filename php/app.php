@@ -13,12 +13,14 @@
       class="static-banner d-flex align-items-center position-relative bg-black text-white overflow-hidden"
     >
       <div class="overlay-gradient"></div>
-        <div class="hero-video">
-            <video autoplay muted loop playsinline class="w-100 h-100 object-fit-cover">
-                <source src="images/video_preview_h264.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+      <div class="hero-img">
+        <div id="mobile" class="d-block d-md-none">
+          <img src="images/services-mobile-img.jpg" alt="" class="w-100"/>
         </div>
+        <div id="desktop" class="d-none d-md-block">
+          <img src="images/nf-img-11.jpg" alt="" />
+        </div>
+      </div>
       <div class="container position-relative z-3">
         <div class="row">
           <div class="col-sm-6 d-flex flex-column gap-5">
