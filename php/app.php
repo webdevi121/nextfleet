@@ -24,13 +24,10 @@
       <div class="container position-relative z-3">
         <div class="row">
           <div class="col-sm-6 d-flex flex-column gap-5">
-            <div
-              class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
-            >
-              <img src="images/iconNf.png" alt="icon" width="14" />
-              <span>MyDirve App</span>
+            <div>
+              <h1 class="text-uppercase">MyDriver App</h1>
+              <p>Easily download and install the NextFleet app to track vehicles, monitor performance and manage your fleet in real time, anywhere, anytime! </p>
             </div>
-            <h1 class="text-uppercase">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
             <div>
               <a href="/" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">

@@ -28,7 +28,10 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>Tools</span>
             </div>
-            <h1 class="text-uppercase">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            <div>
+              <h1 class="text-uppercase">Fleet Decision Tools</h1>
+              <p>Navigate FMO Choices and Ownership Options</p>
+            </div>
             <div>
               <a href="/" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
