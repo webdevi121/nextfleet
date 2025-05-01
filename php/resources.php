@@ -253,7 +253,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/nf-img-6.jpg"
+            src="images/nf-img-10.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -263,7 +263,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/process-of-buying-new-car-woman-is-signing-documen-CMD5SXH.jpg"
+            src="images/nf-img-9.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
