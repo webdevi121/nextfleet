@@ -263,7 +263,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/nf-img-9.jpg"
+            src="images/nf-img-9.JPG"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
