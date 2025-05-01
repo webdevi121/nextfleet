@@ -126,7 +126,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/dealership-manager-checking-cars-9N5GGV9.jpg"
+            src="images/nf-img-7.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -136,7 +136,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/car-mechanic-using-digital-tablet-in-repair-garage-5T7VGDC.jpg"
+            src="images/nf-img-3.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -253,7 +253,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/controlling-car-with-a-digital-tablet-YWZG4KW.jpg"
+            src="images/nf-img-6.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
