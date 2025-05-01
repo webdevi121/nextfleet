@@ -109,7 +109,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/two-young-workers-in-formal-wear-sitting-on-the-ba-DZMMG4G.jpg"
+            src="images/nf-img-4.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -214,7 +214,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/controlling-car-with-a-digital-tablet-YWZG4KW.jpg"
+            src="images/nf-img-2.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -315,7 +315,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/truck-driver-using-laptop-copy-space-7GYYBAK.jpg"
+            src="images/nf-img-5.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
@@ -325,7 +325,7 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/process-of-buying-new-car-woman-is-signing-documen-CMD5SXH.jpg"
+            src="images/nf-img-8.jpg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
