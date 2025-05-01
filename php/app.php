@@ -15,7 +15,7 @@
       <div class="overlay-gradient"></div>
       <div class="hero-img">
         <div id="mobile" class="d-block d-md-none">
-          <img src="images/services-mobile-img.jpg" alt="" class="w-100"/>
+          <img src="images/nf-img-12.jpg" alt="" class="w-100"/>
         </div>
         <div id="desktop" class="d-none d-md-block">
           <img src="images/nf-img-11.jpg" alt="" />
