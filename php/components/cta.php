@@ -12,7 +12,7 @@ class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relat
     form, and let’s explore how we can work together to drive
     success.
     </div>
-    <a href="/" class="btn btn-primary text-white fw-bold bg-white">
+    <a href="contact.html" class="btn btn-primary text-white fw-bold bg-white">
     <div class="d-flex align-items-center gap-2">
         <div class="text-uppercase text-black">
         VISIT NEXTFLEET AUSTRALIA

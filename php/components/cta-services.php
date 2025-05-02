@@ -10,7 +10,7 @@ class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relat
     <div class="fs-4 fw-bold mb-3 text-white">
     <p><?php echo $text ?? 'Default CTA text'; ?></p>
     </div>
-    <a href="/" class="btn btn-primary text-white fw-bold bg-white">
+    <a href="contact.html" class="btn btn-primary text-white fw-bold bg-white">
     <div class="d-flex align-items-center gap-2">
         <div class="text-uppercase text-black">
         <?php echo $buttonText ?? 'Default CTA text'; ?>

@@ -134,7 +134,7 @@ $salesData = [
     <div class="row pt-5 pb-5">
           <div class="col-12">
             <div class="text-center">
-              <a href="/" class="btn btn-primary text-white fw-bold">
+              <a href="contact.html" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
                   <div class="text-uppercase">Speak to an Expert</div>
                   <div class="flex-grow-1">

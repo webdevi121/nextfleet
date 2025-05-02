@@ -27,7 +27,7 @@
             </div>
             <h1 class="text-uppercase">Your Trusted Fleet Management Partner</h1>
             <div>
-              <a href="/" class="btn btn-primary text-white fw-bold">
+              <a href="contact.html" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
                   <div class="text-uppercase">Enquire Now</div>
                   <div class="flex-grow-1">
@@ -122,7 +122,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="why-choose-us" class="row">
         <div class="col-sm-4">
           <img
             src="images/nf-img-1.jpg"
@@ -181,6 +181,30 @@
               fleet strategies, delivering better performance, lower risk, and
               long-term savings.
             </p>
+            <div>
+                  <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="text-uppercase">
+                        ENQUIRE NOW
+                      </div>
+                      <div class="flex-grow-1">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                          />
+                          <path
+                            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+            </div>
           </div>
         </div>
         <div class="col-sm-4">
@@ -221,28 +245,6 @@
                   <p>
                     This strategic backing strengthens NextFleet’s ability to provide industry-leading innovation and long-term value for our clients.
                   </p>
-                  <a href="/" class="btn btn-primary text-white fw-bold">
-                    <div class="d-flex align-items-center gap-2">
-                      <div class="text-uppercase">
-                        Visit Next Fleet Australia
-                      </div>
-                      <div class="flex-grow-1">
-                        <svg
-                          width="15"
-                          height="15"
-                          viewBox="0 0 15 15"
-                          fill="currentColor"
-                        >
-                          <path
-                            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
-                          />
-                          <path
-                            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>

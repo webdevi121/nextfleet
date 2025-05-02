@@ -7,26 +7,26 @@ $contact_info = [
 ];
 
 $social_links = [
-    ['url' => 'https://facebook.com', 'icon' => 'images/icon-facebook.png'],
-    ['url' => 'https://instagram.com', 'icon' => 'images/icon-instagram.png'],
-    ['url' => 'https://youtube.com', 'icon' => 'images/icon-youtube.png'],
-    ['url' => 'https://linkedin.com', 'icon' => 'images/icon-linkedin.png']
+    ['url' => 'https://www.facebook.com/NextFleetAus/', 'icon' => 'images/icon-facebook.png'],
+    ['url' => 'https://www.instagram.com/nextfleet/', 'icon' => 'images/icon-instagram.png'],
+    ['url' => 'https://www.youtube.com/channel/UCPUJAOkdSmRQQ-QhKU91vWw', 'icon' => 'images/icon-youtube.png'],
+    ['url' => 'https://www.linkedin.com/company/nextfleetaustralia/', 'icon' => 'images/icon-linkedin.png']
 ];
 
 $about_links = [
     ['text' => 'Who We Are', 'url' => 'about-us.html#overview'],
     ['text' => 'Our Expertise', 'url' => 'about-us.html#content'],
-    ['text' => 'Why Choose Us', 'url' => 'about-us.html#content'],
+    ['text' => 'Why Choose Us', 'url' => 'about-us.html#why-choose-us'],
     ['text' => 'Career Opportunities', 'url' => 'about-us.html#career-section'],
 ];
 
 $services_links = [
     ['text' => 'Fleet Management Solutions', 'url' => '/services.html#tab-1'],
     ['text' => 'Vehicle Fleet Leasing', 'url' => '/services.html#tab-6'],
-    ['text' => 'Fleet Management Consulting Services', 'url' => '#'],
-    ['text' => 'Transition To Zero-Emission Fleets', 'url' => '#'],
-    ['text' => 'Truck Leasing & Fleet Expertise', 'url' => '#'],
-    ['text' => 'Sales & Leaseback', 'url' => '#']
+    ['text' => 'Fleet Management Consulting Services', 'url' => 'contact.html'],
+    ['text' => 'Transition To Zero-Emission Fleets', 'url' => '/services.html#tab-8'],
+    ['text' => 'Truck Leasing & Fleet Expertise', 'url' => '/services.html#tab-9'],
+    ['text' => 'Sales & Leaseback', 'url' => '/services.html#tab-4']
 ];
 
 $tools_links = [

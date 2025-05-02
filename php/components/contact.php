@@ -18,7 +18,7 @@
                 <h2 class="text-uppercase p-0 m-0 fs-1">Take your fleet to the next level with <span class="primary-color">nextfleet australia</span></h2>
                 <div>Unlock smarter fleet management services, boost efficiency, reduce costs, and optimise performance with our tailored solutions.</div>
                 <div>
-                <a href="" class="text-uppercase fw-bold text-white btn btn-primary">
+                <a href="contact.html" class="text-uppercase fw-bold text-white btn btn-primary">
                     <div class="d-flex align-items-center gap-2">
                     <div>Contact Us</div>
                     <div class="flex-grow-1">

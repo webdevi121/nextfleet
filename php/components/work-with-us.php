@@ -34,7 +34,7 @@
             </p>
             <p>Together, we’re redefining fleet and mobility.</p>
             
-                <a href="" class="text-uppercase fw-bold text-white btn btn-primary">
+                <a href="contact.html" class="text-uppercase fw-bold text-white btn btn-primary">
                     <div class="d-flex align-items-center gap-2">
                     <div>Contact Us</div>
                     <div class="flex-grow-1">

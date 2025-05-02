@@ -4,7 +4,7 @@ $jobOpportunities = [
     [
         'title' => 'Operations Officer – Fleet Administration',
         'description' => 'We are looking for individuals who share our vision and are eager to contribute to our mission of expanding our market presence, enhancing brand recognition, and penetrating new markets. Click on the button below to know more:',
-        'applyLink' => '#', // Replace with actual link
+        'applyLink' => 'contact.html', // Replace with actual link
     ],
     // Add more job opportunities as needed
 ];

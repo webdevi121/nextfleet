@@ -12050,6 +12050,10 @@ p {
   }
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .custom-button {
   background-color: #ef1c23;
   color: white;
