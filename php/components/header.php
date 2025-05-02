@@ -18,7 +18,7 @@ $navItems = [
     ["name" => "Resources", "href" => "/resources.html"],
     ["name" => "Tools", "href" => "/tools.html"],
     ["name" => "App", "href" => "/app.html"],
-    ["name" => "Contact Us", "href" => "#"],
+    ["name" => "Contact Us", "href" => "/contact.html"],
     ["name" => "Mydrive", "href" => "#"],
     ["name" => "Login", "href" => "#"]
 ];

@@ -14,14 +14,12 @@
       class="static-banner d-flex align-items-center position-relative bg-black text-white overflow-hidden"
     >
       <div class="overlay-gradient"></div>
-      <div class="hero-img">
-        <div id="mobile" class="d-block d-md-none">
-          <img src="images/services-mobile-img.jpg" alt="" class="w-100"/>
+        <div class="hero-video">
+            <video autoplay muted loop playsinline class="w-100 h-100 object-fit-cover">
+                <source src="images/nf-video-1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
-        <div id="desktop" class="d-none d-md-block">
-          <img src="images/nf-img-13.jpg" alt="" />
-        </div>
-      </div>
       <div class="container position-relative z-3">
         <div class="row">
           <div class="col-sm-6 d-flex flex-column gap-5">
@@ -76,6 +74,14 @@
               At <strong class="text-primary">NextFleet</strong>, we provide comprehensive fleet management solutions and vehcile leasing solutions designed to optimise operations, reduce costs, and support a sustainable future. As a wholly-owned subsidiary of Mitsubishi Corporation, we combine global strength with local expertise to deliver cutting-edge solutions for businesses of all sizes. 
             </p>
             <p>Whether you're looking for tailored fleet management services, emission reduction strategies, or expert guidance on transitioning to zero-emission vehicles, we have the expertise to support your business at every stage.</p>
+          </div>
+          <div class="col-sm-8 mx-auto">
+            <iframe width="100%" height="482"
+              src="https://www.youtube.com/embed/7yyuQLCKsrI?rel=0&modestbranding=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+            </iframe>
           </div>
         </div>
       </div>
