@@ -318,6 +318,7 @@
 
     document.addEventListener('DOMContentLoaded', function () {
 
+
       // Desktop Tab script
         const tabList = document.getElementById('service-tabs');
         const tabContent = document.getElementById('service-tabContent');
@@ -345,6 +346,20 @@
             div.innerHTML = tab.content;
             tabContent.appendChild(div);
         });
+        // Activate tab based on URL hash
+        const hash = window.location.hash;
+        if (hash) {
+            const tabTriggerEl = document.querySelector(`#service-tabs .nav-link[href="${hash}"]`);
+            if (tabTriggerEl) {
+                const tab = new bootstrap.Tab(tabTriggerEl);
+                tab.show();
+                document.getElementById('services-container').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }
+
 
 
         // Mobile Accordion Script

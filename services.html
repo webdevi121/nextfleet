@@ -275,8 +275,8 @@
       <div class="col-md-2 text-start text-uppercase">
         <h5 class="fw-normal">OUR SERVICES</h5>
         <ul class="list-unstyled text-gray">
-                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Fleet Management Solutions</a></li>
-                      <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Vehicle Fleet Leasing</a></li>
+                      <li class="mb-2"><a href="/services.html#tab-1" class="text-decoration-none text-gray hover-text-primary">Fleet Management Solutions</a></li>
+                      <li class="mb-2"><a href="/services.html#tab-6" class="text-decoration-none text-gray hover-text-primary">Vehicle Fleet Leasing</a></li>
                       <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Fleet Management Consulting Services</a></li>
                       <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Transition To Zero-Emission Fleets</a></li>
                       <li class="mb-2"><a href="#" class="text-decoration-none text-gray hover-text-primary">Truck Leasing & Fleet Expertise</a></li>
@@ -829,6 +829,7 @@ class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relat
 
     document.addEventListener('DOMContentLoaded', function () {
 
+
       // Desktop Tab script
         const tabList = document.getElementById('service-tabs');
         const tabContent = document.getElementById('service-tabContent');
@@ -856,6 +857,20 @@ class="bg-primary rounded-4 text-center py-5 pb-5 overflow-hidden position-relat
             div.innerHTML = tab.content;
             tabContent.appendChild(div);
         });
+        // Activate tab based on URL hash
+        const hash = window.location.hash;
+        if (hash) {
+            const tabTriggerEl = document.querySelector(`#service-tabs .nav-link[href="${hash}"]`);
+            if (tabTriggerEl) {
+                const tab = new bootstrap.Tab(tabTriggerEl);
+                tab.show();
+                document.getElementById('services-container').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }
+
 
 
         // Mobile Accordion Script

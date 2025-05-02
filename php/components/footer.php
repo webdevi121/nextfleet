@@ -21,8 +21,8 @@ $about_links = [
 ];
 
 $services_links = [
-    ['text' => 'Fleet Management Solutions', 'url' => '#'],
-    ['text' => 'Vehicle Fleet Leasing', 'url' => '#'],
+    ['text' => 'Fleet Management Solutions', 'url' => '/services.html#tab-1'],
+    ['text' => 'Vehicle Fleet Leasing', 'url' => '/services.html#tab-6'],
     ['text' => 'Fleet Management Consulting Services', 'url' => '#'],
     ['text' => 'Transition To Zero-Emission Fleets', 'url' => '#'],
     ['text' => 'Truck Leasing & Fleet Expertise', 'url' => '#'],
