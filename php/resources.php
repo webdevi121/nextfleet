@@ -33,7 +33,7 @@
               <p>Access essential fleet tools, driver resources and insights to cut costs and run your fleet more efficiently.</p>
             </div>
             <div>
-              <a href="/" class="btn btn-primary text-white fw-bold">
+              <a href="/contact.html" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
                   <div class="text-uppercase">Enquire Now</div>
                   <div class="flex-grow-1">
@@ -62,7 +62,7 @@
       <div class="row">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
             <li class="breadcrumb-item">Resources</li>
           </ol>
         </nav>
@@ -74,9 +74,9 @@
     >
       <div class="row">
         <div class="col-sm-8">
-          <div class="pt-5 pb-5 pe-7 d-flex flex-column">
+          <div class="pt-5 pb-5 pe-7 d-flex flex-column gap-3">
             <div
-              class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2 mb-3"
+              class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
             >
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>Resources</span>
@@ -86,20 +86,22 @@
                 Whether you're managing a fleet or driving a company vehicle, we provide expert insights, practical tools, and essential services to keep your vehicles moving efficiently.
             </p>
             <p>Access a range of resources, from operational support and compliance tools to industry insights and news. Whether you need to assess the cost benefits of leasing versus buying, find a service provider, or stay informed about the latest fleet management trends, our comprehensive resource center is here to support you.</p>
-            <p><strong>Explore Resources</strong></p>
-            <ul class="custom-bullets">
-              <li>Resources for Drivers – Tools and support for drivers, including maintenance, roadside assistance, and fuel management.
-              </li>
-              <li>
-              Fleet Managers – Strategic tools and insights to optimize fleet efficiency and reduce costs.
-              </li>
-              <li>
-              NextLevel Insights – Stay updated with the latest industry insights, trends, and best practices.
-              </li>
-            </ul>
+            <div>
+              <div class="mb-3"><strong>Explore Resources</strong></div>
+              <ul class="custom-bullets">
+                <li>Resources for Drivers – Tools and support for drivers, including maintenance, roadside assistance, and fuel management.
+                </li>
+                <li>
+                Fleet Managers – Strategic tools and insights to optimize fleet efficiency and reduce costs.
+                </li>
+                <li>
+                NextLevel Insights – Stay updated with the latest industry insights, trends, and best practices.
+                </li>
+              </ul>
+            </div>
             <div>
                 <div class="mb-2">Need help managing your vehicle?</div>
-                <a href="/" class="btn btn-primary text-white fw-bold">
+                <a href="/contact.html" class="btn btn-primary text-white fw-bold">
                     <div class="d-flex align-items-center gap-2">
                         <div class="text-uppercase">
                             Contact Us  
@@ -175,7 +177,7 @@
             </ul>
             <div>
                 <div class="mb-2">Need help managing your vehicle?</div>
-                <a href="/" class="btn btn-primary text-white fw-bold">
+                <a href="/contact.html" class="btn btn-primary text-white fw-bold">
                     <div class="d-flex align-items-center gap-2">
                         <div class="text-uppercase">
                             Contact Us  
@@ -226,7 +228,7 @@
             </ul>
             <div>
                 <div class="mb-2">Looking for something else?</div>
-                <a href="/" class="btn btn-primary text-white fw-bold">
+                <a href="/contact.html" class="btn btn-primary text-white fw-bold">
                     <div class="d-flex align-items-center gap-2">
                         <div class="text-uppercase">
                             Contact Us  
@@ -290,7 +292,7 @@
             </ul>
             <div>
                 <div class="mb-2">Want to stay informed?</div>
-                <a href="/" class="btn btn-primary text-white fw-bold">
+                <a href="/contact.html" class="btn btn-primary text-white fw-bold">
                     <div class="d-flex align-items-center gap-2">
                         <div class="text-uppercase">
                             Subscribe
