@@ -21,7 +21,7 @@ $leaseInclusions = [
     <?php loadComponent("header");?>
         <div class="container pt-5 pb-5">
             <div class="row">
-                <div class="col-5">
+                <div class="col-sm-5">
                     <div>
                         <h2 class="text-primary">Looking to lease this vehicle?</h2>
                         <h3>Toyota Hybrid</h3>
@@ -30,8 +30,7 @@ $leaseInclusions = [
                     </div>
                     <div><img src="images/nf-img-19.png" alt="Car Image" class="w-100"></div>
                 </div>
-                <div class="col-7">
-
+                <div class="col-sm-7">
                     <div class="bg-gray p-5 rounded-3">
                         <h2 class="mb-4">What’s Included in a NextFleet Fully Maintained Operating Lease?</h2>
                         <p>NextFleet’s Fully Maintained Operating Lease includes your vehicle finance and estimated running costs in one fixed repayment.</p>
