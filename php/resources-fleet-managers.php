@@ -104,7 +104,7 @@ $helpCards = [
       </div>
     </section>
     <section class="container pt-5 pb-5">
-        <div class="row g-4">
+        <div class="row g-5">
         <?php foreach ($helpCards as $card): ?>
             <div class="col-sm-4 d-flex">
             <div class="card h-100 w-100">
