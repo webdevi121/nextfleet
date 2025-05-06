@@ -30,15 +30,15 @@ $services_links = [
 ];
 
 $tools_links = [
-    ['text' => 'Resources for Drivers', 'url' => '#'],
-    ['text' => 'Resources for Fleet Managers', 'url' => '#'],
-    ['text' => 'NextLevel Insights', 'url' => '#'],
-    ['text' => 'Services Locator', 'url' => '#']
+    ['text' => 'Resources for Drivers', 'url' => '/resources-for-drivers.html'],
+    ['text' => 'Resources for Fleet Managers', 'url' => '/resources-for-fleet-managers.html'],
+    ['text' => 'NextLevel Insights', 'url' => '/nextlevel-insights.html'],
+    ['text' => 'Services Locator', 'url' => '/services-locator.html']
 ];
 
 $drive_links = [
-    ['text' => 'Login', 'url' => '#'],
-    ['text' => 'My Drive App', 'url' => '#']
+    ['text' => 'Login', 'url' => 'https://portalnextfleet.b2clogin.com/61a71dbc-f1d9-4418-b8a3-4ad9708a0066/b2c_1_portalsignup/oauth2/v2.0/authorize?client_id=178ef4a0-d066-4b31-b640-0576c9d57f11&redirect_uri=https%3A%2F%2Fwww.nextfleet.net.au%2Fsignin-aad-b2c_1&response_type=code%20id_token&scope=openid&state=OpenIdConnect.AuthenticationProperties%3DJRD1UXX2uyGhkD6S7w417ry1F7o3exgPgnsAWSSiywFCTamewIV-MtIcsMslr6be4Kla_ZqAA-RvrfSrpd1mZ7HAIfqmWLwNhRghmwQkoBDTbXC08TyZQbaj2Mjqzg-BjJ1UMVNbt9ue7JFF_zAag_T6ccxTsODDIubCDiNTJuUnzpOg58c2Mr0xDgtUBWv73G5NHLXooOhx94Z46vk96Az8t0UDThSFGrbBwPEZK1ZzxAagAR5HIR7IO-e6H_easRnlyhPnOepeyGJ-4OA3IoG8aP2db2Lp2naoxF15t_-mMjd4jmcEekZG-8NT8hVYIL57NnbSbD_u1vblaCFkKecP4UAmRhW6WK2mZyVpTZqDfsvUI9s7fiv5d-sjnzPb9HzpqQ7Cgv7oXJ0lVdcNf6YQpYUDYoapVr7l2dg-egyy-rtRuv3BWBkYuLMqfp6bRavZp4HEDHnXawGt-RPeWqojVEobWv2sxXjbW_RpUvsWZ8Z_lnT67JaP7DX1hx4EsWAPRVSkb65mw8Zu4PdZfa6HLmt7_l0LobtTfzVK-GcT63ni-Tl7ajGsUljLZNyZyouecJw77pPqmgWsTV1oNrF1_ujbG-sds57aWyYfax-OyiD-hs0PAhYE-AArUmOjHly_BFxHJ0vOJhIkrG4sCaenEV3TKmri6Jk0BLSEoZvVPABo0Wna9jRbCpmltCw2&response_mode=form_post&nonce=638817580462759025.YTc0Yzk1MDQtNGQyNS00MGNlLTlkM2YtNzZmOTUwYTg2NmZhYzNjZjk5OGEtMmVkOS00ZGY1LThmOTctZWM5N2YzMDE2YWRk&ui_locales=en-US&x-client-SKU=ID_NET472&x-client-ver=6.35.0.0'],
+    ['text' => 'My Drive App', 'url' => '/app.html']
 ];
 ?>
 
@@ -82,7 +82,7 @@ $drive_links = [
         </ul>
       </div>
       <div class="col-md-2 text-start text-uppercase">
-        <h5 class="fw-normal">Tools</h5>
+        <h5 class="fw-normal">Resources</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($tools_links as $tool): ?>
             <li class="mb-2"><a href="<?= $tool['url']; ?>" class="text-decoration-none text-gray hover-text-primary"><?= $tool['text']; ?></a></li>
