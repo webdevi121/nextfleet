@@ -88,7 +88,7 @@ $helpCards = [
             <p>
               Please find below the list of important numbers in case of an emergency:
             </p>
-            <table class="table table-bordered mb-4">
+            <table class="table table-bordered mb-4 text-start">
                 <tbody>
                     <tr>
                     <th scope="row">Accident Management</th>
