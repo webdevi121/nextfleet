@@ -11,7 +11,7 @@
 $helpCards = [
     [
         'title' => 'Accident Management',
-        'image' => 'images/card-accident.png',
+        'image' => 'images/nf-img-35.png',
         'body' => '
             <p>If involved in a vehicle accident:</p>
             <ul>
@@ -21,7 +21,7 @@ $helpCards = [
                 <li>Do not admit liability</li>
                 <li>Call the below Toll-Free number and choose <br><b>Option 1</b></li>
             </ul>
-            <p><a href="tel:1800 297 900"><b>1800 297 900</b></a></p>
+            <div><a href="tel:1800 297 900"><b>1800 297 900</b></a></div>
         '
     ],
     [
@@ -35,43 +35,43 @@ $helpCards = [
                 <li>Call the Toll-Free number and choose Option 2</li>
                 <li>Remain in your vehicle and only exit if safe to do so. Remain behind any safety barrier until help arrives.</li>
             </ul>
-            <p><a href="tel:1800 297 900"><b>1800 297 900</b></a></p>
+            <div><a href="tel:1800 297 900"><b>1800 297 900</b></a></div>
         '
     ],
     [
         'title' => 'Traffic Infringements',
-        'image' => 'images/card-traffic.png',
+        'image' => 'images/nf-img-37.png',
         'body' => '
             <p>All traffic infringements and parking tickets are sent to your employer.</p>
             <ul>
                 <li>Your employer nominates the person driving the vehicle at the time the infringement was committed.</li>
                 <li>You are responsible to notify your fleet administrator if someone else was driving the vehicle at the time the infringement occurred to ensure accuracy of accountability.</li>
             </ul>
-            <p><a href="tel:1800 297 900"><b>1800 297 900</b></a></p>
+            <div><a href="tel:1800 297 900"><b>1800 297 900</b></a></div>
         '
     ],
     [
         'title' => 'E-Tag',
-        'image' => 'images/card-traffic.png',
+        'image' => 'images/nf-img-38.jpg',
         'body' => '
             <p>When passing through a toll point, you should hear a beep coming from your e-Tag. If this does not happen or you are suspicious the device is not working properly, notify your fleet administrator to organise a new e-tag.</p>
-            <p>If your e-Tag is lost or stolen, notify your fleet administrator immediately or contact us on <a href="tel:1800 297 900"><b>1800 297 900</b></a> between 9:00 am and 5:00 pm AEST Monday to Friday.</p>
+            <div>If your e-Tag is lost or stolen, notify your fleet administrator immediately or contact us on <a href="tel:1800 297 900"><b>1800 297 900</b></a> between 9:00 am and 5:00 pm AEST Monday to Friday.</div>
         '
     ],
     [
         'title' => 'Vehicle Registration and CTP Renewal',
-        'image' => 'images/card-traffic.png',
+        'image' => 'images/nf-img-39.jpg',
         'body' => '
             <p>The payments required for your vehicle registration and CTP renewal will be processed by us.</p>
-            <p>If a vehicle inspection is required, you/your company’s fleet manager will be notified so that this can be arranged.</p>
+            <div>If a vehicle inspection is required, you/your company’s fleet manager will be notified so that this can be arranged.</div>
         '
     ],
     [
         'title' => 'Fuel Cards',
-        'image' => 'images/card-traffic.png',
+        'image' => 'images/nf-img-40.jpg',
         'body' => '
             <p>If any of your fuel cards are lost or stolen, please notify your fleet administrator or contact us on <a href="tel:1800 297 900"><b>1800 297 900</b></a> between 9:00 am and 5:00 pm AEST Monday to Friday to cancel existing cards and issue new ones.</p>
-            <p>To generate accurate reporting and offer you the best possible advice, please provide your current odometer reading every time you use any of your fuel cards.</p>
+            <div>To generate accurate reporting and offer you the best possible advice, please provide your current odometer reading every time you use any of your fuel cards.</div>
         '
     ],
 ];
@@ -122,13 +122,13 @@ $helpCards = [
       </div>
     </section>
     <section class="container pt-5 pb-5">
-        <div class="row g-4">
+        <div class="row g-5">
         <?php foreach ($helpCards as $card): ?>
             <div class="col-sm-4 d-flex">
             <div class="card h-100 w-100">
                 <img class="card-img-top" src="<?= $card['image']; ?>" alt="Card image">
                 <div class="card-body">
-                    <h5 class="card-title"><?= $card['title']; ?></h5>
+                    <h5 class="card-title mb-3"><?= $card['title']; ?></h5>
                     <?= $card['body']; ?>
                 </div>
             </div>
