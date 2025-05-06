@@ -88,13 +88,31 @@ $helpCards = [
             <p>
               Please find below the list of important numbers in case of an emergency:
             </p>
-            <ul class="list-unstyled">
-                <li>Accident Management: <a href="tel:1800 297 900">1800 297 900</a> and select <b>option 1</b></li>
-                <li>Roadside Assistance: <a href="tel:1800 297 900">1800 297 900</a> and select <b>option 2</b></li>
-            </ul>
-            <p class="smallText">
-                <i>For other enquiries, email <a href="mailto:maintenance@nextfleet.net.au">NextFleet Team</a></i>.
-            </p>
+            <table class="table table-bordered">
+            <tbody>
+                <tr>
+                <th scope="row">Accident Management</th>
+                <td>
+                    <a href="tel:1800 297 900">1800 297 900</a> and select 
+                    <span style="background-color: #b3d4fc; color: black;">option 1</span>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">Roadside Assistance</th>
+                <td>
+                    <a href="tel:1800 297 900">1800 297 900</a> and select 
+                    <span style="background-color: #b3d4fc; color: black;">option 2</span>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">Other Enquiries</th>
+                <td>
+                    <a href="mailto:maintenance@nextfleet.net.au">NextFleet Team</a>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+
             <div class="d-flex gap-3 flex-wrap m-auto justify-content-center">
                 <a href="https://www.nextfleet.net.au/Resources/Drivers-Resources/driverguide-v1-2024.pdf" target="_blank" value="driver-guide.pdf" class="btn btn-primary text-white">Download Driver Guide here</a>
                 <a href="https://www.nextfleet.net.au/Resources/Service-Locator-Resources/" target="_blank" value="Service-Locator" class="btn btn-primary text-white">Service Locator</a>
