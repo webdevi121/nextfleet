@@ -47,7 +47,7 @@ $leaseInclusions = [
 
                         <p>Unsure about the lease term or vehicle options? Start a conversation with our friendly team to structure a lease that fits your preferences. Customise factors like lease duration, kilometre limit and vehicle options. Let us help you maximise the value of leasing.  </p>
                         <div>
-                            <a href="/" class="btn btn-primary text-white fw-bold">
+                            <a href="/contact.html" class="btn btn-primary text-white fw-bold">
                                 <div class="d-flex align-items-center gap-2">
                                 <div class="text-uppercase">Enquire Now</div>
                                 <div class="flex-grow-1">

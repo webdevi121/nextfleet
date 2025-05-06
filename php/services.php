@@ -31,7 +31,7 @@
             </div>
             <h1 class="text-uppercase">Fleet Management Solutions Tailored for Your Business</h1>
             <div>
-              <a href="/" class="btn btn-primary text-white fw-bold">
+              <a href="contact.html" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
                   <div class="text-uppercase">Enquire Now</div>
                   <div class="flex-grow-1">
@@ -60,7 +60,7 @@
       <div class="row">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
             <li class="breadcrumb-item">Services</li>
           </ol>
         </nav>
