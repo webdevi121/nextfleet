@@ -80,7 +80,30 @@ $helpCards = [
 
 
     <?php loadComponent("header");?>
-        <div class="container pt-5 pb-5">
+    <section id="overview" class="bg-light pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 m-auto text-center">
+            <h1>Drivers</h1>
+            <p>
+              Please find below the list of important numbers in case of an emergency:
+            </p>
+            <ul class="list-unstyled">
+                <li>Accident Management: <a href="tel:1800 297 900">1800 297 900</a> and select <b>option 1</b></li>
+                <li>Roadside Assistance: <a href="tel:1800 297 900">1800 297 900</a> and select <b>option 2</b></li>
+            </ul>
+            <p class="smallText">
+                <i>For other enquiries, email <a href="mailto:maintenance@nextfleet.net.au">NextFleet Team</a></i>.
+            </p>
+            <div class="d-flex gap-3 flex-wrap m-auto justify-content-center">
+                <a href="https://www.nextfleet.net.au/Resources/Drivers-Resources/driverguide-v1-2024.pdf" target="_blank" value="driver-guide.pdf" class="btn btn-primary text-white">Download Driver Guide here</a>
+                <a href="https://www.nextfleet.net.au/Resources/Service-Locator-Resources/" target="_blank" value="Service-Locator" class="btn btn-primary text-white">Service Locator</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container pt-5 pb-5">
         <div class="row g-4">
         <?php foreach ($helpCards as $card): ?>
             <div class="col-sm-4 d-flex">
@@ -94,7 +117,8 @@ $helpCards = [
             </div>
         <?php endforeach; ?>
         </div>
-        </div>
+    </section>
+    <?php loadComponent("work-with-us");?>
     <?php loadComponent("footer"); ?>
 
 <?php

@@ -8,6 +8,7 @@
 ?>
 
 <?php loadComponent("header");?>
+
     <section
       id="banner"
       class="static-banner d-flex align-items-center position-relative bg-black text-white overflow-hidden"
