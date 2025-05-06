@@ -257,12 +257,12 @@
             >
               <div>
                 <img
-                  src="images/placeholder-1.png"
+                  src="images/nf-img-26.png"
                   alt=""
-                  class="d-block m-auto"
+                  class="d-block m-auto w-100"
                 />
               </div>
-              <div class="row gap-2">
+              <div class="row gap-2 mt-3">
                 <div class="fs-4 fw-bold text-uppercase">
                   <span class="d-flex gap-2 align-items-center">
                     OUR VISION
@@ -298,12 +298,12 @@
             >
               <div>
                 <img
-                  src="images/placeholder-1.png"
+                  src="images/nf-img-27.png"
                   alt=""
-                  class="d-block m-auto"
+                  class="d-block m-auto w-100"
                 />
               </div>
-              <div class="row gap-2">
+              <div class="row gap-2 mt-3">
                 <div class="fs-4 fw-bold text-uppercase">
                   <span class="d-flex gap-2 align-items-center">
                     OUR APPROACH
@@ -337,12 +337,12 @@
             >
               <div>
                 <img
-                  src="images/placeholder-1.png"
+                  src="images/nf-img-28.png"
                   alt=""
-                  class="d-block m-auto"
+                  class="d-block m-auto w-100"
                 />
               </div>
-              <div class="row gap-2">
+              <div class="row gap-2 mt-3">
                 <div class="fs-4 fw-bold text-uppercase">
                   <span class="d-flex gap-2 align-items-center">
                     OUR PROMISE
