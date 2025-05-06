@@ -13,10 +13,11 @@ $leaseInclusions = [
     ['icon' => 'images/nf-icon-2.png', 'label' => 'Fuel'],
     ['icon' => 'images/nf-icon-3.png', 'label' => 'Tyres'],
     ['icon' => 'images/nf-icon-4.png', 'label' => 'Registration'],
-    ['icon' => 'images/nf-icon-5.png', 'label' => 'Comprehensive Insurance'],
-    ['icon' => 'images/nf-icon-6.png', 'label' => 'Maintenance & Servicing'],
+    ['icon' => 'images/nf-icon-5.png', 'label' => 'Comprehensive <br>Insurance'],
+    ['icon' => 'images/nf-icon-6.png', 'label' => 'Maintenance <br>& Servicing'],
 ];
 ?>
+
 
     <?php loadComponent("header");?>
         <div class="container pt-5 pb-5">
@@ -32,17 +33,18 @@ $leaseInclusions = [
                 </div>
                 <div class="col-sm-7">
                     <div class="bg-gray p-5 rounded-3">
-                        <h2 class="mb-4">What’s Included in a NextFleet Fully Maintained Operating Lease?</h2>
+                        <h2 class="mb-4">What’s Included</h2>
                         <p>NextFleet’s Fully Maintained Operating Lease includes your vehicle finance and estimated running costs in one fixed repayment.</p>
                         <div class="fw-bold mb-3">NextFleet Experience the difference</div>
                         <ul class="d-flex flex-wrap list-unstyled text-center">
-                            <?php foreach ($leaseInclusions as $item): ?>
-                                <li class="flex-fill p-2">
-                                    <img src="<?= htmlspecialchars($item['icon']) ?>" alt="" height="40">
-                                    <div><?= htmlspecialchars($item['label']) ?></div>
-                                </li>
-                            <?php endforeach; ?>
+                        <?php foreach ($leaseInclusions as $item): ?>
+                            <li class="flex-fill p-2">
+                            <img src="<?= htmlspecialchars($item['icon']) ?>" alt="" height="40">
+                            <div class="mt-2"><?= $item['label'] ?></div> <!-- no htmlspecialchars here -->
+                            </li>
+                        <?php endforeach; ?>
                         </ul>
+
                         <p>Unsure about the lease term or vehicle options? Start a conversation with our friendly team to structure a lease that fits your preferences. Customise factors like lease duration, kilometre limit and vehicle options. Let us help you maximise the value of leasing.  </p>
                         <div>
                             <a href="/" class="btn btn-primary text-white fw-bold">

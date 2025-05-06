@@ -44,9 +44,23 @@ $navItems = [
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <?php foreach ($navItems as $item): ?>
-                <li class="nav-item">
-                  <a class="nav-link text-uppercase text-white" href="<?= $item['href']; ?>"><?= $item['name']; ?></a>
-                </li>
+                <?php if ($item['name'] === "Resources"): ?>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="<?= $item['href']; ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <?= $item['name']; ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/resources-drivers.html">Resources For Drivers</a></li>
+                      <li><a class="dropdown-item" href="/resources-fleet-managers.html">Resources For Fleet Managers</a></li>
+                      <li><a class="dropdown-item" href="/nextlevel-insights.html">Nextlevel Insights</a></li>
+                      <li><a class="dropdown-item" href="/services-locator.html">Services Locator</a></li>
+                    </ul>
+                  </li>
+                <?php else: ?>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase text-white" href="<?= $item['href']; ?>"><?= $item['name']; ?></a>
+                  </li>
+                <?php endif; ?>
               <?php endforeach; ?>
             </ul>
             <a href="tel:1800 297 900" class="ms-auto custom-btn"><img src="images/icon-phone.png" alt="icons" width="20"> 1800 297 900</a>
