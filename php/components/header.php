@@ -50,6 +50,8 @@ $navItems = [
                       <?= $item['name']; ?>
                     </a>
                     <ul class="dropdown-menu">
+                       <li><a class="dropdown-item" href="/resources.html">Resources</a></li>
+                        <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="/resources-drivers.html">Resources For Drivers</a></li>
                       <li><a class="dropdown-item" href="/resources-fleet-managers.html">Resources For Fleet Managers</a></li>
                       <li><a class="dropdown-item" href="/nextlevel-insights.html">Nextlevel Insights</a></li>
