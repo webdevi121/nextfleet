@@ -293,10 +293,10 @@
             </ul>
             <div>
                 <div class="mb-2">Want to stay informed?</div>
-                <a href="/contact.html" class="btn btn-primary text-white fw-bold">
+                <a href="/nextlevel-insights.html" class="btn btn-primary text-white fw-bold">
                     <div class="d-flex align-items-center gap-2">
                         <div class="text-uppercase">
-                            Subscribe
+                            View More
                         </div>
                         <div class="flex-grow-1">
                             <svg
