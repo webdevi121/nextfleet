@@ -72,11 +72,14 @@ $leaseInclusions = [
                 </div>
             </div>
         </div>
+        <div>
+            <?php loadComponent("promotions"); ?>
+        </div>
         <div class="bg-gray pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                    <p>Terms, conditions and eligibility criteria apply. Available on select vehicles only, for a limited time unless extended. Figures are based on the following criteria: </p>
+                    <p>*Terms, conditions and eligibility criteria apply. Available on select vehicles only, for a limited time unless extended. Figures are based on the following criteria: </p>
                     <ol>
                         <li>NextFleet Fully Maintained Operating Lease;</li>
                         <li>VIC on-road costs;</li>

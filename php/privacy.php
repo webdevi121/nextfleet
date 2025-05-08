@@ -10,6 +10,16 @@
 <?php loadComponent("header");?>
 
 
+<section id="overview" class="bg-light pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 m-auto text-center">
+            <h1>Privacy Policy</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
 <div class="container pt-5 pb-5">
     <div class="row">
 <div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 0px; padding: 10px;">
