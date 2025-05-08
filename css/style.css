@@ -12511,4 +12511,10 @@ ul.custom-bullets li {
   }
 }
 
+.custom-position {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

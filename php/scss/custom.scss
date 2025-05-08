@@ -26,6 +26,8 @@ $h4-font-size: 1.5rem;
 $h5-font-size: 1.25rem;
 $h6-font-size: 1rem;
 
+$form-control-padding-y: 0.5rem;
+
 // Import Bootstrap SCSS after the custom variables
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import 'components/fontface'; // New method with `@use`
@@ -532,4 +534,10 @@ ul.custom-bullets {
   @media (max-width: map-get($grid-breakpoints, 'md')) {
     --bs-gutter-x: 3rem;
   }
+}
+
+.custom-position {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }

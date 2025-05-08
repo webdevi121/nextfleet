@@ -60,13 +60,14 @@ $services = [
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <?php foreach ($services as $service): ?>
           <div class="d-flex">
-            <div class="cards">
+            <div class="cards position-relative pb-6">
               <div class="services-accent-color" style="background-color: var(--<?= $service['accentColor']; ?>);"></div>
               <img src="<?= $service['img']; ?>" alt="Service Image" class="img-placeholder">
-              <div class="row g-2 pt-0 p-4">
+              <div class="row g-2 pt-0 p-4 relative">
                 <h3 class="text-uppercase"><?= $service['title']; ?></h3>
-                <p class="line-clamp-4 subtext"><?= $service['description']; ?></p>
-                <div>
+                <div class="line-clamp-4 subtext"><?= $service['description']; ?></div>
+              </div>
+                <div class="custom-position">
                   <a href="<?= $service['buttonLink']; ?>" class="text-uppercase custom-btn text-pre" style="color: var(--<?= $service['accentColor']; ?>)">
                     <div class="d-flex align-items-center gap-2">
                       <div><?= $service['buttonLabel']; ?></div>
@@ -79,7 +80,6 @@ $services = [
                     </div>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
         <?php endforeach; ?>
