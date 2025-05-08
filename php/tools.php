@@ -174,6 +174,28 @@
               <li>Hassle-free – We manage all running costs for you.</li>
               <li>Expert support – Access our in-house fleet specialists.</li>
             </ul>
+            <div>
+              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="text-uppercase">Contact Us</div>
+                  <div class="flex-grow-1">
+                    <svg
+                      width="15"
+                      height="15"
+                      viewBox="0 0 15 15"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                      />
+                      <path
+                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -317,7 +339,7 @@
             </ul>
             <div>
                 <div class="mb-2">Thinking about switching? Get our handy checklist</div>
-                <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                <a href="https://www.nextfleet.net.au/Changing-FMO-Checklist.pdf" class="btn btn-primary text-white fw-bold">
                     <div class="d-flex align-items-center gap-2">
                         <div class="text-uppercase">
                             Download
