@@ -21,17 +21,17 @@ $about_links = [
 ];
 
 $services_links = [
-    ['text' => 'Fleet Management Solutions', 'url' => '/services.html#tab-1'],
-    ['text' => 'Vehicle Fleet Leasing', 'url' => '/services.html#tab-6'],
-    ['text' => 'Fleet Management Consulting Services', 'url' => 'contact.html'],
-    ['text' => 'Transition To Zero-Emission Fleets', 'url' => '/services.html#tab-8'],
-    ['text' => 'Truck Leasing & Fleet Expertise', 'url' => '/services.html#tab-9'],
-    ['text' => 'Sales & Leaseback', 'url' => '/services.html#tab-4']
+    ['text' => 'Fleet Management Solutions', 'url' => '/services.html'],
+    ['text' => 'Vehicle Fleet Leasing', 'url' => '/services.html'],
+    ['text' => 'Fleet Management Consulting Services', 'url' => '/services.html'],
+    ['text' => 'Transition To Zero-Emission Fleets', 'url' => '/services.html'],
+    ['text' => 'Truck Leasing & Fleet Expertise', 'url' => '/services.html'],
+    ['text' => 'Sales & Leaseback', 'url' => '/services.html']
 ];
 
 $tools_links = [
-    ['text' => 'Resources for Drivers', 'url' => '/resources-for-drivers.html'],
-    ['text' => 'Resources for Fleet Managers', 'url' => '/resources-for-fleet-managers.html'],
+    ['text' => 'Resources for Drivers', 'url' => '/resources-drivers.html'],
+    ['text' => 'Resources for Fleet Managers', 'url' => '/resources-fleet-managers.html'],
     ['text' => 'NextLevel Insights', 'url' => '/nextlevel-insights.html'],
     ['text' => 'Services Locator', 'url' => '/services-locator.html']
 ];
@@ -120,6 +120,23 @@ $drive_links = [
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+
+    <!-- Google Maps API (replace YOUR_API_KEY with your actual API key) -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5lT2mej3E85ojBD69qVA06lRyICReLaU&callback=initMap">
+    </script>
+
+    <script>
+    function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: { lat: -33.8688, lng: 151.2093 }, // Example: Sydney
+        });
+
+        // You can add markers and logic here later
+    }
+    </script>
+
 <script>
   // Initialize Swiper with navigation
   const swiper = new Swiper('#testimonials-swiper', {
@@ -141,6 +158,7 @@ $drive_links = [
     },
   });
 </script>
+
 
 
 <!-- Swiper Config -->

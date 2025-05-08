@@ -313,19 +313,19 @@
       <div class="col-md-2 text-start text-uppercase">
         <h5 class="fw-normal">OUR SERVICES</h5>
         <ul class="list-unstyled text-gray">
-                      <li class="mb-2"><a href="/services.html#tab-1" class="text-decoration-none text-gray hover-text-primary">Fleet Management Solutions</a></li>
-                      <li class="mb-2"><a href="/services.html#tab-6" class="text-decoration-none text-gray hover-text-primary">Vehicle Fleet Leasing</a></li>
-                      <li class="mb-2"><a href="contact.html" class="text-decoration-none text-gray hover-text-primary">Fleet Management Consulting Services</a></li>
-                      <li class="mb-2"><a href="/services.html#tab-8" class="text-decoration-none text-gray hover-text-primary">Transition To Zero-Emission Fleets</a></li>
-                      <li class="mb-2"><a href="/services.html#tab-9" class="text-decoration-none text-gray hover-text-primary">Truck Leasing & Fleet Expertise</a></li>
-                      <li class="mb-2"><a href="/services.html#tab-4" class="text-decoration-none text-gray hover-text-primary">Sales & Leaseback</a></li>
+                      <li class="mb-2"><a href="/services.html" class="text-decoration-none text-gray hover-text-primary">Fleet Management Solutions</a></li>
+                      <li class="mb-2"><a href="/services.html" class="text-decoration-none text-gray hover-text-primary">Vehicle Fleet Leasing</a></li>
+                      <li class="mb-2"><a href="/services.html" class="text-decoration-none text-gray hover-text-primary">Fleet Management Consulting Services</a></li>
+                      <li class="mb-2"><a href="/services.html" class="text-decoration-none text-gray hover-text-primary">Transition To Zero-Emission Fleets</a></li>
+                      <li class="mb-2"><a href="/services.html" class="text-decoration-none text-gray hover-text-primary">Truck Leasing & Fleet Expertise</a></li>
+                      <li class="mb-2"><a href="/services.html" class="text-decoration-none text-gray hover-text-primary">Sales & Leaseback</a></li>
                   </ul>
       </div>
       <div class="col-md-2 text-start text-uppercase">
         <h5 class="fw-normal">Resources</h5>
         <ul class="list-unstyled text-gray">
-                      <li class="mb-2"><a href="/resources-for-drivers.html" class="text-decoration-none text-gray hover-text-primary">Resources for Drivers</a></li>
-                      <li class="mb-2"><a href="/resources-for-fleet-managers.html" class="text-decoration-none text-gray hover-text-primary">Resources for Fleet Managers</a></li>
+                      <li class="mb-2"><a href="/resources-drivers.html" class="text-decoration-none text-gray hover-text-primary">Resources for Drivers</a></li>
+                      <li class="mb-2"><a href="/resources-fleet-managers.html" class="text-decoration-none text-gray hover-text-primary">Resources for Fleet Managers</a></li>
                       <li class="mb-2"><a href="/nextlevel-insights.html" class="text-decoration-none text-gray hover-text-primary">NextLevel Insights</a></li>
                       <li class="mb-2"><a href="/services-locator.html" class="text-decoration-none text-gray hover-text-primary">Services Locator</a></li>
                   </ul>
@@ -360,6 +360,23 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+
+    <!-- Google Maps API (replace YOUR_API_KEY with your actual API key) -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5lT2mej3E85ojBD69qVA06lRyICReLaU&callback=initMap">
+    </script>
+
+    <script>
+    function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: { lat: -33.8688, lng: 151.2093 }, // Example: Sydney
+        });
+
+        // You can add markers and logic here later
+    }
+    </script>
+
 <script>
   // Initialize Swiper with navigation
   const swiper = new Swiper('#testimonials-swiper', {
@@ -381,6 +398,7 @@
     },
   });
 </script>
+
 
 
 <!-- Swiper Config -->
