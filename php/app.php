@@ -35,9 +35,9 @@
               <p>Easily download and install the NextFleet app to track vehicles, monitor performance and manage your fleet in real time, anywhere, anytime! </p>
             </div>
             <div>
-              <a href="/" class="btn btn-primary text-white fw-bold">
+              <a href="https://www.nextfleet.net.au/myDriverapp/myDrive-App" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <div class="text-uppercase">Enquire Now</div>
+                  <div class="text-uppercase">myDrive App</div>
                   <div class="flex-grow-1">
                     <svg
                       width="15"
@@ -85,7 +85,7 @@
             </div>
             <h2>myDriver App – Your Fleet at Your Fingertips</h2>
             <p>
-                The myDriver App is designed to give your drivers easy access to essential fleet management tools on their mobile devices. Whether you need to track vehicle usage, log service history, or access important fleet updates, the myDriver App makes it simple and convenient.
+                The <a href="https://www.nextfleet.net.au/myDriverapp/myDrive-App">myDriver App</a> is designed to give your drivers easy access to essential fleet management tools on their mobile devices. Whether you need to track vehicle usage, log service history, or access important fleet updates, the myDriver App makes it simple and convenient.
             </p>
             
             <p><strong>Key Features:</strong></p>
