@@ -46,8 +46,8 @@ $helpCards = [
         'title' => 'Maintenance, Tyres, Batteries and Glass',
         'image' => 'images/nf-img-41.jpg',
         'body' => '
-            <p>When your vehicle is due for service, you will need to arrange an appointment through an authorised repair service centre. Whilst organising the service, ensure you notify the repairer your vehicle is managed by NextFleet and to call our maintenance team on <a href="tel:1800 297 900">1800 297 900</a>  to request a work authorisation number.</p>
-            <p>Visit our <a href="https://www.nextfleet.net.au/Service-Locator/">Service Locator</a> for a location close to you</p>
+            <p>When your vehicle is due for service, you will need to arrange an appointment through an authorised repair service centre. Whilst organising the service, ensure you notify the repairer your vehicle is managed by NextFleet and to call our maintenance team on <a href="tel:1800 297 900"><strong>1800 297 900</strong></a>  to request a work authorisation number.</p>
+            <p>Visit our <a href="https://www.nextfleet.net.au/Service-Locator/"><strong>Service Locator</strong></a> for a location close to you</p>
         '
     ],
     [
