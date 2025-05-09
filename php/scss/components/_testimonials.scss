@@ -1,14 +1,16 @@
 .testimonials-section {
-  padding-top: 110px;
-  padding-bottom: 110px;
-  @media (max-width: map-get($grid-breakpoints, 'md')) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  .container {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    @media (max-width: map-get($grid-breakpoints, 'md')) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
   }
   .person-overlay {
     width: 690px;
     left: -250px;
-    bottom: -505px;
+    bottom: 0;
     position: absolute;
     z-index: 2;
   }
@@ -16,8 +18,10 @@
 .testimonial-card {
   border-radius: 20px;
   padding: 50px;
+  height: 100%;
   .testimonials-initial {
     display: flex;
+    flex: none;
     justify-content: center;
     align-items: center;
     border-radius: 50%; /* rounded-circle equivalent */

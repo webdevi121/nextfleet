@@ -11940,12 +11940,12 @@ textarea.form-control-lg {
   background: linear-gradient(180deg, #373536 0%, #010101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.testimonials-section {
+.testimonials-section .container {
   padding-top: 110px;
   padding-bottom: 110px;
 }
 @media (max-width: 768px) {
-  .testimonials-section {
+  .testimonials-section .container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -11953,7 +11953,7 @@ textarea.form-control-lg {
 .testimonials-section .person-overlay {
   width: 690px;
   left: -250px;
-  bottom: -505px;
+  bottom: 0;
   position: absolute;
   z-index: 2;
 }
@@ -11961,9 +11961,11 @@ textarea.form-control-lg {
 .testimonial-card {
   border-radius: 20px;
   padding: 50px;
+  height: 100%;
 }
 .testimonial-card .testimonials-initial {
   display: flex;
+  flex: none;
   justify-content: center;
   align-items: center;
   border-radius: 50%; /* rounded-circle equivalent */

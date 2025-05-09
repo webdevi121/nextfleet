@@ -2,42 +2,32 @@
   // Define testimonials array
   $testimonials = [
     [
+      'initial' => 'N',
+      'name' => 'Norman Rhodes - General Manager, TRHC PTY LTD',
+      'rating' => '5 Stars',
+      'message' => "<p><strong>We can also continue using the existing referral on our web.</strong></p>NextFleet came to us and showed us the benefits of leveraging an outsourced function for fleet management. We run forklifts, trailers and light commercial vehicles, and they’re a critical part of what we do. We’d never leased or outsourced the management of our vehicles before; we didn’t know that was an option. So when NextFleet demonstrated that it was more cost-effective and resource-efficient to lease our vehicles rather than buy them, we were pleasantly surprised. NextFleet is a great partner, and they really understand our business.",
+    ],
+    [
       'initial' => 'E',
-      'name' => 'Elizabeth',
+      'name' => 'Existing Client',
       'rating' => '5 Stars',
-      'message' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?',
+      'message' => "Thank you both so much for your quick response and for always making it so effortless to work with the NextFleet team. Your attention to detail and commitment to looking after our best interests do not go unnoticed – it's truly appreciated!",
     ],
     [
-      'initial' => 'M',
-      'name' => 'Maria S',
+      'initial' => 'R',
+      'name' => 'Referral from existing Client',
       'rating' => '5 Stars',
-      'message' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?',
-    ],
-    [
-      'initial' => 'J',
-      'name' => 'John D',
-      'rating' => '5 Stars',
-      'message' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?',
-    ],
-    [
-      'initial' => 'J',
-      'name' => 'Jane D',
-      'rating' => '5 Stars',
-      'message' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sapiente numquam dolores reiciendis sit repellendus minus blanditiis ducimus provident est laborum earum quibusdam iste fuga, mollitia possimus laudantium eaque?',
-    ],
+      'message' => 'I am introducing you to NextFleet. The team brings a style that engages the operational teams, develops, presents the financial picture and delivers a strong fleet solution methodology for MDs, Boards and supporting CFOs in making informed decisions.',
+    ]
   ];
 ?>
 
 <div class="testimonials-section bg-white">
-  <div class="container">
-
-
-        <div class="row position-relative">
-          <div class="col-4">
-          <div class="d-none d-sm-block w-60 position-relative">
-            <img src="images/person.png" alt="" class="person-overlay">
-          </div>
-          </div>
+  <div class="container position-relative">
+        <div class="d-none d-sm-block w-60 position-absolute person-overlay">
+          <img src="images/person.png" alt="" class="w-100">
+        </div>
+        <div class="row">
           <div class="col-sm-8 ms-auto">
             <div>
               <div class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2">
