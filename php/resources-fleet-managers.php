@@ -13,29 +13,33 @@ $helpCards = [
         'title' => 'Accident Management',
         'image' => 'images/nf-img-35.png',
         'body' => '
-            <p>If involved in a vehicle accident:</p>
-            <ul>
-                <li>Stay calm</li>
-                <li>Turn off your engine</li>
-                <li>Turn on your hazard lights</li>
-                <li>Do not admit liability</li>
-                <li>Call the below Toll-Free number and choose <br><b>Option 1</b></li>
-            </ul>
-            <div><a href="tel:1800 297 900"><b>1800 297 900</b></a></div>
+            <div class="pb-5">
+                <p>If involved in a vehicle accident:</p>
+                <ul>
+                    <li>Stay calm</li>
+                    <li>Turn off your engine</li>
+                    <li>Turn on your hazard lights</li>
+                    <li>Do not admit liability</li>
+                    <li>Call the below Toll-Free number and choose <br><b>Option 1</b></li>
+                </ul>
+                <div class="custom-position"><a href="tel:1800 297 900"><b>1800 297 900</b></a></div>
+            </div>
         '
     ],
     [
         'title' => 'Roadside Assistance',
         'image' => 'images/nf-img-29.jpg',
         'body' => '
-            <p>If your vehicle breaks down and you require roadside assistance:</p>
-            <ul>
-                <li>Park your vehicle in a safe location</li>
-                <li>Switch the vehicle hazard lights on</li>
-                <li>Call the Toll-Free number and choose Option 2</li>
-                <li>Remain in your vehicle and only exit if safe to do so. Remain behind any safety barrier until help arrives.</li>
-            </ul>
-            <p><a href="tel:1800 297 900"><b>1800 297 900</b></a></p>
+            <div class="pb-5">
+                <p>If your vehicle breaks down and you require roadside assistance:</p>
+                <ul>
+                    <li>Park your vehicle in a safe location</li>
+                    <li>Switch the vehicle hazard lights on</li>
+                    <li>Call the Toll-Free number and choose Option 2</li>
+                    <li>Remain in your vehicle and only exit if safe to do so. Remain behind any safety barrier until help arrives.</li>
+                </ul>
+                <div class="custom-position"><a href="tel:1800 297 900"><b>1800 297 900</b></a></div>
+            </div>
         '
     ],
     [
@@ -50,12 +54,14 @@ $helpCards = [
         'title' => 'Traffic Infringements',
         'image' => 'images/nf-img-37.png',
         'body' => '
-            <p>All traffic infringements and parking tickets are sent to your employer.</p>
-            <ul>
-                <li>Your employer nominates the person driving the vehicle at the time the infringement was committed.</li>
-                <li>You are responsible to notify your fleet administrator if someone else was driving the vehicle at the time the infringement occurred to ensure accuracy of accountability.</li>
-            </ul>
-            <p><a href="tel:1800 297 900"><b>1800 297 900</b></a></p>
+            <div class="pb-5">
+                <p>All traffic infringements and parking tickets are sent to your employer.</p>
+                <ul>
+                    <li>Your employer nominates the person driving the vehicle at the time the infringement was committed.</li>
+                    <li>You are responsible to notify your fleet administrator if someone else was driving the vehicle at the time the infringement occurred to ensure accuracy of accountability.</li>
+                </ul>
+                <div class="custom-position"><a href="tel:1800 297 900"><b>1800 297 900</b></a></div>
+            </div>
         '
     ],
     [
