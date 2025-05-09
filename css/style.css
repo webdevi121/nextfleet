@@ -12018,6 +12018,13 @@ textarea.form-control-lg {
   height: auto !important;
 }
 
+.swiper-pagination-white {
+  bottom: -30px !important;
+}
+.swiper-pagination-white .swiper-pagination-bullet {
+  background: #fff;
+}
+
 html {
   font-size: 14px;
 }
@@ -12091,6 +12098,10 @@ p {
   .pb-10 {
     padding-bottom: 3.5rem;
   }
+}
+
+.pb-8-custom {
+  padding-bottom: 6rem;
 }
 
 footer {

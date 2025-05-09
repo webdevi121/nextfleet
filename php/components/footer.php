@@ -167,10 +167,10 @@ $drive_links = [
     slidesPerView: 1,
     spaceBetween: 20,
     loop: true,
-    autoplay: {
-      delay: 3000, // time in milliseconds between slides (3 seconds)
-      disableOnInteraction: false, // keeps autoplay active after user interaction
-    },
+    // autoplay: {
+    //   delay: 3000, // time in milliseconds between slides (3 seconds)
+    //   disableOnInteraction: false, // keeps autoplay active after user interaction
+    // },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

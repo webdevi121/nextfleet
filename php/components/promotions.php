@@ -85,7 +85,7 @@
               <div class="swiper-wrapper">
                 <?php foreach ($cardData as $data): ?>
                   <div class="swiper-slide">
-                    <div class="cards text-white p-4 pb-5 border-top border-white border-2 position-relative h-100">
+                    <div class="cards text-white ps-4 pe-4 pt-4 pb-8-custom border-top border-white border-2 position-relative h-100">
                       <div class="text-uppercase fw-bold fs-4 bg-primary px-3 py-2 rounded-5 text-center shadow-lg position-absolute top-3 ms-n3" style="left: -1rem"><?= $data['dealTitle']; ?></div>
                       <div><img src="<?= $data['imgSrc']; ?>" alt="" class="d-block m-auto w-100"></div>
                       <div class="row gap-2">
@@ -93,7 +93,7 @@
                         <div class="fs-6"><?= $data['vehicleDescription']; ?></div>
                         <div class="fs-5 fw-bold"><?= $data['pricing']; ?></div>
                       </div>
-                      <div class="mt-4">
+                      <div class="custom-position">
                         <a href="/toyota-hybrid.html" class="btn btn-primary text-white fw-bold">
                           <div class="d-flex align-items-center gap-2">
                             <div class="text-uppercase">Enquire Now</div>
@@ -121,7 +121,7 @@
               </div>
 
               <!-- Swiper Pagination + Navigation -->
-              <div class="swiper-pagination mt-4"></div>
+              <div class="swiper-pagination mt-4 swiper-pagination-white"></div>
               <div class="swiper-button-prev promotion-swiper-button-prev"></div>
               <div class="swiper-button-next promotion-swiper-button-next"></div>
             </div>
