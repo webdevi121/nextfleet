@@ -7,6 +7,7 @@
   ob_start();
 ?>
 
+
 <?php
   loadComponent("header");
   loadComponent("banner");
@@ -25,7 +26,7 @@
   $output = ob_get_contents();
   ob_end_clean();
 
-  // Save the output to the root directory as index.html
+  // Save the output to the root directory as index.html or homepage
   file_put_contents(__DIR__ . '/../index.html', $output);
 
   // Function to copy directories (CSS, fonts, images, etc.)
