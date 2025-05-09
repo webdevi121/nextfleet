@@ -110,6 +110,10 @@
         </div>
     </section>
 
+    <section class="border-top">
+      <?php loadComponent("testimonials"); ?>
+    </section>
+
 
     <!-- Tab layout for Desktop view only -->
     <section class="d-md-none" id="mobile-accordion">
