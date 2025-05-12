@@ -12530,4 +12530,13 @@ ul.custom-bullets li {
   height: 2rem;
 }
 
+.btn-primary,
+.btn-success {
+  color: #fff;
+}
+.btn-primary:hover,
+.btn-success:hover {
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
