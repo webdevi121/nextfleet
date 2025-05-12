@@ -38,10 +38,6 @@ $form-control-padding-y: 0.5rem;
 @import 'components/testimonials'; // New method with `@use`
 @import 'components/swiper'; // New method with `@use`
 
-html {
-  font-size: 14px; // This will set the base font size to 14px
-}
-
 // Now add your custom styles below
 body {
   font-family: $font-family-base;
