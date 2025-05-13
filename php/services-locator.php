@@ -23,83 +23,129 @@
         </div>
       </div>
     </section>
-    <section class="bg-white border-top pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Designated service suppliers</h2>
-                    <ul>
-                        <li>
-                            For <b aria-label="Text Tyres Press enter to edit" style="position: relative;">Tyres</b> related enquiries, contact any of the below suppliers -
-                            <ul>
-                            <li aria-label="Text Bridgestone Tyres - 1300 749 378 Press enter to edit" style="position: relative;">Bridgestone Tyres - <a href="tel:1300749378" aria-label="Link 1300 749 378 Press enter to edit">1300 749 378</a></li>
-                            <li aria-label="Text Bob Jane T-Marts - 1800 000 364 Press enter to edit" style="position: relative;">Bob Jane T-Marts - <a href="tel:1800000364" aria-label="Link 1800 000 364 Press enter to edit">1800 000 364</a></li>
-                            <li aria-label="Text Dunlop Super Dealer - 131 631 Press enter to edit" style="position: relative;">Dunlop Super Dealer - <a href="tel:131631" aria-label="Link 131 631 Press enter to edit">131 631</a></li>
-                            <li aria-label="Text Good Year Autocare - 132 343 Press enter to edit" style="position: relative;">Good Year Autocare - <a href="tel:132343" aria-label="Link LINK 132 343 Press enter to edit">132 343</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            For <b>Glass</b> related enquiries, contact any of the below suppliers -
-                            <ul>
-                            <li>Novus Glass - Repair &amp; Replacement - <a href="tel:132234">132 234</a></li>
-                            <li>O’Brien Glass - <a href="tel:1800053598">1800 053 598</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+    <section>
+        <div class="container pt-5 pb-5">
+            <div class="row g-5">
+                <div class="col-sm-4">
+                    <img src="images/nf-img-4.jpg" alt="Thumbnail" class="w-100 rounded-img-custom h-100 object-fit-cover">
+                </div>
+                <div class="col-sm-8">
+                    <div class="pt-5 pb-5 ps-7 d-flex flex-column gap-3">
+                        <h2>Designated service suppliers</h2>
+                        <ul>
+                            <li>
+                                For <b aria-label="Text Tyres Press enter to edit" style="position: relative;">Tyres</b> related enquiries, contact any of the below suppliers -
+                                <ul>
+                                <li aria-label="Text Bridgestone Tyres - 1300 749 378 Press enter to edit" style="position: relative;">Bridgestone Tyres - <a href="tel:1300749378" aria-label="Link 1300 749 378 Press enter to edit">1300 749 378</a></li>
+                                <li aria-label="Text Bob Jane T-Marts - 1800 000 364 Press enter to edit" style="position: relative;">Bob Jane T-Marts - <a href="tel:1800000364" aria-label="Link 1800 000 364 Press enter to edit">1800 000 364</a></li>
+                                <li aria-label="Text Dunlop Super Dealer - 131 631 Press enter to edit" style="position: relative;">Dunlop Super Dealer - <a href="tel:131631" aria-label="Link 131 631 Press enter to edit">131 631</a></li>
+                                <li aria-label="Text Good Year Autocare - 132 343 Press enter to edit" style="position: relative;">Good Year Autocare - <a href="tel:132343" aria-label="Link LINK 132 343 Press enter to edit">132 343</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                For <b>Glass</b> related enquiries, contact any of the below suppliers -
+                                <ul>
+                                <li>Novus Glass - Repair &amp; Replacement - <a href="tel:132234">132 234</a></li>
+                                <li>O’Brien Glass - <a href="tel:1800053598">1800 053 598</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-white border-top pt-5 pb-5">
+    <section class="bg-light border-top pt-5 pb-5">
         <div class="container">
             <div class="col-sm-12">
                 <h2>Service and General Maintenance</h2>
                 <p>For service and general maintenance related enquiries,contact any of the authorised manufacturer service centre using the service Locator below</p>
                 <div>
                     <div class="container-fluid mt-3">
-                        <div class="row">
+                        <div class="row g-5">
                             <!-- Left Column: Filters + Results -->
-                            <div class="col-md-4">
-                                <h5>Filter by Category</h5>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="filter" id="maintenance" value="maintenance" checked>
-                                    <label class="form-check-label" for="maintenance">Maintenance</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="filter" id="tyres" value="tyres">
-                                    <label class="form-check-label" for="tyres">Tyres</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="filter" id="glass" value="glass">
-                                    <label class="form-check-label" for="glass">Glass</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="filter" id="fuel" value="fuel">
-                                    <label class="form-check-label" for="fuel">Fuel Finder</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="filter" id="ev" value="ev">
-                                    <label class="form-check-label" for="ev">EV Charging</label>
+                            <div class="col-md-5 border pt-3 pb-3 bg-white d-grid gap-3">
+
+                                <div>
+                                    <div class="mb-1 fw-bold">Select Service</div>
+                                    <div class="btn-group" role="group" aria-label="Select Service">
+                                        <input type="radio" class="btn-check" name="filter" id="maintenance" value="maintenance" checked>
+                                        <label class="btn btn-outline-primary" for="maintenance">Maintenance</label>
+
+                                        <input type="radio" class="btn-check" name="filter" id="tyres" value="tyres">
+                                        <label class="btn btn-outline-primary" for="tyres">Tyres</label>
+
+                                        <input type="radio" class="btn-check" name="filter" id="glass" value="glass">
+                                        <label class="btn btn-outline-primary" for="glass">Glass</label>
+
+                                        <input type="radio" class="btn-check" name="filter" id="fuel" value="fuel">
+                                        <label class="btn btn-outline-primary" for="fuel">Fuel Finder</label>
+
+                                        <input type="radio" class="btn-check" name="filter" id="ev" value="ev">
+                                        <label class="btn btn-outline-primary" for="ev">EV Charging</label>
+                                    </div>
                                 </div>
 
-                                <hr>
+                                <div>
+                                    <label for="options" class="form-label fw-bold mb-1">Select Tyres Supplier</label>
+                                    <select class="form-select form-select-sm" id="options">
+                                        <option value="myCar">myCar</option>
+                                        <option value="Bridgestone Tyres">Bridgestone Tyres</option>
+                                        <option value="Bob Jane T-Marts">Bob Jane T-Marts</option>
+                                        <option value="Dunlop Super Dealer">Dunlop Super Dealer</option>
+                                        <option value="Good Year Autocare">Good Year Autocare</option>
+                                    </select>
+                                </div>
 
-                                <h5>Results</h5>
-                                <ul class="list-group" id="result-list">
-                                    <li class="list-group-item list-group-item-action">
-                                        <div class="fw-bold">mycar Tyre & Auto Fountain Gate</div>
-                                        <div>Princes Highway, Enter/off Overland Dr, Narre Warren - 2.1 km (5 mins)</div>
-                                    </li>
-                                    <li class="list-group-item list-group-item-action">
-                                        <div class="fw-bold">mycar Tyre & Auto Hallam</div>
-                                        <div>208-210 Princes Hwy, Hallam - 5.0 km (8 mins)</div>
-                                    </li>
-                                </ul>
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <label for="options" class="form-label fw-bold mb-1">Select Postcode</label>
+                                        <div class="ms-auto">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="check2" checked="">
+                                                <label class="form-check-label" for="check2">Use Current location</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <input id="postcode" type="text" class="form-control" placeholder="Enter a location" autocomplete="off">
+                                    </div>
+                                </div>
 
+                                <div>
+                                    <div class="mb-1 fw-bold">Results</div>
+                                    <ul class="list-group" id="result-list">
+                                        <li class="list-group-item list-group-item-action">
+                                            <div class="fw-bold">mycar Tyre & Auto Fountain Gate</div>
+                                            <div class="small">Princes Highway, Enter/off Overland Dr, Narre Warren - 2.1 km (5 mins)</div>
+                                        </li>
+                                        <li class="list-group-item list-group-item-action">
+                                            <div class="fw-bold">mycar Tyre & Auto Hallam</div>
+                                            <div class="small">208-210 Princes Hwy, Hallam - 5.0 km (8 mins)</div>
+                                        </li>
+                                        <li class="list-group-item list-group-item-action">
+                                            <div class="fw-bold">JAX Tyres & Auto Narre Warren</div>
+                                            <div class="small">shop 3/43-45 Vesper Dr, Narre Warren - 2.3 km (5 mins)</div>
+                                        </li>
+                                        <li class="list-group-item list-group-item-action">
+                                            <div class="fw-bold">Bridgestone Select Tyre & Auto Hampton Park</div>
+                                            <div class="small">1b/70 Hallam Rd, Hampton Park - 4.3 km (7 mins)</div>
+                                        </li>
+                                        <li class="list-group-item list-group-item-action">
+                                            <div class="fw-bold">Ultra Tune Hampton Park</div>
+                                            <div class="small">535 S Gippsland Hwy, Hampton Park - 7.7 km (11 mins)</div>
+                                        </li>
+                                        <li class="list-group-item list-group-item-action">
+                                            <div class="fw-bold">Auto Tyre & Wheels Centre</div>
+                                            <div class="small">Unit 1/48 Greens Rd, Dandenong South - 8.0 km (11 mins)</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
                             </div>
 
                             <!-- Right Column: Google Map -->
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div id="map" class="w-100 h-100"></div>
                             </div>
                         </div>
