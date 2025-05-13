@@ -10,6 +10,8 @@
     "start": "concurrently \"php -S localhost:8000\" \"sass --watch scss/custom.scss:css/style.css\""
   },
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "awesome": "^0.0.7",
+    "bootstrap": "^5.3.3",
+    "font": "^0.0.4"
   }
 }

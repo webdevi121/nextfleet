@@ -154,6 +154,20 @@
                     <button class="btn btn-primary" disabled>Primary Disabled</button>
                     <button class="btn btn-outline-secondary" disabled>Outline Disabled</button>
                 </div>
+                
+                <div class="input-group mb-3" style="max-width: 400px;">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <button class="input-group-text bg-primary text-white" type="button">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                </div>
+
+                <div class="input-group" id="datepicker" >
+                    <input type="text" class="form-control" placeholder="Select date" />
+                    <span class="input-group-text bg-primary text-white" id="calendar-icon">
+                        <i class="fa-solid fa-calendar-alt"></i>
+                    </span>
+                </div>
             </div>
 
 

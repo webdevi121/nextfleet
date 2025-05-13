@@ -7,6 +7,7 @@
     <meta name="description" content="At NextFleet we seamlessly manage, support, and optimise your corporate fleet management">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" href="images/favico.ico" />
   </head>
   <body>

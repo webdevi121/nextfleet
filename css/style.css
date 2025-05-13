@@ -11930,6 +11930,22 @@ textarea.form-control-lg {
   width: 100%;
 }
 
+.btn-primary,
+.btn-success {
+  color: #fff;
+}
+.btn-primary:hover,
+.btn-success:hover {
+  color: #fff;
+}
+
+.btn.btn-lg, .btn-group-lg > .btn {
+  border-radius: 0 !important;
+}
+.btn.btn-sm, .btn-group-sm > .btn {
+  border-radius: 0 !important;
+}
+
 .custom-btn {
   padding: 10px 20px;
   display: inline-block;
@@ -11938,6 +11954,11 @@ textarea.form-control-lg {
   text-decoration: none;
   font-weight: bold;
   background: linear-gradient(180deg, #373536 0%, #010101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #fff;
 }
 
 .testimonials-section .container {
@@ -12528,15 +12549,6 @@ ul.custom-bullets li {
 
 .spacer {
   height: 2rem;
-}
-
-.btn-primary,
-.btn-success {
-  color: #fff;
-}
-.btn-primary:hover,
-.btn-success:hover {
-  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
