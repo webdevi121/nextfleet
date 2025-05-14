@@ -12,7 +12,7 @@
           'image' => 'images/nf-img-30.jpg',
           'title' => 'Car Fleet Management: Streamline Your Business Operations with NextFleet',
           'description' => 'Managing and handling a fleet of vehicles is a complex task that needs careful attention to numerous details, from vehicle maintenance and fuel costs to driver safety and compliance. At NextFleet Australia, we offer comprehensive Car Fleet Management solutions specifically designed to streamline your operations, reduce costs, and improve efficiency. Let’s understand how our services can benefit your business and help you navigate the challenges of fleet management.',
-          'link' => 'https://www.nextfleet.net.au/Resources/NextLevel-Insights/Streamline-Your-Business-Operations-with-NextFleet/'
+          'link' => '/insights-article.html'
       ],
       
       // Add more featured articles here if needed
