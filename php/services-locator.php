@@ -56,33 +56,50 @@
         </div>
     </section>
     <section class="bg-light border-top pt-5 pb-5">
-        <div class="container">
+        <div class="overflow-hidden ms-5 me-5">
             <div class="col-sm-12">
-                <h2>Service and General Maintenance</h2>
-                <p>For service and general maintenance related enquiries,contact any of the authorised manufacturer service centre using the service Locator below</p>
+                <div class="text-center">
+                    <h2>Service and General Maintenance</h2>
+                    <p>For service and general maintenance related enquiries,contact any of the authorised manufacturer service centre using the service Locator below</p>
+                </div>
                 <div>
                     <div class="container-fluid mt-3">
                         <div class="row g-5">
                             <!-- Left Column: Filters + Results -->
-                            <div class="col-md-5 border pt-3 pb-3 bg-white d-grid gap-3">
+                            <div class="col-md-5 border pt-3 pb-3 bg-white d-grid gap-4">
 
                                 <div>
-                                    <div class="mb-1 fw-bold">Select Service</div>
-                                    <div class="btn-group" role="group" aria-label="Select Service">
+                                    <div class="mb-1 fw-bold ">Select Service</div>
+                                    <div class="btn-group w-100" role="group" aria-label="Select Service">
                                         <input type="radio" class="btn-check" name="filter" id="maintenance" value="maintenance" checked>
-                                        <label class="btn btn-outline-primary" for="maintenance">Maintenance</label>
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center rounded-start" for="maintenance">
+                                            <i class="icon-nf-icon-7 fs-4"></i>
+                                            <span>Maintenance</span>
+                                        </label>
 
                                         <input type="radio" class="btn-check" name="filter" id="tyres" value="tyres">
-                                        <label class="btn btn-outline-primary" for="tyres">Tyres</label>
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center" for="tyres">
+                                            <i class="icon-nf-icon-8 fs-4"></i>
+                                            <span>Tyres</span>
+                                        </label>
 
                                         <input type="radio" class="btn-check" name="filter" id="glass" value="glass">
-                                        <label class="btn btn-outline-primary" for="glass">Glass</label>
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center" for="glass">
+                                            <i class="icon-nf-icon-9 fs-4"></i>
+                                            <span>Glass</span>
+                                        </label>
 
                                         <input type="radio" class="btn-check" name="filter" id="fuel" value="fuel">
-                                        <label class="btn btn-outline-primary" for="fuel">Fuel Finder</label>
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center" for="fuel">
+                                            <i class="icon-nf-icon-10 fs-4"></i>
+                                            <span>Fuel Finder</span>
+                                        </label>
 
                                         <input type="radio" class="btn-check" name="filter" id="ev" value="ev">
-                                        <label class="btn btn-outline-primary" for="ev">EV Charging</label>
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center rounded-end" for="ev">
+                                            <i class="icon-nf-icon-11 fs-4"></i>
+                                            <span>EV Charging</span>
+                                        </label>
                                     </div>
                                 </div>
 
@@ -111,6 +128,11 @@
                                         <input id="postcode" type="text" class="form-control" placeholder="Enter a location" autocomplete="off">
                                     </div>
                                 </div>
+                                <div>
+                                    <button id="searchlocation" type="button" class="btn btn-primary">Search</button>
+                                </div>
+
+                                <hr>
 
                                 <div>
                                     <div class="mb-1 fw-bold">Results</div>
