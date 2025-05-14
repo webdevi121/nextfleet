@@ -24,37 +24,37 @@
           'image' => 'images/nf-img-31.jpg',
           'title' => 'Reliable & Efficient Solutions for Your Business',
           'description' => "For businesses across Australia, efficient and reliable transportation plays a crucial role in daily operations. From delivering goods to managing on-the-go services, having a dependable fleet...",
-          'link' => 'https://www.nextfleet.net.au/Resources/NextLevel-Insights/Reliable-and-Efficient-Solutions-for-Your-Business/'
+          'link' => '/insights-article.html'
       ],
       [
           'image' => 'images/nf-img-31.jpg',
           'title' => 'Top Fleet Vehicle Options for Australian Businesses',
           'description' => "In Australia, effective fleet management is more than just a business necessity; it’s a strategic advantage that can significantly enhance a business's operational efficiency...",
-          'link' => 'https://www.nextfleet.net.au/Resources/NextLevel-Insights/top-fleet-vehicle-options/'
+          'link' => '/insights-article.html'
       ],
       [
           'image' => 'images/nf-img-32.jpg',
           'title' => 'How NextFleet Is Transforming Fleet Management for Australian Businesses',
           'description' => "In today's fast-paced business environment, effective fleet management is more critical than ever. For Australian businesses, managing a fleet of vehicles can be a tough task...",
-          'link' => 'https://www.nextfleet.net.au/Resources/NextLevel-Insights/revolutionizing-fleet-management-for-australia'
+          'link' => '/insights-article.html'
       ],
       [
           'image' => 'images/nf-img-33.jpg',
           'title' => 'Contributing to the Recovery of the Great Barrier Reef',
           'description' => 'The Great Barrier Reef is fundamental to Australia’s economy, and a national icon that needs to be preserved to ensure marine resources’ ongoing sustainability.',
-          'link' => 'https://www.nextfleet.net.au/Resources/NextLevel-Insights/Recovery-of-Great-Barrier-Reef'
+          'link' => '/insights-article.html'
       ],
       [
           'image' => 'images/nf-img-34.jpg',
           'title' => 'NextFleet appointed as LGP approved contractor',
           'description' => 'NextFleet has been appointed as an LGP (Local Government Procurement) approved contractor.',
-          'link' => 'https://www.nextfleet.net.au/Resources/NextLevel-Insights/LGP-approved-contractor'
+          'link' => '/insights-article.html'
       ],
       [
           'image' => 'images/nf-img-35.jpg',
           'title' => 'NextFleet announces greenDrive Carbon Offset Program',
           'description' => 'NextFleet is pleased to announce that it has established a Carbon Offset Program “greenDrive” in partnership with Australian Integrated Carbon (AIC)',
-          'link' => 'https://www.nextfleet.net.au/Resources/NextLevel-Insights/greendrive-carbon-offset-program'
+          'link' => '/insights-article.html'
       ]
       // Add more latest articles here if needed
   ];
