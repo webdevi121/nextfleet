@@ -11846,10 +11846,9 @@ textarea.form-control-lg {
 }
 @font-face {
   font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/ITCAvantGardePro-Bold.woff2") format("woff2");
-  font-weight: 500;
+  src: url("../fonts/itcavantgardepro-bold_1-webfont.woff2") format("woff2"), url("../fonts/itcavantgardepro-bold_1-webfont.woff") format("woff");
+  font-weight: 600;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: "ITC Avant Garde Pro";
@@ -11957,6 +11956,21 @@ textarea.form-control-lg {
 
 .text-primary {
   color: var(--primary-color);
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  font-weight: 600;
 }
 
 .cards {
@@ -12091,8 +12105,6 @@ body {
   font-family: "ITC Avant Garde Pro", sans-serif;
   background-color: #fff;
   font-weight: 400;
-  -webkit-font-smoothing: antialiased; /* Better on Mac */
-  -moz-osx-font-smoothing: grayscale;
 }
 
 p {
