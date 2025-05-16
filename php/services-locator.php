@@ -56,7 +56,7 @@
         </div>
     </section>
     <section class="bg-light border-top pt-5 pb-5">
-        <div class="overflow-hidden ms-5 me-5">
+        <div class="overflow-hidden ms-sm-5 me-sm-5">
             <div class="col-sm-12">
                 <div class="text-center">
                     <h2>Service and General Maintenance</h2>
@@ -70,37 +70,38 @@
 
                                 <div>
                                     <div class="mb-1 fw-bold ">Select Service</div>
-                                    <div class="btn-group w-100" role="group" aria-label="Select Service">
+                                    <div class="btn-group d-flex flex-column flex-sm-row w-100" role="group" aria-label="Select Service">
                                         <input type="radio" class="btn-check" name="filter" id="maintenance" value="maintenance" checked>
-                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center rounded-start" for="maintenance">
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center rounded-0 rounded-sm-start" for="maintenance">
                                             <i class="icon-nf-icon-7 fs-4"></i>
                                             <span>Maintenance</span>
                                         </label>
 
                                         <input type="radio" class="btn-check" name="filter" id="tyres" value="tyres">
-                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center" for="tyres">
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center rounded-0" for="tyres">
                                             <i class="icon-nf-icon-8 fs-4"></i>
                                             <span>Tyres</span>
                                         </label>
 
                                         <input type="radio" class="btn-check" name="filter" id="glass" value="glass">
-                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center" for="glass">
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center rounded-0" for="glass">
                                             <i class="icon-nf-icon-9 fs-4"></i>
                                             <span>Glass</span>
                                         </label>
 
                                         <input type="radio" class="btn-check" name="filter" id="fuel" value="fuel">
-                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center" for="fuel">
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center rounded-0" for="fuel">
                                             <i class="icon-nf-icon-10 fs-4"></i>
                                             <span>Fuel Finder</span>
                                         </label>
 
                                         <input type="radio" class="btn-check" name="filter" id="ev" value="ev">
-                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center rounded-end" for="ev">
+                                        <label class="btn btn-outline-primary d-flex align-items-center gap-2 justify-content-center rounded-0 rounded-bottom rounded-sm-end" for="ev">
                                             <i class="icon-nf-icon-11 fs-4"></i>
                                             <span>EV Charging</span>
                                         </label>
                                     </div>
+
                                 </div>
 
                                 <div>

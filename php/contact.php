@@ -11,56 +11,56 @@
     <section class="pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                <h1 class="text-uppercase">Contact Us</h1>
-                <p>We're here to help. For general enquiries, roadside assistance, accidents, or maintenance authorisation, please use the form below or call us at <a href="tel:1800 297 900">1800 297 900</a>.</p>
-                <div class="mb-4">
-                    <ul class="list-unstyled text-start">
-                                    <li class="mb-2 d-flex gap-3">
-                            <span><img src="images/icon-location.png" alt="" width="15"></span>
-                            <span>Level 1, Building 5/747 Lytton Rd, Murarrie QLD 4172</span>
-                        </li>
-                                    <li class="mb-2 d-flex gap-3">
-                            <span><img src="images/icon-phone.png" alt="" width="15"></span>
-                            <span><a href="tel:03 9361 6333" class="hover-text-primary">03 9361 6333</a></span>
-                        </li>
-                                    <li class="mb-2 d-flex gap-3">
-                            <span><img src="images/icon-mail.png" alt="" width="15"></span>
-                            <span><a href="mailto:info@nextfleet.com.au" class="hover-text-primary">info@nextfleet.com.au</a></span>
-                        </li>
-                    </ul>
-                </div>
+                <div class="col-sm-6">
+                    <h1 class="text-uppercase">Contact Us</h1>
+                    <p>We're here to help. For general enquiries, roadside assistance, accidents, or maintenance authorisation, please use the form below or call us at <a href="tel:1800 297 900">1800 297 900</a>.</p>
+                    <div class="mb-4">
+                        <ul class="list-unstyled text-start">
+                                        <li class="mb-2 d-flex gap-3">
+                                <span><img src="images/icon-location.png" alt="" width="15"></span>
+                                <span>Level 1, Building 5/747 Lytton Rd, Murarrie QLD 4172</span>
+                            </li>
+                                        <li class="mb-2 d-flex gap-3">
+                                <span><img src="images/icon-phone.png" alt="" width="15"></span>
+                                <span><a href="tel:03 9361 6333" class="hover-text-primary">03 9361 6333</a></span>
+                            </li>
+                                        <li class="mb-2 d-flex gap-3">
+                                <span><img src="images/icon-mail.png" alt="" width="15"></span>
+                                <span><a href="mailto:info@nextfleet.com.au" class="hover-text-primary">info@nextfleet.com.au</a></span>
+                            </li>
+                        </ul>
+                    </div>
 
-                <ul class="d-flex list-unstyled gap-3">
-                <li><strong>Our Office:</strong></li>
-                <li>
-                    <img src="images/iconLocation.png" alt="icon" width="12" />
-                    Brisbane
-                </li>
-                <li>
-                    <img src="images/iconLocation.png" alt="icon" width="12" />
-                    Sydney
-                </li>
-                <li>
-                    <img src="images/iconLocation.png" alt="icon" width="12" />
-                    Perth
-                </li>
-                <li>
-                    <img src="images/iconLocation.png" alt="icon" width="12" />
-                    Melbourne
-                </li>
-                </ul>
-                <div class="ratio ratio-16x9">
-                    <iframe 
-                    src="https://www.google.com/maps?q=NextFleet,+Level+1+Building+5,+747+Lytton+Rd,+Murarrie+QLD+4172&output=embed"
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <ul class="d-sm-flex list-unstyled gap-3">
+                    <li><strong>Our Office:</strong></li>
+                    <li>
+                        <img src="images/iconLocation.png" alt="icon" width="12" />
+                        Brisbane
+                    </li>
+                    <li>
+                        <img src="images/iconLocation.png" alt="icon" width="12" />
+                        Sydney
+                    </li>
+                    <li>
+                        <img src="images/iconLocation.png" alt="icon" width="12" />
+                        Perth
+                    </li>
+                    <li>
+                        <img src="images/iconLocation.png" alt="icon" width="12" />
+                        Melbourne
+                    </li>
+                    </ul>
+                    <div class="ratio ratio-16x9">
+                        <iframe 
+                        src="https://www.google.com/maps?q=NextFleet,+Level+1+Building+5,+747+Lytton+Rd,+Murarrie+QLD+4172&output=embed"
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
                 </div>
-                </div>
-                <div class="col-6">
+                <div class="col-sm-6 mt-4 mt-sm-0">
                     <form class="p-4 border rounded bg-light">
                     <div class="mb-3">
                         <label for="enquiryType" class="form-label">Enquiry Type <span class="text-danger">*</span></label>

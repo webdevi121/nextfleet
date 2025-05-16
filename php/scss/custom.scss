@@ -10,6 +10,8 @@ $gray: #999999;
 $font-family-base: 'ITC Avant Garde Pro', sans-serif;
 $heading-font-family: null;
 
+$enable-rounded: true;
+
 $dropdown-link-hover-bg: $primary;
 $dropdown-link-hover-color: #fff;
 
@@ -43,6 +45,8 @@ body {
   font-family: $font-family-base;
   background-color: #fff;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased; /* Better on Mac */
+  -moz-osx-font-smoothing: grayscale;
 }
 p {
   margin-bottom: 1.8rem;
@@ -543,4 +547,7 @@ ul.custom-bullets {
 
 .spacer {
   height: 2rem;
+}
+.card-img-left {
+  max-width: 415px;
 }

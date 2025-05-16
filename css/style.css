@@ -12018,6 +12018,11 @@ textarea.form-control-lg {
   padding: 50px;
   height: 100%;
 }
+@media (max-width: 768px) {
+  .testimonial-card {
+    padding: 30px;
+  }
+}
 .testimonial-card .testimonials-initial {
   display: flex;
   flex: none;
@@ -12086,6 +12091,8 @@ body {
   font-family: "ITC Avant Garde Pro", sans-serif;
   background-color: #fff;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased; /* Better on Mac */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p {
@@ -12583,6 +12590,10 @@ ul.custom-bullets li {
 
 .spacer {
   height: 2rem;
+}
+
+.card-img-left {
+  max-width: 415px;
 }
 
 /*# sourceMappingURL=style.css.map */

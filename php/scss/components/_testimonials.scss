@@ -19,6 +19,9 @@
   border-radius: 20px;
   padding: 50px;
   height: 100%;
+  @media (max-width: map-get($grid-breakpoints, 'md')) {
+    padding: 30px;
+  }
   .testimonials-initial {
     display: flex;
     flex: none;

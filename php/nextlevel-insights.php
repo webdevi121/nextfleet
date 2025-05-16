@@ -82,7 +82,7 @@
     <?php foreach ($featuredArticles as $article): ?>
       <div class="col-md-12 mb-4">
         <div class="card flex-md-row">
-          <img src="<?= $article['image']; ?>" class="card-img-left img-fluid w-100 w-md-40" alt="Featured Article" style="max-width: 300px; object-fit: cover;">
+          <img src="<?= $article['image']; ?>" class="card-img-left img-fluid w-100" alt="Featured Article" style="object-fit: cover;">
           <div class="card-body">
             <h4 class="card-title"><?= $article['title']; ?></h4>
             <p class="card-text"><?= $article['description']; ?></p>

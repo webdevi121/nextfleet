@@ -36,7 +36,7 @@ $leaseInclusions = [
                         <h2 class="mb-4">What’s Included</h2>
                         <p>NextFleet’s Fully Maintained Operating Lease includes your vehicle finance and estimated running costs in one fixed repayment.</p>
                         <div class="fw-bold mb-3">NextFleet Experience the difference</div>
-                        <ul class="d-flex flex-wrap list-unstyled text-center">
+                        <ul class="d-flex flex-wrap list-unstyled text-sm-center">
                         <?php foreach ($leaseInclusions as $item): ?>
                             <li class="flex-fill p-2">
                             <img src="<?= htmlspecialchars($item['icon']) ?>" alt="" height="40">
