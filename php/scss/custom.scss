@@ -45,6 +45,8 @@ body {
   font-family: $font-family-base;
   background-color: #fff;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased; /* Better on Mac */
+  -moz-osx-font-smoothing: grayscale;
 }
 p {
   margin-bottom: 1.8rem;
