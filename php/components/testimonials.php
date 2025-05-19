@@ -24,11 +24,11 @@
 
 <div class="testimonials-section bg-white">
   <div class="container position-relative">
-        <div class="d-none d-sm-block w-60 position-absolute person-overlay">
+        <div class="d-none d-xl-block w-sm-60 position-absolute person-overlay">
           <img src="images/person.png" alt="" class="w-100">
         </div>
         <div class="row">
-          <div class="col-sm-8 ms-auto">
+          <div class="col-xl-8 ms-auto">
             <div>
               <div class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2">
                 <img src="images/iconNf.png" alt="icon" width="14" />
@@ -37,7 +37,7 @@
               <h2 class="text-uppercase fw-bold mb-5 fs-1">What Our <span class="text-primary">Customers</span> Say</h2>
             </div>
           </div>
-          <div class="col-sm-8 ms-auto">
+          <div class="col-xl-8 ms-auto">
             <div class="position-relative">
               <div id="testimonials-swiper" class="swiper-container overflow-hidden">
                 <div class="swiper-wrapper">

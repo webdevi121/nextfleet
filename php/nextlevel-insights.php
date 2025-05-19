@@ -42,7 +42,7 @@
           'image' => 'images/nf-img-33.jpg',
           'title' => 'Contributing to the Recovery of the Great Barrier Reef',
           'description' => 'The Great Barrier Reef is fundamental to Australia’s economy, and a national icon that needs to be preserved to ensure marine resources’ ongoing sustainability.',
-          'link' => '/insights-article.html'
+          'link' => '/Recovery-of-Great-Barrier-Reef.html'
       ],
       [
           'image' => 'images/nf-img-34.jpg',

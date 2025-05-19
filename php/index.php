@@ -8,19 +8,18 @@
 ?>
 
 
-<?php
-  loadComponent("header");
-  loadComponent("banner");
-  loadComponent("services");
-  loadComponent("contact");
-  loadComponent("testimonials");
-  loadComponent("promotions");
-  loadComponent("mydrive");
-  loadComponent("partners");
-  loadComponent("getintouch");
-  loadComponent("footer");
-?>
-
+  <?php
+    loadComponent("header");
+    loadComponent("banner");
+    loadComponent("services");
+    loadComponent("contact");
+    loadComponent("testimonials");
+    loadComponent("promotions");
+    loadComponent("mydrive");
+    loadComponent("partners");
+    loadComponent("getintouch");
+    loadComponent("footer");
+  ?>
 <?php
   // Get the buffered content
   $output = ob_get_contents();
