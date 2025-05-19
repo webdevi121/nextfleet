@@ -15,10 +15,7 @@
     >
       <div class="overlay-gradient"></div>
         <div class="hero-img">
-          <div id="mobile" class="d-block d-md-none">
-            <img src="images/nf-img-44-mobile.jpg" alt="" class="w-100"/>
-          </div>
-          <div id="desktop" class="d-none d-md-block">
+          <div id="desktop" class="">
             <img src="images/nf-img-45.jpg" alt="" />
           </div>
         </div>
@@ -46,7 +43,7 @@
                 <img src="images/nf-img-46.jpg" alt="Thumbnail" class="w-100 rounded-img-custom h-100 object-fit-cover">
             </div>
             <div class="col-sm-8">
-                <div class="pt-5 pb-5 ps-5 d-flex flex-column gap-3">
+                <div class="pt-md-5 pb-md-5 ps-md-5 d-flex flex-column gap-3">
                     <h2>The Great Barrier Reef is fundamental to Australia’s economy, and a national icon that needs to be preserved to ensure marine resources’ ongoing sustainability.</h2>
                     <p>As a Mitsubishi Corporation subsidiary, we are guided by our shareholders’ principles of considering the earth to be our most important stakeholder and are continually working towards the realisation of a sustainable society through our business activities. As part of a joint initiative supported by Earthwatch and James Cook University, we were pleased to participate in the Recovery of the Great Barrier Reef program on Magnetic Island, Queensland.</p>
                 </div>
@@ -54,22 +51,16 @@
             <div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;">
                 <p>From 18-22 July, NextFleet’s GM – Finance, Accounting & Administration, Stellios Falieros participated as a citizen scientist, assisting researchers in the coral recovery off Florence and Arthur Bays’ waters. The initiative involved 10-15 researchers and citizen scientists scuba diving and snorkelling and sharing living and cooking arrangements. Stellios’ primary responsibilities were supporting reef restoration techniques, specifically removing macroalgae (i.e. sea-weeding), to reduce direct competition and open space for new coral larvae to settle. The project allowed him to learn about research, gain field skills, and help collect data.</p>
 
-                <p class="mb-0">Commenting on the initiative, Stellios said: “I gained an appreciation that Coral reef ecosystems are under pressure from multiple factors that contribute to degrading reef condition and their function. Macroalgae (seaweed) removal is being trialled as a management tool to reduce competition between algae and corals and provide space for coral growth with the hope of restoring the spatial dominance of habitat-forming corals.</p>
-            </div>
-            <div class="col-lg-12">
+                <p>Commenting on the initiative, Stellios said: “I gained an appreciation that Coral reef ecosystems are under pressure from multiple factors that contribute to degrading reef condition and their function. Macroalgae (seaweed) removal is being trialled as a management tool to reduce competition between algae and corals and provide space for coral growth with the hope of restoring the spatial dominance of habitat-forming corals.</p>
+
                 <img src="images/nf-img-47.jpg" alt="image" class="figure-img img-fluid rounded">
-            </div>
-            <div class="col-lg-12">
+
                 <p>James Cook University’s Hillary Smith and Associate Professor David Bourne led the study. They said declining coral cover on tropical coral reefs often results in an increase in macroalgae (seaweed). “When macroalgae proliferates outside regular seasonal growth, it can shift the ecosystem dominance away from corals. Seaweed can prevent or reduce coral settlement and survival, and so these reefs struggle to recover once seaweed is established”</p>
+
                 <p>My experience was an absolute privilege to be involved in the recovery effort in conjunction with scientists from JCU and the Earthwatch team.</p>
+
                 <p>As a citizen scientist member of the team we assisted with the removal of macroalgae from twelve 25-square-metre plots on a degraded reef off Townsville’s Magnetic Island. Many bags of seaweed was removed, sorted into different types and weighed to assist with analysing growth patterns. In addition to this I was involved in photographing the various plots which are used to upload into special software to analyse the positive impact of this on the growth of the coral reef.</p>
-            </div>
-            <div class="col-lg-12">
-                <figure class="figure">
-                    <img src="images/nf-img-48.jpg" class="figure-img img-fluid rounded">
-                </figure>
-            </div>
-            <div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 20px 0px; padding: 20px;">    
+                <img src="images/nf-img-48.jpg" class="figure-img img-fluid rounded">
                 <p>As we continue to operate our business according to Mitsubishi Corporations guiding principles, we will continue to support initiatives like the Earthwatch Recovery of the Great Barrier Reef, assisting scientists in gathering the research and evidence required to aid the reef’s recovery.</p>
                 <hr>
                 <h5>About Mitsubishi Corporation</h5>
