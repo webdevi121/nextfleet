@@ -74,7 +74,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: "ITC Avant Garde Pro", sans-serif;
+  --bs-body-font-family: "Montserrat", sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -5685,7 +5685,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: "ITC Avant Garde Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5795,7 +5795,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: "ITC Avant Garde Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11845,24 +11845,58 @@ textarea.form-control-lg {
   }
 }
 @font-face {
-  font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/itcavantgardepro-bold_1-webfont.woff2") format("woff2"), url("../fonts/itcavantgardepro-bold_1-webfont.woff") format("woff");
-  font-weight: 600;
+  font-family: "Montserrat";
+  src: url("../fonts/webfonts/Montserrat Bold.eot");
+  src: url("../fonts/webfonts/Montserrat Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/Montserrat Bold.woff2") format("woff2"), url("../fonts/webfonts/Montserrat Bold.woff") format("woff"), url("../fonts/webfonts/Montserrat Bold.svg#Montserrat Bold") format("svg");
+  font-weight: 700;
   font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
 }
 @font-face {
-  font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/ITCAvantGardePro-XLt.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Montserrat";
+  src: url("../fonts/webfonts/Montserrat Italic.eot");
+  src: url("../fonts/webfonts/Montserrat Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/Montserrat Italic.woff2") format("woff2"), url("../fonts/webfonts/Montserrat Italic.woff") format("woff"), url("../fonts/webfonts/Montserrat Italic.svg#Montserrat Italic") format("svg");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
 }
 @font-face {
-  font-family: "ITC Avant Garde Pro";
-  src: url("../fonts/ITCAvantGardePro-Bk.woff") format("woff");
+  font-family: "Montserrat";
+  src: url("../fonts/webfonts/Montserrat Regular.eot");
+  src: url("../fonts/webfonts/Montserrat Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/Montserrat Regular.woff2") format("woff2"), url("../fonts/webfonts/Montserrat Regular.woff") format("woff"), url("../fonts/webfonts/Montserrat Regular.svg#Montserrat Regular") format("svg");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/webfonts/Montserrat SemiBold.eot");
+  src: url("../fonts/webfonts/Montserrat SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/Montserrat SemiBold.woff2") format("woff2"), url("../fonts/webfonts/Montserrat SemiBold.woff") format("woff"), url("../fonts/webfonts/Montserrat SemiBold.svg#Montserrat SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/webfonts/Montserrat Medium.eot");
+  src: url("../fonts/webfonts/Montserrat Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/Montserrat Medium.woff2") format("woff2"), url("../fonts/webfonts/Montserrat Medium.woff") format("woff"), url("../fonts/webfonts/Montserrat Medium.svg#Montserrat Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/webfonts/Montserrat ExtraBold.eot");
+  src: url("../fonts/webfonts/Montserrat ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/Montserrat ExtraBold.woff2") format("woff2"), url("../fonts/webfonts/Montserrat ExtraBold.woff") format("woff"), url("../fonts/webfonts/Montserrat ExtraBold.svg#Montserrat ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
 }
 @font-face {
   font-family: "icomoon";
@@ -11970,7 +12004,7 @@ h2,
 .h2,
 h1,
 .h1 {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .cards {
@@ -12102,7 +12136,7 @@ h1,
 }
 
 body {
-  font-family: "ITC Avant Garde Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #fff;
   font-weight: 400;
   -webkit-font-smoothing: antialiased; /* Better on Mac */
@@ -12608,6 +12642,10 @@ ul.custom-bullets li {
 
 .card-img-left {
   max-width: 415px;
+}
+
+.fw-800 {
+  font-weight: 800;
 }
 
 /*# sourceMappingURL=style.css.map */
