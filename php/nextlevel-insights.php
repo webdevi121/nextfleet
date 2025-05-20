@@ -24,19 +24,19 @@
           'image' => 'images/nf-img-31.jpg',
           'title' => 'Reliable & Efficient Solutions for Your Business',
           'description' => "For businesses across Australia, efficient and reliable transportation plays a crucial role in daily operations. From delivering goods to managing on-the-go services, having a dependable fleet...",
-          'link' => '/insights-article.html'
+          'link' => '/Reliable-and-Efficient-Solutions-for-Your-Business'
       ],
       [
           'image' => 'images/nf-img-31.jpg',
           'title' => 'Top Fleet Vehicle Options for Australian Businesses',
           'description' => "In Australia, effective fleet management is more than just a business necessity; it’s a strategic advantage that can significantly enhance a business's operational efficiency...",
-          'link' => '/insights-article.html'
+          'link' => '/top-fleet-vehicle-options.html'
       ],
       [
           'image' => 'images/nf-img-32.jpg',
           'title' => 'How NextFleet Is Transforming Fleet Management for Australian Businesses',
           'description' => "In today's fast-paced business environment, effective fleet management is more critical than ever. For Australian businesses, managing a fleet of vehicles can be a tough task...",
-          'link' => '/insights-article.html'
+          'link' => '/revolutionizing-fleet-management-for-australia.html'
       ],
       [
           'image' => 'images/nf-img-33.jpg',
