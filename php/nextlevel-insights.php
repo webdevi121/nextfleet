@@ -24,7 +24,7 @@
           'image' => 'images/nf-img-31.jpg',
           'title' => 'Reliable & Efficient Solutions for Your Business',
           'description' => "For businesses across Australia, efficient and reliable transportation plays a crucial role in daily operations. From delivering goods to managing on-the-go services, having a dependable fleet...",
-          'link' => '/Reliable-and-Efficient-Solutions-for-Your-Business'
+          'link' => '/Reliable-and-Efficient-Solutions-for-Your-Business.html'
       ],
       [
           'image' => 'images/nf-img-31.jpg',
