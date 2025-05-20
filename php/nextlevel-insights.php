@@ -82,7 +82,9 @@
     <?php foreach ($featuredArticles as $article): ?>
       <div class="col-md-12 mb-4">
         <div class="card flex-md-row">
-          <img src="<?= $article['image']; ?>" class="card-img-left img-fluid w-100" alt="Featured Article" style="object-fit: cover;">
+          <a href="<?= $article['link']; ?>" class="card-img-left h-auto w-100">
+            <img src="<?= $article['image']; ?>" class="card-img-left img-fluid h-100 w-100" alt="Featured Article" style="object-fit: cover;">
+          </a>
           <div class="card-body">
             <h4 class="card-title"><?= $article['title']; ?></h4>
             <p class="card-text"><?= $article['description']; ?></p>
@@ -99,7 +101,9 @@
     <?php foreach ($latestArticles as $article): ?>
       <div class="col-md-4">
         <div class="card h-100">
-          <img src="<?= $article['image']; ?>" class="card-img-top" alt="Latest Article">
+          <a href="<?= $article['link']; ?>" class="h-auto w-100">
+            <img src="<?= $article['image']; ?>" class="card-img-top" alt="Latest Article">
+          </a>
           <div class="card-body d-flex flex-column">
             <h5 class="card-title"><?= $article['title']; ?></h5>
             <p class="card-text"><?= $article['description']; ?></p>
