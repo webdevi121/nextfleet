@@ -31,6 +31,7 @@
             <div>
               <h1 class="text-uppercase">Contributing to the Recovery of the Great Barrier Reef</h1>
             </div>
+            <div class="small text-primary">Posted July 22, 2022</div>
           </div>
         </div>
       </div>

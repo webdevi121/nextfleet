@@ -48,13 +48,13 @@
           'image' => 'images/nf-img-34.jpg',
           'title' => 'NextFleet appointed as LGP approved contractor',
           'description' => 'NextFleet has been appointed as an LGP (Local Government Procurement) approved contractor.',
-          'link' => '/insights-article.html'
+          'link' => '/LGP-approved-contractor.html'
       ],
       [
           'image' => 'images/nf-img-35.jpg',
           'title' => 'NextFleet announces greenDrive Carbon Offset Program',
           'description' => 'NextFleet is pleased to announce that it has established a Carbon Offset Program “greenDrive” in partnership with Australian Integrated Carbon (AIC)',
-          'link' => '/insights-article.html'
+          'link' => '/greendrive-carbon-offset-program.html'
       ]
       // Add more latest articles here if needed
   ];
