@@ -2,9 +2,9 @@
 // Define the team data
 $teamData = [
     [
-        'name' => 'Xiaohang Dong',
+        'name' => 'Ryohta Imai (Rio)',
         'title' => 'Managing Director and <span class="d-block">Board Member</span>',
-        'imgSrc' => 'images/team/dong-1.jpg',
+        'imgSrc' => 'images/nf-img-61.jpg',
     ],
     [
         'name' => 'Giulio Persichilli',
@@ -20,11 +20,6 @@ $teamData = [
         'name' => 'Stellios Falieros',
         'title' => 'General Manager - Finance/Company Secretary',
         'imgSrc' => 'images/team/Stel.jpg',
-    ],
-    [
-        'name' => 'Alan Webster',
-        'title' => 'General Manager - <span class="d-block">Digital & I.T.</span>',
-        'imgSrc' => 'images/team/alan-1.jpg',
     ],
     [
         'name' => 'Louise Coles',
@@ -56,7 +51,7 @@ $salesData = [
     ],
     [
         'name' => 'Danny Phung',
-        'title' => 'Commercial Vehicles Operations Manager',
+        'title' => 'Client Account Manager',
         'imgSrc' => 'images/team/Danny-Phung.jpg',
     ],
     [
