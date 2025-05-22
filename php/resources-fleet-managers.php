@@ -20,7 +20,7 @@ $helpCards = [
                     <li>Turn off your engine</li>
                     <li>Turn on your hazard lights</li>
                     <li>Do not admit liability</li>
-                    <li>Call the below Toll-Free number and choose <br><b>Option 1</b></li>
+                    <li>Call the below Toll-Free number and choose Option 1</li>
                 </ul>
                 <div class="custom-position"><a href="tel:1800 297 900"><b>1800 297 900</b></a></div>
             </div>
@@ -97,12 +97,12 @@ $helpCards = [
     <section id="overview" class="bg-light pt-5 pb-5">
       <div class="container">
         <div class="row">
-          <div class="col-sm-7 m-auto text-center">
+          <div class="col-sm-8 m-auto text-center">
             <h1>Fleet Managers</h1>
             <p>
               <strong>Useful resources for the operation of your vehicles.</strong>
             </p>
-            <p>We are here to provide you with the support and resources you need to keep your vehicles moving*. For all customer enquires including roadside assistance, accident management, maintenance and servicing, fuel card enquiries, tolls, registration and CTP renewals call <a href="tel:1800 297 900">1800 297 900</a>.</p>
+            <p>We are here to provide you with the support and resources you need to keep your vehicles moving. For all customer enquires including roadside assistance, accident management, maintenance and servicing, fuel card enquiries, tolls, registration and CTP renewals call <a href="tel:1800 297 900">1800 297 900</a>.</p>
 
             <p>Our supplier finder will help you find the most convenient location to get your vehicle serviced, top-up on fuel (BP, Caltex/Ampol, Shell) or get your tyres changed. We’ve also included helpful contacts in the case of accidents, breakdowns and emergencies.</p>
           </div>

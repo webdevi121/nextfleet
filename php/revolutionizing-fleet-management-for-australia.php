@@ -52,7 +52,7 @@
           <li><b>Cost Efficiency:</b> By investing in fleet vehicles, businesses can achieve significant cost savings over time. Leasing or purchasing multiple vehicles often comes with discounts, and fleet management solutions help monitor fuel usage and maintenance costs, ensuring optimal resource allocation.</li>
           <li><b>Reliability and Brand Image:</b> Reliable fleet vehicles ensure that goods and services are delivered on time, boosting customer satisfaction. Additionally, branded fleet vehicles can serve as mobile advertisements, enhancing your business’s visibility and professionalism.</li>
           <li><b>Operational Flexibility:</b> A well-maintained fleet allows businesses to operate more efficiently, offering flexibility in delivery schedules, customer appointments, and team mobility.</li>
-          <li>​​<b>Fleet Management Advantages: </b> Modern <a href="/" class="anchor-inherit-styles">fleet management</a> solutions can help businesses monitor vehicle performance, track routes, and manage driver safety—resulting in better control over operational activities and reduced downtime.</li>
+          <li>​​<b>Fleet Management Advantages: </b> Modern <a href="/" class="anchor-inherit-styles">fleet management</a> solutions can help businesses monitor vehicle performance, track routes, and manage driver safety-resulting in better control over operational activities and reduced downtime.</li>
           </ul>
           <hr>
           <h5>Key Factors to Consider When Choosing Fleet Vehicles</h5>
@@ -69,7 +69,7 @@
           <h5>Top Fleet Vehicle Options for Australian Businesses</h5>
           <p>Here are some of the most popular vehicle options suited to various industries in Australia:</p>
           <ul>
-          <li><b>Utes and Pickup Trucks:</b> Utes are a staple for many Australian businesses, especially those in construction, landscaping, and agriculture. Models like the Toyota Hilux and Ford Ranger offer versatility, durability, and excellent off-road capabilities—perfect for navigating rough terrains while carrying heavy loads.</li>
+          <li><b>Utes and Pickup Trucks:</b> Utes are a staple for many Australian businesses, especially those in construction, landscaping, and agriculture. Models like the Toyota Hilux and Ford Ranger offer versatility, durability, and excellent off-road capabilities-perfect for navigating rough terrains while carrying heavy loads.</li>
           <li><b>Vans and Light Commercial Vehicles:</b> For businesses that require significant cargo space, vans like the Mercedes-Benz Sprinter or Ford Transit are excellent choices. These vehicles offer ample storage capacity, advanced safety features, and customisable interiors to suit diverse delivery or service needs.</li>
           <li><b>Sedans and SUV's:</b> Corporate businesses often prefer sedans and SUVs for transporting executives, employees, or clients. Models like the Toyota Camry and Hyundai Santa Fe provide comfort, reliability, and excellent fuel efficiency.</li>
           <li><b>Electric and Hybrid Vehicles:</b> With sustainability becoming a priority for many Australian businesses, electric and hybrid vehicles are gaining popularity. Options like the Hyundai Ioniq and Toyota RAV4 reduce fuel dependency and align with eco-conscious business goals, offering long-term savings and environmental benefits.</li>

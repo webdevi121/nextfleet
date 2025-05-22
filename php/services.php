@@ -159,7 +159,7 @@
             title: 'Fleet Management Solutions',
             content: `
                 <h2 class="mb-2">Fleet Management Solutions Built for Your Needs</h2>
-                <p>Managing a fleet is more than just keeping vehicles on the road—it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes.</p>
+                <p>Managing a fleet is more than just keeping vehicles on the road-it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes.</p>
                 <ul class="custom-bullets">
                     <li>Fleet Optimisation & Cost Control – Reduce unnecessary expenses with strategic vehicle selection, fuel management, and lifecycle planning.</li>
                     <li>Real-Time Fleet Tracking & Reporting – Gain complete visibility over your fleet with advanced telematics, GPS tracking, and usage analytics.</li>
@@ -180,7 +180,7 @@
             title: 'Explore Fleet Management',
             content: `
                 <h2>Fleet Management Solutions Built for Your Needs</h2>
-                <p>Managing a fleet is more than just keeping vehicles on the road—it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes, from small enterprises to large corporate fleets.</p>
+                <p>Managing a fleet is more than just keeping vehicles on the road-it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes, from small enterprises to large corporate fleets.</p>
                 <p>Our data-driven approach provides real-time insights, helping you optimise fleet performance, enhance productivity, and minimise operational costs. With cutting-edge fleet tracking, compliance support, and proactive maintenance, we ensure your vehicles are always road-ready and aligned with industry best practices.</p>
                 <h2>Our Fleet Solutions Include:</h2>
                 <ul class="custom-bullets">
@@ -207,7 +207,7 @@
                 <ul class="custom-bullets">
                   <li>Dedicated Account Management – Personalised support tailored to your business needs.</li>
                   <li>Ongoing Reporting & Analytics – Data-driven insights to improve efficiency and reduce costs.</li>
-                  <li>Elematics Integration – Real-time tracking and monitoring for enhanced fleet visibility.</li>
+                  <li>Telematics Integration – Real-time tracking and monitoring for enhanced fleet visibility.</li>
                   <li>Proactive Maintenance & Repairs – Ensuring your vehicles remain safe, compliant, and operational.</li>
                 </ul>
                   <?php loadComponent("cta-services", [
@@ -280,10 +280,10 @@
                 <ul class="custom-bullets">
                   <li>Fleet Optimisation – Enhancing efficiency with route planning and fuel management.</li>
                   <li>Transition Planning – Strategic guidance for integrating hybrid and electric vehicles.</li>
-                  <li>Emission Reduction Strategies – Data-driven insights to reduce fuel consumption and environmental impact..</li>
+                  <li>Emission Reduction Strategies – Data-driven insights to reduce fuel consumption and environmental impact.</li>
                 </ul>
                   <?php loadComponent("cta-services", [
-                      'text' => "Sustainable fleets are the future—let NextFleet help you lead the way",
+                      'text' => "Sustainable fleets are the future-let NextFleet help you lead the way",
                       'buttonText' => 'Speak to an Expert'
                   ]); ?>
 

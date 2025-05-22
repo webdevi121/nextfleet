@@ -154,7 +154,7 @@
             </div>
             <h2>Everything You Need to Stay on the Road</h2>
             <p>
-            Welcome to our dedicated portal for drivers, providing essential tools and support to keep you on the road safely and efficiently. Managing a vehicle involves more than just driving—it includes maintenance, compliance, fuel management, and roadside emergencies, and here you can do it all in one place.
+            Welcome to our dedicated portal for drivers, providing essential tools and support to keep you on the road safely and efficiently. Managing a vehicle involves more than just driving - it includes maintenance, compliance, fuel management, and roadside emergencies, and here you can do it all in one place.
             </p>
             <strong>Key Resources for Drivers:</strong>
             <ul class="custom-bullets">

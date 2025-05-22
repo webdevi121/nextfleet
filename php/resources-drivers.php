@@ -20,7 +20,7 @@ $helpCards = [
                     <li>Turn off your engine</li>
                     <li>Turn on your hazard lights</li>
                     <li>Do not admit liability</li>
-                    <li>Call the below Toll-Free number and choose <br><b>Option 1</b></li>
+                    <li>Call the below Toll-Free number and choose Option 1</li>
                 </ul>
                 <div class="custom-position"><a href="tel:1800 297 900"><b>1800 297 900</b></a></div>
             </div>
@@ -121,7 +121,7 @@ $helpCards = [
 
             <div class="d-flex gap-3 flex-wrap m-auto justify-content-center">
                 <a href="https://www.nextfleet.net.au/Resources/Drivers-Resources/driverguide-v1-2024.pdf" target="_blank" value="driver-guide.pdf" class="btn btn-primary text-white">Download Driver Guide here</a>
-                <a href="https://www.nextfleet.net.au/Resources/Service-Locator-Resources/" target="_blank" value="Service-Locator" class="btn btn-primary text-white">Service Locator</a>
+                <a href="/services-locator.html" value="Service-Locator" class="btn btn-primary text-white">Service Locator</a>
             </div>
           </div>
         </div>

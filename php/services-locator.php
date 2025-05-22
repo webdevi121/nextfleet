@@ -60,7 +60,7 @@
             <div class="col-sm-12">
                 <div class="text-center">
                     <h2>Service and General Maintenance</h2>
-                    <p>For service and general maintenance related enquiries,contact any of the authorised manufacturer service centre using the service Locator below</p>
+                    <p>For service and general maintenance related enquiries, contact any of the authorised manufacturer service centre using the service Locator below</p>
                 </div>
                 <div>
                     <div class="container-fluid mt-3">
@@ -180,6 +180,22 @@
     <?php loadComponent("work-with-us");?>
     <?php loadComponent("footer"); ?>
 
+    <!-- Google Maps API (replace YOUR_API_KEY with your actual API key) -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5lT2mej3E85ojBD69qVA06lRyICReLaU&callback=initMap">
+    </script>
+    
+
+    <script>
+    function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: { lat: -33.8688, lng: 151.2093 }, // Example: Sydney
+        });
+
+        // You can add markers and logic here later
+    }
+    </script>
 
 
 

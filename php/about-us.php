@@ -374,7 +374,7 @@
                   </span>
                 </div>
                 <div class="small">
-                With 40+ years of experience across the Group, our in-house experts optimise every stage of the fleet lifecycle—procurement, funding, maintenance, and supplier management while minimising life cycle costs for your fleet.
+                With 40+ years of experience across the Group, our in-house experts optimise every stage of the fleet lifecycle-procurement, funding, maintenance, and supplier management while minimising life cycle costs for your fleet.
                 </div>
               </div>
             </div>
