@@ -2,8 +2,8 @@
 // Define footer data as arrays
 $contact_info = [
     ['icon' => 'images/icon-location.png', 'text' => 'Level 1, Building 5/747 Lytton Rd, Murarrie QLD 4172'],
-    ['icon' => 'images/icon-phone.png', 'text' => '<a href="tel:03 9361 6333" class="text-gray hover-text-primary">03 9361 6333</a>'],
-    ['icon' => 'images/icon-mail.png', 'text' => '<a href="mailto:info@nextfleet.com.au" class="text-gray hover-text-primary">info@nextfleet.com.au</a>']
+    ['icon' => 'images/icon-phone.png', 'text' => '<a href="tel:1800 297 900" class="text-gray hover-text-primary">1800 297 900</a>'],
+    ['icon' => 'images/icon-mail.png', 'text' => '<a href="mailto:info@nextfleet.net.au" class="text-gray hover-text-primary">info@nextfleet.net.au</a>']
 ];
 
 $social_links = [

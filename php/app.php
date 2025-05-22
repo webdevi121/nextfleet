@@ -31,13 +31,13 @@
               <span>App</span>
             </div>
             <div>
-              <h1 class="text-uppercase">MyDriver App</h1>
+              <h1>MyDriver App</h1>
               <p>Easily download and install the NextFleet app to track vehicles, monitor performance and manage your fleet in real time, anywhere, anytime! </p>
             </div>
             <div>
               <a href="https://www.nextfleet.net.au/myDriverapp/myDrive-App" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <div class="text-uppercase">myDrive App</div>
+                  <div>MyDrive App</div>
                   <div class="flex-grow-1">
                     <svg
                       width="15"
@@ -83,9 +83,9 @@
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>App</span>
             </div>
-            <h2>myDriver App – Your Fleet at Your Fingertips</h2>
+            <h2>MyDriver App – Your Fleet at Your Fingertips</h2>
             <p>
-                The <a href="https://www.nextfleet.net.au/myDriverapp/myDrive-App">myDriver App</a> is designed to give your drivers easy access to essential fleet management tools on their mobile devices. Whether you need to track vehicle usage, log service history, or access important fleet updates, the myDriver App makes it simple and convenient.
+                The <a href="https://www.nextfleet.net.au/myDriverapp/myDrive-App">MyDriver App</a> is designed to give your drivers easy access to essential fleet management tools on their mobile devices. Whether you need to track vehicle usage, log service history, or access important fleet updates, the MyDriver App makes it simple and convenient.
             </p>
             
             <p><strong>Key Features:</strong></p>
@@ -118,7 +118,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5 text-primary">
-            <h2>Install myDriver App on Android</h2>
+            <h2>Install MyDriver App on Android</h2>
           </div>
         </div>
         <div class="my-app-container">
@@ -162,7 +162,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5 text-primary">
-            <h2>Install myDriver App on iOS</h2>
+            <h2>Install MyDriver App on iOS</h2>
           </div>
         </div>
         <div class="my-app-container">
@@ -187,7 +187,7 @@
             </div>
             <div class="col-4">
               <div>
-                <img src="images/ios-step-2.png" alt="" class="w-100">
+                <img src="images/ios-step-3.png" alt="" class="w-100">
               </div>
               <div class="mt-4 text-center">
                 <div class="fs-2 fw-bold pe-2" style="line-height:32px;">3</div>
