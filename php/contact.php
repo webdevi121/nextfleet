@@ -7,13 +7,22 @@
   ob_start();
 ?>
 
+
+
+<style>
+      #map {
+        height: 500px;
+        width: 100%;
+      }
+    </style>
+
 <?php loadComponent("header");?>
     <section class="pt-5 pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <h1 class="text-uppercase">Contact Us</h1>
-                    <p>We're here to help. For general enquiries, roadside assistance, accidents, or maintenance authorisation, please use the form below or call us at <a href="tel:1800 297 900">1800 297 900</a>.</p>
+                    <p>We're here to help. For general enquiries please use the form below or call us. For urgent support for roadside assistance, accidents, or maintenance authorisation, please call us at <a href="tel:1800 297 900">1800 297 900</a>.</p>
                     <div class="mb-4">
                         <ul class="list-unstyled text-start">
                                         <li class="mb-2 d-flex gap-3">
@@ -26,13 +35,13 @@
                             </li>
                                         <li class="mb-2 d-flex gap-3">
                                 <span><img src="images/icon-mail.png" alt="" width="15"></span>
-                                <span><a href="mailto:info@nextfleet.com.au" class="hover-text-primary">info@nextfleet.com.au</a></span>
+                                <span><a href="mailto:info@nextfleet.net.au" class="hover-text-primary">info@nextfleet.net.au</a></span>
                             </li>
                         </ul>
                     </div>
 
                     <ul class="d-sm-flex list-unstyled gap-3">
-                    <li><strong>Our Office:</strong></li>
+                    <li><strong>Our Offices:</strong></li>
                     <li>
                         <img src="images/iconLocation.png" alt="icon" width="12" />
                         Brisbane
@@ -50,14 +59,8 @@
                         Melbourne
                     </li>
                     </ul>
-                    <div class="ratio ratio-16x9">
-                        <iframe 
-                        src="https://www.google.com/maps?q=NextFleet,+Level+1+Building+5,+747+Lytton+Rd,+Murarrie+QLD+4172&output=embed"
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
+                    <div class="ratio ratio-16x9" onload="initMap()">
+                        <div id="map"></div>
                     </div>
                 </div>
                 <div class="col-sm-6 mt-4 mt-sm-0">
@@ -128,7 +131,100 @@
         </div>
     </section>
 
+
+    
+
     <?php loadComponent("footer"); ?>
+
+
+<!-- Contact Us Page -->
+ 
+    <!-- Google Maps API (replace YOUR_API_KEY with your actual API key) -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5lT2mej3E85ojBD69qVA06lRyICReLaU&callback=initMap">
+    </script>
+
+<script>
+
+function initMap() {
+  const locations = [
+    {
+      name: "Murarrie Office",
+      position: { lat: -27.4606, lng: 153.1006 },
+    },
+    {
+      name: "Brisbane",
+      position: { lat: -27.470125, lng: 153.021072 },
+    },
+    {
+      name: "Sydney",
+      position: { lat: -33.865143, lng: 151.209900 },
+    },
+    {
+      name: "Perth",
+      position: { lat: -31.952240, lng: 115.861400 },
+    },
+    {
+      name: "Melbourne",
+      position: { lat: -37.840935, lng: 144.946457 },
+    },
+  ];
+
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: { lat: -27.4606, lng: 133.7751 }, // Rough center of Australia
+  });
+
+  const bounds = new google.maps.LatLngBounds();
+
+  locations.forEach((location) => {
+    const marker = new google.maps.Marker({
+      position: location.position,
+      map: map,
+      title: location.name,
+    });
+    bounds.extend(location.position);
+  });
+
+  // Automatically adjust the map to show all markers
+  map.fitBounds(bounds);
+
+    // Slightly pan up (by moving center north)
+    google.maps.event.addListenerOnce(map, 'bounds_changed', function () {
+    const center = map.getCenter();
+    map.setCenter({
+        lat: center.lat() + 8, // Increase latitude to shift map view downward
+        lng: center.lng()
+    });
+    });
+}
+
+</script>
+
+
+
+<script>
+  // Initialize Swiper with navigation
+  const swiper = new Swiper('#testimonials-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      prevEl: '.testimonials-swiper-button-prev', // Right arrow
+      nextEl: '.testimonials-swiper-button-next', // Left arrow
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+    },
+  });
+</script>
+
 
 <?php
   // Get the buffered content

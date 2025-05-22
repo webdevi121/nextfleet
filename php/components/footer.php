@@ -121,44 +121,6 @@ $drive_links = [
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
-    <!-- Google Maps API (replace YOUR_API_KEY with your actual API key) -->
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5lT2mej3E85ojBD69qVA06lRyICReLaU&callback=initMap">
-    </script>
-
-    <script>
-    function initMap() {
-        const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 10,
-        center: { lat: -33.8688, lng: 151.2093 }, // Example: Sydney
-        });
-
-        // You can add markers and logic here later
-    }
-    </script>
-
-<script>
-  // Initialize Swiper with navigation
-  const swiper = new Swiper('#testimonials-swiper', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      prevEl: '.testimonials-swiper-button-prev', // Right arrow
-      nextEl: '.testimonials-swiper-button-next', // Left arrow
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
-      },
-    },
-  });
-</script>
-
 
 
 <!-- Swiper Config -->

@@ -70,7 +70,7 @@
               <strong class="text-primary">NextFleet</strong> is a trusted fleet management organisation backed by Mitsubishi Corporation, Japan’s largest trading and investment company. With offices in Brisbane, Sydney, Perth and Melbourne, we provide end-to-end fleet solutions that reduce costs, improve efficiency, and simplify operations for businesses across Australia.
             </p>
             <ul class="d-flex list-unstyled gap-3 justify-content-center">
-              <li><strong>Our Office:</strong></li>
+              <li><strong>Our Offices:</strong></li>
               <li>
                 <img src="images/iconLocation.png" alt="icon" width="12" />
                 Brisbane
