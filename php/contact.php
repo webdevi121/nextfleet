@@ -31,7 +31,7 @@
                             </li>
                                         <li class="mb-2 d-flex gap-3">
                                 <span><img src="images/icon-phone.png" alt="" width="15"></span>
-                                <span><a href="tel:03 9361 6333" class="hover-text-primary">03 9361 6333</a></span>
+                                <span><a href="tel:1800 297 900" class="hover-text-primary">1800 297 900</a></span>
                             </li>
                                         <li class="mb-2 d-flex gap-3">
                                 <span><img src="images/icon-mail.png" alt="" width="15"></span>
@@ -203,27 +203,6 @@ function initMap() {
 
 
 
-<script>
-  // Initialize Swiper with navigation
-  const swiper = new Swiper('#testimonials-swiper', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      prevEl: '.testimonials-swiper-button-prev', // Right arrow
-      nextEl: '.testimonials-swiper-button-next', // Left arrow
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
-      },
-    },
-  });
-</script>
 
 
 <?php

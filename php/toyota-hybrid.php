@@ -9,9 +9,9 @@
 
 <?php
 $leaseInclusions = [
-    ['icon' => 'images/nf-icon-1.png', 'label' => 'Finance'],
-    ['icon' => 'images/nf-icon-2.png', 'label' => 'Fuel'],
+    ['icon' => 'images/nf-icon-1.png', 'label' => 'Fuel'],
     ['icon' => 'images/nf-icon-3.png', 'label' => 'Tyres'],
+    ['icon' => 'images/nf-icon-2.png', 'label' => 'Finance'],
     ['icon' => 'images/nf-icon-4.png', 'label' => 'Registration'],
     ['icon' => 'images/nf-icon-5.png', 'label' => 'Comprehensive <br>Insurance'],
     ['icon' => 'images/nf-icon-6.png', 'label' => 'Maintenance <br>& Servicing'],

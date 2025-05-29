@@ -60,6 +60,7 @@
                 </div>
                   
                 <div class="swiper-pagination mt-4 d-sm-none"></div>
+                
                 <div class="d-none d-sm-block">
                   <!-- Left Arrow -->
                   <div class="swiper-button-prev testimonials-swiper-button-prev"></div>

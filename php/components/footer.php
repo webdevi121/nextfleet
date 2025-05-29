@@ -122,6 +122,28 @@ $drive_links = [
 
 
 
+<script>
+  // Initialize Swiper with navigation
+  const swiper = new Swiper('#testimonials-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      prevEl: '.testimonials-swiper-button-prev', // Right arrow
+      nextEl: '.testimonials-swiper-button-next', // Left arrow
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+    },
+  });
+</script>
+
 
 <!-- Swiper Config -->
 <script>
