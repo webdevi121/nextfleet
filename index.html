@@ -670,19 +670,54 @@
 <div class="partners-container pt-10 pb-10 bg-white">
   <div class="container text-center">
     <h2 class="text-uppercase fw-bold mb-5">Our Partners</h2>
-    <div class="marquee">
-      <div class="marquee-content">
-                  <img src="images/ampol.png" alt="ampol" class="partner-logo">
-                  <img src="images/bp.png" alt="bp" class="partner-logo">
-                  <img src="images/drivercare.png" alt="drivercare" class="partner-logo">
-                  <img src="images/euclidic.png" alt="euclidic" class="partner-logo">
-                  <img src="images/gps-i.png" alt="gps-i" class="partner-logo">
-                  <img src="images/iss.png" alt="iss" class="partner-logo">
-                  <img src="images/Shell-Logo.png" alt="Shell-Logo" class="partner-logo">
+
+    <div class="swiper partner-swiper" style="height: 118px;">
+      <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+            <img src="images/ampol.png" alt="ampol" class="partner-logo" />
+          </div>
+                  <div class="swiper-slide">
+            <img src="images/nf-img-63.jpg" alt="nf-img-63" class="partner-logo" />
+          </div>
+                  <div class="swiper-slide">
+            <img src="images/nf-img-64.jpg" alt="nf-img-64" class="partner-logo" />
+          </div>
+                  <div class="swiper-slide">
+            <img src="images/nf-img-65.jpg" alt="nf-img-65" class="partner-logo" />
+          </div>
+                  <div class="swiper-slide">
+            <img src="images/nf-img-66.jpg" alt="nf-img-66" class="partner-logo" />
+          </div>
+                  <div class="swiper-slide">
+            <img src="images/nf-img-67.jpg" alt="nf-img-67" class="partner-logo" />
+          </div>
+                  <div class="swiper-slide">
+            <img src="images/nf-img-68.jpg" alt="nf-img-68" class="partner-logo" />
+          </div>
+                  <div class="swiper-slide">
+            <img src="images/nf-img-69.jpg" alt="nf-img-69" class="partner-logo" />
+          </div>
+                  <div class="swiper-slide">
+            <img src="images/nf-img-70.jpg" alt="nf-img-70" class="partner-logo" />
+          </div>
               </div>
     </div>
   </div>
 </div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Optional Styling -->
+<style>
+  .partner-logo {
+    height: 118px;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
 <div class="bg-light pt-10 pb-10">
     <div class="container">
         <div class="row">
@@ -890,5 +925,32 @@
         slidesPerView: 3,
       }
     }
+  });
+</script>
+
+<!-- Swiper Init -->
+<script>
+  const parnerSwiper = new Swiper('.partner-swiper', {
+    loop: true,
+    slidesPerView: 5,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 6,
+        spaceBetween: 30,
+      },
+    },
   });
 </script>

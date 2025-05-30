@@ -173,3 +173,30 @@ $drive_links = [
     }
   });
 </script>
+
+<!-- Swiper Init -->
+<script>
+  const parnerSwiper = new Swiper('.partner-swiper', {
+    loop: true,
+    slidesPerView: 5,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 6,
+        spaceBetween: 30,
+      },
+    },
+  });
+</script>
