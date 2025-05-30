@@ -139,7 +139,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="images/about-us-img-1.jpg"
+            src="images/about-us-img-1.jpeg"
             alt="Thumbnail"
             class="w-100 rounded-img-custom h-100 object-fit-cover"
           />
