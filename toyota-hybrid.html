@@ -38,17 +38,8 @@
                                                 <li class="nav-item">
                     <a class="nav-link text-uppercase text-white" href="/about-us.html">About Us</a>
                   </li>
-                                                                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="/services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Services                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                          <a class="dropdown-item" href="/resources.html">Menu Item 1</a>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/resources.html">Menu Item 1.1</a></li>
-                          </ul>
-                      </li>
-                    </ul>
+                                                                <li class="nav-item">
+                    <a class="nav-link text-uppercase text-white" href="/services.html">Services</a>
                   </li>
                                                                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-uppercase text-white" href="/resources.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -671,5 +662,32 @@
         slidesPerView: 3,
       }
     }
+  });
+</script>
+
+<!-- Swiper Init -->
+<script>
+  const parnerSwiper = new Swiper('.partner-swiper', {
+    loop: true,
+    slidesPerView: 5,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 6,
+        spaceBetween: 30,
+      },
+    },
   });
 </script>
