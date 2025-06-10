@@ -83,7 +83,7 @@ p {
 // Navbar styles
 .navbar {
   .navbar-nav {
-    gap: 43px;
+    gap: 35px;
     @media (max-width: map-get($grid-breakpoints, 'md')) {
       gap: 5px;
     }

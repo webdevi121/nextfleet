@@ -12179,7 +12179,7 @@ p {
 }
 
 .navbar .navbar-nav {
-  gap: 43px;
+  gap: 35px;
 }
 @media (max-width: 768px) {
   .navbar .navbar-nav {

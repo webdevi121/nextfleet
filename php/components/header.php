@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,6 +15,7 @@
 
 <?php
 $navItems = [
+    ["name" => "Home", "href" => "/"],
     ["name" => "About Us", "href" => "/about-us.html"],
     ["name" => "Services", "href" => "/services.html"],
     ["name" => "Resources", "href" => "/resources.html"],

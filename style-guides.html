@@ -1,5 +1,6 @@
 
-    <!doctype html>
+    
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -34,6 +35,9 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
                                                 <li class="nav-item">
+                    <a class="nav-link text-uppercase text-white" href="/">Home</a>
+                  </li>
+                                                                <li class="nav-item">
                     <a class="nav-link text-uppercase text-white" href="/about-us.html">About Us</a>
                   </li>
                                                                 <li class="nav-item">
@@ -372,6 +376,28 @@
 
 
 
+<script>
+  // Initialize Swiper with navigation
+  const swiper = new Swiper('#testimonials-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      prevEl: '.testimonials-swiper-button-prev', // Right arrow
+      nextEl: '.testimonials-swiper-button-next', // Left arrow
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+    },
+  });
+</script>
+
 
 <!-- Swiper Config -->
 <script>
@@ -399,5 +425,32 @@
         slidesPerView: 3,
       }
     }
+  });
+</script>
+
+<!-- Swiper Init -->
+<script>
+  const parnerSwiper = new Swiper('.partner-swiper', {
+    loop: true,
+    slidesPerView: 5,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 6,
+        spaceBetween: 30,
+      },
+    },
   });
 </script>

@@ -7,7 +7,9 @@
   },
   "scripts": {
     "scss": "sass --watch scss/custom.scss:css/style.css",
-    "start": "concurrently \"php -S localhost:8000\" \"sass --watch scss/custom.scss:css/style.css\""
+    "php-server": "php -S localhost:8000",
+    "export": "php export.php",
+    "start": "concurrently \"npm run php-server\" \"npm run scss\""
   },
   "dependencies": {
     "awesome": "^0.0.7",
