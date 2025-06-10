@@ -6,9 +6,12 @@ ob_start();
 <?php
 $leaseInclusions = [
     ['icon' => 'images/nf-icon-1.png', 'label' => 'Fuel'],
-    ['icon' => 'images/nf-icon-3.png', 'label' => 'Tyres'],
     ['icon' => 'images/nf-icon-2.png', 'label' => 'Finance'],
     ['icon' => 'images/nf-icon-4.png', 'label' => 'Registration'],
+    ['icon' => 'images/nf-icon-71.png', 'label' => '4 replacement <br>tires'],
+    ['icon' => 'images/nf-icon-73.png', 'label' => '24/7 Accident <br>Management Service'],
+    ['icon' => 'images/nf-icon-75.png', 'label' => '75,000-kilometre limit <br>over the term of the lease'],
+    ['icon' => 'images/nf-icon-74.png', 'label' => '24-Hour Roadside <br> Assistance'],
     ['icon' => 'images/nf-icon-5.png', 'label' => 'Comprehensive <br>Insurance'],
     ['icon' => 'images/nf-icon-6.png', 'label' => 'Maintenance <br>& Servicing'],
 ];
@@ -31,18 +34,17 @@ $leaseInclusions = [
                     <div class="bg-gray p-5 rounded-3">
                         <h2 class="mb-4">What’s Included</h2>
                         <p>NextFleet’s Fully Maintained Operating Lease includes your vehicle finance and estimated running costs in one fixed repayment.</p>
-                        <div class="fw-bold mb-3">NextFleet Experience the difference</div>
-                        <ul class="d-flex flex-wrap list-unstyled text-sm-center">
-                        <?php foreach ($leaseInclusions as $item): ?>
-                            <li class="flex-fill p-2">
-                            <img src="<?= htmlspecialchars($item['icon']) ?>" alt="" height="40">
-                            <div class="mt-2"><?= $item['label'] ?></div> <!-- no htmlspecialchars here -->
-                            </li>
-                        <?php endforeach; ?>
-                        </ul>
+                        <div class="fw-bold mb-5">NextFleet Experience the difference</div>
+                        <div class="row row-cols-2 row-cols-md-3 g-3 text-center">
+                            <?php foreach ($leaseInclusions as $item): ?>
+                                <div class="col">
+                                    <img src="<?= htmlspecialchars($item['icon']) ?>" alt="" height="40">
+                                    <div class="mt-2"><?= $item['label'] ?></div> <!-- no htmlspecialchars here -->
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
 
-                        <p>Unsure about the lease term or vehicle options? Start a conversation with our friendly team to structure a lease that fits your preferences. Customise factors like lease duration, kilometre limit and vehicle options. Let us help you maximise the value of leasing.  </p>
-                        <div>
+                        <div class="mt-5">
                             <a href="/contact.html" class="btn btn-primary text-white fw-bold">
                                 <div class="d-flex align-items-center gap-2">
                                 <div class="text-uppercase">Enquire Now</div>
