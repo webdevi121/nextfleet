@@ -8,7 +8,7 @@ $leaseInclusions = [
     ['icon' => 'images/nf-icon-1.png', 'label' => 'Fuel'],
     ['icon' => 'images/nf-icon-2.png', 'label' => 'Finance'],
     ['icon' => 'images/nf-icon-4.png', 'label' => 'Registration'],
-    ['icon' => 'images/nf-icon-71.png', 'label' => '4 replacement <br>tires'],
+    ['icon' => 'images/nf-icon-71.png', 'label' => '4 replacement <br>tyres'],
     ['icon' => 'images/nf-icon-73.png', 'label' => '24/7 Accident <br>Management Service'],
     ['icon' => 'images/nf-icon-75.png', 'label' => '75,000-kilometre limit <br>over the term of the lease'],
     ['icon' => 'images/nf-icon-74.png', 'label' => '24-Hour Roadside <br> Assistance'],

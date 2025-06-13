@@ -61,7 +61,7 @@ ob_start();
         </nav>
       </div>
     </section>
-    <section id="overview" class="bg-light pt-5 pb-5">
+    <section id="overview" class="bg-light pt-5 pb-3">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 m-auto text-center">
@@ -69,14 +69,6 @@ ob_start();
               At <strong class="text-primary">NextFleet</strong>, we provide comprehensive fleet management solutions and vehcile leasing solutions designed to optimise operations, reduce costs, and support a sustainable future. As a wholly-owned subsidiary of Mitsubishi Corporation, we combine global strength with local expertise to deliver cutting-edge solutions for businesses of all sizes. 
             </p>
             <p>Whether you're looking for tailored fleet management services, emission reduction strategies, or expert guidance on transitioning to zero-emission vehicles, we have the expertise to support your business at every stage.</p>
-          </div>
-          <div class="col-sm-8 mx-auto">
-            <iframe width="100%" height="482"
-              src="https://www.youtube.com/embed/7yyuQLCKsrI?rel=0&modestbranding=1"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
-            </iframe>
           </div>
         </div>
       </div>
@@ -103,6 +95,21 @@ ob_start();
                 </div>
             </div>
         </div>
+    </section>
+
+    <section>
+      <div class="container pb-6">
+        <div class="row">
+          <div class="col-sm-8 mx-auto">
+              <iframe width="100%" height="482"
+                src="https://www.youtube.com/embed/7yyuQLCKsrI?rel=0&modestbranding=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+              </iframe>
+            </div>
+        </div>
+      </div>
     </section>
 
     <section class="border-top">
