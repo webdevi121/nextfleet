@@ -1,6 +1,6 @@
 <?php
-if (!function_exists('loadComponent')) {
-    function loadComponent($component) {
-        include __DIR__ . "/components/$component.php";
-    }
+function loadComponent($name, $vars = []) {
+    extract($vars);
+    include __DIR__ . "/components/{$name}.php";
 }
+
