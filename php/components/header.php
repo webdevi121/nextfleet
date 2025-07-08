@@ -61,6 +61,26 @@ $navItems = [
                       <li><a class="dropdown-item" href="/services-locator.html">Services Locator</a></li>
                     </ul>
                   </li>
+
+                <?php elseif ($item['name'] === "Services"): ?>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="<?= $item['href']; ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <?= $item['name']; ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                       <li><a class="dropdown-item" href="/resources.html">Services</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="fleet-management-solutions.php">Fleet Management Solutions</a></li>
+                        <li><a class="dropdown-item" href="#">Explore Fleet Management</a></li>
+                        <li><a class="dropdown-item" href="comprehensive-fleet-management-services.php">Comprehensive Fleet Management Services</a></li>
+                        <li><a class="dropdown-item" href="outsourced-fleet-model.php">Is an Outsourced Fleet Model Right for You?</a></li>
+                        <li><a class="dropdown-item" href="flexible-financing.php">Flexible Financing for Your Fleet</a></li>
+                        <li><a class="dropdown-item" href="leasing-solutions.php">Leasing Solutions</a></li>
+                        <li><a class="dropdown-item" href="driving-greener-fleet.php">Driving Towards a Greener Fleet</a></li>
+                        <li><a class="dropdown-item" href="zero-emission-fleet.php">Zero-Emission Fleet Solutions</a></li>
+                        <li><a class="dropdown-item" href="specialised-truck-leasing.php">Specialised Truck Leasing &amp; Management</a></li>
+                    </ul>
+                  </li>
                 <?php else: ?>
                   <li class="nav-item">
                     <a class="nav-link text-uppercase text-white" href="<?= $item['href']; ?>"><?= $item['name']; ?></a>

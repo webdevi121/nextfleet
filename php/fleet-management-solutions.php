@@ -201,59 +201,10 @@ $accordion_items = [
     </section>
 
     <!-- 2 layout for Desktop view only -->
-    <section id="services-container" class="d-none d-md-block">
+    <section id="services-container">
         <div class="container">
-            <div class="row g-5">
-                <!-- Navigation -->
-                <div class="col-sm-4">
-                <div class="position-sticky top-0 pt-10 pb-10">
-                        <h2>Our Services</h2>
-                        <ul class="nav flex-column nav-pills gap-3">
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link active" href="fleet-management-solutions.php#services-container">
-                                    Fleet Management Solutions
-                                </a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link" href="">
-                                    Explore Fleet Management
-                                </a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link " id="tab-3-tab" data-bs-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false" tabindex="-1">
-                                    Comprehensive Fleet Management Services
-                                </a>
-                            </li><li class="nav-item" role="presentation">
-                                <a class="nav-link " id="tab-4-tab" data-bs-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false" tabindex="-1">
-                                    Is an Outsourced Fleet Model Right for You?
-                                </a>
-                            </li><li class="nav-item" role="presentation">
-                                <a class="nav-link " id="tab-5-tab" data-bs-toggle="tab" href="#tab-5" role="tab" aria-controls="tab-5" aria-selected="false" tabindex="-1">
-                                    Flexible Financing for Your Fleet
-                                </a>
-                            </li><li class="nav-item" role="presentation">
-                                <a class="nav-link" href="leasing-solutions.php#services-container">
-                                    Leasing Solutions
-                                </a>
-                            </li><li class="nav-item" role="presentation">
-                                <a class="nav-link " id="tab-7-tab" data-bs-toggle="tab" href="#tab-7" role="tab" aria-controls="tab-7" aria-selected="false" tabindex="-1">
-                                    Driving Towards a Greener Fleet
-                                </a>
-                            </li><li class="nav-item" role="presentation">
-                                <a class="nav-link " id="tab-8-tab" data-bs-toggle="tab" href="#tab-8" role="tab" aria-controls="tab-8" aria-selected="false" tabindex="-1">
-                                    Zero-Emission Fleet Solutions
-                                </a>
-                            </li><li class="nav-item" role="presentation">
-                                <a class="nav-link " id="tab-9-tab" data-bs-toggle="tab" href="#tab-9" role="tab" aria-controls="tab-9" aria-selected="false" tabindex="-1">
-                                    Specialised Truck Leasing &amp; Management
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Tab Content -->
-                <div class="col-sm-8 pt-10 pb-10">
+            <div class="row">
+                <div class="col-sm-12 pt-10 pb-10">
                     <div class="tab-content" id="service-tabContent">
                         <h2 class="mb-2">Fleet Management Solutions</h2>
                         <p>Managing a fleet is more than just keeping vehicles on the road - it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes, from small enterprises to large corporate fleets.</p>
