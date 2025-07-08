@@ -30,6 +30,23 @@ $h6-font-size: 1rem;
 
 $form-control-padding-y: 0.5rem;
 
+// 2. Override the $grid-breakpoints map
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1366px,
+);
+
+// 3. (Optional) Update container max-widths if you're using $container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1366px,
+);
+
 // Import Bootstrap SCSS after the custom variables
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import 'components/fontface'; // New method with `@use`
@@ -59,7 +76,10 @@ p {
   color: #f47c02;
 }
 .mydrive-container {
-  height: 900px;
+  height: auto;
+  @media (min-width: map-get($grid-breakpoints, 'md')) {
+    height: 900px;
+  }
   .car-overlay {
     width: 1260px;
     left: -740px;
@@ -84,6 +104,9 @@ p {
 .navbar {
   .navbar-nav {
     gap: 35px;
+    @media (max-width: map-get($grid-breakpoints, 'xl')) {
+      gap: 14px;
+    }
     @media (max-width: map-get($grid-breakpoints, 'md')) {
       gap: 5px;
     }

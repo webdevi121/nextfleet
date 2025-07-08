@@ -1,10 +1,10 @@
-<div class="mydrive-container bg-black pt-5 position-relative">
+<div class="mydrive-container bg-black pb-5 pb-xl-0 pt-5 position-relative">
     <div class="overflow-hidden h-100 position-absolute start-0 end-0 m-auto top-0">
         <img src="images/building-bg.jpg" class="m-auto d-flex">
     </div>
     <div class="container h-100 relative">
         <div class="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center h-100 ms-auto">
-            <div class="w-30 position-relative h-100 pointer-events-none">
+            <div class="d-none d-xl-block w-30 position-relative h-100 pointer-events-none">
                 <div class="car-overlay position-absolute z-2"><img src="images/nf-img-42.png" alt="Illustration" class="w-100"></div>
             </div>
             <div class="cards text-white text-center p-5 rounded-3 d-flex flex-column gap-4">

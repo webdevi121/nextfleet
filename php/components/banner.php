@@ -6,7 +6,7 @@
         <div class="container position-relative z-2 pb-5">
             <div class="banner-item">
                 <div class="position-relative h-100">
-                    <div class="w-50">
+                    <div class="col-xl-6">
                         <h1 class="fw-800">FLEET MANAGEMENT SERVICES SIMPLIFIED</h1>
                         <p>NextFleet simplifies leasing and fleet management, delivering tailored solutions to optimise and support your fleet, effortlessly.</p>
                         <div>

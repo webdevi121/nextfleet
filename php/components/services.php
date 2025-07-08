@@ -29,7 +29,7 @@ $services = [
         "title" => "Transition to low <span class=\"d-block\">or Zero-Emission Fleets</span>",
         "description" => "Transition to a zero-emission fleet with hybrid, electric, and hydrogen-powered vehicles, supported by carbon offset initiatives like our 'greenDrive' program.",
         "accentColor" => "accent-color-4",
-        "buttonLabel" => "Explore Sustainability Solutions",
+        "buttonLabel" => "Explore zero-emission fleets",
         "buttonLink" => "/services.html#tab-8"
     ],
     [
@@ -45,7 +45,7 @@ $services = [
       "title" => "Sales & <span class=\"d-block\">Leaseback</span>",
       "description" => "Financing your fleet? That's a lot of valuable capital tied up in depreciating assets. We can free up capital by giving you an instant cash injection by purchasing your existing vehicles.",
       "accentColor" => "accent-color-6",
-      "buttonLabel" => "Explore Solutions",
+      "buttonLabel" => "Explore Sales & Leasebacks",
       "buttonLink" => "/services.html#tab-4"
   ]
 ];
