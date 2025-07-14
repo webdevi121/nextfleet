@@ -56,6 +56,7 @@ $container-max-widths: (
 @import 'components/btn'; // New method with `@use`
 @import 'components/testimonials'; // New method with `@use`
 @import 'components/swiper'; // New method with `@use`
+@import 'components/carTransition'; // New method with `@use`
 
 // Now add your custom styles below
 body {
@@ -225,10 +226,14 @@ footer {
     position: absolute;
     bottom: -180px;
     right: -300px;
+    width: 944px;
+    height: 541px;
+    overflow: hidden;
     @media (max-width: map-get($grid-breakpoints, 'md')) {
       left: 0;
       bottom: 0;
       width: 100%;
+      height: 173px;
     }
   }
   .chevron {
