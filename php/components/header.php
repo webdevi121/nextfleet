@@ -68,6 +68,8 @@ $navItems = [
                       <?= $item['name']; ?>
                     </a>
                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/services.html">Services</a></li>
+                        <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="fleet-management-solutions.html">Fleet Management Solutions</a></li>
                         <li><a class="dropdown-item" href="leasing-solutions.html">Leasing Solutions</a></li>
                         <li><a class="dropdown-item" href="consulting-services.html">Consulting Services</a></li>
