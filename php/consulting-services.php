@@ -201,6 +201,8 @@ $accordion_items = [
                 </a>
             </div>
             <div class="spacer"></div>
+            <hr>
+            <div class="spacer"></div>
             <h2>Compliance & Risk Advisory</h2>
             <strong>Minimise risk. Maximise confidence.</strong>
             <p>Fleet compliance and risk exposure can’t be left to chance. Our consulting team helps you stay ahead of regulatory requirements and mitigate operational risks across your fleet. From FBT compliance and servicing schedules to driver behaviour and asset tracking, we provide expert support to reduce risk and improve accountability.</p>
