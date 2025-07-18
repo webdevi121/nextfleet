@@ -41,35 +41,35 @@ $helpCards = [
     ],
     [
         'title' => 'Online Reporting & Fleet Insights',
-        'image' => 'https://placehold.co/413x175',
+        'image' => 'images/nf-img-74.jpg',
         'body' => "
             <p>Gain full visibility into your fleet's performance with our client portal. Access 24/7 dashboards showing vehicle status, running costs, lease charges, and driver performance metrics. Our expert team also delivers tailored quarterly reviews to ensure you're getting the most from your fleet investment.</p>
         "
     ],
     [
         'title' => 'Door-to-Door Valet Services',
-        'image' => 'https://placehold.co/413x175',
+        'image' => 'images/nf-img-75.jpg',
         'body' => '
             <p>Minimise downtime and driver inconvenience with our end-to-end accident and repair support. We coordinate the collection of damaged vehicles, arrange replacement cars, and manage logistics to ensure a seamless repair experience. This door-to-door service allows your drivers to stay focused on their core roles while we handle the disruption behind the scenes.</p>
         '
     ],
     [
         'title' => 'Vehicle Acquisition & Disposal',
-        'image' => 'https://placehold.co/413x175',
+        'image' => 'images/nf-img-76.jpg',
         'body' => "
             <p>Access competitive pricing on new vehicles and maximise returns on those you're ready to retire. We manage the full vehicle lifecycle, from procurement and customisation to resale, ensuring every asset delivers maximum value. With national supplier networks and strategic resale planning, we make every transition seamless.</p>
         "
     ],
     [
         'title' => 'Fringe Benefits Tax (FBT) Reporting',
-        'image' => 'https://placehold.co/413x175',
+        'image' => 'images/nf-img-77.jpg',
         'body' => '
             <p>Relieve pressure on your finance team with our compliant, low-admin FBT reporting service. Using the statutory method, we prepare and submit accurate reports on your behalf, ensuring you meet ATO requirements without tying up internal resources..</p>
         '
     ],
     [
         'title' => 'Telematics & Tracking',
-        'image' => 'https://placehold.co/413x175',
+        'image' => 'images/nf-img-78.jpg',
         'body' => '
             <p>Drive smarter decisions with GPS, driver behaviour monitoring, and usage analytics. Our telematics platform offers real-time visibility across your entire fleet, helping you reduce fuel costs, respond to incidents faster, and improve safety and compliance. With simple installation and intuitive dashboards, it’s fleet intelligence that works for your business.</p>
         '
