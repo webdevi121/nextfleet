@@ -9,8 +9,8 @@ $helpCards = [
         'title' => '24/7 Roadside Assistance & Accident Support',
         'image' => 'images/nf-img-29.jpg',
         'body' => '
-            <div class="pb-5">
-                <p>We respond to incidents quickly and ensure your drivers are safe and supported at all times. Our team is available 24/7, 365 days a year, providing immediate assistance in the event of breakdowns or accidents. With end-to-end management, we reduce disruption and keep your drivers moving with confidence.</p>
+            <div class="">
+                <p class="mb-0">We respond to incidents quickly and ensure your drivers are safe and supported at all times. Our team is available 24/7, 365 days a year, providing immediate assistance in the event of breakdowns or accidents. With end-to-end management, we reduce disruption and keep your drivers moving with confidence.</p>
             </div>
         '
     ],
@@ -18,8 +18,8 @@ $helpCards = [
         'title' => 'Vehicle Registration, Insurance & Infringement Management',
         'image' => 'images/nf-img-39.jpg',
         'body' => '
-            <div class="pb-5">
-                <p>Avoid administrative burdens and compliance risks with our full-service management of registration renewals, Compulsory Third Party (CTP) insurance, and traffic infringement tracking. We ensure all your vehicles are road-legal and compliant, with automated processes that remove human error and save your team time. We also monitor and resolve traffic infringements, providing visibility into high-risk behaviours and supporting safer driving practices.</p>
+            <div class="">
+                <p class="mb-0">Avoid administrative burdens and compliance risks with our full-service management of registration renewals, Compulsory Third Party (CTP) insurance, and traffic infringement tracking. We ensure all your vehicles are road-legal and compliant, with automated processes that remove human error and save your team time. We also monitor and resolve traffic infringements, providing visibility into high-risk behaviours and supporting safer driving practices.</p>
             </div>
         '
     ],
@@ -27,8 +27,8 @@ $helpCards = [
         'title' => 'Fuel & Toll Cards',
         'image' => 'images/nf-img-40.jpg',
         'body' => '
-            <div class="pb-5">
-                <p>Consolidate your running costs and streamline administration with access to our fuel and toll card programs. Partnered with BP, Shell and Ampol, we offer nationwide coverage and reporting tools that track usage, detect anomalies, and help reduce fraud and fuel wastage. Toll expenses are bundled into a single invoice for simple oversight.</p>
+            <div class="">
+                <p class="mb-0">Consolidate your running costs and streamline administration with access to our fuel and toll card programs. Partnered with BP, Shell and Ampol, we offer nationwide coverage and reporting tools that track usage, detect anomalies, and help reduce fraud and fuel wastage. Toll expenses are bundled into a single invoice for simple oversight.</p>
             </div>
         '
     ],
@@ -194,6 +194,28 @@ $helpCards = [
                 <div class="card-body position-relative">
                     <h5 class="card-title mb-3"><?= $card['title']; ?></h5>
                     <?= $card['body']; ?>
+                </div>
+                <div class="ms-3 mb-3">
+                  <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="text-uppercase">Enquire Now</div>
+                      <div class="flex-grow-1">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                          />
+                          <path
+                            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
                 </div>
             </div>
             </div>
