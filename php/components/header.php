@@ -77,13 +77,21 @@ $navItems = [
                         <li><a class="dropdown-item" href="truck-leasing.html">Truck Leasing</a></li>
                         <li><a class="dropdown-item" href="not-for-profit-fleets.html">Not-For-Profit Fleets</a></li>
                         <li><a class="dropdown-item" href="sales-leaseback.html">Sales & Leaseback</a></li>
-                        <!-- <li><a class="dropdown-item" href="#">Explore Fleet Management</a></li>
-                        <li><a class="dropdown-item" href="comprehensive-fleet-management-services.html">Comprehensive Fleet Management Services</a></li>
-                        <li><a class="dropdown-item" href="outsourced-fleet-model.html">Is an Outsourced Fleet Model Right for You?</a></li>
-                        <li><a class="dropdown-item" href="flexible-financing.html">Flexible Financing for Your Fleet</a></li>
-                        <li><a class="dropdown-item" href="driving-greener-fleet.html">Driving Towards a Greener Fleet</a></li>
-                        <li><a class="dropdown-item" href="zero-emission-fleet.html">Zero-Emission Fleet Solutions</a></li>
-                        <li><a class="dropdown-item" href="specialised-truck-leasing.html">Specialised Truck Leasing &amp; Management</a></li> -->
+                    </ul>
+                  </li>
+                  <?php elseif ($item['name'] === "Tools"): ?>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="<?= $item['href']; ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <?= $item['name']; ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/tools.html">Tools</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="lease-vs-buy-calculator.html">Lease vs Buy Calculator</a></li>
+                        <li><a class="dropdown-item" href="service-locator.html">Service Locator</a></li>
+                        <li><a class="dropdown-item" href="business-case-builder.html">Business Case Builder</a></li>
+                        <li><a class="dropdown-item" href="changing-fmo-checklist.html">Changing FMO Checklist</a></li>
+                        <li><a class="dropdown-item" href="assessing-your-fmos-capability.html">Assessing Your FMO’s Capability</a></li>
                     </ul>
                   </li>
                 <?php else: ?>
