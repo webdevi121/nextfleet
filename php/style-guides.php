@@ -47,13 +47,17 @@ ob_start();
                                     <!-- Checkboxes -->
                                     <div class="mb-3">
                                     <label class="form-label d-block">Checkboxes</label>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="check1">
-                                        <label class="form-check-label" for="check1">Check 1</label>
+                                    <div>
+                                        <label class="form-check-label py-2 cursor-pointer" for="check1">
+                                            <input class="form-check-input" type="checkbox" value="" id="check1">
+                                            <span class="ps-2">Check 1</span>
+                                        </label>
                                     </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="check2" checked>
-                                        <label class="form-check-label" for="check2">Check 2 (Checked)</label>
+                                    <div>
+                                        <label class="form-check-label py-2 cursor-pointer" for="check2">
+                                            <input class="form-check-input" type="checkbox" value="" id="check2">
+                                            <span class="ps-2">Check 2</span>
+                                        </label>
                                     </div>
                                     </div>
 
@@ -196,6 +200,36 @@ ob_start();
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Separated link</a></li>
                                 </ul>                            
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-gray pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="cols-12">
+                                <h2 class="mb-5">Photography</h2>
+  
+                                <h1 class="mb-3">Heading 1 <small class="text-muted">h1 subtitle</small></h1>
+                                <p class="lead">Used for page titles or main headlines.</p>
+                                <hr>
+
+                                <h2 class="mt-4 mb-2">Heading 2 <small class="text-muted">h2 subtitle</small></h2>
+                                <p>Used for section headings.</p>
+
+                                <h3 class="mt-4 mb-2">Heading 3 <small class="text-muted">h3 subtitle</small></h3>
+                                <p>Used for sub-sections or card titles.</p>
+
+                                <h4 class="mt-4 mb-2">Heading 4 <small class="text-muted">h4 subtitle</small></h4>
+                                <p>Good for smaller headings or sidebars.</p>
+
+                                <h5 class="mt-4 mb-2">Heading 5 <small class="text-muted">h5 subtitle</small></h5>
+                                <p>Optional for fine-grained content structure.</p>
+
+                                <h6 class="mt-4 mb-2">Heading 6 <small class="text-muted">h6 subtitle</small></h6>
+                                <p>Used rarely; very small font for nested structures.</p>
+                         
                             </div>
                         </div>
                     </div>

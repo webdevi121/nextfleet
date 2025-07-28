@@ -11766,4 +11766,8 @@ ul.custom-bullets li {
   font-weight: 800;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
