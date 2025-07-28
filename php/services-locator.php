@@ -178,7 +178,7 @@ ob_start();
 
     <!-- Google Maps API (replace YOUR_API_KEY with your actual API key) -->
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5lT2mej3E85ojBD69qVA06lRyICReLaU&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAtJVQvdOqARp6mGa58asHEDvydUEfUcU&callback=initMap">
     </script>
     
 
