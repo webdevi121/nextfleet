@@ -8,7 +8,7 @@
         <p class="fs-4 fw-bold mb-3 text-white">
             <?php echo $text ?? 'Default CTA text'; ?>
         </p>
-        <a href="contact.html" class="btn btn-primary text-white fw-bold bg-white">
+        <a href="<?php echo $href ?? 'contact.html'; ?>" target="<?php echo $target ?? ''; ?>" class="btn btn-primary text-white fw-bold bg-white">
             <div class="d-flex align-items-center gap-2">
                 <div class="text-uppercase text-black">
                     <?php echo $buttonText ?? 'Default CTA text'; ?>
