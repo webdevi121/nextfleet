@@ -57,7 +57,7 @@ $checkboxOptions = [
       <div class="row">
         <div class="col-lg-8">
             <div class="bg-light rounded border p-4 p-sm-5">
-                <form>            
+                <form id="leaseBuyForm">
                     <h2 class="mb-4 h4">Which of the following features of outsourcing your fleet would benefit your organisation?</h2>
                     <div>
                         <?php foreach ($checkboxOptions as $option): ?>
@@ -76,15 +76,15 @@ $checkboxOptions = [
                             <h2 class="h4 mb-3">Please send me my tailored business case</h2>
                             <div class="mb-3">
                                 <label for="textInput" class="form-label fw-bold">Contact Name <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="textInput" placeholder="Enter text">
+                                <input type="text" class="form-control" id="textInput" placeholder="Enter text" required>
                             </div>
                             <div class="mb-3">
                                 <label for="textInput" class="form-label fw-bold">Contact Email <span class="text-danger">*</span></label>
-                                <input type="email" class="form-control" id="textInput" placeholder="Enter text">
+                                <input type="email" class="form-control" id="textInput" placeholder="Enter text" required>
                             </div>
                             <div class="mb-3">
                                 <label for="textInput" class="form-label fw-bold">Organisation <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="textInput" placeholder="Enter text">
+                                <input type="text" class="form-control" id="textInput" placeholder="Enter text" required>
                             </div>
                             <div class="mb-3">
                                 <label for="selectInput" class="form-label fw-bold">Would you also like to calculate the potential savings across your fleet with our lease versus buy calculator?</label>
@@ -98,6 +98,7 @@ $checkboxOptions = [
                         <button type="submit" class="btn btn-primary">Build a Case</button>
                     </div>
                 </form>
+                <div id="formAlertContainer"></div>
             </div>
         </div>
         <div class="col-sm-4 d-none d-sm-block">
@@ -129,4 +130,19 @@ $checkboxOptions = [
     }
     </script>
 
+<script>
+  document.getElementById("leaseBuyForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent actual submission
+    const container = document.getElementById("formAlertContainer");
+    container.innerHTML = `
+      <div class="alert alert-success mt-4" role="alert">
+        ✅ Thank you! Your response has been received. We'll be in touch shortly.
+      </div>
+    `;
+    // Optionally clear the form:
+    this.reset();
+    // Scroll to the alert
+    container.scrollIntoView({ behavior: "smooth" });
+  });
+</script>
     

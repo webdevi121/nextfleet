@@ -231,6 +231,7 @@
 
     <?php loadComponent("work-with-us");?>
     <?php loadComponent("footer"); ?>
+    
 <script>
   document.getElementById("leaseBuyForm").addEventListener("submit", function (e) {
     e.preventDefault(); // Prevent actual submission

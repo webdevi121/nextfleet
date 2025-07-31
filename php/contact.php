@@ -59,7 +59,7 @@ ob_start();
                     </div>
                 </div>
                 <div class="col-sm-6 mt-4 mt-sm-0">
-                    <form class="p-4 border rounded bg-light">
+                    <form id="leaseBuyForm" class="p-4 border rounded bg-light">
                     <div class="mb-3">
                         <label for="enquiryType" class="form-label">Enquiry Type <span class="text-danger">*</span></label>
                         <select class="form-select" id="enquiryType" required>
@@ -96,15 +96,15 @@ ob_start();
                     <div class="mb-3">
                         <label for="state" class="form-label">State</label>
                         <select class="form-select" id="state">
-                        <option value="">Please Select</option>
-                        <option>NSW</option>
-                        <option>VIC</option>
-                        <option>QLD</option>
-                        <option>NT</option>
-                        <option>SA</option>
-                        <option>WA</option>
-                        <option>ACT</option>
-                        <option>TAS</option>
+                            <option value="">Please Select</option>
+                            <option>NSW</option>
+                            <option>VIC</option>
+                            <option>QLD</option>
+                            <option>NT</option>
+                            <option>SA</option>
+                            <option>WA</option>
+                            <option>ACT</option>
+                            <option>TAS</option>
                         </select>
                     </div>
 
@@ -120,6 +120,7 @@ ob_start();
 
                     <button type="submit" class="btn btn-primary text-white">Submit</button>
                     </form>
+                    <div id="formAlertContainer"></div>
 
                 </div>
             </div>
@@ -197,3 +198,18 @@ function initMap() {
 </script>
 
 
+<script>
+  document.getElementById("leaseBuyForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent actual submission
+    const container = document.getElementById("formAlertContainer");
+    container.innerHTML = `
+      <div class="alert alert-success mt-4" role="alert">
+        ✅ Thank you! Your response has been received. We'll be in touch shortly.
+      </div>
+    `;
+    // Optionally clear the form:
+    this.reset();
+    // Scroll to the alert
+    container.scrollIntoView({ behavior: "smooth" });
+  });
+</script>

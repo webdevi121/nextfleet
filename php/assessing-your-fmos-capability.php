@@ -31,7 +31,7 @@ $checkboxOptions = [
         </nav>
       </div>
     </section>
-    <section id="overview" class="pt-5 pb-5">
+    <section id="overview" class="pt-5">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 m-auto">
@@ -49,7 +49,7 @@ $checkboxOptions = [
             <?php loadComponent("cta-services", [
                 'text' => "Time to reassess your FMO?",
                 'buttonText' => 'Try our capability assessment',
-                'href' => '/contact.html',
+                'href' => '#content',
             ]); ?>
           </div>
         </div>
@@ -58,12 +58,12 @@ $checkboxOptions = [
 
     <section
       id="content"
-      class="container d-flex flex-column gap-7 pb-5 content"
+      class="container d-flex flex-column gap-7 pb-5 content pt-5"
     >
       <div class="row">
         <div class="col-lg-8 m-auto">
             <div class="bg-light rounded border p-4 p-sm-5">
-                <form>            
+                <form id="leaseBuyForm">            
                     <h2 class="mb-4 h4">How frequently does your FMO contact you without being asked?</h2>
                     <div>
                         <div class="mb-4">
@@ -282,6 +282,7 @@ $checkboxOptions = [
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                <div id="formAlertContainer"></div>
             </div>
         </div>
         </div>
@@ -310,4 +311,20 @@ $checkboxOptions = [
     }
     </script>
 
-    
+<script>
+  document.getElementById("leaseBuyForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent actual submission
+    const container = document.getElementById("formAlertContainer");
+    container.innerHTML = `
+      <div class="alert alert-success mt-4" role="alert">
+        ✅ Thank you! Your response has been received. We'll be in touch shortly.
+      </div>
+    `;
+    // Optionally clear the form:
+    this.reset();
+    // Scroll to the alert
+    container.scrollIntoView({ behavior: "smooth" });
+  });
+</script>
+
+
