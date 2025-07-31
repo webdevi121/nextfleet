@@ -6,7 +6,7 @@ $services = [
         "description" => "Reduce costs, boost efficiency, ensure compliance, and streamline operations with our fleet management services.",
         "accentColor" => "accent-color-1",
         "buttonLabel" => "Explore Fleet Solutions",
-        "buttonLink" => "/services.html#tab-1"
+        "buttonLink" => "/fleet-management-solutions.html"
     ],
     [
         "img" => "images/placeholder-2.png",
@@ -14,7 +14,7 @@ $services = [
         "description" => "Enjoy flexibility, cost savings, and control without the burden of ownership with NextFleet's  tailored vehicle fleet leasing service.",
         "accentColor" => "accent-color-2",
         "buttonLabel" => "Explore Leasing Options",
-        "buttonLink" => "/services.html#tab-6"
+        "buttonLink" => "/leasing-solutions.html"
     ],
     [
         "img" => "images/placeholder-3.png",
@@ -22,7 +22,7 @@ $services = [
         "description" => "Gain valuable insights and expert guidance with our fleet management consulting services, designed to optimise your fleet's performance, reduce costs, and align operations with your business goals.",
         "accentColor" => "accent-color-3",
         "buttonLabel" => "Explore Consulting Solutions",
-        "buttonLink" => "contact.html"
+        "buttonLink" => "/consulting-services.html"
     ],
     [
         "img" => "images/placeholder-4.png",
@@ -30,7 +30,7 @@ $services = [
         "description" => "Transition to a zero-emission fleet with hybrid, electric, and hydrogen-powered vehicles, supported by carbon offset initiatives like our 'greenDrive' program.",
         "accentColor" => "accent-color-4",
         "buttonLabel" => "Explore zero-emission fleets",
-        "buttonLink" => "/services.html#tab-8"
+        "buttonLink" => "/sustainable-fleets.html"
     ],
     [
         "img" => "images/placeholder-5.png",
@@ -38,7 +38,7 @@ $services = [
         "description" => "Reduce downtime, save costs, and keep your business moving with our expert truck fleet management solutions, made to simplify your operations.",
         "accentColor" => "accent-color-5",
         "buttonLabel" => "Explore Truck Leasing Solutions",
-        "buttonLink" => "/services.html#tab-9"
+        "buttonLink" => "/truck-leasing.html"
     ],
     [
       "img" => "images/kia.png",
@@ -46,7 +46,7 @@ $services = [
       "description" => "Financing your fleet? That's a lot of valuable capital tied up in depreciating assets. We can free up capital by giving you an instant cash injection by purchasing your existing vehicles.",
       "accentColor" => "accent-color-6",
       "buttonLabel" => "Explore Sales & Leasebacks",
-      "buttonLink" => "/services.html#tab-4"
+      "buttonLink" => "/sales-leaseback.html"
   ]
 ];
 ?>

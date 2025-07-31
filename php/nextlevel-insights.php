@@ -64,11 +64,15 @@ ob_start();
 <section id="overview" class="bg-light pt-5 pb-5">
     <div class="container">
     <div class="row">
-        <div class="col-sm-5 m-auto text-center">
-        <h1>NextLevel Insights</h1>
+        <div class="col-sm-8 m-auto text-center">
+        <h1>Industry Trends & Expert Insights</h1>
         <div>
-            Stay up to date with the latest in fleet and mobility, and how you can better utilise your assets with NextLevel Insights from our team.
+          Stay up to date with the latest in fleet and mobility, and how you can better utilise your assets with NextLevel Insights from our team.
         </div>
+        <?php loadComponent("cta-services", [
+                      'text' => "Want to stay informed?",
+                      'buttonText' => 'Subscribe'
+                  ]); ?>
     </div>
     </div>
 </section>
