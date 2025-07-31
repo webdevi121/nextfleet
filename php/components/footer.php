@@ -15,18 +15,18 @@ $social_links = [
 
 $about_links = [
     ['text' => 'Who We Are', 'url' => 'about-us.html#overview'],
-    ['text' => 'Our Expertise', 'url' => 'about-us.html#content'],
+    ['text' => 'Our Expertise', 'url' => '/services.html'],
     ['text' => 'Why Choose Us', 'url' => 'about-us.html#why-choose-us'],
     ['text' => 'Career Opportunities', 'url' => 'about-us.html#career-section'],
 ];
 
 $services_links = [
-    ['text' => 'Fleet Management Solutions', 'url' => '/services.html'],
-    ['text' => 'Vehicle Fleet Leasing', 'url' => '/services.html'],
-    ['text' => 'Fleet Management Consulting Services', 'url' => '/services.html'],
-    ['text' => 'Transition To Zero-Emission Fleets', 'url' => '/services.html'],
-    ['text' => 'Truck Leasing & Fleet Expertise', 'url' => '/services.html'],
-    ['text' => 'Sales & Leaseback', 'url' => '/services.html']
+    ['text' => 'Fleet Management Solutions', 'url' => '/fleet-management-solutions.html'],
+    ['text' => 'Vehicle Fleet Leasing', 'url' => '/leasing-solutions.html'],
+    ['text' => 'Fleet Management Consulting Services', 'url' => '/consulting-services.html'],
+    ['text' => 'Transition To Zero-Emission Fleets', 'url' => '/sustainable-fleets.html'],
+    ['text' => 'Truck Leasing & Fleet Expertise', 'url' => '/truck-leasing.html'],
+    ['text' => 'Sales & Leaseback', 'url' => '/sales-leaseback.html']
 ];
 
 $tools_links = [

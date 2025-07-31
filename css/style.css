@@ -11770,4 +11770,8 @@ ul.custom-bullets li {
   cursor: pointer;
 }
 
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
 /*# sourceMappingURL=style.css.map */

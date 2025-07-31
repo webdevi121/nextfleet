@@ -44,7 +44,30 @@ $accordion_items = [
         'subtitle' => 'Visibility that drives better decisions.',
         'content' => [
             '<p>Gain complete visibility over your fleet with real-time tracking, advanced telematics, and usage analytics. You’ll know exactly where your vehicles are, how they’re being used, and what it’s costing you - minute to minute, vehicle to vehicle.</p>',
-            '<p>Our tailored dashboards and alerts empower you to act fast on performance issues, respond to incidents, and plan more effectively. With on-demand access to your fleet data, you can make smarter decisions that boost productivity, reduce risk, and support long-term savings.</p>'
+            '<p>Our tailored dashboards and alerts empower you to act fast on performance issues, respond to incidents, and plan more effectively. With on-demand access to your fleet data, you can make smarter decisions that boost productivity, reduce risk, and support long-term savings.</p>
+                <div class="mb-3">
+                  <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="text-uppercase">Enquire Now</div>
+                      <div class="flex-grow-1">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                          />
+                          <path
+                            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+            '
         ]
     ],
     [
@@ -52,7 +75,30 @@ $accordion_items = [
         'subtitle' => 'Stay compliant, stay protected.',
         'content' => [
             '<p>We help you stay ahead of ever-evolving regulations with proactive compliance support and risk management tools. From registration renewals and CTP insurance to driver behaviour monitoring and safety protocols, we ensure your fleet meets the highest standards.</p>',
-            '<p>Our expert team tracks critical compliance items and provides reporting that reduces your administrative load while enhancing oversight. With real-time alerts and incident tracking, we protect your fleet, your drivers, and your business.</p>'
+            '<p>Our expert team tracks critical compliance items and provides reporting that reduces your administrative load while enhancing oversight. With real-time alerts and incident tracking, we protect your fleet, your drivers, and your business.</p>
+                <div class="mb-3">
+                  <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="text-uppercase">Enquire Now</div>
+                      <div class="flex-grow-1">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                          />
+                          <path
+                            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+            '
         ]
     ],
     [
@@ -60,7 +106,30 @@ $accordion_items = [
         'subtitle' => 'The right vehicles, at the right time.',
         'content' => [
             '<p>Get the most from your fleet by making informed decisions about when to acquire, replace, or retire vehicles. We manage the process from end to end, helping you choose vehicles that align with your operational and financial goals.</p>',
-            '<p>When it’s time to dispose of assets, we handle resale and remarketing to ensure maximum value and a smooth transition. Our fleet lifecycle approach ensures your assets deliver value from day one, right through to the last kilometre.</p>'
+            '<p>When it’s time to dispose of assets, we handle resale and remarketing to ensure maximum value and a smooth transition. Our fleet lifecycle approach ensures your assets deliver value from day one, right through to the last kilometre.</p>
+                <div class="mb-3">
+                  <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="text-uppercase">Enquire Now</div>
+                      <div class="flex-grow-1">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                          />
+                          <path
+                            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+            '
         ]
     ],
     [
@@ -68,7 +137,30 @@ $accordion_items = [
         'subtitle' => 'Lead the way to a cleaner fleet.',
         'content' => [
             "<p>We help your business reduce its carbon footprint with smart, scalable solutions, whether you're adopting hybrids, EVs, or full fleet decarbonisation. Our sustainability strategies support both compliance and competitive advantage.</p>",
-            '<p>From carbon offsetting through our greenDrive program to emissions tracking and EV advisory, we make the shift to lower-impact transport easier. Together, we’ll future-proof your fleet while staying focused on business outcomes.</p>'
+            '<p>From carbon offsetting through our greenDrive program to emissions tracking and EV advisory, we make the shift to lower-impact transport easier. Together, we’ll future-proof your fleet while staying focused on business outcomes.</p>
+                <div class="mb-3">
+                  <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="text-uppercase">Enquire Now</div>
+                      <div class="flex-grow-1">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                          />
+                          <path
+                            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+            '
         ]
     ],
     
