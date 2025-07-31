@@ -13,28 +13,6 @@ $helpCards = [
         'body' => '
             <div>
                 <p class="mb-3">We purchase your existing fleet at market value and lease it back to you, freeing up capital while keeping your operations running smoothly.</p>
-                <div>
-                <a href="contact.html" class="btn btn-primary text-white fw-bold">
-                    <div class="d-flex align-items-center gap-2">
-                    <div class="text-uppercase">Speak to an Expert</div>
-                    <div class="flex-grow-1">
-                        <svg
-                        width="15"
-                        height="15"
-                        viewBox="0 0 15 15"
-                        fill="currentColor"
-                        >
-                        <path
-                            d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
-                        />
-                        <path
-                            d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
-                        />
-                        </svg>
-                    </div>
-                    </div>
-                </a>
-                </div>
             </div>
         '
     ],
@@ -216,7 +194,31 @@ $helpCards = [
             <div class="card h-100 w-100">
                 <div class="card-body position-relative">
                     <h5 class="card-title mb-3"><?= $card['title']; ?></h5>
-                    <?= $card['body']; ?>
+                    <div class="mb-6">
+                      <?= $card['body']; ?>
+                    </div>
+                    <div class="mt-3 position-absolute s-0 bottom-0 mb-3">
+                      <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                        <div class="d-flex align-items-center gap-2">
+                          <div class="text-uppercase">Speak to an Expert</div>
+                          <div class="flex-grow-1">
+                            <svg
+                              width="15"
+                              height="15"
+                              viewBox="0 0 15 15"
+                              fill="currentColor"
+                            >
+                              <path
+                                d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                              />
+                              <path
+                                d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
                 </div>
             </div>
             </div>

@@ -8,51 +8,59 @@ $helpCards = [
     [
         'title' => 'Accident Management',
         'image' => 'images/nf-img-35.png',
+        'label' => 'Contact Us',
+        'link' => '/contact.html',
         'body' => '
-            <div class="pb-2">
-                <p>Report incidents quickly and easily. We guide you through every step of the repair, insurance, and claims process, so you’re not left guessing.</p>
+            <div>
+                <div>Report incidents quickly and easily. We guide you through every step of the repair, insurance, and claims process, so you’re not left guessing.</div>
             </div>
         '
     ],
     [
         'title' => 'Roadside Assistance',
         'image' => 'images/nf-img-29.jpg',
+        'label' => 'Contact Us',
+        'link' => '/contact.html',
         'body' => '
-            <div class="pb-2">
-                <p>24/7 support for breakdowns, flat batteries, and more. Our emergency network will get you back on the road, fast.</p>
-            </div>
+            <div>24/7 support for breakdowns, flat batteries, and more. Our emergency network will get you back on the road, fast.</div>
         '
     ],
     [
         'title' => 'Maintenance & Repairs',
         'image' => 'images/nf-img-41.jpg',
+        'label' => 'Find a Service',
+        'link' => '/services-locator.html',
         'body' => '
-            <div class="pb-2">
-                <p>Use our Service Locator to find approved providers for scheduled maintenance, urgent repairs, tyres, windscreen replacements and more.</p>
-                <a href="/services-locator.html" value="Service-Locator" class="btn btn-primary text-white">Find a Service</a>
-            </div>
+            <div>Use our Service Locator to find approved providers for scheduled maintenance, urgent repairs, tyres, windscreen replacements and more.</div>
         '
     ],
     [
         'title' => 'Traffic Infringements & Registration',
         'image' => 'images/nf-img-37.png',
+        'label' => 'Contact Us',
+        'link' => '/contact.html',
         'body' => '
-            <p>Stay on top of fines, rego renewals and compliance with ease. We help you manage it all without the paperwork headaches.</p>
+                <div>Stay on top of fines, rego renewals and compliance with ease. We help you manage it all without the paperwork headaches.</div>
         '
     ],
     [
         'title' => 'Fuel Cards & E-Tags',
         'image' => 'images/nf-img-40.jpg',
+        'label' => 'Contact Us',
+        'link' => '/contact.html',
         'body' => '
-            <p>Seamless fuel and toll payments across BP, Shell, and Caltex/Ampol networks. Track expenses and stay compliant.</p>
+            <div class="position-relative">
+                <div>Seamless fuel and toll payments across BP, Shell, and Caltex/Ampol networks. Track expenses and stay compliant.</div>
+            </div>
         '
     ],
     [
         'title' => 'Client Portal Access',
         'image' => 'images/nf-img-81.jpg',
+        'label' => 'Login',
+        'link' => '/login.html',
         'body' => '
-            <p>Log in to view vehicle details, maintenance schedules, odometer readings, and cost summaries in one central place.</p>
-            <a href="/login.html" class="btn btn-primary text-white">Log In</a>
+                <div>Log in to view vehicle details, maintenance schedules, odometer readings, and cost summaries in one central place.</div>
         '
     ],
 ];
@@ -80,9 +88,10 @@ $helpCards = [
                 <div class="col-sm-4 d-flex">
                 <div class="card h-100 w-100">
                     <img class="card-img-top" src="<?= $card['image']; ?>" alt="Card image">
-                    <div class="card-body position-relative">
+                    <div class="card-body position-relative" style="padding-bottom: 65px; margin-bottom: 15px;">
                         <h5 class="card-title mb-3"><?= $card['title']; ?></h5>
                         <?= $card['body']; ?>
+                        <a href="<?= $card['link']; ?>" value="Service-Locator" class="btn btn-primary text-white position-absolute s-0 bottom-0"><?= $card['label']; ?></a>
                     </div>
                 </div>
                 </div>
