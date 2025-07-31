@@ -39,7 +39,7 @@ $helpCards = [
         'body' => '
             <div >
                 <p>Find authorised service providers near you. Covers maintenance, tyres, windscreen repair, fuel, and more – across Australia.</p>
-                <a href="/assessing-your-fmos-capability.html" value="Service-Locator" class="btn btn-primary text-white">Find a Service</a>
+                <a href="/service-locator.html" value="Service-Locator" class="btn btn-primary text-white">Find a Service</a>
             </div>
         '
     ],
