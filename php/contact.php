@@ -54,7 +54,7 @@ ob_start();
                         Melbourne
                     </li>
                     </ul>
-                    <div class="ratio ratio-16x9" onload="initMap()">
+                    <div class="ratio contact-map" onload="initMap()">
                         <div id="map"></div>
                     </div>
                 </div>
