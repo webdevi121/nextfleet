@@ -75,7 +75,7 @@ $checkboxOptions = [
                   </div>
               </div>
           </a>
-          <a href="/contact.html" Z class="btn btn-primary text-white fw-bold bg-white">
+          <a href="/contact.html" Z class="mt-3 mt-sm-0 btn btn-primary text-white fw-bold bg-white">
               <div class="d-flex align-items-center gap-2">
                   <div class="text-uppercase text-black">
                   SPEAK TO AN EXPERT

@@ -29,8 +29,7 @@ ob_start();
             </div>
             <div>
               <h1 class="text-uppercase">Streamline Your Business Operations with NextFleet</h1>
-              <p>Managing and handling a fleet of vehicles is a complex task that needs careful attention to numerous details, from vehicle maintenance and fuel costs to driver safety and compliance. At NextFleet Australia, we offer comprehensive Car Fleet Management solutions specifically designed to streamline your operations, reduce costs, and improve efficiency. Let’s understand how our services can benefit your business and help you navigate the challenges of fleet management.</p>
-              <div>
+              <div class="mt-5">
                 <a href="contact.html" class="btn btn-primary text-white fw-bold">
                   <div class="d-flex align-items-center gap-2">
                     <div class="text-uppercase">Enquire Now</div>
