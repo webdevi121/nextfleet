@@ -259,13 +259,13 @@ $accordion_items = [
                             ?>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="<?= $headingId ?>">
-                                    <button class="accordion-button <?= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
+                                    <button class="accordion-button collapsed <?//= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#<?= $collapseId ?>"
                                         aria-expanded="<?= $isFirst ? 'true' : 'false' ?>" aria-controls="<?= $collapseId ?>">
                                         <?= $item['title'] ?>
                                     </button>
                                 </h2>
-                                <div id="<?= $collapseId ?>" class="accordion-collapse collapse <?= $isFirst ? 'show' : '' ?>" 
+                                <div id="<?= $collapseId ?>" class="accordion-collapse collapse <?//= $isFirst ? 'show' : '' ?>" 
                                     aria-labelledby="<?= $headingId ?>" data-bs-parent="#fleetAccordion">
                                     <div class="accordion-body">
                                         <strong><?= $item['subtitle'] ?></strong>

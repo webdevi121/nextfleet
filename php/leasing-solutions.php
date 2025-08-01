@@ -11,7 +11,31 @@ $accordion_items = [
         'subtitle' => 'Simple leasing, predictable costs.',
         'content' => [
             '<p>With an operating lease, you rent your vehicles from us over a fixed term, with flexible kilometre allowances and maintenance options. Choose from fully-maintained leases, where we manage all servicing and support, or non-maintained options if you prefer to handle the running costs.</p>',
-            '<p>At the end of the lease, simply return the vehicle. Operating leases make budgeting easy and reduce capital outlay while keeping your fleet fresh and up to date.</p>'
+            '<p>At the end of the lease, simply return the vehicle. Operating leases make budgeting easy and reduce capital outlay while keeping your fleet fresh and up to date.</p>',
+            '
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+            '
         ]
     ],
     [
@@ -19,7 +43,31 @@ $accordion_items = [
         'subtitle' => 'Flexible leasing with future options.',
         'content' => [
             '<p>A finance lease allows you to lease vehicles, plant or equipment with no large upfront cost. You can tailor lease terms to your cash flow, and at the end of the lease, choose to pay the residual and own the asset, refinance the residual, or upgrade.</p>',
-            '<p>This option offers flexibility for businesses that want long-term control over their assets. It’s a great fit for companies that prefer ownership at the end of their leasing journey.</p>'
+            '<p>This option offers flexibility for businesses that want long-term control over their assets. It’s a great fit for companies that prefer ownership at the end of their leasing journey.</p>',
+            '
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+            '
         ]
     ],
     [
@@ -27,7 +75,31 @@ $accordion_items = [
         'subtitle' => 'Unlock capital, retain control.',
         'content' => [
             '<p>Turn your existing fleet into working capital with a sale and leaseback agreement. We purchase your vehicles at market value and lease them back to you, freeing up funds without disrupting operations or driver access.</p>',
-            "<p>This solution improves your balance sheet and liquidity while enabling you to continue using the same assets. It's ideal for businesses looking to restructure assets, reduce capital tied up in depreciating vehicles, or respond to evolving financial pressures.</p>"
+            "<p>This solution improves your balance sheet and liquidity while enabling you to continue using the same assets. It's ideal for businesses looking to restructure assets, reduce capital tied up in depreciating vehicles, or respond to evolving financial pressures.</p>",
+            '
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+            '
         ]
     ],
     [
@@ -35,7 +107,31 @@ $accordion_items = [
         'subtitle' => 'Own your fleet, your way.',
         'content' => [
             '<p>With CHP, you hire the vehicle for a fixed term with monthly payments suited to your budget. Ownership transfers to your business once the final payment is made.</p>',
-            '<p>This is ideal for businesses that want eventual ownership without an initial capital hit. CHP also allows for interest and depreciation claims, offering potential tax benefits.</p>'
+            '<p>This is ideal for businesses that want eventual ownership without an initial capital hit. CHP also allows for interest and depreciation claims, offering potential tax benefits.</p>',
+            '
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+            '
         ]
     ],
     [
@@ -43,7 +139,31 @@ $accordion_items = [
         'subtitle' => 'Smooth transitions, minimal downtime.',
         'content' => [
             "<p>When lease terms end, we handle the logistics. From vehicle inspection and condition reports to replacement procurement and returns, our end-of-lease management ensures a smooth, hassle-free transition.</p>",
-            '<p>We also help plan ahead, tracking lease terms, coordinating returns, and flagging replacements early so you’re never left short. With our support, you can avoid penalty charges, unexpected downtime, and last-minute decisions.</p>'
+            '<p>We also help plan ahead, tracking lease terms, coordinating returns, and flagging replacements early so you’re never left short. With our support, you can avoid penalty charges, unexpected downtime, and last-minute decisions.</p>',
+            '
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+            '
         ]
     ],
     [
@@ -178,13 +298,13 @@ $accordion_items = [
                 ?>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="<?= $headingId ?>">
-                        <button class="accordion-button <?= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
+                        <button class="accordion-button collapsed <?//= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#<?= $collapseId ?>"
                             aria-expanded="<?= $isFirst ? 'true' : 'false' ?>" aria-controls="<?= $collapseId ?>">
                             <?= $item['title'] ?>
                         </button>
                     </h2>
-                    <div id="<?= $collapseId ?>" class="accordion-collapse collapse <?= $isFirst ? 'show' : '' ?>" 
+                    <div id="<?= $collapseId ?>" class="accordion-collapse collapse <?//= $isFirst ? 'show' : '' ?>" 
                         aria-labelledby="<?= $headingId ?>" data-bs-parent="#fleetAccordion">
                         <div class="accordion-body">
                             <strong><?= $item['subtitle'] ?></strong>

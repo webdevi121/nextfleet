@@ -22,7 +22,7 @@ $navItems = [
     ["name" => "Tools", "href" => "/tools.html"],
     ["name" => "App", "href" => "/app.html"],
     ["name" => "Contact Us", "href" => "/contact.html"],
-    ["name" => "Mydrive", "href" => "#"],
+    ["name" => "Mydrive", "href" => "https://www.nextfleet.net.au/myDriverapp/myDrive-App", "target" => "_blank"],
     ["name" => "Login", "href" => "/login.html"]
 ];
 ?>
@@ -96,7 +96,7 @@ $navItems = [
                   </li>
                 <?php else: ?>
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="<?= $item['href']; ?>"><?= $item['name']; ?></a>
+                  <a class="nav-link text-uppercase text-white" href="<?= $item['href']; ?>"<?= !empty($item['target']) ? ' target="' . $item['target'] . '"' : '' ?>><?= $item['name']; ?></a>
                   </li>
                 <?php endif; ?>
               <?php endforeach; ?>

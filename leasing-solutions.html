@@ -35,10 +35,10 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
                                                 <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="/">Home</a>
+                  <a class="nav-link text-uppercase text-white" href="/">Home</a>
                   </li>
                                                                 <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="/about-us.html">About Us</a>
+                  <a class="nav-link text-uppercase text-white" href="/about-us.html">About Us</a>
                   </li>
                                                               <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-uppercase text-white" href="/services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -82,16 +82,16 @@
                     </ul>
                   </li>
                                                                 <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="/app.html">App</a>
+                  <a class="nav-link text-uppercase text-white" href="/app.html">App</a>
                   </li>
                                                                 <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="/contact.html">Contact Us</a>
+                  <a class="nav-link text-uppercase text-white" href="/contact.html">Contact Us</a>
                   </li>
                                                                 <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="#">Mydrive</a>
+                  <a class="nav-link text-uppercase text-white" href="https://www.nextfleet.net.au/myDriverapp/myDrive-App" target="_blank">Mydrive</a>
                   </li>
                                                                 <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="/login.html">Login</a>
+                  <a class="nav-link text-uppercase text-white" href="/login.html">Login</a>
                   </li>
                                           </ul>
             <a href="tel:1800 297 900" class="ms-auto custom-btn"><img src="images/icon-phone.png" alt="icons" width="20"> 1800 297 900</a>
@@ -188,82 +188,197 @@
           <div class="accordion" id="fleetAccordion">
                                 <div class="accordion-item">
                     <h2 class="accordion-header" id="heading0">
-                        <button class="accordion-button  fw-bold fs-5" type="button"
+                        <button class="accordion-button collapsed <?//= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse0"
                             aria-expanded="true" aria-controls="collapse0">
                             Operating Lease                        </button>
                     </h2>
-                    <div id="collapse0" class="accordion-collapse collapse show" 
+                    <div id="collapse0" class="accordion-collapse collapse <?//= $isFirst ? 'show' : '' ?>" 
                         aria-labelledby="heading0" data-bs-parent="#fleetAccordion">
                         <div class="accordion-body">
                             <strong>Simple leasing, predictable costs.</strong>
-                                                            <p>With an operating lease, you rent your vehicles from us over a fixed term, with flexible kilometre allowances and maintenance options. Choose from fully-maintained leases, where we manage all servicing and support, or non-maintained options if you prefer to handle the running costs.</p>                                                            <p>At the end of the lease, simply return the vehicle. Operating leases make budgeting easy and reduce capital outlay while keeping your fleet fresh and up to date.</p>                                                    </div>
+                                                            <p>With an operating lease, you rent your vehicles from us over a fixed term, with flexible kilometre allowances and maintenance options. Choose from fully-maintained leases, where we manage all servicing and support, or non-maintained options if you prefer to handle the running costs.</p>                                                            <p>At the end of the lease, simply return the vehicle. Operating leases make budgeting easy and reduce capital outlay while keeping your fleet fresh and up to date.</p>                                                            
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                                                                </div>
                     </div>
                 </div>
                                 <div class="accordion-item">
                     <h2 class="accordion-header" id="heading1">
-                        <button class="accordion-button collapsed fw-bold fs-5" type="button"
+                        <button class="accordion-button collapsed <?//= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse1"
                             aria-expanded="false" aria-controls="collapse1">
                             Finance Lease                        </button>
                     </h2>
-                    <div id="collapse1" class="accordion-collapse collapse " 
+                    <div id="collapse1" class="accordion-collapse collapse <?//= $isFirst ? 'show' : '' ?>" 
                         aria-labelledby="heading1" data-bs-parent="#fleetAccordion">
                         <div class="accordion-body">
                             <strong>Flexible leasing with future options.</strong>
-                                                            <p>A finance lease allows you to lease vehicles, plant or equipment with no large upfront cost. You can tailor lease terms to your cash flow, and at the end of the lease, choose to pay the residual and own the asset, refinance the residual, or upgrade.</p>                                                            <p>This option offers flexibility for businesses that want long-term control over their assets. It’s a great fit for companies that prefer ownership at the end of their leasing journey.</p>                                                    </div>
+                                                            <p>A finance lease allows you to lease vehicles, plant or equipment with no large upfront cost. You can tailor lease terms to your cash flow, and at the end of the lease, choose to pay the residual and own the asset, refinance the residual, or upgrade.</p>                                                            <p>This option offers flexibility for businesses that want long-term control over their assets. It’s a great fit for companies that prefer ownership at the end of their leasing journey.</p>                                                            
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                                                                </div>
                     </div>
                 </div>
                                 <div class="accordion-item">
                     <h2 class="accordion-header" id="heading2">
-                        <button class="accordion-button collapsed fw-bold fs-5" type="button"
+                        <button class="accordion-button collapsed <?//= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse2"
                             aria-expanded="false" aria-controls="collapse2">
                             Sale & Leaseback                        </button>
                     </h2>
-                    <div id="collapse2" class="accordion-collapse collapse " 
+                    <div id="collapse2" class="accordion-collapse collapse <?//= $isFirst ? 'show' : '' ?>" 
                         aria-labelledby="heading2" data-bs-parent="#fleetAccordion">
                         <div class="accordion-body">
                             <strong>Unlock capital, retain control.</strong>
-                                                            <p>Turn your existing fleet into working capital with a sale and leaseback agreement. We purchase your vehicles at market value and lease them back to you, freeing up funds without disrupting operations or driver access.</p>                                                            <p>This solution improves your balance sheet and liquidity while enabling you to continue using the same assets. It's ideal for businesses looking to restructure assets, reduce capital tied up in depreciating vehicles, or respond to evolving financial pressures.</p>                                                    </div>
+                                                            <p>Turn your existing fleet into working capital with a sale and leaseback agreement. We purchase your vehicles at market value and lease them back to you, freeing up funds without disrupting operations or driver access.</p>                                                            <p>This solution improves your balance sheet and liquidity while enabling you to continue using the same assets. It's ideal for businesses looking to restructure assets, reduce capital tied up in depreciating vehicles, or respond to evolving financial pressures.</p>                                                            
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                                                                </div>
                     </div>
                 </div>
                                 <div class="accordion-item">
                     <h2 class="accordion-header" id="heading3">
-                        <button class="accordion-button collapsed fw-bold fs-5" type="button"
+                        <button class="accordion-button collapsed <?//= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse3"
                             aria-expanded="false" aria-controls="collapse3">
                             Commercial Hire Purchase (CHP)                        </button>
                     </h2>
-                    <div id="collapse3" class="accordion-collapse collapse " 
+                    <div id="collapse3" class="accordion-collapse collapse <?//= $isFirst ? 'show' : '' ?>" 
                         aria-labelledby="heading3" data-bs-parent="#fleetAccordion">
                         <div class="accordion-body">
                             <strong>Own your fleet, your way.</strong>
-                                                            <p>With CHP, you hire the vehicle for a fixed term with monthly payments suited to your budget. Ownership transfers to your business once the final payment is made.</p>                                                            <p>This is ideal for businesses that want eventual ownership without an initial capital hit. CHP also allows for interest and depreciation claims, offering potential tax benefits.</p>                                                    </div>
+                                                            <p>With CHP, you hire the vehicle for a fixed term with monthly payments suited to your budget. Ownership transfers to your business once the final payment is made.</p>                                                            <p>This is ideal for businesses that want eventual ownership without an initial capital hit. CHP also allows for interest and depreciation claims, offering potential tax benefits.</p>                                                            
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                                                                </div>
                     </div>
                 </div>
                                 <div class="accordion-item">
                     <h2 class="accordion-header" id="heading4">
-                        <button class="accordion-button collapsed fw-bold fs-5" type="button"
+                        <button class="accordion-button collapsed <?//= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse4"
                             aria-expanded="false" aria-controls="collapse4">
                             End-of-Lease Management                        </button>
                     </h2>
-                    <div id="collapse4" class="accordion-collapse collapse " 
+                    <div id="collapse4" class="accordion-collapse collapse <?//= $isFirst ? 'show' : '' ?>" 
                         aria-labelledby="heading4" data-bs-parent="#fleetAccordion">
                         <div class="accordion-body">
                             <strong>Smooth transitions, minimal downtime.</strong>
-                                                            <p>When lease terms end, we handle the logistics. From vehicle inspection and condition reports to replacement procurement and returns, our end-of-lease management ensures a smooth, hassle-free transition.</p>                                                            <p>We also help plan ahead, tracking lease terms, coordinating returns, and flagging replacements early so you’re never left short. With our support, you can avoid penalty charges, unexpected downtime, and last-minute decisions.</p>                                                    </div>
+                                                            <p>When lease terms end, we handle the logistics. From vehicle inspection and condition reports to replacement procurement and returns, our end-of-lease management ensures a smooth, hassle-free transition.</p>                                                            <p>We also help plan ahead, tracking lease terms, coordinating returns, and flagging replacements early so you’re never left short. With our support, you can avoid penalty charges, unexpected downtime, and last-minute decisions.</p>                                                            
+                            <div>
+                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                  <div class="text-uppercase">Enquire Now</div>
+                                  <div class="flex-grow-1">
+                                    <svg
+                                      width="15"
+                                      height="15"
+                                      viewBox="0 0 15 15"
+                                      fill="currentColor"
+                                    >
+                                      <path
+                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
+                                      />
+                                      <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                                                                </div>
                     </div>
                 </div>
                                 <div class="accordion-item">
                     <h2 class="accordion-header" id="heading5">
-                        <button class="accordion-button collapsed fw-bold fs-5" type="button"
+                        <button class="accordion-button collapsed <?//= $isFirst ? '' : 'collapsed' ?> fw-bold fs-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse5"
                             aria-expanded="false" aria-controls="collapse5">
                             Tax & Accounting Benefits                        </button>
                     </h2>
-                    <div id="collapse5" class="accordion-collapse collapse " 
+                    <div id="collapse5" class="accordion-collapse collapse <?//= $isFirst ? 'show' : '' ?>" 
                         aria-labelledby="heading5" data-bs-parent="#fleetAccordion">
                         <div class="accordion-body">
                             <strong>Make leasing work for your bottom line.</strong>
