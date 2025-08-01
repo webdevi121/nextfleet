@@ -39,8 +39,8 @@ $checkboxOptions = [
             <p>
             Does your current FMO truly add value? If you’re unsure, our FMO Capability Assessment provides a structured approach to evaluating their expertise, commitment, and effectiveness.
             </p>
-            <strong>Key questions to ask:</strong>
-            <ul>
+            <p><strong>Key questions to ask:</strong></p>
+            <ul class="custom-bullets">
                 <li>Are they proactive in cost-saving strategies?</li>
                 <li>Do they provide transparent reporting and insights?</li>
                 <li>How responsive are they to your business needs?</li>
