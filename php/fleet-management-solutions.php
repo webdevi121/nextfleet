@@ -263,7 +263,7 @@ $accordion_items = [
                           <p>Everything your fleet needs, managed in one place.  NextFleet’s end-to-end fleet management services are designed to reduce your workload while keeping your vehicles running efficiently, safely, and compliantly. Whether you lease or own your fleet, we tailor our support to suit your operational model.</p>
                           <div class="fw-bold mb-5">Our services include:</div>
                         </div>
-                        <div class="row row-cols-2 row-cols-md-5 g-3 text-center">
+                        <div class="row row-cols-2 row-cols-md-5 g-5 text-center">
                             <?php foreach ($leaseInclusions as $item): ?>
                                 <div class="col">
                                     <img src="<?= htmlspecialchars($item['icon']) ?>" alt="" height="40">
