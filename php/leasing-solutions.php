@@ -328,6 +328,21 @@ $accordion_items = [
   </div>
 </section>
 
+    <section>
+      <div class="container pb-6">
+        <div class="row">
+          <div class="col-sm-8 mx-auto">
+              <iframe width="100%" height="482"
+                src="https://www.youtube.com/embed/7yyuQLCKsrI?rel=0&modestbranding=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+              </iframe>
+            </div>
+        </div>
+      </div>
+    </section>
+
 <section class="border-top"><?php loadComponent("testimonials"); ?></section>
 
 

@@ -3,6 +3,20 @@
     ob_start();
 ?>
 
+<?php
+$leaseInclusions = [
+    ['icon' => 'images/nf-icon-1.png', 'label' => 'Fuel'],
+    ['icon' => 'images/nf-icon-2.png', 'label' => 'Finance'],
+    ['icon' => 'images/nf-icon-4.png', 'label' => 'Registration'],
+    ['icon' => 'images/nf-icon-71.png', 'label' => '4 replacement <br>tyres'],
+    ['icon' => 'images/nf-icon-73.png', 'label' => '24/7 Accident <br>Management Service'],
+    ['icon' => 'images/nf-icon-75.png', 'label' => '75,000-kilometre limit <br>over the term of the lease'],
+    ['icon' => 'images/nf-icon-74.png', 'label' => '24-Hour Roadside <br> Assistance'],
+    ['icon' => 'images/nf-icon-76.png', 'label' => 'Online <br>Dashboard'],
+    ['icon' => 'images/nf-icon-6.png', 'label' => 'Maintenance <br>& Servicing'],
+];
+?>
+
 <?php loadComponent("header");?>
 
 <?php
@@ -239,10 +253,46 @@ $accordion_items = [
     </section>
 
     <!-- 2 layout for Desktop view only -->
-    <section id="services-container">
+    <section id="services-container" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 pt-10 pb-10">
+                <div class="col-sm-7 m-auto">
+                    <div class="bg-gray p-5 rounded-3">
+                        <h2 class="mb-4">What’s Included</h2>
+                        <p>NextFleet’s Fully Maintained Operating Lease includes your vehicle finance and estimated running costs in one fixed repayment.</p>
+                        <div class="fw-bold mb-5">NextFleet Experience the Difference</div>
+                        <div class="row row-cols-2 row-cols-md-3 g-3 text-center">
+                            <?php foreach ($leaseInclusions as $item): ?>
+                                <div class="col">
+                                    <img src="<?= htmlspecialchars($item['icon']) ?>" alt="" height="40">
+                                    <div class="mt-2"><?= $item['label'] ?></div> <!-- no htmlspecialchars here -->
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+
+                        <div class="mt-5 d-flex justify-content-center">
+                            <a href="/services.html" class="btn btn-primary text-white fw-bold">
+                                <div class="d-flex align-items-center gap-2">
+                                <div class="text-uppercase">More Details</div>
+                                <div class="flex-grow-1">
+                                    <svg
+                                    width="15"
+                                    height="15"
+                                    viewBox="0 0 15 15"
+                                    fill="currentColor"><path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"/>
+                                    <path
+                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
+                                    />
+                                    </svg>
+                                </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 pt-5 pb-5">
                     <div class="tab-content" id="service-tabContent">
                         <h2 class="mb-2">Fleet Management Solutions</h2>
                         <p>Managing a fleet is more than just keeping vehicles on the road - it’s about efficiency, cost control, and ensuring the safety of your drivers. At NextFleet, we offer tailored fleet solutions designed to meet the unique needs of businesses of all sizes, from small enterprises to large corporate fleets.</p>
@@ -289,20 +339,7 @@ $accordion_items = [
         </div>
     </section>
 
-    <section>
-      <div class="container pb-6">
-        <div class="row">
-          <div class="col-sm-8 mx-auto">
-              <iframe width="100%" height="482"
-                src="https://www.youtube.com/embed/7yyuQLCKsrI?rel=0&modestbranding=1"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
-              </iframe>
-            </div>
-        </div>
-      </div>
-    </section>
+
 
     <section class="border-top">
       <?php loadComponent("testimonials"); ?>
