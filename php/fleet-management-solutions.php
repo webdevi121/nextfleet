@@ -5,15 +5,15 @@
 
 <?php
 $leaseInclusions = [
-    ['icon' => 'images/nf-icon-1.png', 'label' => 'Fuel'],
-    ['icon' => 'images/nf-icon-2.png', 'label' => 'Finance'],
-    ['icon' => 'images/nf-icon-4.png', 'label' => 'Registration'],
-    ['icon' => 'images/nf-icon-71.png', 'label' => '4 replacement <br>tyres'],
-    ['icon' => 'images/nf-icon-73.png', 'label' => '24/7 Accident <br>Management Service'],
-    ['icon' => 'images/nf-icon-75.png', 'label' => '75,000-kilometre limit <br>over the term of the lease'],
-    ['icon' => 'images/nf-icon-74.png', 'label' => '24-Hour Roadside <br> Assistance'],
-    ['icon' => 'images/nf-icon-76.png', 'label' => 'Online <br>Dashboard'],
-    ['icon' => 'images/nf-icon-6.png', 'label' => 'Maintenance <br>& Servicing'],
+    ['icon' => 'images/nf-icon-1.png', 'label' => 'Fuel <br> & Toll Cards'],
+    ['icon' => 'images/nf-icon-2.png', 'label' => 'Online Reporting & Fleet Insights'],
+    ['icon' => 'images/nf-icon-4.png', 'label' => 'Vehicle Registration, Insurance & Infringement Management'],
+    ['icon' => 'images/nf-icon-78.png', 'label' => 'Door-to-Door <br>Valet Services'],
+    ['icon' => 'images/nf-icon-77.png', 'label' => 'Vehicle Acquisition <br> & Disposal'],
+    ['icon' => 'images/nf-icon-79.png', 'label' => 'Fringe Benefits Tax <br>(FBT) Reporting'],
+    ['icon' => 'images/nf-icon-74.png', 'label' => '24/7 Roadside Assistance <br> & Accident Support'],
+    ['icon' => 'images/nf-icon-76.png', 'label' => 'Telematics <br> & Tracking'],
+    ['icon' => 'images/nf-icon-6.png', 'label' => 'Maintenance <br> & Tyres'],
 ];
 ?>
 
@@ -256,12 +256,14 @@ $accordion_items = [
     <section id="services-container" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-7 m-auto">
-                    <div class="bg-gray p-5 rounded-3">
-                        <h2 class="mb-4">What’s Included</h2>
-                        <p>NextFleet’s Fully Maintained Operating Lease includes your vehicle finance and estimated running costs in one fixed repayment.</p>
-                        <div class="fw-bold mb-5">NextFleet Experience the Difference</div>
-                        <div class="row row-cols-2 row-cols-md-3 g-3 text-center">
+                <div class="col-sm-12 m-auto">
+                    <div class="bg-gray rounded-3">
+                        <div class="ps-4 ps-sm-5 pe-4 pe-sm-5 pt-4 pt-sm-5">
+                          <h2 class="mb-4">Comprehensive Fleet Management Services</h2>
+                          <p>Everything your fleet needs, managed in one place.  NextFleet’s end-to-end fleet management services are designed to reduce your workload while keeping your vehicles running efficiently, safely, and compliantly. Whether you lease or own your fleet, we tailor our support to suit your operational model.</p>
+                          <div class="fw-bold mb-5">Our services include:</div>
+                        </div>
+                        <div class="row row-cols-2 row-cols-md-5 g-3 text-center">
                             <?php foreach ($leaseInclusions as $item): ?>
                                 <div class="col">
                                     <img src="<?= htmlspecialchars($item['icon']) ?>" alt="" height="40">
@@ -270,7 +272,7 @@ $accordion_items = [
                             <?php endforeach; ?>
                         </div>
 
-                        <div class="mt-5 d-flex justify-content-center">
+                        <div class="mt-5 d-flex justify-content-center pb-4 pb-sm-5">
                             <a href="/services.html" class="btn btn-primary text-white fw-bold">
                                 <div class="d-flex align-items-center gap-2">
                                 <div class="text-uppercase">More Details</div>
