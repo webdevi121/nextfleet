@@ -64,6 +64,21 @@ ob_start();
                     <li><b>Compliance and Reporting:</b> Our services ensure you meet all regulatory requirements and provide detailed reports to help you track key performance indicators.</li>
                 </ul>
                 <p>By outsourcing these tasks to a dedicated fleet management provider like <a href="/">NextFleet Australia</a>, businesses can focus on their core operations and achieve significant cost savings.</p>
+
+              <div class="mb-3">
+                <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-uppercase">Enquire Now</div>
+                    <div class="flex-grow-1">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor">
+                        <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"></path>
+                        <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
                 <hr>
                 <h5>Benefits of Effective Fleet Management</h5>
                 <p>Effective fleet management offers numerous benefits that can transform your business operations:</p>
@@ -74,6 +89,19 @@ ob_start();
                     <li><b>Enhanced Compliance:</b> Staying compliant with regulations and reporting requirements can be challenging. Fleet management solutions ensure you meet all legal obligations and avoid costly penalties. Our team keeps you informed about changes in regulations and helps you adapt quickly.</li>
                     <li><b>Better Vehicle Utilisation:</b> Proper fleet management ensures that your vehicles are used efficiently, maximising their lifespan and minimising downtime. This means you get more value from your fleet without needing to purchase additional vehicles prematurely.</li>
                 </ul>
+              <div class="mb-3">
+                <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-uppercase">Enquire Now</div>
+                    <div class="flex-grow-1">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor">
+                        <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"></path>
+                        <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
                 <hr>
                 <h5>How NextFleet Can Help</h5>
                 <p>At NextFleet Australia, we offer a range of customisable Car Fleet Management solutions tailored to meet the specific needs of your business. Our services include:</p>
@@ -85,6 +113,19 @@ ob_start();
                     <li><b>Reporting and Analytics:</b> We provide detailed reports and analytics to help you track key performance indicators and make informed decisions about your fleet. From fuel efficiency to vehicle utilisation, our data helps you optimise your operations.</li>
                     <li><b>Global Strength, Local Expertise:</b> As a wholly-owned subsidiary of the Mitsubishi Corporation, we couple global strength with local expertise, providing a unique blend of international knowledge and personalised service.</li>
                 </ul>
+              <div class="mb-3">
+                <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-uppercase">Enquire Now</div>
+                    <div class="flex-grow-1">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor">
+                        <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"></path>
+                        <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
                 <hr>
                 <h5>Finance Options For Your Fleet</h5>
                 <p>Financing your fleet enables your business to grow by freeing up capital that could be invested elsewhere, eliminating unexpected costs, and avoiding depreciation. Leasing your fleet can provide several benefits:</p>
@@ -94,9 +135,35 @@ ob_start();
                     <li>Predictable Costs: Leasing provides fixed monthly payments, making budgeting easier.</li>
                     <li>Access to Newer Vehicles: Leasing often allows you to drive newer models with the latest safety features and technologies.</li>
                 </ul>
+              <div class="mb-3">
+                <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-uppercase">Enquire Now</div>
+                    <div class="flex-grow-1">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor">
+                        <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"></path>
+                        <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
                 <hr>
                 <h5>Service Locator</h5>
                 <p>If you want to find the best location to service your NextFleet vehicle, replace tyres, repair the windscreen, or refuel, please use our service locator. This tool helps you quickly identify nearby service providers, ensuring your vehicles are always well-maintained and ready for use.</p>
+              <div class="mb-3">
+                <a href="service-locator.html" class="btn btn-primary text-white fw-bold">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-uppercase">Service Locator</div>
+                    <div class="flex-grow-1">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor">
+                        <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"></path>
+                        <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
                 <hr>
                 <h5>Why Choose NextFleet?</h5>
                 <p>With so many fleet management providers in Australia, why choose NextFleet Australia?</p>
@@ -107,6 +174,19 @@ ob_start();
                     <li>Proven Results: Our clients have seen significant cost savings and improved efficiency, demonstrating the effectiveness of our solutions.</li>
                     <li>Global Strength, Local Expertise: We couple our global knowledge of the industry with a more personal, local approach, ensuring you receive personalised service and support.</li>
                 </ul>
+              <div class="mb-3">
+                <a href="contact.html" class="btn btn-primary text-white fw-bold">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-uppercase">Enquire Now</div>
+                    <div class="flex-grow-1">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="currentColor">
+                        <path d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"></path>
+                        <path d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
                 <hr>
                 <h5>Contact Us Today</h5>
                 <p>Streamline your business operations and reduce costs with <a href="/" aria-label="Link NextFleet’s Press enter to edit" class="anchor-inherit-styles">NextFleet’s </a>comprehensive <a href="/fleet-management-overview" class="anchor-inherit-styles">Fleet Management</a> solutions. Contact us today to learn more and request a free consultation.</p>
