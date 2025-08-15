@@ -31,7 +31,7 @@ ob_start();
             </div>
             <div class="col-12">
                 <div class="rounded-3 bg-light p-4 d-grid gap-3">
-                    <a href="te:1800297900" class="text-uppercase fw-bold fs-3 text-white btn btn-primary w-100 d-flex justify-content-center">
+                    <a href="tel:1800297900" class="text-uppercase fw-bold fs-3 text-white btn btn-primary w-100 d-flex justify-content-center">
                         <div class="d-flex align-items-center gap-3">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <div>000</div>
