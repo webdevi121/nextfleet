@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,16 +19,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 16px 0;
   color: white;
   text-decoration: none;
-  height: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 /* Active item styling */
 .menu-link.active {
   background-color: white;
   color: black;
+  border-radius: 8px;
+}
+.body-content{
+  padding-bottom: 100px;
 }
 
 /* Ensure icon inherits text color */
@@ -38,7 +43,9 @@
     
   </head>
   <body>
+
     <div class="bg-black">
+      <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="d-flex justify-content-center">
@@ -46,85 +53,81 @@
                 </div>
             </div>
         </div>
+      </div>
     </div>
 
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-12 text-center pt-5">
-                <h1 class="mb-0">Welcome to myDrive </h1>
-                <div>Need urgent assistane? Call below</div>
-            </div>
-            <div class="col-12">
-                <div class="rounded-3 bg-light p-4 d-grid gap-3">
-                    <a href="te:1800297900" class="text-uppercase fw-bold fs-3 text-white btn btn-primary w-100 d-flex justify-content-center">
-                        <div class="d-flex align-items-center gap-3">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <div>1800 297 900</div>
+
+    <div class="body-content">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 text-center pt-5">
+                    <h1 class="mb-0">Welcome to myDrive </h1>
+                    <div>Need urgent assistane? Call below</div>
+                </div>
+                <div class="col-12">
+                    <div class="rounded-3 bg-light p-4 d-grid gap-3">
+                        <a href="te:1800297900" class="text-uppercase fw-bold fs-3 text-white btn btn-primary w-100 d-flex justify-content-center">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <div>1800 297 900</div>
+                            </div>
+                        </a>
+                        <div>
+                            For 24/7 Accident Management:<br><span class="text-danger fw-bold">Select Option 1</span>
                         </div>
-                    </a>
-                    <div>
-                        For 24/7 Accident Management:<br><span class="text-danger fw-bold">Select Option 1</span>
-                    </div>
-                    <div>
-                        For 24/7 Roadside Assistance:<br><span class="text-danger fw-bold">Select Option 2</span>
+                        <div>
+                            For 24/7 Roadside Assistance:<br><span class="text-danger fw-bold">Select Option 2</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <div class="rounded-3 bg-light p-4 d-grid gap-3">
-                    <a href="te:1800297900" class="text-uppercase fw-bold fs-3 text-white btn btn-primary w-100 d-flex justify-content-center">
-                        <div class="d-flex align-items-center gap-3">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <div>000</div>
+                <div class="col-12">
+                    <div class="rounded-3 bg-light p-4 d-grid gap-3">
+                        <a href="te:1800297900" class="text-uppercase fw-bold fs-3 text-white btn btn-primary w-100 d-flex justify-content-center">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <div>000</div>
+                            </div>
+                        </a>
+                        <div>
+                            For Serious Accidents
                         </div>
-                    </a>
-                    <div>
-                        For Serious Accidents
                     </div>
                 </div>
-            </div>
-            <div class="col-12 text-center">
-                <img src="images/safetravel-Green.png" alt="">
+                <div class="col-12 text-center">
+                    <img src="images/safetravel-Green.png" alt="">
+                </div>
             </div>
         </div>
     </div>
 
 <!-- Sticky Bottom Mobile Menu -->
-<nav class="navbar fixed-bottom navbar-dark bg-black p-0">
+<nav class="navbar fixed-bottom navbar-dark bg-black border-top d-md-none">
   <div class="container-fluid p-0">
-    <div class="row w-100 text-center m-0">
+    <div class="d-flex justify-content-around w-100">
       
       <!-- Home -->
-      <div class="col p-0">
-        <a href="mydrive.html" class="menu-link">
-          <i class="fa fa-home fs-5"></i>
-          <small>Home</small>
-        </a>
-      </div>
+      <a href="mydrive.html" class="menu-link px-3">
+        <i class="fa fa-home fs-5"></i>
+        <small>Home</small>
+      </a>
 
       <!-- Key Contacts -->
-      <div class="col p-0">
-        <a href="key-contacts.html" class="menu-link active">
-          <i class="fa fa-address-book fs-5"></i>
-          <small>Key Contacts</small>
-        </a>
-      </div>
+      <a href="key-contacts.html" class="menu-link px-3 active">
+        <i class="fa fa-address-book fs-5"></i>
+        <small>Key Contacts</small>
+      </a>
 
       <!-- Guide -->
-      <div class="col p-0">
-        <a href="#guide" class="menu-link">
-          <i class="fa fa-book fs-5"></i>
-          <small>Guide</small>
-        </a>
-      </div>
+      <a href="#guide" class="menu-link px-3">
+        <i class="fa fa-book fs-5"></i>
+        <small>Guide</small>
+      </a>
 
       <!-- Locator -->
-      <div class="col p-0">
-        <a href="#locator" class="menu-link">
-          <i class="fa fa-map-marker-alt fs-5"></i>
-          <small>Locator</small>
-        </a>
-      </div>
+      <a href="#locator" class="menu-link px-3">
+        <i class="fa fa-map-marker-alt fs-5"></i>
+        <small>Locator</small>
+      </a>
 
     </div>
   </div>

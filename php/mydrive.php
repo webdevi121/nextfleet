@@ -1,53 +1,12 @@
+<?php
+require_once __DIR__ . '/functions.php';
+ob_start();
+?>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fleet Management Services Simplified</title>
-    <meta name="description" content="At NextFleet we seamlessly manage, support, and optimise your corporate fleet management">
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/fontawesome.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/png" href="images/favico.ico" />
+<?php loadComponent("mydrive-header");?>
 
-<style>
-/* Default menu item styling */
-.menu-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 16px 0;
-  color: white;
-  text-decoration: none;
-  height: 100%;
-}
 
-/* Active item styling */
-.menu-link.active {
-  background-color: white;
-  color: black;
-}
-
-/* Ensure icon inherits text color */
-.menu-link i {
-  margin-bottom: 2px;
-}
-</style>
-    
-  </head>
-  <body>
-    <div class="bg-black">
-        <div class="row">
-            <div class="col-12">
-                <div class="d-flex justify-content-center">
-                    <a href="/" class="py-2"><img src="images/nextfleet-logo.png" width="180"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
+  <div class="body-content">
     <div class="container">
         <div class="row g-4">
             <div class="col-12 text-center pt-5">
@@ -88,47 +47,41 @@
             </div>
         </div>
     </div>
+  </div>
 
 <!-- Sticky Bottom Mobile Menu -->
-<nav class="navbar fixed-bottom navbar-dark bg-black p-0">
+<nav class="navbar fixed-bottom navbar-dark bg-black border-top d-md-none">
   <div class="container-fluid p-0">
-    <div class="row w-100 text-center m-0">
+    <div class="d-flex justify-content-around w-100">
       
       <!-- Home -->
-      <div class="col p-0">
-        <a href="mydrive-app.html" class="menu-link active">
-          <i class="fa fa-home fs-5"></i>
-          <small>Home</small>
-        </a>
-      </div>
+      <a href="mydrive.html" class="menu-link active px-3">
+        <i class="fa fa-home fs-5"></i>
+        <small>Home</small>
+      </a>
 
       <!-- Key Contacts -->
-      <div class="col p-0">
-        <a href="key-contacts.html" class="menu-link">
-          <i class="fa fa-address-book fs-5"></i>
-          <small>Key Contacts</small>
-        </a>
-      </div>
+      <a href="key-contacts.html" class="menu-link px-3">
+        <i class="fa fa-address-book fs-5"></i>
+        <small>Key Contacts</small>
+      </a>
 
       <!-- Guide -->
-      <div class="col p-0">
-        <a href="#guide" class="menu-link">
-          <i class="fa fa-book fs-5"></i>
-          <small>Guide</small>
-        </a>
-      </div>
+      <a href="#guide" class="menu-link px-3">
+        <i class="fa fa-book fs-5"></i>
+        <small>Guide</small>
+      </a>
 
       <!-- Locator -->
-      <div class="col p-0">
-        <a href="#locator" class="menu-link">
-          <i class="fa fa-map-marker-alt fs-5"></i>
-          <small>Locator</small>
-        </a>
-      </div>
+      <a href="#locator" class="menu-link px-3">
+        <i class="fa fa-map-marker-alt fs-5"></i>
+        <small>Locator</small>
+      </a>
 
     </div>
   </div>
 </nav>
+
 
 </body>
 </html>
