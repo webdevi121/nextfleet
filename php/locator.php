@@ -10,16 +10,16 @@ ob_start();
     <div class="body-content">
         <div class="container">
             <div class="row g-4">
-                <div class="col-12 text-center pt-5">
+                <div class="col-12 text-center pt-4">
                     <h1 class="mb-0">Service Locator </h1>
                 </div>
             </div>
         </div>
         <div class="">
             <div class="container-fluid mt-3">
-                <div class="row g-5">
+                <div class="">
                     <!-- Left Column: Filters + Results -->
-                    <div class="col-md-6 border pt-3 pb-3 bg-white d-grid gap-4">
+                    <div class="col-md-12 pb-3 bg-white d-grid gap-4">
 
                         <div>
                             <div class="mb-1 fw-bold ">Select Service</div>
@@ -121,7 +121,7 @@ ob_start();
                     </div>
 
                     <!-- Right Column: Google Map -->
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div id="map" class="w-100 h-100"></div>
                     </div>
                 </div>
