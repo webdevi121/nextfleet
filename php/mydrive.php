@@ -96,7 +96,7 @@
       
       <!-- Home -->
       <div class="col p-0">
-        <a href="mydrive.html" class="menu-link">
+        <a href="mydrive-app.html" class="menu-link active">
           <i class="fa fa-home fs-5"></i>
           <small>Home</small>
         </a>
@@ -104,7 +104,7 @@
 
       <!-- Key Contacts -->
       <div class="col p-0">
-        <a href="key-contacts.html" class="menu-link active">
+        <a href="key-contacts.html" class="menu-link">
           <i class="fa fa-address-book fs-5"></i>
           <small>Key Contacts</small>
         </a>
