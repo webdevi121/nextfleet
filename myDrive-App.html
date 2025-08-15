@@ -90,7 +90,7 @@
     </div>
 
 <!-- Sticky Bottom Mobile Menu -->
-<nav class="navbar fixed-bottom navbar-dark bg-black d-md-none p-0">
+<nav class="navbar fixed-bottom navbar-dark bg-black p-0">
   <div class="container-fluid p-0">
     <div class="row w-100 text-center m-0">
       
