@@ -6,7 +6,7 @@ if (!isset($active)) {
 ?>
 
 <!-- Sticky Bottom Mobile Menu -->
-<nav class="navbar fixed-bottom navbar-dark bg-black border-top d-md-none">
+<nav class="navbar fixed-bottom navbar-dark bg-black border-top">
   <div class="container-fluid p-0">
     <div class="d-flex justify-content-around w-100">
       
