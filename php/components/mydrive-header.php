@@ -38,6 +38,17 @@
 .menu-link i {
   margin-bottom: 2px;
 }
+#map {
+  width: 100%;
+  height: 400px; /* fallback for mobile */
+  min-height: 400px; /* ensures mobile has height */
+}
+
+@media(min-width: 768px){
+  #map {
+    height: 600px; /* larger map on desktop */
+  }
+}
 </style>
     
   </head>
