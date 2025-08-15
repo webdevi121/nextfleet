@@ -49,38 +49,11 @@ ob_start();
     </div>
   </div>
 
-<!-- Sticky Bottom Mobile Menu -->
-<nav class="navbar fixed-bottom navbar-dark bg-black border-top d-md-none">
-  <div class="container-fluid p-0">
-    <div class="d-flex justify-content-around w-100">
-      
-      <!-- Home -->
-      <a href="mydrive.html" class="menu-link active px-3">
-        <i class="fa fa-home fs-5"></i>
-        <small>Home</small>
-      </a>
+<?php
+loadComponent("mobile-menu", ["active" => "home"]);
+?>
 
-      <!-- Key Contacts -->
-      <a href="key-contacts.html" class="menu-link px-3">
-        <i class="fa fa-address-book fs-5"></i>
-        <small>Key Contacts</small>
-      </a>
 
-      <!-- Guide -->
-      <a href="#guide" class="menu-link px-3">
-        <i class="fa fa-book fs-5"></i>
-        <small>Guide</small>
-      </a>
-
-      <!-- Locator -->
-      <a href="#locator" class="menu-link px-3">
-        <i class="fa fa-map-marker-alt fs-5"></i>
-        <small>Locator</small>
-      </a>
-
-    </div>
-  </div>
-</nav>
 
 
 </body>
