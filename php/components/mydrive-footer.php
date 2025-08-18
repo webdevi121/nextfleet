@@ -36,9 +36,11 @@ function showA2HS() {
   banner.style.fontFamily = 'sans-serif';
   banner.style.textAlign = 'center';
   banner.innerHTML = `
-    Install NextFleet on your home screen! 
-    <button id="a2hsBtn" style="margin-left:10px;padding:5px 10px;border:none;border-radius:4px;background:#fff;color:#000;cursor:pointer;">Add</button>
-    <button id="a2hsDismiss" style="margin-left:5px;padding:5px 10px;border:none;border-radius:4px;background:#555;color:#fff;cursor:pointer;">Dismiss</button>
+    <div>Install NextFleet on your home screen!</div>
+    <div style="display: flex; margin-top:10px;"> 
+      <button id="a2hsBtn" style="margin-left:10px;padding:5px 10px;border:none;border-radius:4px;background:#fff;color:#000;cursor:pointer;">Add</button>
+      <button id="a2hsDismiss" style="margin-left:5px;padding:5px 10px;border:none;border-radius:4px;background:#555;color:#fff;cursor:pointer;">Dismiss</button>
+    </div>
   `;
   document.body.appendChild(banner);
 
@@ -89,7 +91,7 @@ if (isIos() && !isInStandaloneMode()) {
     To install NextFleet on your home screen: tap 
     <img src="images/ios-share-icon.png" style="width:16px;height:16px;vertical-align:middle;margin:0 3px;">
     and then "Add to Home Screen".
-    <button id="iosDismiss" style="margin-left:10px;padding:5px 10px;border:none;border-radius:4px;background:#555;color:#fff;cursor:pointer;">Dismiss</button>
+    <button id="iosDismiss" style="display:block; margin: 10px auto; padding:5px 10px;border:none;border-radius:4px;background:#555;color:#fff;cursor:pointer;">Dismiss</button>
   `;
   document.body.appendChild(iosBanner);
 
