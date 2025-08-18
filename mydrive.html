@@ -11,7 +11,25 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/fontawesome.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" href="images/favico.ico" />
+    <!-- Standard favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 
+    <!-- SVG favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Android / PWA icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="web-app-manifest-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="web-app-manifest-512x512.png">
+
+    <!-- Apple touch icon -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Theme color for browser toolbar -->
+    <meta name="theme-color" content="#000000">
+    
 <style>
 /* Default menu item styling */
 .menu-link {
@@ -165,8 +183,15 @@
 }
 </style>
 
-
-
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registered', reg))
+      .catch(err => console.log('Service Worker registration failed', err));
+  });
+}
+</script>
 
 </body>
 </html>

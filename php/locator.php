@@ -148,5 +148,4 @@ loadComponent("mobile-menu", ["active" => "locator"]);
     }
     </script>
 
-</body>
-</html>
+<?php loadComponent("mydrive-footer");?>

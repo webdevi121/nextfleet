@@ -210,5 +210,4 @@ document.querySelectorAll('.accordion-button').forEach(button => {
 
 
 
-</body>
-</html>
+<?php loadComponent("mydrive-footer");?>

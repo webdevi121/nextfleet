@@ -172,5 +172,4 @@ ob_start();
 loadComponent("mobile-menu", ["active" => "key-contacts"]);
 ?>
 
-</body>
-</html>
+<?php loadComponent("mydrive-footer");?>

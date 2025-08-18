@@ -53,8 +53,4 @@ ob_start();
 loadComponent("mobile-menu", ["active" => "home"]);
 ?>
 
-
-
-
-</body>
-</html>
+<?php loadComponent("mydrive-footer");?>
