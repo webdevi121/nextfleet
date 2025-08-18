@@ -1,58 +1,102 @@
 <script>
-  // Register service worker
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js')
-        .then(reg => console.log('Service Worker registered', reg))
-        .catch(err => console.log('Service Worker registration failed', err));
-    });
-  }
+/* ---------------------------
+  1. Service Worker registration
+---------------------------- */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registered', reg))
+      .catch(err => console.log('Service Worker registration failed', err));
+  });
+}
 
-  // Add to Home Screen popup
-  let deferredPrompt;
+/* ---------------------------
+  2. Chrome/Android "Add to Home Screen"
+---------------------------- */
+let deferredPrompt;
 
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-    showAddToHomeScreenPrompt();
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  showA2HS();
+});
+
+function showA2HS() {
+  const banner = document.createElement('div');
+  banner.style.position = 'fixed';
+  banner.style.bottom = '20px';
+  banner.style.left = '50%';
+  banner.style.transform = 'translateX(-50%)';
+  banner.style.background = '#000';
+  banner.style.color = '#fff';
+  banner.style.padding = '15px 20px';
+  banner.style.borderRadius = '8px';
+  banner.style.boxShadow = '0 4px 10px rgba(0,0,0,0.3)';
+  banner.style.zIndex = '10000';
+  banner.style.fontFamily = 'sans-serif';
+  banner.style.textAlign = 'center';
+  banner.innerHTML = `
+    Install NextFleet on your home screen! 
+    <button id="a2hsBtn" style="margin-left:10px;padding:5px 10px;border:none;border-radius:4px;background:#fff;color:#000;cursor:pointer;">Add</button>
+    <button id="a2hsDismiss" style="margin-left:5px;padding:5px 10px;border:none;border-radius:4px;background:#555;color:#fff;cursor:pointer;">Dismiss</button>
+  `;
+  document.body.appendChild(banner);
+
+  document.getElementById('a2hsBtn').addEventListener('click', async () => {
+    banner.remove();
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      console.log('User response to the install prompt:', outcome);
+      deferredPrompt = null;
+    }
   });
 
-  function showAddToHomeScreenPrompt() {
-    const a2hsBanner = document.createElement('div');
-    a2hsBanner.style.position = 'fixed';
-    a2hsBanner.style.bottom = '20px';
-    a2hsBanner.style.left = '50%';
-    a2hsBanner.style.transform = 'translateX(-50%)';
-    a2hsBanner.style.background = '#000';
-    a2hsBanner.style.color = '#fff';
-    a2hsBanner.style.padding = '15px 20px';
-    a2hsBanner.style.borderRadius = '8px';
-    a2hsBanner.style.boxShadow = '0 4px 10px rgba(0,0,0,0.3)';
-    a2hsBanner.style.zIndex = '10000';
-    a2hsBanner.style.fontFamily = 'sans-serif';
-    a2hsBanner.style.textAlign = 'center';
-    a2hsBanner.innerHTML = `
-      Install NextFleet on your home screen for quick access! 
-      <button id="a2hsBtn" style="margin-left:10px;padding:5px 10px;border:none;border-radius:4px;background:#fff;color:#000;cursor:pointer;">Add</button>
-      <button id="a2hsDismiss" style="margin-left:5px;padding:5px 10px;border:none;border-radius:4px;background:#555;color:#fff;cursor:pointer;">Dismiss</button>
-    `;
-    document.body.appendChild(a2hsBanner);
+  document.getElementById('a2hsDismiss').addEventListener('click', () => {
+    banner.remove();
+  });
+}
 
-    document.getElementById('a2hsBtn').addEventListener('click', async () => {
-      a2hsBanner.remove();
-      if (deferredPrompt) {
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-        console.log('User response to the install prompt:', outcome);
-        deferredPrompt = null;
-      }
-    });
+/* ---------------------------
+  3. iOS Safari manual instructions
+---------------------------- */
+function isIos() {
+  const ua = window.navigator.userAgent.toLowerCase();
+  return /iphone|ipad|ipod/.test(ua);
+}
 
-    document.getElementById('a2hsDismiss').addEventListener('click', () => {
-      a2hsBanner.remove();
-    });
-  }
+function isInStandaloneMode() {
+  return ('standalone' in window.navigator) && window.navigator.standalone;
+}
+
+if (isIos() && !isInStandaloneMode()) {
+  const iosBanner = document.createElement('div');
+  iosBanner.style.position = 'fixed';
+  iosBanner.style.bottom = '20px';
+  iosBanner.style.left = '50%';
+  iosBanner.style.transform = 'translateX(-50%)';
+  iosBanner.style.background = '#000';
+  iosBanner.style.color = '#fff';
+  iosBanner.style.padding = '15px 20px';
+  iosBanner.style.borderRadius = '8px';
+  iosBanner.style.boxShadow = '0 4px 10px rgba(0,0,0,0.3)';
+  iosBanner.style.zIndex = '10000';
+  iosBanner.style.fontFamily = 'sans-serif';
+  iosBanner.style.textAlign = 'center';
+  iosBanner.innerHTML = `
+    To install NextFleet on your home screen: tap 
+    <img src="images/ios-share-icon.png" style="width:16px;height:16px;vertical-align:middle;margin:0 3px;">
+    and then "Add to Home Screen".
+    <button id="iosDismiss" style="margin-left:10px;padding:5px 10px;border:none;border-radius:4px;background:#555;color:#fff;cursor:pointer;">Dismiss</button>
+  `;
+  document.body.appendChild(iosBanner);
+
+  document.getElementById('iosDismiss').addEventListener('click', () => {
+    iosBanner.remove();
+  });
+}
 </script>
+
 
 
 </body>
