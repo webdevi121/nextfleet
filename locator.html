@@ -354,8 +354,10 @@ if (isIos() && !isInStandaloneMode()) {
   const iosBanner = document.createElement('div');
   iosBanner.style.position = 'fixed';
   iosBanner.style.bottom = '20px';
-  iosBanner.style.left = '50%';
-  iosBanner.style.transform = 'translateX(-50%)';
+  iosBanner.style.left = '0';
+  iosBanner.style.right = '0';
+  iosBanner.style.width = '260px';
+  iosBanner.style.margin = 'auto';
   iosBanner.style.background = '#000';
   iosBanner.style.color = '#fff';
   iosBanner.style.padding = '15px 20px';
@@ -366,7 +368,7 @@ if (isIos() && !isInStandaloneMode()) {
   iosBanner.style.textAlign = 'center';
   iosBanner.innerHTML = `
     To install NextFleet on your home screen: tap 
-    <img src="images/ios-share-icon.png" style="width:16px;height:16px;vertical-align:middle;margin:0 3px;">
+    <img src="`images`/ios-share-icon.png" style="width:16px;height:16px;vertical-align:middle;margin:0 3px;">
     and then "Add to Home Screen".
     <button id="iosDismiss" style="margin-left:10px;padding:5px 10px;border:none;border-radius:4px;background:#555;color:#fff;cursor:pointer;">Dismiss</button>
   `;
