@@ -60,7 +60,7 @@ $helpCards = [
         'title' => 'myDrive App',
         'image' => 'images/nf-img-40.jpg',
         'label' => 'Login',
-        'link' => 'https://www.nextfleet.net.au/myDriverapp/myDrive-App/',
+        'link' => '/mydrive.html',
         'body' => '
             <div>Access your fleet anywhere, anytime. The myDrive app puts live vehicle data, compliance alerts, maintenance logs, and odometer updates in the palm of your hand</div>
         '

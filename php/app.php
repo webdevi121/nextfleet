@@ -81,7 +81,7 @@ ob_start();
             </div>
             <h2>MyDriver App – Your Fleet at Your Fingertips</h2>
             <p>
-                The <a href="https://www.nextfleet.net.au/myDriverapp/myDrive-App">MyDriver App</a> is designed to give your drivers easy access to essential fleet management tools on their mobile devices. Whether you need to track vehicle usage, log service history, or access important fleet updates, the MyDriver App makes it simple and convenient.
+                The <a href="/mydrive.html">MyDriver App</a> is designed to give your drivers easy access to essential fleet management tools on their mobile devices. Whether you need to track vehicle usage, log service history, or access important fleet updates, the MyDriver App makes it simple and convenient.
             </p>
             
             <p><strong>Key Features:</strong></p>
