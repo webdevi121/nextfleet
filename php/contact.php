@@ -17,7 +17,7 @@ ob_start();
             <div class="row">
                 <div class="col-sm-6">
                     <h1 class="text-uppercase">Contact Us</h1>
-                    <p>We're here to help. For general enquiries please use the form below or call us. For urgent support for roadside assistance, accidents, or maintenance authorisation, please call us at <a href="tel:1800 297 900">1800 297 900</a>.</p>
+                    <p>We're here to help. For general enquiries please use the enquiry form or call us. For urgent support for roadside assistance, accidents, or maintenance authorisation, please call us at <a href="tel:1800 297 900">1800 297 900</a>.</p>
                     <div class="mb-4">
                         <ul class="list-unstyled text-start">
                                         <li class="mb-2 d-flex gap-3">
@@ -66,9 +66,7 @@ ob_start();
                         <option value="">Please Select One</option>
                         <option>General Enquiry</option>
                         <option>Client Enquiry</option>
-                        <option>Finance Enquiry</option>
-                        <option>Fleet Management Services</option>
-                        <option>Telematics Enquiry</option>
+                        <option>Leasing / Fleet Management Services Enquiry</option>
                         <option>Supplier / Dealer Enquiry</option>
                         </select>
                     </div>

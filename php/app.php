@@ -27,13 +27,13 @@ ob_start();
               <span>App</span>
             </div>
             <div>
-              <h1>MyDriver App</h1>
+              <h1>myDrive App</h1>
               <p>Easily download and install the NextFleet app to track vehicles, monitor performance and manage your fleet in real time, anywhere, anytime! </p>
             </div>
             <div>
               <a href="mydrive.html" class="btn btn-primary text-white fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <div>MyDrive App</div>
+                  <div>myDrive App</div>
                   <div class="flex-grow-1">
                     <svg
                       width="15"
@@ -79,9 +79,9 @@ ob_start();
               <img src="images/iconNf.png" alt="icon" width="14" />
               <span>App</span>
             </div>
-            <h2>MyDriver App – Your Fleet at Your Fingertips</h2>
+            <h2>myDrive App – Your Fleet at Your Fingertips</h2>
             <p>
-                The <a href="/mydrive.html">MyDriver App</a> is designed to give your drivers easy access to essential fleet management tools on their mobile devices. Whether you need to track vehicle usage, log service history, or access important fleet updates, the MyDriver App makes it simple and convenient.
+                The <a href="/mydrive.html">myDrive App</a> is designed to give your drivers easy access to essential fleet management tools on their mobile devices. Whether you need to track vehicle usage, log service history, or access important fleet updates, the myDrive App makes it simple and convenient.
             </p>
             
             <p><strong>Key Features:</strong></p>
@@ -114,7 +114,7 @@ ob_start();
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5 text-primary">
-            <h2>Install MyDriver App on Android</h2>
+            <h2>Install myDrive App on Android</h2>
           </div>
         </div>
         <div class="my-app-container">
@@ -158,7 +158,7 @@ ob_start();
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5 text-primary">
-            <h2>Install MyDriver App on iOS</h2>
+            <h2>Install myDrive App on iOS</h2>
           </div>
         </div>
         <div class="my-app-container">

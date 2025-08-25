@@ -103,38 +103,6 @@ $accordion_items = [
         ]
     ],
     [
-        'title' => 'Commercial Hire Purchase (CHP)',
-        'subtitle' => 'Own your fleet, your way.',
-        'content' => [
-            '<p>With CHP, you hire the vehicle for a fixed term with monthly payments suited to your budget. Ownership transfers to your business once the final payment is made.</p>',
-            '<p>This is ideal for businesses that want eventual ownership without an initial capital hit. CHP also allows for interest and depreciation claims, offering potential tax benefits.</p>',
-            '
-                            <div>
-                              <a href="contact.html" class="btn btn-primary text-white fw-bold">
-                                <div class="d-flex align-items-center gap-2">
-                                  <div class="text-uppercase">Enquire Now</div>
-                                  <div class="flex-grow-1">
-                                    <svg
-                                      width="15"
-                                      height="15"
-                                      viewBox="0 0 15 15"
-                                      fill="currentColor"
-                                    >
-                                      <path
-                                        d="M10 5.9948L6.13869 12H4.66296L8.52427 5.9948L4.66296 0H6.13869L10 5.9948Z"
-                                      />
-                                      <path
-                                        d="M7.34813 5.9948L3.48682 12H2L5.8613 5.9948L2 0H3.48682L7.34813 5.9948Z"
-                                      />
-                                    </svg>
-                                  </div>
-                                </div>
-                              </a>
-                            </div>
-            '
-        ]
-    ],
-    [
         'title' => 'End-of-Lease Management',
         'subtitle' => 'Smooth transitions, minimal downtime.',
         'content' => [
@@ -172,19 +140,6 @@ $accordion_items = [
         'content' => [
             "<p>Leasing can provide significant tax advantages and accounting simplicity. With lease payments generally deductible as business expenses, you may reduce taxable income and streamline reporting.</p>",
             "<p>We help you understand the financial treatment of each lease type under current regulations and provide documentation and reporting that supports your finance team. It’s a smarter way to manage assets with predictable costs and strategic value.</p>",
-            '
-              <div class="col-sm-8 mx-auto">
-                <iframe
-                  width="100%"
-                  height="482"
-                  src="https://www.youtube.com/embed/7yyuQLCKsrI?rel=0&modestbranding=1"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                >
-                </iframe>
-              </div>
-            ',
             '
                 <div class="spacer"></div>
                 <h2>Flexible Leasing, Smarter Fleets</h2>

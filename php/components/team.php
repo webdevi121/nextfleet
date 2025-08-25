@@ -4,7 +4,7 @@ $teamData = [
     [
         'name' => 'Ryohta Imai (Rio)',
         'title' => 'Managing Director and <span class="d-block">Board Member</span>',
-        'imgSrc' => 'images/nf-img-61.jpg',
+        'imgSrc' => 'images/nf-img-83.jpg',
     ],
     [
         'name' => 'Giulio Persichilli',
