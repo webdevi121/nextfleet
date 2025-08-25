@@ -15,16 +15,16 @@
 
 <?php
 $navItems = [
-    ["name" => "Home", "href" => "/"],
-    ["name" => "About Us", "href" => "/about-us.html"],
-    ["name" => "Lease Deals", "href" => "/toyota-hybrid.html"],
-    ["name" => "Services", "href" => "/services.html"],
-    ["name" => "Resources", "href" => "/resources.html"],
-    ["name" => "Tools", "href" => "/tools.html"],
-    ["name" => "App", "href" => "/app.html"],
-    ["name" => "Contact Us", "href" => "/contact.html"],
-    ["name" => "myDrive", "href" => "/mydrive.html", "target" => "_blank"],
-    ["name" => "Login", "href" => "/login.html"]
+    ["name" => "HOME", "href" => "/"],
+    ["name" => "ABOUT US", "href" => "/about-us.html"],
+    ["name" => "LEASE DEALS", "href" => "/toyota-hybrid.html"],
+    ["name" => "SERVICES", "href" => "/services.html"],
+    ["name" => "RESOURCES", "href" => "/resources.html"],
+    ["name" => "TOOLS", "href" => "/tools.html"],
+    ["name" => "myDrive APP", "href" => "/app.html"],
+    ["name" => "CONTACT US", "href" => "/contact.html"],
+    // ["name" => "myDrive", "href" => "/mydrive.html", "target" => "_blank"],
+    ["name" => "LOGIN", "href" => "/login.html"]
 ];
 ?>
 
@@ -96,7 +96,7 @@ $navItems = [
                   </li>
                 <?php else: ?>
                   <li class="nav-item">
-                  <a class="nav-link text-uppercase text-white" href="<?= $item['href']; ?>"<?= !empty($item['target']) ? ' target="' . $item['target'] . '"' : '' ?>><?= $item['name']; ?></a>
+                  <a class="nav-link text-white" href="<?= $item['href']; ?>"<?= !empty($item['target']) ? ' target="' . $item['target'] . '"' : '' ?>><?= $item['name']; ?></a>
                   </li>
                 <?php endif; ?>
               <?php endforeach; ?>

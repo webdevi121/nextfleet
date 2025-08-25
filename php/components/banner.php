@@ -10,10 +10,35 @@
                         <h1 class="fw-800">FLEET MANAGEMENT SERVICES SIMPLIFIED</h1>
                         <p>NextFleet simplifies leasing and fleet management, delivering tailored solutions to optimise and support your fleet, effortlessly.</p>
                         <div>
-                            <form class="d-flex flex-column flex-sm-row gap-2">
-                                <input type="email" class="form-control me-2 rounded-5" placeholder="Enter your email" required>
-                                <button type="submit" class="text-nowrap btn btn-primary text-white text-uppercase rounded-5 text-pre flex-none">Start Discussion</button>
-                            </form>
+
+                        <form id="contactForm" class="row g-2">
+                        <div class="col-12 col-md">
+                            <input type="text" class="form-control custom-height" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-12 col-md">
+                            <input type="tel" class="form-control custom-height" placeholder="Your Number" required>
+                        </div>
+                        <div class="col-12 col-md-auto">
+                            <button type="submit" class="btn btn-primary custom-height w-100 rounded-3 cursor-pointer">
+                            Submit
+                            </button>
+                        </div>
+                        </form>
+
+                        <!-- Thank you message (hidden by default) -->
+                        <div id="thankYouMessage" class="alert alert-success mt-3 d-none">
+                            Thanks for contacting us! We will get in touch with you shortly.
+                        </div>
+
+                        <script>
+                        document.getElementById("contactForm").addEventListener("submit", function(e) {
+                            e.preventDefault(); // stop form from refreshing the page
+                            console.log('test')
+                            document.getElementById("thankYouMessage").classList.remove("d-none"); // show message
+                            this.reset(); // clear inputs
+                        });
+                        </script>
+
                         </div>
                     </div>
                     <div class="partner-logos">
@@ -27,8 +52,8 @@
                         <img src="images/chevron.png" alt="chevron">
                     </div>
                     <div class="the-car">
-                        <img src="images/nf-img-72.png" alt="" class="w-100 w-sm-auto fade-image">
-                        <img src="images/nf-img-73.png" alt="" class="w-100 w-sm-auto fade-image">
+                        <!-- <img src="images/nf-img-72.png" alt="" class="w-100 w-sm-auto fade-image"> -->
+                        <img src="images/nf-img-73.png" alt="" class="w-100 w-sm-auto fade-image--">
                     </div>
                 </div>
             </div>

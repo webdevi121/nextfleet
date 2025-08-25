@@ -11358,6 +11358,7 @@ footer {
 }
 @media (max-width: 768px) {
   .banner-section .banner-item {
+    height: 100%;
     padding: 20px;
   }
 }
@@ -11428,9 +11429,11 @@ footer {
   width: 944px;
   height: 541px;
   overflow: hidden;
+  pointer-events: none;
 }
 @media (max-width: 768px) {
   .banner-section .the-car {
+    display: none;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -11781,6 +11784,19 @@ ul.custom-bullets li {
 
 .contact-map {
   height: 500px;
+}
+
+.separator {
+  width: 1px;
+  height: 100%;
+  display: block;
+  background-color: #000;
+}
+
+.form-control.custom-height,
+.btn.custom-height {
+  height: 50px; /* adjust this value */
+  font-size: 1.1rem; /* make text a bit bigger too */
 }
 
 /*# sourceMappingURL=style.css.map */
