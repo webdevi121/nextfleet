@@ -15,17 +15,17 @@
 
 <?php
 $navItems = [
-    ["name" => "HOME", "href" => "/"],
-    ["name" => "ABOUT US", "href" => "/about-us.html"],
-    ["name" => "LEASE DEALS", "href" => "/toyota-hybrid.html"],
-    ["name" => "SERVICES", "href" => "/services.html"],
-    ["name" => "RESOURCES", "href" => "/resources.html"],
-    ["name" => "TOOLS", "href" => "/tools.html"],
-    ["name" => "myDrive APP", "href" => "/app.html"],
-    ["name" => "CONTACT US", "href" => "/contact.html"],
-    // ["name" => "myDrive", "href" => "/mydrive.html", "target" => "_blank"],
-    ["name" => "LOGIN", "href" => "/login.html"]
+    ["id" => 1, "name" => "HOME", "href" => "/"],
+    ["id" => 2, "name" => "ABOUT US", "href" => "/about-us.html"],
+    ["id" => 3, "name" => "LEASE DEALS", "href" => "/toyota-hybrid.html"],
+    ["id" => 4, "name" => "SERVICES", "href" => "/services.html"],
+    ["id" => 5, "name" => "RESOURCES", "href" => "/resources.html"],
+    ["id" => 6, "name" => "TOOLS", "href" => "/tools.html"],
+    ["id" => 7, "name" => "myDrive APP", "href" => "/app.html"],
+    ["id" => 8, "name" => "CONTACT US", "href" => "/contact.html"],
+    ["id" => 9, "name" => "Login", "href" => "/login.html"]
 ];
+
 ?>
 
 <div class="bg-black pt-5">
@@ -48,7 +48,7 @@ $navItems = [
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <?php foreach ($navItems as $item): ?>
-                <?php if ($item['name'] === "Resources"): ?>
+                <?php if ($item['id'] === 5): ?>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-uppercase text-white" href="<?= $item['href']; ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       <?= $item['name']; ?>
@@ -62,7 +62,7 @@ $navItems = [
                     </ul>
                   </li>
 
-                <?php elseif ($item['name'] === "Services"): ?>
+                <?php elseif ($item['id'] === 4): ?>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-uppercase text-white" href="<?= $item['href']; ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       <?= $item['name']; ?>
@@ -79,7 +79,7 @@ $navItems = [
                         <li><a class="dropdown-item" href="sales-leaseback.html">Sales & Leaseback</a></li>
                     </ul>
                   </li>
-                  <?php elseif ($item['name'] === "Tools"): ?>
+                  <?php elseif ($item['id'] === 6): ?>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-uppercase text-white" href="<?= $item['href']; ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       <?= $item['name']; ?>
