@@ -6,7 +6,7 @@
         <div class="container position-relative z-2 pb-5">
             <div class="banner-item">
                 <div class="position-relative h-100">
-                    <div class="col-xl-6">
+                    <div class="col-xl-7 position-relative z-3">
                         <h1 class="fw-800">FLEET MANAGEMENT SERVICES SIMPLIFIED</h1>
                         <p>NextFleet simplifies leasing and fleet management, delivering tailored solutions to optimise and support your fleet, effortlessly.</p>
                         <div>
@@ -20,7 +20,7 @@
                         </div>
                         <div class="col-12 col-md-auto">
                             <button type="submit" class="btn btn-primary custom-height w-100 rounded-3 cursor-pointer">
-                            Submit
+                            Start A Discussion
                             </button>
                         </div>
                         </form>
@@ -48,7 +48,7 @@
                             <li><img src="images/logos-3.png" alt="Logo"></li>
                         </ul>
                     </div>
-                    <div class="d-none d-sm-block chevron">
+                    <div class="d-none d-sm-block chevron pointer-events-none">
                         <img src="images/chevron.png" alt="chevron">
                     </div>
                     <div class="the-car">
