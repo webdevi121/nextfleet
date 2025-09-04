@@ -11,18 +11,34 @@
                         <p>NextFleet simplifies leasing and fleet management, delivering tailored solutions to optimise and support your fleet, effortlessly.</p>
                         <div>
 
+
                         <form id="contactForm" class="row g-2">
-                        <div class="col-12 col-md">
-                            <input type="text" class="form-control custom-height" placeholder="Your Name" required>
-                        </div>
-                        <div class="col-12 col-md">
-                            <input type="tel" class="form-control custom-height" placeholder="Your Number" required>
-                        </div>
-                        <div class="col-12 col-md-auto">
-                            <button type="submit" class="btn btn-primary custom-height w-100 rounded-3 cursor-pointer">
-                            Start A Discussion
-                            </button>
-                        </div>
+                            <!-- Step 1: Email -->
+                            <div id="step1" class="row g-2">
+                                <div class="col-12 col-md">
+                                    <input type="email" class="form-control custom-height" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="col-12 col-md-auto">
+                                    <button type="button" id="nextBtn" class="btn btn-primary custom-height w-100 rounded-3 cursor-pointer">
+                                        Start A Discussion
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Step 2: Name + Number (hidden at first) -->
+                            <div id="step2" class="row g-2 d-none">
+                                <div class="col-12 col-md">
+                                    <input type="text" class="form-control custom-height" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-12 col-md">
+                                    <input type="tel" class="form-control custom-height" name="number" placeholder="Your Number" required>
+                                </div>
+                                <div class="col-12 col-md-auto">
+                                    <button type="submit" class="btn btn-primary custom-height w-100 rounded-3 cursor-pointer">
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
                         </form>
 
                         <!-- Thank you message (hidden by default) -->
@@ -31,13 +47,40 @@
                         </div>
 
                         <script>
+                        function goToStep2() {
+                            const emailInput = document.querySelector('input[name="email"]');
+                            if (emailInput.checkValidity()) {
+                                document.getElementById("step1").classList.add("d-none");
+                                document.getElementById("step2").classList.remove("d-none");
+                            } else {
+                                emailInput.reportValidity();
+                            }
+                        }
+
+                        document.getElementById("nextBtn").addEventListener("click", goToStep2);
+
+                        // Handle Enter key on email field
+                        document.querySelector('input[name="email"]').addEventListener("keydown", function(e) {
+                            if (e.key === "Enter") {
+                                e.preventDefault(); // stop form submit
+                                goToStep2();
+                            }
+                        });
+
                         document.getElementById("contactForm").addEventListener("submit", function(e) {
-                            e.preventDefault(); // stop form from refreshing the page
-                            console.log('test')
-                            document.getElementById("thankYouMessage").classList.remove("d-none"); // show message
-                            this.reset(); // clear inputs
+                            e.preventDefault();
+                            document.getElementById("thankYouMessage").classList.remove("d-none");
+                            this.reset();
+
+                            // Reset back to step 1
+                            document.getElementById("step1").classList.remove("d-none");
+                            document.getElementById("step2").classList.add("d-none");
                         });
                         </script>
+
+
+
+
 
                         </div>
                     </div>
