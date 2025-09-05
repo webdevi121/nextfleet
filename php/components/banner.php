@@ -11,7 +11,6 @@
                         <p>NextFleet simplifies leasing and fleet management, delivering tailored solutions to optimise and support your fleet, effortlessly.</p>
                         <div>
 
-
                         <form id="contactForm" class="row g-2">
                             <!-- Step 1: Email -->
                             <div id="step1" class="row g-2">
@@ -46,37 +45,48 @@
                             Thanks for contacting us! We will get in touch with you shortly.
                         </div>
 
-                        <script>
-                        function goToStep2() {
-                            const emailInput = document.querySelector('input[name="email"]');
-                            if (emailInput.checkValidity()) {
-                                document.getElementById("step1").classList.add("d-none");
-                                document.getElementById("step2").classList.remove("d-none");
-                            } else {
-                                emailInput.reportValidity();
-                            }
-                        }
+<script>
+function goToStep2() {
+    const emailInput = document.querySelector('input[name="email"]');
+    if (emailInput.checkValidity()) {
+        document.getElementById("step1").classList.add("d-none");
+        document.getElementById("step2").classList.remove("d-none");
+    } else {
+        emailInput.reportValidity();
+    }
+}
 
-                        document.getElementById("nextBtn").addEventListener("click", goToStep2);
+document.getElementById("nextBtn").addEventListener("click", goToStep2);
 
-                        // Handle Enter key on email field
-                        document.querySelector('input[name="email"]').addEventListener("keydown", function(e) {
-                            if (e.key === "Enter") {
-                                e.preventDefault(); // stop form submit
-                                goToStep2();
-                            }
-                        });
+// Handle Enter key on email field
+document.querySelector('input[name="email"]').addEventListener("keydown", function(e) {
+    if (e.key === "Enter") {
+        e.preventDefault(); // stop form submit
+        goToStep2();
+    }
+});
 
-                        document.getElementById("contactForm").addEventListener("submit", function(e) {
-                            e.preventDefault();
-                            document.getElementById("thankYouMessage").classList.remove("d-none");
-                            this.reset();
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
 
-                            // Reset back to step 1
-                            document.getElementById("step1").classList.remove("d-none");
-                            document.getElementById("step2").classList.add("d-none");
-                        });
-                        </script>
+    // Hide both steps
+    document.getElementById("step1").classList.add("d-none");
+    document.getElementById("step2").classList.add("d-none");
+
+    // Show thank you
+    const thankYou = document.getElementById("thankYouMessage");
+    thankYou.classList.remove("d-none");
+
+    this.reset();
+
+    // After 5 seconds hide thank you and return to step 1
+    setTimeout(() => {
+        thankYou.classList.add("d-none");
+        document.getElementById("step1").classList.remove("d-none");
+    }, 5000);
+});
+</script>
+
 
 
 
