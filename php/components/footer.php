@@ -20,6 +20,10 @@ $about_links = [
     ['text' => 'Career Opportunities', 'url' => 'about-us.html#career-section'],
 ];
 
+$lease_links = [
+    ['text' => 'Lease Deals', 'url' => '/toyota-hybrid.html'],
+];
+
 $services_links = [
     ['text' => 'Fleet Management Solutions', 'url' => '/fleet-management-solutions.html'],
     ['text' => 'Vehicle Fleet Leasing', 'url' => '/leasing-solutions.html'],
@@ -66,11 +70,18 @@ $drive_links = [
           <?php endforeach; ?>
         </div>
       </div>
-      <div class="col-md-2 text-start text-uppercase">
+      <div class="col-md-2 text-start text-uppercase pe-0">
         <h5 class="fw-normal">About</h5>
         <ul class="list-unstyled text-gray">
           <?php foreach ($about_links as $about): ?>
             <li class="mb-2"><a href="<?= $about['url']; ?>" class="text-decoration-none text-gray hover-text-primary"><?= $about['text']; ?></a></li>
+          <?php endforeach; ?>
+        </ul>
+      </div>
+      <div class="col-md-auto text-start text-uppercase p-md-0">
+        <ul class="list-unstyled text-gray">
+          <?php foreach ($lease_links as $lease): ?>
+            <li class="mb-2"><a href="<?= $lease['url']; ?>" class="fw-bold bg-white text-decoration-none text-black p-3 w-100 d-flex justify-content-center"><?= $lease['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
