@@ -5,7 +5,8 @@
 
 <?php
 $leaseInclusions = [
-    ['icon' => 'images/nf-icon-1.png', 'label' => 'Fuel <br> & Toll Cards'],
+    ['icon' => 'images/nf-icon-81.png', 'label' => 'Fuel Cards'],
+    ['icon' => 'images/nf-icon-80.png', 'label' => 'Toll Management'],
     ['icon' => 'images/nf-icon-2.png', 'label' => 'Online Reporting & Fleet Insights'],
     ['icon' => 'images/nf-icon-4.png', 'label' => 'Vehicle Registration, Insurance & Infringement Management'],
     ['icon' => 'images/nf-icon-78.png', 'label' => 'Door-to-Door <br>Valet Services'],

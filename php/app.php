@@ -93,7 +93,6 @@ ob_start();
               <li>
               Notifications – Receive important alerts and updates.
               </li>
-              <li>Service & Maintenance – Log service records effortlessly.</li>
             </ul>
           </div>
         </div>

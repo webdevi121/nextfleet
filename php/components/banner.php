@@ -6,12 +6,13 @@
         <div class="container position-relative z-2 pb-5">
             <div class="banner-item">
                 <div class="position-relative h-100">
-                    <div class="col-xl-7 position-relative z-3">
+                    <div class="col-xl-6 position-relative z-3">
                         <h1 class="fw-800">FLEET MANAGEMENT SERVICES SIMPLIFIED</h1>
                         <p>NextFleet simplifies leasing and fleet management, delivering tailored solutions to optimise and support your fleet, effortlessly.</p>
                         <div>
 
                         <form id="contactForm" class="row g-2">
+                            <div>1-to-1 collaboration creates custom solutions for results-driven challenges</div>
                             <!-- Step 1: Email -->
                             <div id="step1" class="row g-2">
                                 <div class="col-12 col-md">
