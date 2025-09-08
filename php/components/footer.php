@@ -78,10 +78,10 @@ $drive_links = [
           <?php endforeach; ?>
         </ul>
       </div>
-      <div class="col-md-auto text-start text-uppercase p-md-0">
+      <div class="col-md-2 text-start text-uppercase pe-0">
         <ul class="list-unstyled text-gray">
           <?php foreach ($lease_links as $lease): ?>
-            <li class="mb-2"><a href="<?= $lease['url']; ?>" class="fw-bold bg-white text-decoration-none text-black p-3 w-100 d-flex justify-content-center"><?= $lease['text']; ?></a></li>
+            <li class="mb-2"><a href="<?= $lease['url']; ?>" class="fw-normal h5 text-decoration-none text-white"><?= $lease['text']; ?></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
