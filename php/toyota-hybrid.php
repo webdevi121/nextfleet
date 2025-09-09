@@ -68,6 +68,9 @@ $leaseInclusions = [
                 </div>
             </div>
         </div>
+        <div>
+            <?php loadComponent("promotions"); ?>
+        </div>
         <div class="bg-gray pt-5 pb-5">
             <div class="container">
                 <div class="row">
@@ -91,9 +94,6 @@ $leaseInclusions = [
                     </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <?php loadComponent("promotions"); ?>
         </div>
         <div>
             <?php loadComponent("testimonials"); ?>
