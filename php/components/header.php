@@ -17,7 +17,7 @@
 $navItems = [
     ["id" => 1, "name" => "HOME", "href" => "/"],
     ["id" => 2, "name" => "ABOUT US", "href" => "/about-us.html"],
-    ["id" => 3, "name" => "LEASE DEALS", "href" => "/toyota-hybrid.html"],
+    ["id" => 3, "name" => "LEASE DEALS", "href" => "/lease-deals.html"],
     ["id" => 4, "name" => "SERVICES", "href" => "/services.html"],
     ["id" => 5, "name" => "RESOURCES", "href" => "/resources.html"],
     ["id" => 6, "name" => "TOOLS", "href" => "/tools.html"],

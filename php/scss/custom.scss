@@ -611,3 +611,11 @@ ul.custom-bullets {
   height: 50px; /* adjust this value */
   font-size: 1.1rem; /* make text a bit bigger too */
 }
+
+.mobile-swiper-only {
+  @media (min-width: map-get($grid-breakpoints, 'md')) {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr); /* 4 equal columns */
+    gap: 20px; /* gap between rows and columns */
+  }
+}

@@ -21,7 +21,7 @@ $about_links = [
 ];
 
 $lease_links = [
-    ['text' => 'Lease Deals', 'url' => '/toyota-hybrid.html'],
+    ['text' => 'Lease Deals', 'url' => '/lease-deals.html'],
 ];
 
 $services_links = [
@@ -185,6 +185,38 @@ $drive_links = [
     }
   });
 </script>
+
+<script>
+  let swiper3;
+
+  function initMobileSwiper() {
+    if (window.innerWidth < 768 && !swiper3) { // Only initialize if screen < 768px
+      swiper3 = new Swiper("#promotionSwiperMobileOnly", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".promotion-swiper-button-next",
+          prevEl: ".promotion-swiper-button-prev",
+        },
+      });
+    } else if (window.innerWidth >= 768 && swiper3) {
+      swiper3.destroy(true, true); // Destroy Swiper on larger screens
+      swiper3 = undefined;
+    }
+  }
+
+  // Initialize on page load
+  window.addEventListener('load', initMobileSwiper);
+
+  // Re-check on window resize
+  window.addEventListener('resize', initMobileSwiper);
+</script>
+
 
 <!-- Swiper Init -->
 <script>

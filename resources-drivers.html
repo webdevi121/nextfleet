@@ -44,7 +44,7 @@
                   <a class="nav-link text-white" href="/about-us.html">ABOUT US</a>
                   </li>
                                                                 <li class="nav-item">
-                  <a class="nav-link text-white" href="/toyota-hybrid.html">LEASE DEALS</a>
+                  <a class="nav-link text-white" href="/lease-deals.html">LEASE DEALS</a>
                   </li>
                                                               <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-uppercase text-white" href="/services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -319,7 +319,7 @@
       </div>
       <div class="col-md-2 text-start text-uppercase pe-0">
         <ul class="list-unstyled text-gray">
-                      <li class="mb-2"><a href="/toyota-hybrid.html" class="fw-normal h5 text-decoration-none text-white">Lease Deals</a></li>
+                      <li class="mb-2"><a href="/lease-deals.html" class="fw-normal h5 text-decoration-none text-white">Lease Deals</a></li>
                   </ul>
       </div>
       <div class="col-md-2 text-start text-uppercase">
@@ -426,6 +426,38 @@
     }
   });
 </script>
+
+<script>
+  let swiper3;
+
+  function initMobileSwiper() {
+    if (window.innerWidth < 768 && !swiper3) { // Only initialize if screen < 768px
+      swiper3 = new Swiper("#promotionSwiperMobileOnly", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".promotion-swiper-button-next",
+          prevEl: ".promotion-swiper-button-prev",
+        },
+      });
+    } else if (window.innerWidth >= 768 && swiper3) {
+      swiper3.destroy(true, true); // Destroy Swiper on larger screens
+      swiper3 = undefined;
+    }
+  }
+
+  // Initialize on page load
+  window.addEventListener('load', initMobileSwiper);
+
+  // Re-check on window resize
+  window.addEventListener('resize', initMobileSwiper);
+</script>
+
 
 <!-- Swiper Init -->
 <script>

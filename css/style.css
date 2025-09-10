@@ -11799,4 +11799,12 @@ ul.custom-bullets li {
   font-size: 1.1rem; /* make text a bit bigger too */
 }
 
+@media (min-width: 768px) {
+  .mobile-swiper-only {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr); /* 4 equal columns */
+    gap: 20px; /* gap between rows and columns */
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
