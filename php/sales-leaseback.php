@@ -71,7 +71,7 @@ $helpCards = [
           class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
         >
           <img src="images/iconNf.png" alt="icon" width="14" />
-          <span>Sales & Leaseback</span>
+          <span>Sale & Leaseback</span>
         </div>
         <h1 class="text-uppercase">
         Smarter Fleet Financing for Business Agility

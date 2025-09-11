@@ -31,7 +31,7 @@ $services_links = [
     ['text' => 'Transition To Zero-Emission Fleets', 'url' => '/sustainable-fleets.html'],
     ['text' => 'Truck Leasing & Fleet Expertise', 'url' => '/truck-leasing.html'],
     ['text' => 'Not-For-Profit Fleets', 'url' => '/not-for-profit-fleets.html'],
-    ['text' => 'Sales & Leaseback', 'url' => '/sales-leaseback.html']
+    ['text' => 'Sale & Leaseback', 'url' => '/sales-leaseback.html']
 ];
 
 $tools_links = [

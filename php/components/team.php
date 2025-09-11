@@ -56,7 +56,7 @@ $salesData = [
     ],
     [
         'name' => 'Danny Phung',
-        'title' => 'Client Account Manager',
+        'title' => 'Client Account </br>Manager',
         'imgSrc' => 'images/team/Danny-Phung.jpg',
     ],
     [
