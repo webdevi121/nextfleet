@@ -113,7 +113,10 @@ ob_start();
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5 text-primary">
-            <h2>Install myDrive App on Android</h2>
+            <div class="h2 d-md-flex gap-3 justify-content-center align-items-center">
+                <span class="mb-0">Install myDrive App on </span>
+                <span>Android</span> <img src="images/android-icon.png" width="40" alt="">
+            </div>
           </div>
         </div>
         <div class="my-app-container">
@@ -157,7 +160,9 @@ ob_start();
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5 text-primary">
-            <h2>Install myDrive App on iOS</h2>
+            <div class="h2 d-md-flex gap-2 justify-content-center align-items-center">
+                <span class="mb-0">Install myDrive App</span><div class="d-flex align-items-center gap-2 justify-content-center"><span>on iOS</span> <img src="images/apple-icon.png" width="40" alt=""></div>
+            </div>
           </div>
         </div>
         <div class="my-app-container">
