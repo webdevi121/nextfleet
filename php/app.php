@@ -124,7 +124,7 @@ ob_start();
               </div>
               <div class="mt-4 text-center">
                 <div class="fs-2 fw-bold pe-2" style="line-height:32px;">1</div>
-                <div class="fs-5">Open the menu </br>(three dots in the top-right corner).</div>
+                <div class="fs-5">Click the "Add" </br>button</div>
               </div>
             </div>
             <div class="col-4">
@@ -133,7 +133,7 @@ ob_start();
               </div>
               <div class="mt-4 text-center">
                 <div class="fs-2 fw-bold pe-2" style="line-height:32px;">2</div>
-                <div class="fs-5">Select "Install app" </br>from the menu.</div>
+                <div class="fs-5">You'll see a notification </br> "App Installed."</div>
               </div>
             </div>
             <div class="col-4">
@@ -142,7 +142,7 @@ ob_start();
               </div>
               <div class="mt-4 text-center">
                 <div class="fs-2 fw-bold pe-2" style="line-height:32px;">3</div>
-                <div class="fs-5">Choose "Install" </br>to confirm.</div>
+                <div class="fs-5">App installed </br>on the home screen</div>
               </div>
             </div>
           </div>

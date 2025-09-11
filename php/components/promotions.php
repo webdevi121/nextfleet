@@ -96,7 +96,7 @@
                       <div class="custom-position">
                         <a href="/toyota-hybrid.html" class="btn btn-primary text-white fw-bold">
                           <div class="d-flex align-items-center gap-2">
-                            <div class="text-uppercase">Enquire Now</div>
+                            <div class="text-uppercase">Learn More</div>
                             <div class="flex-grow-1">
                               <svg
                                 width="15"
