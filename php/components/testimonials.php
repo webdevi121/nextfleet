@@ -5,7 +5,7 @@
       'initial' => 'N',
       'name' => 'Norman Rhodes - General Manager, TRHC PTY LTD',
       'rating' => '5 Stars',
-      'message' => "<p><strong>We can also continue using the existing referral on our web.</strong></p>NextFleet came to us and showed us the benefits of leveraging an outsourced function for fleet management. We run forklifts, trailers and light commercial vehicles, and they’re a critical part of what we do. We’d never leased or outsourced the management of our vehicles before; we didn’t know that was an option. So when NextFleet demonstrated that it was more cost-effective and resource-efficient to lease our vehicles rather than buy them, we were pleasantly surprised. NextFleet is a great partner, and they really understand our business.",
+      'message' => "NextFleet came to us and showed us the benefits of leveraging an outsourced function for fleet management. We run forklifts, trailers and light commercial vehicles, and they’re a critical part of what we do. We’d never leased or outsourced the management of our vehicles before; we didn’t know that was an option. So when NextFleet demonstrated that it was more cost-effective and resource-efficient to lease our vehicles rather than buy them, we were pleasantly surprised. NextFleet is a great partner, and they really understand our business.",
     ],
     [
       'initial' => 'E',
