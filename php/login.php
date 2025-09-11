@@ -52,11 +52,10 @@ ob_start();
         <div class="row gx-lg-5 align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0 d-none d-md-block" style="z-index: 10">
                 <h1 class="my-5 display-5 fw-800 ls-tight" style="color: #06a3cc">
-                The best offer <br />
-                <span>for your business</span>
+                Client Portal Access
                 </h1>
                 <p class="mb-4 text-white">
-                NextFleet simplifies leasing and fleet management, delivering tailored solutions to optimise and support your fleet effortlessly.
+                Log in to view vehicle details, maintenance schedules, odometer readings, and cost summaries in one central place.
                 </p>
             </div>
 

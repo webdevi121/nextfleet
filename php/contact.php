@@ -87,8 +87,8 @@ ob_start();
                     </div>
 
                     <div class="mb-3">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" id="phone">
+                        <label for="phone" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                        <input type="tel" class="form-control" id="phone" required>
                     </div>
 
                     <div class="mb-3">

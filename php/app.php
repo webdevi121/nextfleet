@@ -161,10 +161,10 @@ ob_start();
           </div>
         </div>
         <div class="my-app-container">
-          <div class="row g-8 custom-width-my-app">
+          <div class="row g-3 custom-width-my-app">
             <div class="col-4">
               <div>
-                <img src="images/ios-step-1.png" alt="" class="w-100">
+                <img src="images/ios-step-1-1.png" alt="" class="w-100">
               </div>
               <div class="mt-4 text-center">
                 <div class="fs-2 fw-bold pe-2" style="line-height:32px;">1</div>
@@ -173,7 +173,7 @@ ob_start();
             </div>
             <div class="col-4">
               <div>
-                <img src="images/ios-step-2.png" alt="" class="w-100">
+                <img src="images/ios-step-2-1.png" alt="" class="w-100">
               </div>
               <div class="mt-4 text-center">
                 <div class="fs-2 fw-bold pe-2" style="line-height:32px;">2</div>
@@ -182,7 +182,7 @@ ob_start();
             </div>
             <div class="col-4">
               <div>
-                <img src="images/ios-step-3.png" alt="" class="w-100">
+                <img src="images/ios-step-3-1.png" alt="" class="w-100">
               </div>
               <div class="mt-4 text-center">
                 <div class="fs-2 fw-bold pe-2" style="line-height:32px;">3</div>

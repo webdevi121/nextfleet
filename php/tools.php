@@ -86,15 +86,15 @@ ob_start();
             
             <p><strong>Explore Our Tools:</strong></p>
             <ul class="custom-bullets">
-              <li>Lease vs Buy Calculator – Compare the costs and benefits of leasing versus buying.</li>
+              <li><a href="/lease-vs-buy-calculator.html">Lease vs Buy Calculator</a> – Compare the costs and benefits of leasing versus buying.</li>
               <li>
-              Service Locator – Find approved service providers near you.
+              <a href="/service-locator.html">Service Locator</a> – Find approved service providers near you.
               </li>
               <li>
-              Business Case Builder – Build a strong case for outsourcing fleet management.
+              <a href="/business-case-builder.html">Business Case Builder</a> – Build a strong case for outsourcing fleet management.
               </li>
-              <li>Changing FMO Checklist – A step-by-step guide to switching FMOs.</li>
-              <li>Assessing Your FMO’s Capability – Determine if your FMO is delivering real value.</li>
+              <li><a href="/changing-fmo-checklist.html">Changing FMO Checklist</a> – A step-by-step guide to switching FMOs.</li>
+              <li><a href="/assessing-your-fmos-capability.html">Assessing Your FMO’s Capability</a> – Determine if your FMO is delivering real value.</li>
             </ul>
             <div>
                 <a href="contact.html" class="btn btn-primary text-white fw-bold">

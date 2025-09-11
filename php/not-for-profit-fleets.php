@@ -5,7 +5,6 @@ ob_start();
 
 <?php loadComponent("header");?>
 
-
 <?php
 $helpCards = [
     [

@@ -160,7 +160,7 @@ ob_start();
             </div>
             <h2>Strategic Partner Committed to Optimising Efficiency</h2>
             <p>
-            Vehicle fleet leasing is complex - but with NextFleet, you gain a strategic partner committed to optimising efficiency and reducing costs. Our expertise ensures you stay in control while we handle the complexities.
+            Vehicle fleet leasing can have its unique complexities - but with NextFleet, you gain a strategic partner committed to optimising efficiency and reducing costs. Our expertise ensures you stay in control of your fleet, while we handle those complexities.
 
             </p>
             <ul class="custom-bullets">

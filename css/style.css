@@ -11807,4 +11807,9 @@ ul.custom-bullets li {
   }
 }
 
+.footer-logo {
+  display: block;
+  margin-top: -12px;
+}
+
 /*# sourceMappingURL=style.css.map */

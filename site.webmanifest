@@ -1,6 +1,6 @@
 {
-    "name": "NextFleet",
-    "short_name": "NextFleet",
+    "name": "myDrive",
+    "short_name": "myDrive",
     "start_url": "https://nextfleet.infusion121.com/mydrive.html",
     "display": "standalone",
     "background_color": "#000000",
