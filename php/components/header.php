@@ -76,7 +76,7 @@ $navItems = [
                         <li><a class="dropdown-item" href="sustainable-fleets.html">Sustainable Fleets</a></li>
                         <li><a class="dropdown-item" href="truck-leasing.html">Truck Leasing</a></li>
                         <li><a class="dropdown-item" href="not-for-profit-fleets.html">Not-For-Profit Fleets</a></li>
-                        <li><a class="dropdown-item" href="sales-leaseback.html">Sales & Leaseback</a></li>
+                        <li><a class="dropdown-item" href="sales-leaseback.html">Sale & Leaseback</a></li>
                     </ul>
                   </li>
                   <?php elseif ($item['id'] === 6): ?>
