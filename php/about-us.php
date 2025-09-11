@@ -101,7 +101,7 @@ ob_start();
               class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2"
             >
               <img src="images/iconNf.png" alt="icon" width="14" />
-              <span>Our Experties</span>
+              <span>Our Expertise</span>
             </div>
             <h2>From Strategic Consulting and Flexible Leasing to Tailored Fleet Management Solutions</h2>
             <p>
@@ -284,7 +284,7 @@ ob_start();
                     As a wholly owned subsidiary of Mitsubishi Corporation, NextFleet benefits from the global expertise and resources of a company operating across virtually every industry. 
                   </p>
                   <p>
-                    Mitsubishi Corporation’s Automotive & Mobility Group is driving advancements in mobility services, leveraging digital transformation and sustainable practices to support fleet management solutions worldwide. 
+                    Mitsubishi Corporation’s Mobility Group is driving advancements in mobility services, leveraging digital transformation and sustainable practices to support fleet management solutions worldwide. 
                   </p>
                   <p>
                     This strategic backing strengthens NextFleet’s ability to provide industry-leading innovation and long-term value for our clients.

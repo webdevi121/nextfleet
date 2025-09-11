@@ -50,6 +50,11 @@ $salesData = [
         'imgSrc' => 'images/team/Warren.jpg',
     ],
     [
+        'name' => 'Adam Winterhalter',
+        'title' => 'Sales & Client <span class="d-block">Relationship Manager</span>',
+        'imgSrc' => 'images/nf-img-61.jpg',
+    ],
+    [
         'name' => 'Danny Phung',
         'title' => 'Client Account Manager',
         'imgSrc' => 'images/team/Danny-Phung.jpg',
@@ -69,7 +74,7 @@ $salesData = [
             <div class="pt-5 pb-5 pe-7 d-flex flex-column gap-3">
                 <div class="text-uppercase fw-bold text-primary d-flex align-items-center gap-2">
                     <img src="images/iconNf.png" alt="icon" width="14" />
-                    <span>Our Experties</span>
+                    <span>Our Expertise</span>
                 </div>
                 <h2>Committed to Continuous Learning </h2>
                 <p>

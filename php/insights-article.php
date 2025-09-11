@@ -189,7 +189,7 @@ ob_start();
               </div>
                 <hr>
                 <h5>Contact Us Today</h5>
-                <p>Streamline your business operations and reduce costs with <a href="/" aria-label="Link NextFleet’s Press enter to edit" class="anchor-inherit-styles">NextFleet’s </a>comprehensive <a href="/fleet-management-overview" class="anchor-inherit-styles">Fleet Management</a> solutions. Contact us today to learn more and request a free consultation.</p>
+                <p>Streamline your business operations and reduce costs with <a href="/" aria-label="Link NextFleet’s Press enter to edit" class="anchor-inherit-styles">NextFleet’s </a>comprehensive <a href="/fleet-management-solutions.html" class="anchor-inherit-styles">Fleet Management</a> solutions. Contact us today to learn more and request a free consultation.</p>
                 </div>
         </div>
     </div>

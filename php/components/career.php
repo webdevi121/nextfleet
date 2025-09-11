@@ -21,7 +21,7 @@ $jobOpportunities = [
                 </div>
                 <h2>Build Your Career at NextFleet</h2>
                 <p>
-                    No two days are the same in fleet management, making it an exciting and dynamic industry to be a part of. As part of Mitsubishi Corporation’s Automotive & Mobility Group, NextFleet is helping redefine transport and mobility for businesses and society.
+                    No two days are the same in fleet management, making it an exciting and dynamic industry to be a part of. As part of Mitsubishi Corporation’s Mobility Group, NextFleet is helping redefine transport and mobility for businesses and society.
                 </p>
                 <p>
                     Technology is driving a shift towards Connected, Autonomous, Shared, and Electric (CASE) solutions, improving efficiency and sustainability. At NextFleet, we’re committed to leading this transformation, creating better mobility solutions for all.
