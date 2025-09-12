@@ -11205,6 +11205,10 @@ h1,
   background: #fff;
 }
 
+.swiper-navigation-icon {
+  display: none;
+}
+
 .fade-image {
   position: absolute;
   top: 0;
