@@ -17,4 +17,6 @@ jobs:
                   server: ${{ secrets.FTP_STAGING_SERVER }}
                   username: ${{ secrets.FTP_STAGING_USERNAME }}
                   password: ${{ secrets.FTP_STAGING_PASSWORD }}
+                  protocol: ftps # <-- add this
+                  secure: true # <-- add this to enforce TLS
                   server-dir: nextfleet.infusion121.com/
